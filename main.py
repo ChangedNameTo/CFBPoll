@@ -11,7 +11,11 @@ import csv
 
 # Calls all of the other subordinate functions
 def main(args):
+    global team_list, fbs_only
+
     output_file = args[1]
+    team_list   = args[2]
+    fbs_only    = args[3]
 
     scores        = grab_web_page()
     parsed_scores = parse_scores(scores)
@@ -48,11 +52,29 @@ def parse_scores(scores):
     del parsed_scores[1]
     del parsed_scores[0]
 
+    # Opens the fbs team file to strip out non fbs teams
+    if(fbs_only):
+        fbs_teams = open(team_list, "r")
+        team_array = []
+
+        # Iterates to dump them all into an array
+        for line in fbs_teams:
+            if(len(line)>0):
+                line = line.strip("\n")
+                team_array.append(line)
+
     # Runs a regex on each score to clean up the data
     captured_scores = []
     for score in parsed_scores:
         captures = re.findall("(\d{2}-\w{3}-\d{2})\s([\w+-?\s.&'`?]+)\s+(\d+)\s([\w+-?\s.&'`?]+)\s+(\d+)\s?([\w+\s.?]+)?$", score)
-        captured_scores.append(captures[0])
+        if(fbs_only):
+            if(captures[0][1] not in team_array and captures[0][3] not in team_array):
+                continue
+            else:
+                captured_scores.append(captures[0])
+        else:
+            captured_scores.append(captures[0])
+
 
     # Returns the caputured data
     return captured_scores
