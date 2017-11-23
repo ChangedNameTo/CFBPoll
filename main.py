@@ -67,6 +67,8 @@ def parse_scores(scores):
     captured_scores = []
     for score in parsed_scores:
         captures = re.findall("(\d{2}-\w{3}-\d{2})\s([\w+-?\s.&'`?]+)\s+(\d+)\s([\w+-?\s.&'`?]+)\s+(\d+)\s?([\w+\s.?]+)?$", score)
+
+        # If it's fbs only, checks that the team exists in the team array before adding the score
         if(fbs_only):
             if(captures[0][1] not in team_array and captures[0][3] not in team_array):
                 continue

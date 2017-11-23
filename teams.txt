@@ -7,24 +7,24 @@ Alabama
 Ohio State
 Clemson
 Auburn
-UCF
+Central Florida
 Oklahoma
-Texas Christian
+TCU
 Washington
 Michigan
 Iowa
-USC
-Mississippi State
+Southern Cal
+Mississippi St
 Wake Forest
-Oklahoma State
-Michigan State
+Oklahoma St
+Michigan St
 Virginia Tech
-North Carolina State
+North Carolina St
 Northwestern
 LSU
-Boise State
-Iowa State
-Washington State
+Boise St
+Iowa St
+Washington St
 Purdue
 Stanford
 Memphis
@@ -37,25 +37,25 @@ West Virginia
 Florida Atlantic
 South Florida
 Navy
-Florida State
+Florida St
 Missouri
 Toledo
 Oregon
-Texas A&M
-San Diego State
+Texas A&M;
+San Diego St
 Arizona
 Duke
 Indiana
 Northern Illinois
-Arizona State
+Arizona St
 Minnesota
 SMU
-Kansas State
+Kansas St
 Syracuse
 Nebraska
-Fresno State
+Fresno St
 Utah
-Ohio
+Ohio U.
 Kentucky
 Houston
 Florida
@@ -64,21 +64,21 @@ Virginia
 Texas Tech
 Army
 UCLA
-Ole Miss
+Mississippi
 Maryland
 Wyoming
 California
-Utah State
-Colorado State
+Utah St
+Colorado St
 Colorado
 Western Michigan
-Pitt
+Pittsburgh
 Marshall
 North Carolina
 Rutgers
 Tennessee
 North Texas
-Arkansas State
+Arkansas St
 Tulane
 Akron
 Arkansas
@@ -87,44 +87,44 @@ Buffalo
 Temple
 Central Michigan
 Vanderbilt
-Appalachian State
-UTSA
+Appalachian St
+Texas-San Antonio
 Air Force
 Miami OH
-Southern Mississippi
+Southern Miss
 Tulsa
 Louisiana Tech
 Baylor
 Illinois
-Nevada-Las Vegas
-UAB
+UNLV
+Alabama-Birmingham
 Massachusetts
 Brigham Young
-Florida International
+Florida Int'l
 Western Kentucky
 New Mexico
-Middle Tennessee State
-Georgia State
+Middle Tennessee St
+Georgia St
 Louisiana-Monroe
 Nevada
 Cincinnati
-New Mexico State
+New Mexico St
 Connecticut
 South Alabama
 East Carolina
 Old Dominion
-Oregon State
+Oregon St
 Idaho
-Bowling Green State
+Bowling Green
 Kansas
-Hawaii
+Hawai`i
 Louisiana-Lafayette
-Kent State
+Kent St
 Georgia Southern
-Ball State
+Ball St
 Coastal Carolina
 Rice
-Texas State
-San Jose State
-Charlotte
+Texas St-San Marcos
+San José St
+UNC-Charlotte
 UTEP
