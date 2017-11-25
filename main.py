@@ -147,6 +147,7 @@ def poll_cycle(parsed_scores):
 
     # Iterate through the scores, moving teams around in the array and adding up points
     # Poll positions only need to update when dates change
+    random.shuffle(parsed_scores)
     for score in parsed_scores:
 
         # Updates the point map with the initial values for positions so this is bias agnostic
@@ -192,17 +193,17 @@ def poll_cycle(parsed_scores):
                     pass
 
     # After all scores have been iterated through, returns the map to the master so it can update scores
-    debug_poll(tracking_map)
+    # debug_poll(tracking_map)
     return cycle_map
 
 # Outputs the team movement over a cycle to see how the movement is happening
-def debug_poll(tracking_map):
-    with open('debug.csv', 'w') as csvfile:
-        writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_MINIMAL)
-        writer.writerow(('Date','Ranks'))
-        for key, value in tracking_map.items():
-            value.insert(0, key)
-            writer.writerow(value)
+# def debug_poll(tracking_map):
+#     with open('debug.csv', 'w') as csvfile:
+#         writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_MINIMAL)
+#         writer.writerow(('Date','Ranks'))
+#         for key, value in tracking_map.items():
+#             value.insert(0, key)
+#             writer.writerow(value)
 
 # Creates a markdown table that can be posting into the reddit comments section
 def markdown_output(point_map,final_ranking,extra_stats):
