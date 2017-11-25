@@ -104,7 +104,7 @@ def start_poll(parsed_scores):
     for team in team_array:
         team_point_map[team] = 0
 
-    for x in range(0,1000):
+    for x in range(0,1):
         print(x)
         cycle_map = poll_cycle(parsed_scores)
 
@@ -114,13 +114,17 @@ def start_poll(parsed_scores):
 
     # Sorts the dictionary, popping out each max point team and appending them to the list
     final_ranking = []
+    temp_point_map = copy.deepcopy(team_point_map)
+
     for x in range(0,len(team_point_map)):
         highest_team = max(team_point_map.items(), key=operator.itemgetter(1))[0]
         final_ranking.append(highest_team)
         del team_point_map[highest_team]
 
+    # Creates the opponents map so SoS can be calculated
+    extra_stats = extra_stats_parsing(parsed_scores)
+    markdown_output(temp_point_map, final_ranking, extra_stats)
     print(final_ranking)
-
 
 def poll_cycle(parsed_scores):
     # Shuffles the team array for a random pass
@@ -199,6 +203,73 @@ def debug_poll(tracking_map):
         for key, value in tracking_map.items():
             value.insert(0, key)
             writer.writerow(value)
+
+# Creates a markdown table that can be posting into the reddit comments section
+def markdown_output(point_map,final_ranking,extra_stats):
+    with open("ranking.txt", "w") as file:
+        file.write("|Rank|Team|Flair|Record|SoS|Points|\n")
+        file.write("|---|---|---|---|---|---|\n")
+        x = 1
+        for team in final_ranking:
+            sos = calculate_sos(team,final_ranking,extra_stats)
+            file.write("|" + str(x) + "|" + team + "|-|" + str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1]) + "|" + sos + "|" + str(point_map[team]) + "|\n")
+            x = x + 1
+            if x == 26:
+                break
+
+# Iterates through all of the scores, generates a map of opponents so SoS can be done later
+# Also tracks the records so that total game count is known
+def extra_stats_parsing(parsed_scores):
+    opponents_map = {}
+    records_map = {}
+
+    # Creates the arrays so no errors are thrown
+    for team in team_array:
+        opponents_map[team] = []
+        records_map[team] = [0,0]
+
+    # Iterates through all scores, if the team isn't in the team array does nothing
+    for score in parsed_scores:
+        # Pulls opponents data
+        if score[1] in opponents_map.keys():
+            opponents_map[score[1]].append(score[3])
+        if score[3] in opponents_map.keys():
+            opponents_map[score[3]].append(score[1])
+
+        # Pulls record data, records_map[team] = [W, L]
+        if int(score[2]) > int(score[4]):
+            if score[1] in records_map.keys():
+                records_map[score[1]][0] = records_map[score[1]][0] + 1
+            if score[3] in records_map.keys():
+                records_map[score[3]][1] = records_map[score[3]][1] + 1
+
+        # Away Wins
+        if int(score[2]) < int(score[4]):
+            if score[1] in records_map.keys():
+                records_map[score[1]][1] = records_map[score[1]][1] + 1
+            if score[3] in records_map.keys():
+                records_map[score[3]][0] = records_map[score[3]][0] + 1
+
+    # Returns the opponents map
+    return (opponents_map, records_map)
+
+# Uses the final rankings to calculate strength of schedule for a team using
+# the average rank of their opponents. Lower is better.
+def calculate_sos(team, final_rankings, extra_stats):
+    sos_total  = 0
+    team_total = extra_stats[1][team][0] + extra_stats[1][team][1]
+
+    opponents_list = extra_stats[0][team]
+
+    for opponent in opponents_list:
+        if opponent in final_rankings:
+            sos_total = sos_total + final_rankings.index(opponent)
+        else:
+            sos_total = sos_total + len(final_rankings)
+
+    sos_average = sos_total / team_total
+
+    return str(round(sos_average, 2))
 
 # Calls my function
 if __name__ == '__main__':
