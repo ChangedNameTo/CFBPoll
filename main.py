@@ -209,7 +209,7 @@ def markdown_output(point_map,final_ranking,extra_stats):
     # Opens the file
     with open("ranking.txt", "w") as file:
         # Writes the table header
-        file.write("|Rank|Team|Flair|Record|SoS|SoS Rank|Points|\n")
+        file.write("|Rank|Team|Flair|Record|SoS^^1|SoS Rank|Points|\n")
         file.write("|---|---|---|---|---|---|---|\n")
 
         # Terminates the ranking after 25
@@ -253,6 +253,8 @@ def markdown_output(point_map,final_ranking,extra_stats):
         file.write("**Hardest SoS:** " + flair_map[hardest] + " " + hardest + "\n")
         file.write("\n")
         file.write("---")
+        file.write("\n")
+        file.write("1: Lower means harder SoS")
         file.write("\n")
         file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/7fdlkr/my_cfb_poll_and_methodology/)")
 
