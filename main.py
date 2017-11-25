@@ -104,7 +104,7 @@ def start_poll(parsed_scores):
     for team in team_array:
         team_point_map[team] = 0
 
-    y = 1
+    y = 1000
     for x in range(0,y):
         print("Cycle " + str(x) + " of " + str(y))
         cycle_map = poll_cycle(parsed_scores)
@@ -220,6 +220,9 @@ def markdown_output(point_map,final_ranking,extra_stats):
         sos_map     = output[0]
         sos_ranking = output[1]
 
+        # Creates the flair map for everyone
+        flair_map = generate_flair_map()
+
         for team in final_ranking:
             # Calculates some things here to pretty up the string itself
             # Looks weird cause python is weird and does weird things
@@ -229,7 +232,7 @@ def markdown_output(point_map,final_ranking,extra_stats):
             record   = str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1])
 
             # Writes to the file
-            file.write("|" + str(x) + "|" + team + "|-|" + record + "|" + sos + "|" + sos_rank + "|" + str(point_map[team]) + "|\n")
+            file.write("|" + str(x) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(point_map[team]) + "|\n")
             x = x + 1
 
             # Terminates after 25
@@ -245,9 +248,13 @@ def markdown_output(point_map,final_ranking,extra_stats):
             if value == 129:
                 hardest = key
 
-        file.write("*Easiest SoS:* " + easiest + "\n")
+        file.write("**Easiest SoS:** " + flair_map[easiest] + " " + easiest + "\n")
         file.write("\n")
-        file.write("*Hardest SoS:* " + hardest + "\n")
+        file.write("**Hardest SoS:** " + flair_map[hardest] + " " + hardest + "\n")
+        file.write("\n")
+        file.write("---")
+        file.write("\n")
+        file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/7fdlkr/my_cfb_poll_and_methodology/)")
 
 # Iterates through all of the scores, generates a map of opponents so SoS can be done later
 # Also tracks the records so that total game count is known
@@ -321,6 +328,19 @@ def calculate_sos(final_rankings, extra_stats):
         del sos_map_copy[lowest_team]
 
     return (sos_map,sos_ranking)
+
+# Sets up the flair map that will be searchable for the markdown
+def generate_flair_map():
+    flair_map = {}
+
+    # Reads in the flair map
+    with open('flair_list.csv') as flair_csv:
+        csvReader = csv.reader(flair_csv)
+        for row in csvReader:
+            # Formats the flair strings then adds them to the map
+            flair_map[row[0]] = "[" + row[0] + "]" + "(#f/" + row[1] + ")"
+
+    return flair_map
 
 # Calls my function
 if __name__ == '__main__':
