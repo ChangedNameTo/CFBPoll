@@ -1,35 +1,48 @@
 |Rank|Team|Flair|Record|SoS^^1|SoS Rank|Points|
 |---|---|---|---|---|---|---|
-|1|Southern Cal|[Southern Cal](#f/usc)|10-2|45.917|12|840808|
-|2|Alabama|[Alabama](#f/alabama)|11-0|62.0|54|840305|
-|3|Wisconsin|[Wisconsin](#f/wisconsin)|11-0|61.273|50|805997|
-|4|Georgia|[Georgia](#f/georgia)|10-1|53.182|25|794046|
-|5|Central Florida|[Central Florida](#f/ucf)|11-0|74.182|82|760577|
-|6|Clemson|[Clemson](#f/clemson)|10-1|57.909|39|753110|
-|7|Notre Dame|[Notre Dame](#f/notredame)|9-2|41.364|4|750878|
-|8|Miami FL|[Miami FL](#f/miami)|10-1|64.273|65|726898|
-|9|Penn State|[Penn State](#f/pennstate)|9-2|49.636|18|674392|
-|10|Oklahoma|[Oklahoma](#f/oklahoma)|10-1|63.818|63|660818|
-|11|Ohio State|[Ohio State](#f/ohiostate)|9-2|55.0|28|651789|
-|12|Stanford|[Stanford](#f/stanford)|8-3|46.0|13|643308|
-|13|Michigan St|[Michigan St](#f/michiganstate)|8-3|44.545|8|630583|
-|14|Washington St|[Washington St](#f/washingtonstate)|9-2|56.273|31|614092|
-|15|Washington|[Washington](#f/washington)|9-2|58.636|43|594972|
-|16|Memphis|[Memphis](#f/memphis)|9-1|69.4|77|594902|
-|17|Auburn|[Auburn](#f/auburn)|9-2|57.455|37|564787|
-|18|Northwestern|[Northwestern](#f/northwestern)|8-3|56.0|30|563899|
-|19|Michigan|[Michigan](#f/michigan)|8-3|53.091|24|557199|
-|20|TCU|[TCU](#f/tcu)|10-2|67.167|72|554871|
-|21|LSU|[LSU](#f/lsu)|8-3|62.727|57|511901|
-|22|Oklahoma St|[Oklahoma St](#f/oklahomastate)|8-3|63.0|60|479208|
-|23|Boise St|[Boise St](#f/boisestate)|9-2|71.909|80|410176|
-|24|South Carolina|[South Carolina](#f/southcarolina)|8-3|61.636|51|409633|
-|25|South Florida|[South Florida](#f/usf)|9-2|89.182|111|406831|
-
-**Easiest SoS:** [UCLA](#f/ucla) UCLA
-
-**Hardest SoS:** [Georgia St](#f/georgiastate) Georgia St
+|1|Wisconsin|[Wisconsin](#f/wisconsin)|12-0|64.0|58|862887|
+|2|Clemson|[Clemson](#f/clemson)|11-1|54.75|20|777996|
+|3|Georgia|[Georgia](#f/georgia)|11-1|57.833|31|771962|
+|4|Alabama|[Alabama](#f/alabama)|11-1|60.583|44|751418|
+|5|Central Florida|[Central Florida](#f/ucf)|11-0|71.909|82|723958|
+|6|Oklahoma|[Oklahoma](#f/oklahoma)|11-1|65.083|65|711174|
+|7|Penn State|[Penn State](#f/pennstate)|10-2|53.083|14|697619|
+|8|Notre Dame|[Notre Dame](#f/notredame)|9-3|38.75|1|686653|
+|9|Ohio State|[Ohio State](#f/ohiostate)|10-2|54.833|21|681645|
+|10|Southern Cal|[Southern Cal](#f/usc)|10-2|54.333|17|670239|
+|11|Auburn|[Auburn](#f/auburn)|10-2|54.0|16|669442|
+|12|Miami FL|[Miami FL](#f/miami)|10-1|65.455|67|634432|
+|13|Stanford|[Stanford](#f/stanford)|9-3|48.167|10|590967|
+|14|Michigan St|[Michigan St](#f/michiganstate)|9-3|50.417|11|586580|
+|15|Washington|[Washington](#f/washington)|10-2|63.5|55|575683|
+|16|Memphis|[Memphis](#f/memphis)|10-1|74.091|85|565049|
+|17|TCU|[TCU](#f/tcu)|10-2|67.75|69|539051|
+|18|Northwestern|[Northwestern](#f/northwestern)|9-3|60.917|46|480787|
+|19|Washington St|[Washington St](#f/washingtonstate)|9-3|61.667|49|461226|
+|20|San Diego St|[San Diego St](#f/sandiegostate)|10-2|78.667|96|459339|
+|21|LSU|[LSU](#f/lsu)|9-3|63.667|56|455498|
+|22|Boise St|[Boise St](#f/boisestate)|9-3|69.833|76|442659|
+|23|Toledo|[Toledo](#f/toledo)|10-2|82.167|101|433494|
+|24|Michigan|[Michigan](#f/michigan)|8-4|56.0|23|417124|
+|25|Oklahoma St|[Oklahoma St](#f/oklahomastate)|9-3|70.167|79|412867|
 
 ---
+
+**Mean Points:** 63314.65
+
+**Median Points:** 59141.0
+
+**Standard Deviation of Points:** 377113.69
+
+**Variance:** 142214738775.34
+
+---
+
+**Easiest SoS:** [Notre Dame](#f/notredame) Notre Dame
+
+**Hardest SoS:** [Alabama-Birmingham](#f/uab) Alabama-Birmingham
+
+---
+
 1: Lower means harder SoS
 [Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/7fdlkr/my_cfb_poll_and_methodology/)

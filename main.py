@@ -14,6 +14,9 @@ import random
 import operator
 # Allows map copying to make sense
 import copy
+# Lets me get stats for the whole list which are cool and make people
+# think I know what I'm doing
+import statistics
 
 # Calls all of the other subordinate functions
 def main(args):
@@ -79,10 +82,13 @@ def parse_scores(scores):
 
         # If it's fbs only, checks that the team exists in the team array before adding the score
         if(fbs_only):
-            if(captures[0][1] not in team_array and captures[0][3] not in team_array):
-                continue
-            else:
-                captured_scores.append(captures[0])
+            try:
+                if(captures[0][1] not in team_array and captures[0][3] not in team_array):
+                    continue
+                else:
+                    captured_scores.append(captures[0])
+            except IndexError as inst:
+                pass
         else:
             captured_scores.append(captures[0])
 
@@ -101,6 +107,7 @@ def output_data(parsed_scores, output_file):
 def start_poll(parsed_scores):
     # Sets up the master map that will hold all of the points over poll cycles
     team_point_map = {}
+
     for team in team_array:
         team_point_map[team] = 0
 
@@ -114,7 +121,7 @@ def start_poll(parsed_scores):
             team_point_map[team] = cycle_map[team] + team_point_map[team]
 
     # Sorts the dictionary, popping out each max point team and appending them to the list
-    final_ranking = []
+    final_ranking  = []
     temp_point_map = copy.deepcopy(team_point_map)
 
     for x in range(0,len(team_point_map)):
@@ -122,9 +129,10 @@ def start_poll(parsed_scores):
         final_ranking.append(highest_team)
         del team_point_map[highest_team]
 
-    # Creates the opponents map so SoS can be calculated
+    final_rankings_graph(temp_point_map)
+    math_stats = math_stats_calculations(temp_point_map)
     extra_stats = extra_stats_parsing(parsed_scores)
-    markdown_output(temp_point_map, final_ranking, extra_stats)
+    markdown_output(temp_point_map, final_ranking, extra_stats, math_stats)
 
 def poll_cycle(parsed_scores):
     # Shuffles the team array for a random pass
@@ -206,7 +214,7 @@ def poll_cycle(parsed_scores):
 #             writer.writerow(value)
 
 # Creates a markdown table that can be posting into the reddit comments section
-def markdown_output(point_map,final_ranking,extra_stats):
+def markdown_output(point_map,final_ranking,extra_stats,math_stats):
     # Opens the file
     with open("ranking.txt", "w") as file:
         # Writes the table header
@@ -249,11 +257,23 @@ def markdown_output(point_map,final_ranking,extra_stats):
             if value == 129:
                 hardest = key
 
+        file.write("---\n")
+        file.write("\n")
+        file.write("**Mean Points:** " + math_stats[0] + "\n")
+        file.write("\n")
+        file.write("**Median Points:** " + math_stats[1] + "\n")
+        file.write("\n")
+        file.write("**Standard Deviation of Points:** " + math_stats[2] + "\n")
+        file.write("\n")
+        file.write("**Variance:** " + math_stats[3] + "\n")
+        file.write("\n")
+        file.write("---\n")
+        file.write("\n")
         file.write("**Easiest SoS:** " + flair_map[easiest] + " " + easiest + "\n")
         file.write("\n")
         file.write("**Hardest SoS:** " + flair_map[hardest] + " " + hardest + "\n")
         file.write("\n")
-        file.write("---")
+        file.write("---\n")
         file.write("\n")
         file.write("1: Lower means harder SoS")
         file.write("\n")
@@ -344,6 +364,30 @@ def generate_flair_map():
             flair_map[row[0]] = "[" + row[0] + "]" + "(#f/" + row[1] + ")"
 
     return flair_map
+
+def final_rankings_graph(point_map):
+    with open('ranking.csv', 'w') as csvfile:
+        writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_MINIMAL)
+        writer.writerow(('Team','Points'))
+        for key, value in point_map.items():
+            writer.writerow([key,value])
+
+# Calculates them math class stats
+def math_stats_calculations(point_map):
+    point_array = []
+    for team in team_array:
+        point_array.append(point_map[team])
+
+    # Calculates mean
+    mean_val   = str(round(statistics.mean(point_array), 2))
+    # Calculates median
+    median_val = str(round(statistics.median(point_array), 2))
+    # Calculates standard deviation
+    stdev_val  = str(round(statistics.stdev(point_array), 2))
+    # Calculates variance
+    var_val    = str(round(statistics.variance(point_array), 2))
+
+    return (mean_val,median_val,stdev_val,var_val)
 
 # Calls my function
 if __name__ == '__main__':
