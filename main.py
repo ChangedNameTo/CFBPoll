@@ -248,6 +248,18 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats):
             if x == 26:
                 break
 
+        # Outputs GT's data cause I like them
+        file.write("||||||||\n")
+        team = 'Georgia Tech'
+        rank     = final_ranking.index(team) + 1
+        sos      = str(sos_map[team])
+        sos_rank = sos_ranking[team]
+        sos_rank = str(sos_rank)
+        record   = str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1])
+
+        # Writes to the file
+        file.write("|" + str(rank) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(point_map[team]) + "|\n")
+
         file.write("\n")
 
         # Writes out the easiest and hardest SoS
@@ -369,8 +381,9 @@ def final_rankings_graph(point_map):
     with open('ranking.csv', 'w') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(('Team','Points'))
+        lowest_points = abs(min(point_map.items(), key=operator.itemgetter(1))[1])
         for key, value in point_map.items():
-            writer.writerow([key,value])
+            writer.writerow([key,value+lowest_points])
 
 # Calculates them math class stats
 def math_stats_calculations(point_map):
