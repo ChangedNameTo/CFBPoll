@@ -111,7 +111,7 @@ def start_poll(parsed_scores):
     for team in team_array:
         team_point_map[team] = 0
 
-    y = 1000
+    y = 10000
     for x in range(0,y):
         print("Cycle " + str(x) + " of " + str(y))
         cycle_map = poll_cycle(parsed_scores)
