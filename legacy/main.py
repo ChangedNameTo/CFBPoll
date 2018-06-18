@@ -155,7 +155,7 @@ def poll_cycle(parsed_scores):
 
     # Iterate through the scores, moving teams around in the array and adding up points
     # Poll positions only need to update when dates change
-    random.shuffle(parsed_scores)
+    # random.shuffle(parsed_scores)
     for score in parsed_scores:
 
         # Updates the point map with the initial values for positions so this is bias agnostic
