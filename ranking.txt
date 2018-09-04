@@ -26,7 +26,7 @@
 |24|Arizona St|[Arizona St](#f/arizonastate)|1-0|50.0|63|1510.774855168236|
 |25|Boston College|[Boston College](#f/bostoncollege)|1-0|52.0|69|1510.7463072700702|
 ||||||||
-|65|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-0|65.0|100|1500.688912087726|
+|65|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-0|65.0|114|1500.688912087726|
 ||||||||
 |130|UTEP|[UTEP](#f/utep)|0-1|65.0|119|1473.8272365707292|
 
@@ -42,11 +42,14 @@
 
 ---
 
-**Hardest SoS:** [Florida St](#f/floridastate) Florida St
+**Hardest SoS:** [Nebraska](#f/nebraska) Nebraska
 
 **Easiest SoS:** [Hawai`i](#f/hawaii) Hawai`i
 
 ---
 
 1: Lower means harder SoS
-[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/7fdlkr/my_cfb_poll_and_methodology/)
+
+[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/9csiv4/cfb_poll_20_the_elo_update/)
+
+[Link to the github repo here](https://github.com/ChangedNameTo/CFBPoll)
