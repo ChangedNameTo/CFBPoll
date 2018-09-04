@@ -41,7 +41,7 @@ def start_poll(parsed_scores):
     team_elo_dict = {}
 
     # K value manipulates how much scores are affected by results. This is super important
-    k_value = 15
+    k_value = 20
 
     # Opens the fbs team file to strip out non fbs teams
     if(fbs_only):

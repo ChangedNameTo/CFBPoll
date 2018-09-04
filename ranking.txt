@@ -1,50 +1,50 @@
 |Rank|Team|Flair|Record|SoS^^1|SoS Rank|Points|
 |---|---|---|---|---|---|---|
-|1|Central Florida|[Central Florida](#f/ucf)|1-0|57.5|80|1515.6230361952116|
-|2|Wisconsin|[Wisconsin](#f/wisconsin)|1-0|53.0|71|1515.2293681891326|
-|3|Alabama|[Alabama](#f/alabama)|1-0|45.5|54|1515.1435241493293|
-|4|Ohio State|[Ohio State](#f/ohiostate)|1-0|61.5|87|1514.3227157978242|
-|5|Oklahoma|[Oklahoma](#f/oklahoma)|1-0|38.0|47|1514.1609391862908|
-|6|Penn State|[Penn State](#f/pennstate)|1-0|43.0|52|1513.5060052476128|
-|7|Boise St|[Boise St](#f/boisestate)|1-0|37.5|46|1512.9100736154162|
-|8|Southern Cal|[Southern Cal](#f/usc)|1-0|55.0|75|1512.8350153611243|
-|9|Notre Dame|[Notre Dame](#f/notredame)|1-0|44.0|53|1512.3986101151165|
-|10|Northwestern|[Northwestern](#f/northwestern)|1-0|47.5|59|1512.3928631965528|
-|11|Michigan St|[Michigan St](#f/michiganstate)|1-0|52.5|70|1512.228156007305|
-|12|Auburn|[Auburn](#f/auburn)|1-0|40.5|49|1511.2955587381757|
-|13|Fresno St|[Fresno St](#f/fresnostate)|1-0|56.5|78|1510.9600916783313|
-|14|LSU|[LSU](#f/lsu)|1-0|40.0|48|1510.5645459162674|
-|15|Stanford|[Stanford](#f/stanford)|1-0|41.5|51|1510.47379406817|
-|16|Washington St|[Washington St](#f/washingtonstate)|1-0|31.0|44|1510.366766103173|
-|17|South Carolina|[South Carolina](#f/southcarolina)|1-0|58.0|81|1510.3131866689537|
-|18|Hawai`i|[Hawai`i](#f/hawaii)|2-0|74.0|130|1510.0373108005022|
-|19|Iowa|[Iowa](#f/iowa)|1-0|47.0|58|1509.64052272627|
-|20|North Texas|[North Texas](#f/northtexas)|1-0|49.5|62|1509.5240286969129|
-|21|Marshall|[Marshall](#f/marshall)|1-0|54.5|74|1509.1170541326178|
-|22|Wake Forest|[Wake Forest](#f/wakeforest)|1-0|54.0|73|1508.9944601943082|
-|23|Houston|[Houston](#f/houston)|1-0|58.5|82|1508.627719953532|
-|24|Arizona St|[Arizona St](#f/arizonastate)|1-0|50.5|64|1508.2817139366148|
-|25|Georgia|[Georgia](#f/georgia)|1-0|65.0|117|1508.280762132738|
+|1|Central Florida|[Central Florida](#f/ucf)|1-0|57.5|80|1518.028877592848|
+|2|Wisconsin|[Wisconsin](#f/wisconsin)|1-0|53.5|72|1517.6611691923067|
+|3|Alabama|[Alabama](#f/alabama)|1-0|45.5|54|1517.5979616469187|
+|4|Ohio State|[Ohio State](#f/ohiostate)|1-0|60.5|86|1516.7200837439777|
+|5|Oklahoma|[Oklahoma](#f/oklahoma)|1-0|41.0|47|1516.6500558262644|
+|6|Penn State|[Penn State](#f/pennstate)|1-0|44.5|52|1515.9823129496806|
+|7|Boise St|[Boise St](#f/boisestate)|1-0|40.5|46|1515.4095574692967|
+|8|Southern Cal|[Southern Cal](#f/usc)|1-0|54.5|74|1515.2801582268928|
+|9|Hawai`i|[Hawai`i](#f/hawaii)|2-0|73.667|130|1514.9844461059488|
+|10|Notre Dame|[Notre Dame](#f/notredame)|1-0|45.0|53|1514.8770956992912|
+|11|Northwestern|[Northwestern](#f/northwestern)|1-0|47.5|59|1514.8637217616383|
+|12|Michigan St|[Michigan St](#f/michiganstate)|1-0|53.0|71|1514.6828560491522|
+|13|Auburn|[Auburn](#f/auburn)|1-0|42.5|48|1513.7978782564692|
+|14|Fresno St|[Fresno St](#f/fresnostate)|1-0|56.5|78|1513.40912331022|
+|15|LSU|[LSU](#f/lsu)|1-0|43.0|49|1513.0723968321347|
+|16|Washington St|[Washington St](#f/washingtonstate)|1-0|31.5|44|1512.9829274424644|
+|17|Stanford|[Stanford](#f/stanford)|1-0|44.0|51|1512.9793356440125|
+|18|South Carolina|[South Carolina](#f/southcarolina)|1-0|58.0|81|1512.7582802796098|
+|19|Iowa|[Iowa](#f/iowa)|1-0|46.5|57|1512.133926578549|
+|20|North Texas|[North Texas](#f/northtexas)|1-0|49.5|62|1512.008920448171|
+|21|Marshall|[Marshall](#f/marshall)|1-0|55.0|75|1511.5903071181867|
+|22|Wake Forest|[Wake Forest](#f/wakeforest)|1-0|54.0|73|1511.4700415430857|
+|23|Houston|[Houston](#f/houston)|1-0|58.5|82|1511.0930626110476|
+|24|Arizona St|[Arizona St](#f/arizonastate)|1-0|50.0|63|1510.774855168236|
+|25|Boston College|[Boston College](#f/bostoncollege)|1-0|52.0|69|1510.7463072700702|
 ||||||||
-|66|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-0|65.0|91|1500.2316472693574|
+|65|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-0|65.0|123|1500.688912087726|
 ||||||||
-|130|UTEP|[UTEP](#f/utep)|0-1|65.0|105|1478.353128679213|
+|130|UTEP|[UTEP](#f/utep)|0-1|65.0|129|1473.8272365707292|
 
 ---
 
-**Mean Points:** 1499.76
+**Mean Points:** 1499.68
 
-**Median Points:** 1500.41
+**Median Points:** 1500.64
 
-**Standard Deviation of Points:** 8.83
+**Standard Deviation of Points:** 10.98
 
-**Variance:** 78.0
+**Variance:** 120.66
 
 ---
 
-**Hardest SoS:** [Florida St](#f/floridastate) Florida St
+**Hardest SoS:** [Nebraska](#f/nebraska) Nebraska
 
-**Easiest SoS:** [Arkansas](#f/arkansas) Arkansas
+**Easiest SoS:** [UTEP](#f/utep) UTEP
 
 ---
 
