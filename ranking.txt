@@ -26,9 +26,9 @@
 |24|Arizona St|[Arizona St](#f/arizonastate)|1-0|50.0|63|1510.774855168236|
 |25|Boston College|[Boston College](#f/bostoncollege)|1-0|52.0|69|1510.7463072700702|
 ||||||||
-|65|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-0|65.0|123|1500.688912087726|
+|65|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-0|65.0|100|1500.688912087726|
 ||||||||
-|130|UTEP|[UTEP](#f/utep)|0-1|65.0|129|1473.8272365707292|
+|130|UTEP|[UTEP](#f/utep)|0-1|65.0|119|1473.8272365707292|
 
 ---
 
@@ -42,9 +42,9 @@
 
 ---
 
-**Hardest SoS:** [Nebraska](#f/nebraska) Nebraska
+**Hardest SoS:** [Florida St](#f/floridastate) Florida St
 
-**Easiest SoS:** [UTEP](#f/utep) UTEP
+**Easiest SoS:** [Hawai`i](#f/hawaii) Hawai`i
 
 ---
 
