@@ -22,9 +22,8 @@ def grab_web_page():
     page_html = response.read()
 
     # File method
-    # f = open('2016_cfb_scores.html', 'r')
+    # f = open('2017_cfb_scores.html', 'r', encoding = "ISO-8859-1")
     # page_html = f.read()
-    # print('here')
 
     # Pass into the parser, grabs the scores table
     soup        = BeautifulSoup(page_html, 'html.parser')
