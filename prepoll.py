@@ -11,19 +11,17 @@ import statistics
 import csv
 
 # Grabs the web page and retreives all of the score data
-def grab_web_page():
-    # Use this in the regular season
-    score_url = "http://prwolfe.bol.ucla.edu/cfootball/scores.htm"
-    # score_url = "file://home/will/Documents/CS\ Projects/CFBPoll/2016_cfb_scores.html"
-
-    # Gets the web page
-    request   = urllib.request.Request(score_url)
-    response  = urllib.request.urlopen(request)
-    page_html = response.read()
-
-    # File method
-    # f = open('2017_cfb_scores.html', 'r', encoding = "ISO-8859-1")
-    # page_html = f.read()
+def grab_web_page(page):
+    if(page == 'web'):
+        # Gets the web page
+        score_url = "http://prwolfe.bol.ucla.edu/cfootball/scores.htm"
+        request   = urllib.request.Request(score_url)
+        response  = urllib.request.urlopen(request)
+        page_html = response.read()
+    else:
+        # File method
+        f = open('2017_cfb_scores.html', 'r', encoding = "ISO-8859-1")
+        page_html = f.read()
 
     # Pass into the parser, grabs the scores table
     soup        = BeautifulSoup(page_html, 'html.parser')

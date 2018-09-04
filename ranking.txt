@@ -1,48 +1,50 @@
 |Rank|Team|Flair|Record|SoS^^1|SoS Rank|Points|
 |---|---|---|---|---|---|---|
-|1|Hawai`i|[Hawai`i](#f/hawaii)|2-0|71.333|130|1519.71225631668|
-|2|Washington St|[Washington St](#f/washingtonstate)|1-0|41.0|44|1510.28774368332|
-|3|Houston|[Houston](#f/houston)|1-0|41.5|46|1510.0523310016777|
-|4|Boston College|[Boston College](#f/bostoncollege)|1-0|42.0|47|1510.0523310016777|
-|5|Marshall|[Marshall](#f/marshall)|1-0|54.0|73|1510.0|
-|6|Fresno St|[Fresno St](#f/fresnostate)|1-0|51.0|67|1510.0|
-|7|Alabama|[Alabama](#f/alabama)|1-0|60.0|85|1510.0|
-|8|Stanford|[Stanford](#f/stanford)|1-0|57.5|80|1510.0|
-|9|Maryland|[Maryland](#f/maryland)|1-0|54.5|74|1510.0|
-|10|Arizona St|[Arizona St](#f/arizonastate)|1-0|46.0|57|1510.0|
-|11|Illinois|[Illinois](#f/illinois)|1-0|44.5|54|1510.0|
-|12|Wisconsin|[Wisconsin](#f/wisconsin)|1-0|45.5|56|1510.0|
-|13|Vanderbilt|[Vanderbilt](#f/vanderbilt)|1-0|53.0|71|1510.0|
-|14|Ohio State|[Ohio State](#f/ohiostate)|1-0|51.5|68|1510.0|
-|15|Wake Forest|[Wake Forest](#f/wakeforest)|1-0|55.0|75|1510.0|
-|16|Indiana|[Indiana](#f/indiana)|1-0|47.0|59|1510.0|
-|17|California|[California](#f/california)|1-0|48.0|61|1510.0|
-|18|Auburn|[Auburn](#f/auburn)|1-0|53.5|72|1510.0|
-|19|Oklahoma|[Oklahoma](#f/oklahoma)|1-0|46.5|58|1510.0|
-|20|South Carolina|[South Carolina](#f/southcarolina)|1-0|56.0|77|1510.0|
-|21|Northwestern|[Northwestern](#f/northwestern)|1-0|56.5|78|1510.0|
-|22|Notre Dame|[Notre Dame](#f/notredame)|1-0|50.0|65|1510.0|
-|23|Boise St|[Boise St](#f/boisestate)|1-0|44.0|51|1510.0|
-|24|Penn State|[Penn State](#f/pennstate)|1-0|59.5|84|1510.0|
-|25|Kentucky|[Kentucky](#f/kentucky)|1-0|47.5|60|1510.0|
+|1|Central Florida|[Central Florida](#f/ucf)|1-0|57.5|80|1515.6230361952116|
+|2|Wisconsin|[Wisconsin](#f/wisconsin)|1-0|53.0|71|1515.2293681891326|
+|3|Alabama|[Alabama](#f/alabama)|1-0|45.5|54|1515.1435241493293|
+|4|Ohio State|[Ohio State](#f/ohiostate)|1-0|61.5|87|1514.3227157978242|
+|5|Oklahoma|[Oklahoma](#f/oklahoma)|1-0|38.0|47|1514.1609391862908|
+|6|Penn State|[Penn State](#f/pennstate)|1-0|43.0|52|1513.5060052476128|
+|7|Boise St|[Boise St](#f/boisestate)|1-0|37.5|46|1512.9100736154162|
+|8|Southern Cal|[Southern Cal](#f/usc)|1-0|55.0|75|1512.8350153611243|
+|9|Notre Dame|[Notre Dame](#f/notredame)|1-0|44.0|53|1512.3986101151165|
+|10|Northwestern|[Northwestern](#f/northwestern)|1-0|47.5|59|1512.3928631965528|
+|11|Michigan St|[Michigan St](#f/michiganstate)|1-0|52.5|70|1512.228156007305|
+|12|Auburn|[Auburn](#f/auburn)|1-0|40.5|49|1511.2955587381757|
+|13|Fresno St|[Fresno St](#f/fresnostate)|1-0|56.5|78|1510.9600916783313|
+|14|LSU|[LSU](#f/lsu)|1-0|40.0|48|1510.5645459162674|
+|15|Stanford|[Stanford](#f/stanford)|1-0|41.5|51|1510.47379406817|
+|16|Washington St|[Washington St](#f/washingtonstate)|1-0|31.0|44|1510.366766103173|
+|17|South Carolina|[South Carolina](#f/southcarolina)|1-0|58.0|81|1510.3131866689537|
+|18|Hawai`i|[Hawai`i](#f/hawaii)|2-0|74.0|130|1510.0373108005022|
+|19|Iowa|[Iowa](#f/iowa)|1-0|47.0|58|1509.64052272627|
+|20|North Texas|[North Texas](#f/northtexas)|1-0|49.5|62|1509.5240286969129|
+|21|Marshall|[Marshall](#f/marshall)|1-0|54.5|74|1509.1170541326178|
+|22|Wake Forest|[Wake Forest](#f/wakeforest)|1-0|54.0|73|1508.9944601943082|
+|23|Houston|[Houston](#f/houston)|1-0|58.5|82|1508.627719953532|
+|24|Arizona St|[Arizona St](#f/arizonastate)|1-0|50.5|64|1508.2817139366148|
+|25|Georgia|[Georgia](#f/georgia)|1-0|65.0|117|1508.280762132738|
 ||||||||
-|59|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-0|65.0|103|1501.8181818181818|
+|66|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-0|65.0|91|1500.2316472693574|
+||||||||
+|130|UTEP|[UTEP](#f/utep)|0-1|65.0|105|1478.353128679213|
 
 ---
 
-**Mean Points:** 1499.68
+**Mean Points:** 1499.76
 
-**Median Points:** 1501.82
+**Median Points:** 1500.41
 
-**Standard Deviation of Points:** 9.31
+**Standard Deviation of Points:** 8.83
 
-**Variance:** 86.65
+**Variance:** 78.0
 
 ---
 
-**Hardest SoS:** [Nebraska](#f/nebraska) Nebraska
+**Hardest SoS:** [Florida St](#f/floridastate) Florida St
 
-**Easiest SoS:** [Arkansas St](#f/arkansasstate) Arkansas St
+**Easiest SoS:** [Arkansas](#f/arkansas) Arkansas
 
 ---
 

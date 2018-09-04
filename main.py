@@ -16,6 +16,10 @@ import threading
 import math
 # Gotta do stats too
 import statistics
+# Provides the ability to shuffle the list
+from random import shuffle
+# Need devnull
+import os
 
 # Splitting up my file into libraries because this was tough last time
 import prepoll
@@ -27,7 +31,7 @@ def main(args):
     team_list   = args[2]
     fbs_only    = args[3]
 
-    scores        = prepoll.grab_web_page()
+    scores        = prepoll.grab_web_page('web')
     parsed_scores = prepoll.parse_scores(scores, fbs_only, team_list)
     prepoll.output_data(parsed_scores, output_file)
 
@@ -37,7 +41,7 @@ def start_poll(parsed_scores):
     team_elo_dict = {}
 
     # K value manipulates how much scores are affected by results. This is super important
-    k_value = 20
+    k_value = 15
 
     # Opens the fbs team file to strip out non fbs teams
     if(fbs_only):
@@ -51,13 +55,13 @@ def start_poll(parsed_scores):
                 line = line.strip("\n")
                 team_array.append(line)
 
-    for team in team_array:
-        # This will be replaced with a carryover seed
-        # Teams will retain a portion of points based on my guess of average movement
-        # To run multiple sims at once, use multiprocessing:
-        # https://stackoverflow.com/questions/7207309/python-how-can-i-run-python-functions-in-parallel
-        team_elo_dict[team] = 1500
+    # This will be replaced with a carryover seed
+    # Teams will retain a portion of points based on my guess of average movement
+    previous_scores        = prepoll.grab_web_page('past')
+    previous_parsed_scores = prepoll.parse_scores(previous_scores, fbs_only, team_list)
+    team_elo_dict          = previous_season(previous_parsed_scores)
 
+    # shuffle(parsed_scores)
     for score in parsed_scores:
         # Checks that the teams involved are actually in the dict
         # Defaults to 400 points below the default 1500 points. This equates to an average team
@@ -124,6 +128,84 @@ def start_poll(parsed_scores):
     extra_stats = extra_stats_parsing(parsed_scores)
     markdown_output(temp_point_map, final_ranking, extra_stats, math_stats)
 
+def previous_season(parsed_scores):
+    team_elo_dict = {}
+
+    # K value manipulates how much scores are affected by results. This is super important
+    k_value = 15
+
+    # Opens the fbs team file to strip out non fbs teams
+    if(fbs_only):
+        fbs_teams = open(team_list, "r")
+        global team_array
+        team_array = []
+
+        # Iterates to dump them all into an array
+        for line in fbs_teams:
+            if(len(line)>0):
+                line = line.strip("\n")
+                team_array.append(line)
+
+    for team in team_array:
+        team_elo_dict[team] = 1500
+
+    # shuffle(parsed_scores)
+    for score in parsed_scores:
+        # Checks that the teams involved are actually in the dict
+        # Defaults to 400 points below the default 1500 points. This equates to an average team
+        # supposed to beat a cupcake by at least 20 points
+        if score[1] in team_elo_dict.keys():
+            rating_home = team_elo_dict[score[1]]
+            null_home   = False
+        else:
+            rating_home = 1100
+            null_home   = True
+
+        if score[3] in team_elo_dict.keys():
+            rating_away = team_elo_dict[score[3]]
+            null_away   = False
+        else:
+            rating_away = 1100
+            null_away   = True
+
+        # Expected odds
+        expected_home = 1 / ( 1 + 10**( ( rating_away - rating_home ) / 400 ) )
+        expected_away = 1 / ( 1 + 10**( ( rating_home - rating_away ) / 400 ) )
+
+        # Updating rating
+        # First see the winner
+        # Also includes a MoV multiplier
+        if(int(score[2]) > int(score[4])):
+            home_score = 1
+            away_score = 0
+            mom_multiplier = math.log(abs(int(score[2]) - int(score[4]))) * (2.2 / ((rating_home - rating_away)*0.001 + 2.2))
+        else:
+            home_score = 0
+            away_score = 1
+            mom_multiplier = math.log(abs(int(score[2]) - int(score[4]))) * (2.2 / ((rating_away - rating_home)*0.001 + 2.2))
+
+        # Apply the function for updating ratings
+        new_rating_home = rating_home + k_value * (home_score - expected_home)
+        new_rating_away = rating_away + k_value * (away_score - expected_away)
+
+        # Check that the new ratings for winners is actually higher
+        if(home_score == 1):
+            new_rating_home = max(new_rating_home, rating_home)
+
+        if(away_score == 1):
+            new_rating_away = max(new_rating_away, rating_away)
+
+        # Sets the new ratings for each team in the map
+        if not null_home:
+            team_elo_dict[score[1]] = new_rating_home
+
+        if not null_away:
+            team_elo_dict[score[3]] = new_rating_away
+
+    for team in team_array:
+        team_elo_dict[team] = (team_elo_dict[team] - 1500) * (-0.9) + team_elo_dict[team]
+    return team_elo_dict
+
 # Creates a markdown table that can be posting into the reddit comments section
 def markdown_output(point_map,final_ranking,extra_stats,math_stats):
     # Opens the file
@@ -161,7 +243,19 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats):
 
         # Outputs GT's data cause I like them
         file.write("||||||||\n")
-        team = 'Georgia Tech'
+        team     = 'Georgia Tech'
+        rank     = final_ranking.index(team) + 1
+        sos      = str(sos_map[team])
+        sos_rank = sos_ranking[team]
+        sos_rank = str(sos_rank)
+        record   = str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1])
+
+        # Writes to the file
+        file.write("|" + str(rank) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(point_map[team]) + "|\n")
+
+        # Outputs the lowest team too just for fun
+        file.write("||||||||\n")
+        team     = final_ranking[len(final_ranking) - 1]
         rank     = final_ranking.index(team) + 1
         sos      = str(sos_map[team])
         sos_rank = sos_ranking[team]
