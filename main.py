@@ -292,9 +292,11 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats):
         file.write("\n")
         file.write("---\n")
         file.write("\n")
-        file.write("1: Lower means harder SoS")
+        file.write("1: Lower means harder SoS\n")
         file.write("\n")
-        file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/7fdlkr/my_cfb_poll_and_methodology/)")
+        file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/9csiv4/cfb_poll_20_the_elo_update/)\n")
+        file.write("\n")
+        file.write("[Link to the github repo here](https://github.com/ChangedNameTo/CFBPoll)")
 
 # Iterates through all of the scores, generates a map of opponents so SoS can be done later
 # Also tracks the records so that total game count is known
