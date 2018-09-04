@@ -1,0 +1,50 @@
+|Rank|Team|Flair|Record|SoS^^1|SoS Rank|Points|
+|---|---|---|---|---|---|---|
+|1|Hawai`i|[Hawai`i](#f/hawaii)|2-0|71.333|130|1519.71225631668|
+|2|Washington St|[Washington St](#f/washingtonstate)|1-0|41.0|44|1510.28774368332|
+|3|Boston College|[Boston College](#f/bostoncollege)|1-0|41.5|46|1510.0523310016777|
+|4|Houston|[Houston](#f/houston)|1-0|42.0|47|1510.0523310016777|
+|5|Auburn|[Auburn](#f/auburn)|1-0|43.0|48|1510.0|
+|6|Kentucky|[Kentucky](#f/kentucky)|1-0|48.0|61|1510.0|
+|7|Oregon|[Oregon](#f/oregon)|1-0|49.5|64|1510.0|
+|8|Boise St|[Boise St](#f/boisestate)|1-0|51.5|68|1510.0|
+|9|Syracuse|[Syracuse](#f/syracuse)|1-0|53.0|71|1510.0|
+|10|Southern Cal|[Southern Cal](#f/usc)|1-0|47.5|60|1510.0|
+|11|Cincinnati|[Cincinnati](#f/cincinnati)|1-0|60.5|86|1510.0|
+|12|Oklahoma|[Oklahoma](#f/oklahoma)|1-0|59.0|83|1510.0|
+|13|Maryland|[Maryland](#f/maryland)|1-0|43.5|50|1510.0|
+|14|Northwestern|[Northwestern](#f/northwestern)|1-0|49.0|63|1510.0|
+|15|California|[California](#f/california)|1-0|46.5|58|1510.0|
+|16|Iowa|[Iowa](#f/iowa)|1-0|48.5|62|1510.0|
+|17|Central Florida|[Central Florida](#f/ucf)|1-0|45.0|55|1510.0|
+|18|North Texas|[North Texas](#f/northtexas)|1-0|59.5|84|1510.0|
+|19|Alabama|[Alabama](#f/alabama)|1-0|46.0|57|1510.0|
+|20|Duke|[Duke](#f/duke)|1-0|54.0|73|1510.0|
+|21|Brigham Young|[Brigham Young](#f/byu)|1-0|50.0|65|1510.0|
+|22|Indiana|[Indiana](#f/indiana)|1-0|51.0|67|1510.0|
+|23|Vanderbilt|[Vanderbilt](#f/vanderbilt)|1-0|60.0|85|1510.0|
+|24|West Virginia|[West Virginia](#f/westvirginia)|1-0|50.5|66|1510.0|
+|25|Wisconsin|[Wisconsin](#f/wisconsin)|1-0|55.0|75|1510.0|
+||||||||
+|51|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-0|65.0|101|1501.8181818181818|
+
+---
+
+**Mean Points:** 1499.68
+
+**Median Points:** 1501.82
+
+**Standard Deviation of Points:** 9.31
+
+**Variance:** 86.65
+
+---
+
+**Hardest SoS:** [Akron](#f/akron) Akron
+
+**Easiest SoS:** [Georgia St](#f/georgiastate) Georgia St
+
+---
+
+1: Lower means harder SoS
+[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/7fdlkr/my_cfb_poll_and_methodology/)

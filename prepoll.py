@@ -7,22 +7,24 @@ import re
 # Lets me get stats for the whole list which are cool and make people
 # think I know what I'm doing
 import statistics
+# Gotta dump data to a csv
+import csv
 
 # Grabs the web page and retreives all of the score data
 def grab_web_page():
     # Use this in the regular season
-    # score_url = "http://prwolfe.bol.ucla.edu/cfootball/scores.htm"
-    score_url = "file://home/will/Documents/CS\ Projects/CFBPoll/2016_cfb_scores.html"
+    score_url = "http://prwolfe.bol.ucla.edu/cfootball/scores.htm"
+    # score_url = "file://home/will/Documents/CS\ Projects/CFBPoll/2016_cfb_scores.html"
 
     # Gets the web page
-    # request   = urllib.request.Request(score_url)
-    # response  = urllib.request.urlopen(request)
-    # page_html = response.read()
+    request   = urllib.request.Request(score_url)
+    response  = urllib.request.urlopen(request)
+    page_html = response.read()
 
     # File method
-    f = open('2016_cfb_scores.html', 'r')
-    page_html = f.read()
-    print('here')
+    # f = open('2016_cfb_scores.html', 'r')
+    # page_html = f.read()
+    # print('here')
 
     # Pass into the parser, grabs the scores table
     soup        = BeautifulSoup(page_html, 'html.parser')
@@ -32,7 +34,7 @@ def grab_web_page():
     return score_table
 
 # Takes the passed in score table, returns an array of just scores
-def parse_scores(scores):
+def parse_scores(scores,fbs_only,team_list):
     # Strips all spaces longer than one
     scores = re.sub(' +', ' ', scores)
 
