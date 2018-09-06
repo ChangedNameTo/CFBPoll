@@ -123,10 +123,10 @@ def start_poll(parsed_scores):
         final_ranking.append(highest_team)
         del team_elo_dict[highest_team]
 
-    final_rankings_graph(temp_point_map)
     math_stats = math_stats_calculations(temp_point_map)
     extra_stats = extra_stats_parsing(parsed_scores)
     markdown_output(temp_point_map, final_ranking, extra_stats, math_stats)
+    final_rankings_graph(temp_point_map, final_ranking, extra_stats, math_stats)
 
 def previous_season(parsed_scores):
     team_elo_dict = {}
@@ -211,7 +211,7 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats):
     # Opens the file
     with open("ranking.txt", "w") as file:
         # Writes the table header
-        file.write("|Rank|Team|Flair|Record|SoS^^1|SoS Rank|Points|\n")
+        file.write("|Rank|Team|Flair|Record|SoS^^1|SoS Rank|ELO|\n")
         file.write("|---|---|---|---|---|---|---|\n")
 
         # Terminates the ranking after 25
@@ -234,7 +234,7 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats):
             record   = str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1])
 
             # Writes to the file
-            file.write("|" + str(x) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(point_map[team]) + "|\n")
+            file.write("|" + str(x) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(round(point_map[team], 2)) + "|\n")
             x = x + 1
 
             # Terminates after 25
@@ -251,7 +251,7 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats):
         record   = str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1])
 
         # Writes to the file
-        file.write("|" + str(rank) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(point_map[team]) + "|\n")
+        file.write("|" + str(rank) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(round(point_map[team],2)) + "|\n")
 
         # Outputs the lowest team too just for fun
         file.write("||||||||\n")
@@ -263,7 +263,7 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats):
         record   = str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1])
 
         # Writes to the file
-        file.write("|" + str(rank) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(point_map[team]) + "|\n")
+        file.write("|" + str(rank) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(round(point_map[team], 2)) + "|\n")
 
         file.write("\n")
 
@@ -383,13 +383,33 @@ def generate_flair_map():
 
     return flair_map
 
-def final_rankings_graph(point_map):
+def final_rankings_graph(point_map, final_ranking, extra_stats, math_stats):
     with open('ranking.csv', 'w') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_MINIMAL)
-        writer.writerow(('Team','Points'))
-        lowest_points = abs(min(point_map.items(), key=operator.itemgetter(1))[1])
-        for key, value in point_map.items():
-            writer.writerow([key,value+lowest_points])
+        writer.writerow(('Rank','Team','Record','SoS','SoS Rank','ELO'))
+
+        # Terminates the ranking after 25
+        x = 1
+
+        # Pulls sos for everyone
+        output      = calculate_sos(final_ranking,extra_stats)
+        sos_map     = output[0]
+        sos_ranking = output[1]
+
+        # Creates the flair map for everyone
+        flair_map = generate_flair_map()
+
+        for team in final_ranking:
+            # Calculates some things here to pretty up the string itself
+            # Looks weird cause python is weird and does weird things
+            sos      = str(sos_map[team])
+            sos_rank = sos_ranking[team]
+            sos_rank = str(sos_rank)
+            record   = str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1])
+
+            # Writes to the csv
+            writer.writerow([x,team,record,sos,sos_rank,str(round(point_map[team], 2))])
+            x = x + 1
 
 # Calculates them math class stats
 def math_stats_calculations(point_map):
