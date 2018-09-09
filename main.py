@@ -30,14 +30,16 @@ def main(args):
     output_file = args[1]
     team_list   = args[2]
     fbs_only    = args[3]
+    week        = args[4]
+    year        = args[5]
 
     scores        = prepoll.grab_web_page('web')
     parsed_scores = prepoll.parse_scores(scores, fbs_only, team_list)
     prepoll.output_data(parsed_scores, output_file)
 
-    start_poll(parsed_scores)
+    start_poll(parsed_scores, week, year)
 
-def start_poll(parsed_scores):
+def start_poll(parsed_scores, week, year):
     team_elo_dict = {}
 
     # K value manipulates how much scores are affected by results. This is super important
@@ -125,8 +127,9 @@ def start_poll(parsed_scores):
 
     math_stats = math_stats_calculations(temp_point_map)
     extra_stats = extra_stats_parsing(parsed_scores)
-    markdown_output(temp_point_map, final_ranking, extra_stats, math_stats)
-    final_rankings_graph(temp_point_map, final_ranking, extra_stats, math_stats)
+    last_week = previous_change(week, year, final_ranking)
+    markdown_output(temp_point_map, final_ranking, extra_stats, math_stats, last_week)
+    final_rankings_graph(temp_point_map, final_ranking, extra_stats, math_stats, last_week, week, year)
 
 def previous_season(parsed_scores):
     team_elo_dict = {}
@@ -207,12 +210,12 @@ def previous_season(parsed_scores):
     return team_elo_dict
 
 # Creates a markdown table that can be posting into the reddit comments section
-def markdown_output(point_map,final_ranking,extra_stats,math_stats):
+def markdown_output(point_map,final_ranking,extra_stats,math_stats, last_week):
     # Opens the file
     with open("ranking.txt", "w") as file:
         # Writes the table header
-        file.write("|Rank|Team|Flair|Record|SoS^^1|SoS Rank|ELO|\n")
-        file.write("|---|---|---|---|---|---|---|\n")
+        file.write("|Rank|Team|Flair|Record|SoS^^1|SoS Rank|ELO|Change|\n")
+        file.write("|---|---|---|---|---|---|---|---|\n")
 
         # Terminates the ranking after 25
         x = 1
@@ -232,9 +235,10 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats):
             sos_rank = sos_ranking[team]
             sos_rank = str(sos_rank)
             record   = str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1])
+            change   = str(last_week[team])
 
             # Writes to the file
-            file.write("|" + str(x) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(round(point_map[team], 2)) + "|\n")
+            file.write("|" + str(x) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(round(point_map[team], 2)) + "|" + change + "|\n")
             x = x + 1
 
             # Terminates after 25
@@ -383,10 +387,10 @@ def generate_flair_map():
 
     return flair_map
 
-def final_rankings_graph(point_map, final_ranking, extra_stats, math_stats):
-    with open('ranking.csv', 'w') as csvfile:
+def final_rankings_graph(point_map, final_ranking, extra_stats, math_stats, last_week, week, year):
+    with open(str(year) + '/week' + week + '.csv', 'w') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_MINIMAL)
-        writer.writerow(('Rank','Team','Record','SoS','SoS Rank','ELO'))
+        writer.writerow(('Rank','Team','Record','SoS','SoS Rank','ELO','Change'))
 
         # Terminates the ranking after 25
         x = 1
@@ -406,9 +410,10 @@ def final_rankings_graph(point_map, final_ranking, extra_stats, math_stats):
             sos_rank = sos_ranking[team]
             sos_rank = str(sos_rank)
             record   = str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1])
+            change   = str(last_week[team])
 
             # Writes to the csv
-            writer.writerow([x,team,record,sos,sos_rank,str(round(point_map[team], 2))])
+            writer.writerow([x,team,record,sos,sos_rank,str(round(point_map[team], 2)),change])
             x = x + 1
 
 # Calculates them math class stats
@@ -427,6 +432,25 @@ def math_stats_calculations(point_map):
     var_val    = str(round(statistics.variance(point_array), 2))
 
     return (mean_val,median_val,stdev_val,var_val)
+
+# Calculates the difference in ranks from week to week
+def previous_change(week, year, final_ranking):
+    f             = open(str(year) + "/week" + str(int(week) - 1) + ".csv", 'r')
+    previous_week = csv.reader(f)
+
+    # Tracks the change for each team from week to week
+    change_map = {}
+
+    x = 1
+    for team in final_ranking:
+        for row in previous_week:
+            if team == row[1]:
+                change_map[team] = int(row[0]) - x
+                continue
+        f.seek(0)
+        x = x + 1
+
+    return change_map
 
 # Calls my function
 if __name__ == '__main__':
