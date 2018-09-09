@@ -406,7 +406,7 @@ def generate_flair_map():
 def last_season_graph(point_map, final_ranking, extra_stats, math_stats, week, year):
     with open(str(year) + '/week' + week + '.csv', 'w') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_MINIMAL)
-        writer.writerow(('Rank','Team','Record','SoS','SoS Rank','ELO','Change'))
+        writer.writerow(('Rank','Team','Record','SoS','SoS Rank','ELO'))
 
         # Terminates the ranking after 25
         x = 1
