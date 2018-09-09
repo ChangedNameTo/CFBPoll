@@ -43,7 +43,7 @@ def start_poll(parsed_scores, week, year):
     team_elo_dict = {}
 
     # K value manipulates how much scores are affected by results. This is super important
-    k_value = 20
+    k_value = 15
 
     # Opens the fbs team file to strip out non fbs teams
     if(fbs_only):
@@ -135,7 +135,7 @@ def previous_season(parsed_scores):
     team_elo_dict = {}
 
     # K value manipulates how much scores are affected by results. This is super important
-    k_value = 20
+    k_value = 15
 
     # Opens the fbs team file to strip out non fbs teams
     if(fbs_only):
