@@ -1,14 +1,14 @@
 |Rank|Team|Flair|Record|SoS^^1|SoS Rank|ELO|Change|
 |---|---|---|---|---|---|---|---|
 |1|Alabama|[Alabama](#f/alabama)|2-0|47.0|43|1552.5|2|
-|2|Wisconsin|[Wisconsin](#f/wisconsin)|2-0|76.0|116|1551.59|0|
+|2|Wisconsin|[Wisconsin](#f/wisconsin)|2-0|76.0|115|1551.59|0|
 |3|Ohio State|[Ohio State](#f/ohiostate)|2-0|68.333|98|1548.76|1|
 |4|Oklahoma|[Oklahoma](#f/oklahoma)|2-0|41.0|26|1547.62|1|
 |5|Central Florida|[Central Florida](#f/ucf)|2-0|84.0|128|1546.89|-4|
 |6|Penn State|[Penn State](#f/pennstate)|2-0|44.333|34|1545.06|1|
-|7|Boise St|[Boise St](#f/boisestate)|2-0|52.0|59|1541.95|1|
+|7|Boise St|[Boise St](#f/boisestate)|2-0|52.0|58|1541.95|1|
 |8|Georgia|[Georgia](#f/georgia)|2-0|56.667|67|1541.92|26|
-|9|Notre Dame|[Notre Dame](#f/notredame)|2-0|57.0|69|1540.06|2|
+|9|Notre Dame|[Notre Dame](#f/notredame)|2-0|57.0|68|1540.06|2|
 |10|Clemson|[Clemson](#f/clemson)|2-0|69.333|100|1538.53|28|
 |11|Stanford|[Stanford](#f/stanford)|2-0|26.0|8|1533.64|7|
 |12|TCU|[TCU](#f/tcu)|2-0|76.0|117|1531.38|-6|
@@ -23,12 +23,12 @@
 |21|Arizona St|[Arizona St](#f/arizonastate)|2-0|43.333|28|1524.03|5|
 |22|Houston|[Houston](#f/houston)|2-0|75.333|113|1523.78|3|
 |23|Southern Cal|[Southern Cal](#f/usc)|1-1|30.0|11|1523.01|-14|
-|24|Florida Atlantic|[Florida Atlantic](#f/FAU)|1-1|30.333|12|1522.83|58|
+|24|Florida Atlantic|[Florida Atlantic](#f/fau)|1-1|30.333|12|1522.83|58|
 |25|Virginia Tech|[Virginia Tech](#f/virginiatech)|2-0|67.333|96|1522.55|-5|
 ||||||||
-|26|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-1|47.333|44|1487.68|-19|
+|84|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-1|47.333|44|1487.68|-19|
 ||||||||
-|26|UTEP|[UTEP](#f/utep)|0-2|70.0|101|1437.83|0|
+|130|UTEP|[UTEP](#f/utep)|0-2|70.0|101|1437.83|0|
 
 ---
 
