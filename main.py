@@ -99,8 +99,8 @@ def start_poll(parsed_scores, week, year):
             mom_multiplier = math.log(abs(int(score[2]) - int(score[4]))) * (2.2 / ((rating_away - rating_home)*0.001 + 2.2))
 
         # Apply the function for updating ratings
-        new_rating_home = rating_home + k_value * (home_score - expected_home)
-        new_rating_away = rating_away + k_value * (away_score - expected_away)
+        new_rating_home = rating_home + k_value * (home_score - expected_home) * mom_multiplier
+        new_rating_away = rating_away + k_value * (away_score - expected_away) * mom_multiplier
 
         # Check that the new ratings for winners is actually higher
         if(home_score == 1):
@@ -188,8 +188,8 @@ def previous_season(parsed_scores):
             mom_multiplier = math.log(abs(int(score[2]) - int(score[4]))) * (2.2 / ((rating_away - rating_home)*0.001 + 2.2))
 
         # Apply the function for updating ratings
-        new_rating_home = rating_home + k_value * (home_score - expected_home)
-        new_rating_away = rating_away + k_value * (away_score - expected_away)
+        new_rating_home = rating_home + k_value * (home_score - expected_home) * mom_multiplier
+        new_rating_away = rating_away + k_value * (away_score - expected_away) * mom_multiplier
 
         # Check that the new ratings for winners is actually higher
         if(home_score == 1):
