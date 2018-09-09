@@ -253,9 +253,10 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats, last_week):
         sos_rank = sos_ranking[team]
         sos_rank = str(sos_rank)
         record   = str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1])
+        change   = str(last_week[team])
 
         # Writes to the file
-        file.write("|" + str(rank) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(round(point_map[team],2)) + "|\n")
+        file.write("|" + str(x) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(round(point_map[team], 2)) + "|" + change + "|\n")
 
         # Outputs the lowest team too just for fun
         file.write("||||||||\n")
@@ -265,9 +266,10 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats, last_week):
         sos_rank = sos_ranking[team]
         sos_rank = str(sos_rank)
         record   = str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1])
+        change   = str(last_week[team])
 
         # Writes to the file
-        file.write("|" + str(rank) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(round(point_map[team], 2)) + "|\n")
+        file.write("|" + str(x) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(round(point_map[team], 2)) + "|" + change + "|\n")
 
         file.write("\n")
 
