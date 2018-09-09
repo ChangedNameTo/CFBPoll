@@ -5,28 +5,28 @@
 |3|Ohio State|[Ohio State](#f/ohiostate)|2-0|68.667|99|1537.47|1|
 |4|Oklahoma|[Oklahoma](#f/oklahoma)|2-0|41.667|26|1536.79|1|
 |5|Central Florida|[Central Florida](#f/ucf)|2-0|83.667|128|1536.26|-4|
-|6|Penn State|[Penn State](#f/pennstate)|2-0|43.333|30|1534.73|1|
-|7|Boise St|[Boise St](#f/boisestate)|2-0|51.333|55|1532.36|1|
+|6|Penn State|[Penn State](#f/pennstate)|2-0|43.333|28|1534.73|1|
+|7|Boise St|[Boise St](#f/boisestate)|2-0|51.333|57|1532.36|1|
 |8|Georgia|[Georgia](#f/georgia)|2-0|56.333|67|1532.22|26|
 |9|Notre Dame|[Notre Dame](#f/notredame)|2-0|57.333|69|1530.71|2|
 |10|Clemson|[Clemson](#f/clemson)|2-0|69.333|100|1529.68|28|
 |11|Stanford|[Stanford](#f/stanford)|2-0|25.667|8|1525.28|7|
-|12|TCU|[TCU](#f/tcu)|2-0|75.333|115|1524.35|-6|
+|12|TCU|[TCU](#f/tcu)|2-0|75.333|113|1524.35|-6|
 |13|South Florida|[South Florida](#f/usf)|2-0|70.667|103|1524.1|32|
-|14|Oklahoma St|[Oklahoma St](#f/oklahomastate)|2-0|81.667|125|1523.54|33|
+|14|Oklahoma St|[Oklahoma St](#f/oklahomastate)|2-0|81.667|126|1523.54|33|
 |15|Washington St|[Washington St](#f/washingtonstate)|2-0|66.333|93|1523.23|2|
-|16|Iowa|[Iowa](#f/iowa)|2-0|51.333|56|1522.08|5|
-|17|Auburn|[Auburn](#f/auburn)|2-0|60.333|78|1521.63|-3|
+|16|Iowa|[Iowa](#f/iowa)|2-0|51.333|55|1522.08|5|
+|17|Auburn|[Auburn](#f/auburn)|2-0|60.333|77|1521.63|-3|
 |18|LSU|[LSU](#f/lsu)|2-0|60.0|76|1519.16|-2|
 |19|Mississippi St|[Mississippi St](#f/mississippistate)|2-0|64.667|87|1518.51|32|
 |20|North Carolina St|[North Carolina St](#f/ncstate)|2-0|68.333|98|1518.51|30|
-|21|Houston|[Houston](#f/houston)|2-0|75.333|113|1518.35|4|
+|21|Houston|[Houston](#f/houston)|2-0|75.333|115|1518.35|4|
 |22|Southern Cal|[Southern Cal](#f/usc)|1-1|30.0|11|1517.97|-13|
 |23|Arizona St|[Arizona St](#f/arizonastate)|2-0|42.667|27|1517.95|3|
 |24|Virginia Tech|[Virginia Tech](#f/virginiatech)|2-0|68.0|97|1517.49|-4|
 |25|Florida Atlantic|[Florida Atlantic](#f/fau)|1-1|31.333|13|1517.42|57|
 ||||||||
-|83|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-1|47.333|44|1490.44|-18|
+|83|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-1|47.333|43|1490.44|-18|
 ||||||||
 |130|UTEP|[UTEP](#f/utep)|0-2|70.0|101|1452.21|0|
 

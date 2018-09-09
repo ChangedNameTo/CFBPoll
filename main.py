@@ -205,9 +205,23 @@ def previous_season(parsed_scores):
         if not null_away:
             team_elo_dict[score[3]] = new_rating_away
 
+    # Sorts the dictionary, popping out each max point team and appending them to the list
+    final_ranking  = []
+    temp_point_map = copy.deepcopy(team_elo_dict)
+
+    for x in range(0,len(team_elo_dict)):
+        highest_team = max(team_elo_dict.items(), key=operator.itemgetter(1))[0]
+        final_ranking.append(highest_team)
+        del team_elo_dict[highest_team]
+
+    math_stats = math_stats_calculations(temp_point_map)
+    extra_stats = extra_stats_parsing(parsed_scores)
+    # Fix this next season
+    last_season_graph(temp_point_map, final_ranking, extra_stats, math_stats, str(0), str(2017))
+
     for team in team_array:
-        team_elo_dict[team] = (team_elo_dict[team] - 1500) * (-0.66) + team_elo_dict[team]
-    return team_elo_dict
+        temp_point_map[team] = (temp_point_map[team] - 1500) * (-0.66) + temp_point_map[team]
+    return temp_point_map
 
 # Creates a markdown table that can be posting into the reddit comments section
 def markdown_output(point_map,final_ranking,extra_stats,math_stats, last_week):
@@ -388,6 +402,34 @@ def generate_flair_map():
             flair_map[row[0]] = "[" + row[0] + "]" + "(#f/" + row[1] + ")"
 
     return flair_map
+
+def last_season_graph(point_map, final_ranking, extra_stats, math_stats, week, year):
+    with open(str(year) + '/week' + week + '.csv', 'w') as csvfile:
+        writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_MINIMAL)
+        writer.writerow(('Rank','Team','Record','SoS','SoS Rank','ELO','Change'))
+
+        # Terminates the ranking after 25
+        x = 1
+
+        # Pulls sos for everyone
+        output      = calculate_sos(final_ranking,extra_stats)
+        sos_map     = output[0]
+        sos_ranking = output[1]
+
+        # Creates the flair map for everyone
+        flair_map = generate_flair_map()
+
+        for team in final_ranking:
+            # Calculates some things here to pretty up the string itself
+            # Looks weird cause python is weird and does weird things
+            sos      = str(sos_map[team])
+            sos_rank = sos_ranking[team]
+            sos_rank = str(sos_rank)
+            record   = str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1])
+
+            # Writes to the csv
+            writer.writerow([x,team,record,sos,sos_rank,str(round(point_map[team], 2))])
+            x = x + 1
 
 def final_rankings_graph(point_map, final_ranking, extra_stats, math_stats, last_week, week, year):
     with open(str(year) + '/week' + week + '.csv', 'w') as csvfile:
