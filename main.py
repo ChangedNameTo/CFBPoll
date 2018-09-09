@@ -132,7 +132,7 @@ def previous_season(parsed_scores):
     team_elo_dict = {}
 
     # K value manipulates how much scores are affected by results. This is super important
-    k_value = 15
+    k_value = 20
 
     # Opens the fbs team file to strip out non fbs teams
     if(fbs_only):
@@ -203,7 +203,7 @@ def previous_season(parsed_scores):
             team_elo_dict[score[3]] = new_rating_away
 
     for team in team_array:
-        team_elo_dict[team] = (team_elo_dict[team] - 1500) * (-0.9) + team_elo_dict[team]
+        team_elo_dict[team] = (team_elo_dict[team] - 1500) * (-0.66) + team_elo_dict[team]
     return team_elo_dict
 
 # Creates a markdown table that can be posting into the reddit comments section
