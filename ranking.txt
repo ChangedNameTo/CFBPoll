@@ -1,6 +1,6 @@
 |Rank|Team|Flair|Record|SoS^^1|SoS Rank|ELO|Change|
 |---|---|---|---|---|---|---|---|
-|1|Alabama|[Alabama](#f/alabama)|2-0|46.0|38|1610.49|2|
+|1|Alabama|[Alabama](#f/alabama)|2-0|46.0|37|1610.49|2|
 |2|Oklahoma|[Oklahoma](#f/oklahoma)|2-0|48.667|45|1602.26|3|
 |3|Wisconsin|[Wisconsin](#f/wisconsin)|2-0|75.667|114|1600.36|-1|
 |4|Ohio State|[Ohio State](#f/ohiostate)|2-0|71.333|104|1599.6|0|
@@ -11,9 +11,9 @@
 |9|Stanford|[Stanford](#f/stanford)|2-0|31.333|14|1576.28|9|
 |10|Notre Dame|[Notre Dame](#f/notredame)|2-0|51.333|56|1565.54|1|
 |11|Iowa|[Iowa](#f/iowa)|2-0|53.0|62|1563.71|10|
-|12|Clemson|[Clemson](#f/clemson)|2-0|63.667|85|1563.12|26|
-|13|Oklahoma St|[Oklahoma St](#f/oklahomastate)|2-0|82.0|126|1561.12|34|
-|14|TCU|[TCU](#f/tcu)|2-0|80.667|121|1558.53|-8|
+|12|Clemson|[Clemson](#f/clemson)|2-0|63.667|84|1563.12|26|
+|13|Oklahoma St|[Oklahoma St](#f/oklahomastate)|2-0|82.0|125|1561.12|34|
+|14|TCU|[TCU](#f/tcu)|2-0|80.667|122|1558.53|-8|
 |15|Auburn|[Auburn](#f/auburn)|2-0|56.0|68|1558.02|-1|
 |16|South Florida|[South Florida](#f/usf)|2-0|67.667|96|1555.07|29|
 |17|Duke|[Duke](#f/duke)|2-0|36.333|21|1554.82|11|
@@ -23,7 +23,7 @@
 |21|LSU|[LSU](#f/lsu)|2-0|61.333|82|1549.5|-5|
 |22|Washington St|[Washington St](#f/washingtonstate)|2-0|67.333|95|1549.2|-5|
 |23|Virginia Tech|[Virginia Tech](#f/virginiatech)|2-0|67.0|94|1546.74|-3|
-|24|Boston College|[Boston College](#f/bostoncollege)|2-0|81.667|123|1539.75|3|
+|24|Boston College|[Boston College](#f/bostoncollege)|2-0|81.667|124|1539.75|3|
 |25|Arizona St|[Arizona St](#f/arizonastate)|2-0|48.0|43|1539.2|1|
 ||||||||
 |74|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-1|48.333|44|1488.61|-9|

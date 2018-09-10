@@ -77,8 +77,8 @@ def parse_scores(scores,fbs_only,team_list):
     return captured_scores
 
 # Outputs the data to a csv
-def output_data(parsed_scores, output_file):
-    with open(output_file, 'w') as csvfile:
+def output_data(parsed_scores, week, year):
+    with open(str(year) + '/week' + week + 'scores.csv', 'w') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(('Date','Home','Home Score','Away','Away Score','Location if Neutral Site'))
         for score in parsed_scores:

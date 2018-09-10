@@ -27,15 +27,18 @@ import prepoll
 # Calls all of the other subordinate functions
 def main(args):
     global team_list, fbs_only
-    output_file = args[1]
-    team_list   = args[2]
-    fbs_only    = args[3]
-    week        = args[4]
-    year        = args[5]
+    # team_list   = args[1]
+    # fbs_only    = args[2]
+
+    # Might as well just hardcode these, they don't change
+    team_list   = 'util/teams.txt'
+    fbs_only    = True
+    week        = args[1]
+    year        = args[2]
 
     scores        = prepoll.grab_web_page('web')
     parsed_scores = prepoll.parse_scores(scores, fbs_only, team_list)
-    prepoll.output_data(parsed_scores, output_file)
+    prepoll.output_data(parsed_scores, week, year)
 
     start_poll(parsed_scores, week, year)
 
@@ -131,6 +134,7 @@ def start_poll(parsed_scores, week, year):
     markdown_output(temp_point_map, final_ranking, extra_stats, math_stats, last_week)
     final_rankings_graph(temp_point_map, final_ranking, extra_stats, math_stats, last_week, week, year)
 
+# Calculates the elo for the previous season to seed this upcoming season
 def previous_season(parsed_scores):
     team_elo_dict = {}
 
@@ -217,7 +221,7 @@ def previous_season(parsed_scores):
     math_stats = math_stats_calculations(temp_point_map)
     extra_stats = extra_stats_parsing(parsed_scores)
     # Fix this next season
-    last_season_graph(temp_point_map, final_ranking, extra_stats, math_stats, str(0), str(2017))
+    last_season_graph(temp_point_map, final_ranking, extra_stats, math_stats, 'Final', str(2017))
 
     for team in team_array:
         temp_point_map[team] = (temp_point_map[team] - 1500) * (-0.66) + temp_point_map[team]
@@ -395,7 +399,7 @@ def generate_flair_map():
     flair_map = {}
 
     # Reads in the flair map
-    with open('flair_list.csv') as flair_csv:
+    with open('util/flair_list.csv') as flair_csv:
         csvReader = csv.reader(flair_csv)
         for row in csvReader:
             # Formats the flair strings then adds them to the map
