@@ -133,6 +133,7 @@ def start_poll(parsed_scores, week, year):
     last_week = previous_change(week, year, final_ranking)
     markdown_output(temp_point_map, final_ranking, extra_stats, math_stats, last_week)
     final_rankings_graph(temp_point_map, final_ranking, extra_stats, math_stats, last_week, week, year)
+    season_output(week, year)
 
 # Calculates the elo for the previous season to seed this upcoming season
 def previous_season(parsed_scores):
@@ -499,6 +500,36 @@ def previous_change(week, year, final_ranking):
         x = x + 1
 
     return change_map
+
+# Season ranking evolution output for fun
+def season_output(week, year):
+    # Opens the file
+    with open("season_evolution.txt", "w") as file:
+        # Writes the table header
+        file.write("|Week\Rank|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|\n")
+
+        # Creates the flair map for everyone
+        flair_map = generate_flair_map()
+
+        for x in range(1,int(week) + 1):
+            # Create the week string
+            week_string = "|" + str(x) + "|"
+
+            # Iterates over each of the weekly csvs
+            f        = open(str(year) + "/week" + str(x) + ".csv", 'r')
+            week_csv = csv.reader(f)
+            next(week_csv, None)
+
+            # Leave loop at 25
+            breakout = 1
+            for team in week_csv:
+                week_string = week_string + flair_map[team[1]] + "|"
+                breakout = breakout + 1
+                if breakout > 25:
+                    break
+
+            # Writes to the file
+            file.write(week_string + "\n")
 
 # Calls my function
 if __name__ == '__main__':

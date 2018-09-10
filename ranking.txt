@@ -1,7 +1,7 @@
 |Rank|Team|Flair|Record|SoS^^1|SoS Rank|ELO|Change|
 |---|---|---|---|---|---|---|---|
-|1|Alabama|[Alabama](#f/alabama)|2-0|46.0|37|1610.49|2|
-|2|Oklahoma|[Oklahoma](#f/oklahoma)|2-0|48.667|45|1602.26|3|
+|1|Alabama|[Alabama](#f/alabama)|2-0|46.0|36|1610.49|2|
+|2|Oklahoma|[Oklahoma](#f/oklahoma)|2-0|48.667|46|1602.26|3|
 |3|Wisconsin|[Wisconsin](#f/wisconsin)|2-0|75.667|114|1600.36|-1|
 |4|Ohio State|[Ohio State](#f/ohiostate)|2-0|71.333|104|1599.6|0|
 |5|Penn State|[Penn State](#f/pennstate)|2-0|37.0|22|1594.42|2|
@@ -10,7 +10,7 @@
 |8|Boise St|[Boise St](#f/boisestate)|2-0|59.667|78|1584.88|0|
 |9|Stanford|[Stanford](#f/stanford)|2-0|31.333|14|1576.28|9|
 |10|Notre Dame|[Notre Dame](#f/notredame)|2-0|51.333|56|1565.54|1|
-|11|Iowa|[Iowa](#f/iowa)|2-0|53.0|62|1563.71|10|
+|11|Iowa|[Iowa](#f/iowa)|2-0|53.0|61|1563.71|10|
 |12|Clemson|[Clemson](#f/clemson)|2-0|63.667|84|1563.12|26|
 |13|Oklahoma St|[Oklahoma St](#f/oklahomastate)|2-0|82.0|125|1561.12|34|
 |14|TCU|[TCU](#f/tcu)|2-0|80.667|122|1558.53|-8|
