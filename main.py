@@ -225,7 +225,7 @@ def previous_season(parsed_scores):
     last_season_graph(temp_point_map, final_ranking, extra_stats, math_stats, 'Final', str(2017))
 
     for team in team_array:
-        temp_point_map[team] = (temp_point_map[team] - 1500) * (-0.66) + temp_point_map[team]
+        temp_point_map[team] = (temp_point_map[team] - 1500) * (-0.9) + temp_point_map[team]
     return temp_point_map
 
 # Creates a markdown table that can be posting into the reddit comments section
