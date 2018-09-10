@@ -505,16 +505,18 @@ def previous_change(week, year, final_ranking):
 def season_output(week, year):
     # Opens the file
     with open("season_evolution.txt", "w") as file:
-        # Writes the table header
-        file.write("|Week\Rank|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|\n")
-        file.write("|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n")
+        header_string  = "|Rank\Week|"
+        divider_string = "|---|"
 
         # Creates the flair map for everyone
         flair_map = generate_flair_map()
 
+        # Creates a ranking map with an array to simplify the output process
+        rank_list = ["|"] * 25
+
         for x in range(1,int(week) + 1):
-            # Create the week string
-            week_string = "|" + str(x) + "|"
+            header_string = header_string + str(x) + "|"
+            divider_string = divider_string + "---|"
 
             # Iterates over each of the weekly csvs
             f        = open(str(year) + "/week" + str(x) + ".csv", 'r')
@@ -522,15 +524,21 @@ def season_output(week, year):
             next(week_csv, None)
 
             # Leave loop at 25
-            breakout = 1
+            breakout = 0
             for team in week_csv:
-                week_string = week_string + flair_map[team[1]] + "|"
+                rank_list[breakout] = rank_list[breakout] + (flair_map[team[1]]) + "|"
                 breakout = breakout + 1
-                if breakout > 25:
+                if breakout > 24:
                     break
 
-            # Writes to the file
-            file.write(week_string + "\n")
+        # Writes to the file
+        file.write(header_string + "\n")
+        file.write(divider_string + "\n")
+
+        x = 1
+        for rank in rank_list:
+            file.write("|" + str(x) + rank + "\n")
+            x += 1
 
 # Calls my function
 if __name__ == '__main__':
