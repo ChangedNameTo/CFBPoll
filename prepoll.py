@@ -65,8 +65,6 @@ def parse_scores(scores,fbs_only,team_list,date):
         # If there is a date, checks for a break condition. This is to resimulate weeks
         # prior after I make changes
         if date != None:
-            print(date)
-            print(captures[0][0])
             if captures[0][0] == date and date_check == False:
                 date_check = True
             elif captures[0][0] != date and date_check == True:
