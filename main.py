@@ -36,13 +36,18 @@ def main(args):
     week        = args[1]
     year        = args[2]
 
+    if len(args) == 4:
+        date = args[3]
+    else:
+        date = None
+
     scores        = prepoll.grab_web_page('web')
-    parsed_scores = prepoll.parse_scores(scores, fbs_only, team_list)
+    parsed_scores = prepoll.parse_scores(scores, fbs_only, team_list, date)
     prepoll.output_data(parsed_scores, week, year)
 
-    start_poll(parsed_scores, week, year)
+    start_poll(parsed_scores, week, year, date)
 
-def start_poll(parsed_scores, week, year):
+def start_poll(parsed_scores, week, year, date):
     team_elo_dict = {}
 
     # K value manipulates how much scores are affected by results. This is super important
@@ -63,7 +68,7 @@ def start_poll(parsed_scores, week, year):
     # This will be replaced with a carryover seed
     # Teams will retain a portion of points based on my guess of average movement
     previous_scores        = prepoll.grab_web_page('past')
-    previous_parsed_scores = prepoll.parse_scores(previous_scores, fbs_only, team_list)
+    previous_parsed_scores = prepoll.parse_scores(previous_scores, fbs_only, team_list, date)
     team_elo_dict          = previous_season(previous_parsed_scores)
 
     # shuffle(parsed_scores)
@@ -484,8 +489,12 @@ def math_stats_calculations(point_map):
 
 # Calculates the difference in ranks from week to week
 def previous_change(week, year, final_ranking):
-    f             = open(str(year) + "/week" + str(int(week) - 1) + ".csv", 'r')
-    previous_week = csv.reader(f)
+    if int(week) > 1:
+        f             = open(str(year) + "/week" + str(int(week) - 1) + ".csv", 'r')
+        previous_week = csv.reader(f)
+    else:
+        f             = open(str(int(year) - 1) + "/weekFinal.csv", 'r')
+        previous_week = csv.reader(f)
 
     # Tracks the change for each team from week to week
     change_map = {}
@@ -500,6 +509,7 @@ def previous_change(week, year, final_ranking):
         x = x + 1
 
     return change_map
+
 
 # Season ranking evolution output for fun
 def season_output(week, year):

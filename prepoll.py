@@ -31,7 +31,7 @@ def grab_web_page(page):
     return score_table
 
 # Takes the passed in score table, returns an array of just scores
-def parse_scores(scores,fbs_only,team_list):
+def parse_scores(scores,fbs_only,team_list,date):
     # Strips all spaces longer than one
     scores = re.sub(' +', ' ', scores)
 
@@ -58,8 +58,19 @@ def parse_scores(scores,fbs_only,team_list):
 
     # Runs a regex on each score to clean up the data
     captured_scores = []
+    date_check = False
     for score in parsed_scores:
         captures = re.findall("(\d{2}-\w{3}-\d{2})\s([\w+-?\s.&'`?]+)\s+(\d+)\s([\w+-?\s.&'`?]+)\s+(\d+)\s?([\w+\s.?]+)?$", score)
+
+        # If there is a date, checks for a break condition. This is to resimulate weeks
+        # prior after I make changes
+        if date != None:
+            print(date)
+            print(captures[0][0])
+            if captures[0][0] == date and date_check == False:
+                date_check = True
+            elif captures[0][0] != date and date_check == True:
+                break
 
         # If it's fbs only, checks that the team exists in the team array before adding the score
         if(fbs_only):

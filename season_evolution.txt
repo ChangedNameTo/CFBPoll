@@ -1,27 +1,27 @@
-|Rank\Week|1|2|
-|---|---|---|
-|1|[Central Florida](#f/ucf)|[Alabama](#f/alabama)|
-|2|[Wisconsin](#f/wisconsin)|[Ohio State](#f/ohiostate)|
-|3|[Alabama](#f/alabama)|[Oklahoma](#f/oklahoma)|
-|4|[Ohio State](#f/ohiostate)|[Wisconsin](#f/wisconsin)|
-|5|[Oklahoma](#f/oklahoma)|[Boise St](#f/boisestate)|
-|6|[TCU](#f/tcu)|[Penn State](#f/pennstate)|
-|7|[Penn State](#f/pennstate)|[Stanford](#f/stanford)|
-|8|[Boise St](#f/boisestate)|[Iowa](#f/iowa)|
-|9|[Southern Cal](#f/usc)|[Central Florida](#f/ucf)|
-|10|[Hawai`i](#f/hawaii)|[Washington St](#f/washingtonstate)|
-|11|[Notre Dame](#f/notredame)|[Georgia](#f/georgia)|
-|12|[Northwestern](#f/northwestern)|[Houston](#f/houston)|
-|13|[Michigan St](#f/michiganstate)|[Duke](#f/duke)|
-|14|[Auburn](#f/auburn)|[Vanderbilt](#f/vanderbilt)|
-|15|[Fresno St](#f/fresnostate)|[Hawai`i](#f/hawaii)|
-|16|[LSU](#f/lsu)|[Notre Dame](#f/notredame)|
-|17|[Washington St](#f/washingtonstate)|[Oklahoma St](#f/oklahomastate)|
-|18|[Stanford](#f/stanford)|[Minnesota](#f/minnesota)|
-|19|[South Carolina](#f/southcarolina)|[Kentucky](#f/kentucky)|
-|20|[Virginia Tech](#f/virginiatech)|[Arizona St](#f/arizonastate)|
-|21|[Iowa](#f/iowa)|[TCU](#f/tcu)|
-|22|[North Texas](#f/northtexas)|[North Carolina St](#f/ncstate)|
-|23|[Marshall](#f/marshall)|[Mississippi St](#f/mississippistate)|
-|24|[Wake Forest](#f/wakeforest)|[Boston College](#f/bostoncollege)|
-|25|[Houston](#f/houston)|[Virginia Tech](#f/virginiatech)|
+|Rank\Week|1|
+|---|---|
+|1|[Oklahoma](#f/oklahoma)|
+|2|[Alabama](#f/alabama)|
+|3|[Central Florida](#f/ucf)|
+|4|[Ohio State](#f/ohiostate)|
+|5|[Wisconsin](#f/wisconsin)|
+|6|[Boise St](#f/boisestate)|
+|7|[Fresno St](#f/fresnostate)|
+|8|[Stanford](#f/stanford)|
+|9|[Southern Cal](#f/usc)|
+|10|[Penn State](#f/pennstate)|
+|11|[Iowa](#f/iowa)|
+|12|[South Carolina](#f/southcarolina)|
+|13|[Boston College](#f/bostoncollege)|
+|14|[Arizona St](#f/arizonastate)|
+|15|[Washington St](#f/washingtonstate)|
+|16|[Oregon](#f/oregon)|
+|17|[Notre Dame](#f/notredame)|
+|18|[Duke](#f/duke)|
+|19|[Hawai`i](#f/hawaii)|
+|20|[Auburn](#f/auburn)|
+|21|[Houston](#f/houston)|
+|22|[Minnesota](#f/minnesota)|
+|23|[West Virginia](#f/westvirginia)|
+|24|[Michigan St](#f/michiganstate)|
+|25|[Mississippi](#f/olemiss)|
