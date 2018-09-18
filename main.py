@@ -100,15 +100,16 @@ def start_poll(parsed_scores, week, year, date):
         if(int(score[2]) > int(score[4])):
             home_score = 1
             away_score = 0
-            mom_multiplier = math.log(abs(int(score[2]) - int(score[4]))) * (2.2 / ((rating_home - rating_away)*0.001 + 2.2))
         else:
             home_score = 0
             away_score = 1
-            mom_multiplier = math.log(abs(int(score[2]) - int(score[4]))) * (2.2 / ((rating_away - rating_home)*0.001 + 2.2))
+
+        mom_multiplier = math.log(abs(int(score[2]) - int(score[4])) + 1)
+        corr_coeff     = 2.2 / ((rating_away - rating_home)*0.001 + 2.2)
 
         # Apply the function for updating ratings
-        new_rating_home = rating_home + k_value * (home_score - expected_home) * mom_multiplier
-        new_rating_away = rating_away + k_value * (away_score - expected_away) * mom_multiplier
+        new_rating_home = rating_home + k_value * (home_score - expected_home) * mom_multiplier * corr_coeff
+        new_rating_away = rating_away + k_value * (away_score - expected_away) * mom_multiplier * corr_coeff
 
         # Check that the new ratings for winners is actually higher
         if(home_score == 1):

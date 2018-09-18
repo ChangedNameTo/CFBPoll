@@ -10,18 +10,18 @@
 |8|[Stanford](#f/stanford)|[Iowa](#f/iowa)|[Mississippi St](#f/mississippistate)|
 |9|[Southern Cal](#f/usc)|[Central Florida](#f/ucf)|[Minnesota](#f/minnesota)|
 |10|[Penn State](#f/pennstate)|[Washington St](#f/washingtonstate)|[Stanford](#f/stanford)|
-|11|[Iowa](#f/iowa)|[Georgia](#f/georgia)|[Wisconsin](#f/wisconsin)|
-|12|[South Carolina](#f/southcarolina)|[Houston](#f/houston)|[Notre Dame](#f/notredame)|
-|13|[Boston College](#f/bostoncollege)|[Duke](#f/duke)|[Washington St](#f/washingtonstate)|
+|11|[Iowa](#f/iowa)|[Georgia](#f/georgia)|[Notre Dame](#f/notredame)|
+|12|[South Carolina](#f/southcarolina)|[Duke](#f/duke)|[Clemson](#f/clemson)|
+|13|[Boston College](#f/bostoncollege)|[Houston](#f/houston)|[Wisconsin](#f/wisconsin)|
 |14|[Arizona St](#f/arizonastate)|[Vanderbilt](#f/vanderbilt)|[Iowa](#f/iowa)|
-|15|[Washington St](#f/washingtonstate)|[Hawai`i](#f/hawaii)|[Clemson](#f/clemson)|
-|16|[Oregon](#f/oregon)|[Notre Dame](#f/notredame)|[Boston College](#f/bostoncollege)|
-|17|[Notre Dame](#f/notredame)|[Oklahoma St](#f/oklahomastate)|[Central Florida](#f/ucf)|
-|18|[Duke](#f/duke)|[Minnesota](#f/minnesota)|[North Texas](#f/northtexas)|
-|19|[Hawai`i](#f/hawaii)|[Kentucky](#f/kentucky)|[Indiana](#f/indiana)|
-|20|[Auburn](#f/auburn)|[Arizona St](#f/arizonastate)|[Oregon](#f/oregon)|
-|21|[Houston](#f/houston)|[TCU](#f/tcu)|[South Florida](#f/usf)|
+|15|[Oregon](#f/oregon)|[Hawai`i](#f/hawaii)|[Washington St](#f/washingtonstate)|
+|16|[Notre Dame](#f/notredame)|[Notre Dame](#f/notredame)|[Boston College](#f/bostoncollege)|
+|17|[Washington St](#f/washingtonstate)|[Minnesota](#f/minnesota)|[Indiana](#f/indiana)|
+|18|[Duke](#f/duke)|[Oklahoma St](#f/oklahomastate)|[North Texas](#f/northtexas)|
+|19|[Hawai`i](#f/hawaii)|[Arizona St](#f/arizonastate)|[Central Florida](#f/ucf)|
+|20|[Auburn](#f/auburn)|[Kentucky](#f/kentucky)|[South Florida](#f/usf)|
+|21|[Houston](#f/houston)|[TCU](#f/tcu)|[Oregon](#f/oregon)|
 |22|[Minnesota](#f/minnesota)|[North Carolina St](#f/ncstate)|[Fresno St](#f/fresnostate)|
-|23|[West Virginia](#f/westvirginia)|[Mississippi St](#f/mississippistate)|[Kentucky](#f/kentucky)|
-|24|[Michigan St](#f/michiganstate)|[Boston College](#f/bostoncollege)|[Missouri](#f/missouri)|
-|25|[Mississippi](#f/olemiss)|[Virginia Tech](#f/virginiatech)|[Michigan](#f/michigan)|
+|23|[Michigan St](#f/michiganstate)|[Mississippi St](#f/mississippistate)|[Kentucky](#f/kentucky)|
+|24|[West Virginia](#f/westvirginia)|[Boston College](#f/bostoncollege)|[Missouri](#f/missouri)|
+|25|[Mississippi](#f/olemiss)|[Colorado](#f/colorado)|[Syracuse](#f/syracuse)|
