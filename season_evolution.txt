@@ -1,27 +1,27 @@
-|Rank\Week|1|2|3|
-|---|---|---|---|
-|1|[Oklahoma](#f/oklahoma)|[Alabama](#f/alabama)|[Alabama](#f/alabama)|
-|2|[Alabama](#f/alabama)|[Ohio State](#f/ohiostate)|[Ohio State](#f/ohiostate)|
-|3|[Central Florida](#f/ucf)|[Oklahoma](#f/oklahoma)|[Penn State](#f/pennstate)|
-|4|[Ohio State](#f/ohiostate)|[Wisconsin](#f/wisconsin)|[Oklahoma](#f/oklahoma)|
-|5|[Wisconsin](#f/wisconsin)|[Boise St](#f/boisestate)|[Georgia](#f/georgia)|
-|6|[Boise St](#f/boisestate)|[Penn State](#f/pennstate)|[Oklahoma St](#f/oklahomastate)|
-|7|[Fresno St](#f/fresnostate)|[Stanford](#f/stanford)|[Duke](#f/duke)|
-|8|[Stanford](#f/stanford)|[Iowa](#f/iowa)|[Mississippi St](#f/mississippistate)|
-|9|[Southern Cal](#f/usc)|[Central Florida](#f/ucf)|[Minnesota](#f/minnesota)|
-|10|[Penn State](#f/pennstate)|[Washington St](#f/washingtonstate)|[Stanford](#f/stanford)|
-|11|[Iowa](#f/iowa)|[Georgia](#f/georgia)|[Notre Dame](#f/notredame)|
-|12|[South Carolina](#f/southcarolina)|[Duke](#f/duke)|[Clemson](#f/clemson)|
-|13|[Boston College](#f/bostoncollege)|[Houston](#f/houston)|[Wisconsin](#f/wisconsin)|
-|14|[Arizona St](#f/arizonastate)|[Vanderbilt](#f/vanderbilt)|[Iowa](#f/iowa)|
-|15|[Oregon](#f/oregon)|[Hawai`i](#f/hawaii)|[Washington St](#f/washingtonstate)|
-|16|[Notre Dame](#f/notredame)|[Notre Dame](#f/notredame)|[Boston College](#f/bostoncollege)|
-|17|[Washington St](#f/washingtonstate)|[Minnesota](#f/minnesota)|[Indiana](#f/indiana)|
-|18|[Duke](#f/duke)|[Oklahoma St](#f/oklahomastate)|[North Texas](#f/northtexas)|
-|19|[Hawai`i](#f/hawaii)|[Arizona St](#f/arizonastate)|[Central Florida](#f/ucf)|
-|20|[Auburn](#f/auburn)|[Kentucky](#f/kentucky)|[South Florida](#f/usf)|
-|21|[Houston](#f/houston)|[TCU](#f/tcu)|[Oregon](#f/oregon)|
-|22|[Minnesota](#f/minnesota)|[North Carolina St](#f/ncstate)|[Fresno St](#f/fresnostate)|
-|23|[Michigan St](#f/michiganstate)|[Mississippi St](#f/mississippistate)|[Kentucky](#f/kentucky)|
-|24|[West Virginia](#f/westvirginia)|[Boston College](#f/bostoncollege)|[Missouri](#f/missouri)|
-|25|[Mississippi](#f/olemiss)|[Colorado](#f/colorado)|[Syracuse](#f/syracuse)|
+|Rank\Week|1|2|3|4|
+|---|---|---|---|---|
+|1|[Oklahoma](#f/oklahoma)|[Alabama](#f/alabama)|[Alabama](#f/alabama)|[Alabama](#f/alabama)|
+|2|[Alabama](#f/alabama)|[Ohio State](#f/ohiostate)|[Ohio State](#f/ohiostate)|[Ohio State](#f/ohiostate)|
+|3|[Central Florida](#f/ucf)|[Oklahoma](#f/oklahoma)|[Penn State](#f/pennstate)|[Penn State](#f/pennstate)|
+|4|[Ohio State](#f/ohiostate)|[Wisconsin](#f/wisconsin)|[Oklahoma](#f/oklahoma)|[Oklahoma](#f/oklahoma)|
+|5|[Wisconsin](#f/wisconsin)|[Boise St](#f/boisestate)|[Georgia](#f/georgia)|[Georgia](#f/georgia)|
+|6|[Boise St](#f/boisestate)|[Penn State](#f/pennstate)|[Oklahoma St](#f/oklahomastate)|[Notre Dame](#f/notredame)|
+|7|[Fresno St](#f/fresnostate)|[Stanford](#f/stanford)|[Duke](#f/duke)|[Clemson](#f/clemson)|
+|8|[Stanford](#f/stanford)|[Iowa](#f/iowa)|[Mississippi St](#f/mississippistate)|[Wisconsin](#f/wisconsin)|
+|9|[Southern Cal](#f/usc)|[Central Florida](#f/ucf)|[Minnesota](#f/minnesota)|[Stanford](#f/stanford)|
+|10|[Penn State](#f/pennstate)|[Washington St](#f/washingtonstate)|[Stanford](#f/stanford)|[Central Florida](#f/ucf)|
+|11|[Iowa](#f/iowa)|[Georgia](#f/georgia)|[Notre Dame](#f/notredame)|[Duke](#f/duke)|
+|12|[South Carolina](#f/southcarolina)|[Duke](#f/duke)|[Clemson](#f/clemson)|[Kentucky](#f/kentucky)|
+|13|[Boston College](#f/bostoncollege)|[Houston](#f/houston)|[Wisconsin](#f/wisconsin)|[Michigan](#f/michigan)|
+|14|[Arizona St](#f/arizonastate)|[Vanderbilt](#f/vanderbilt)|[Iowa](#f/iowa)|[South Florida](#f/usf)|
+|15|[Oregon](#f/oregon)|[Hawai`i](#f/hawaii)|[Washington St](#f/washingtonstate)|[LSU](#f/lsu)|
+|16|[Notre Dame](#f/notredame)|[Notre Dame](#f/notredame)|[Boston College](#f/bostoncollege)|[Buffalo](#f/buffalo)|
+|17|[Washington St](#f/washingtonstate)|[Minnesota](#f/minnesota)|[Indiana](#f/indiana)|[North Carolina St](#f/ncstate)|
+|18|[Duke](#f/duke)|[Oklahoma St](#f/oklahomastate)|[North Texas](#f/northtexas)|[Syracuse](#f/syracuse)|
+|19|[Hawai`i](#f/hawaii)|[Arizona St](#f/arizonastate)|[Central Florida](#f/ucf)|[North Texas](#f/northtexas)|
+|20|[Auburn](#f/auburn)|[Kentucky](#f/kentucky)|[South Florida](#f/usf)|[Texas](#f/texas)|
+|21|[Houston](#f/houston)|[TCU](#f/tcu)|[Oregon](#f/oregon)|[West Virginia](#f/westvirginia)|
+|22|[Minnesota](#f/minnesota)|[North Carolina St](#f/ncstate)|[Fresno St](#f/fresnostate)|[Memphis](#f/memphis)|
+|23|[Michigan St](#f/michiganstate)|[Mississippi St](#f/mississippistate)|[Kentucky](#f/kentucky)|[Auburn](#f/auburn)|
+|24|[West Virginia](#f/westvirginia)|[Boston College](#f/bostoncollege)|[Missouri](#f/missouri)|[Fresno St](#f/fresnostate)|
+|25|[Mississippi](#f/olemiss)|[Colorado](#f/colorado)|[Syracuse](#f/syracuse)|[Cincinnati](#f/cincinnati)|

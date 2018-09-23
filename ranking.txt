@@ -1,50 +1,50 @@
 |Rank|Team|Flair|Record|SoS^^1|SoS Rank|ELO|Change|
 |---|---|---|---|---|---|---|---|
-|1|Alabama|[Alabama](#f/alabama)|3-0|53.5|41|1597.88|0|
-|2|Ohio State|[Ohio State](#f/ohiostate)|3-0|65.25|80|1587.66|0|
-|3|Penn State|[Penn State](#f/pennstate)|3-0|59.5|62|1580.92|3|
-|4|Oklahoma|[Oklahoma](#f/oklahoma)|3-0|69.5|99|1580.52|-1|
-|5|Georgia|[Georgia](#f/georgia)|3-0|73.5|102|1568.8|6|
-|6|Oklahoma St|[Oklahoma St](#f/oklahomastate)|3-0|63.0|73|1565.36|12|
-|7|Duke|[Duke](#f/duke)|3-0|54.25|43|1564.59|5|
-|8|Mississippi St|[Mississippi St](#f/mississippistate)|3-0|72.5|101|1560.47|15|
-|9|Minnesota|[Minnesota](#f/minnesota)|3-0|67.0|89|1557.93|8|
-|10|Stanford|[Stanford](#f/stanford)|3-0|69.25|98|1555.99|-3|
-|11|Notre Dame|[Notre Dame](#f/notredame)|3-0|42.25|18|1555.39|5|
-|12|Clemson|[Clemson](#f/clemson)|3-0|62.75|72|1552.98|21|
-|13|Wisconsin|[Wisconsin](#f/wisconsin)|2-1|63.75|75|1552.69|-9|
-|14|Iowa|[Iowa](#f/iowa)|3-0|78.75|116|1550.94|-6|
-|15|Washington St|[Washington St](#f/washingtonstate)|3-0|86.5|125|1550.69|-5|
-|16|Boston College|[Boston College](#f/bostoncollege)|3-0|78.0|115|1548.69|8|
-|17|Indiana|[Indiana](#f/indiana)|3-0|52.75|39|1548.63|17|
-|18|North Texas|[North Texas](#f/northtexas)|3-0|90.25|128|1548.52|20|
-|19|Central Florida|[Central Florida](#f/ucf)|2-0|82.667|121|1548.06|-10|
-|20|South Florida|[South Florida](#f/usf)|3-0|75.75|110|1545.68|8|
-|21|Oregon|[Oregon](#f/oregon)|3-0|94.0|130|1545.34|9|
-|22|Fresno St|[Fresno St](#f/fresnostate)|2-1|57.75|55|1542.34|20|
-|23|Kentucky|[Kentucky](#f/kentucky)|3-0|76.25|111|1541.73|-3|
-|24|Missouri|[Missouri](#f/missouri)|3-0|77.75|114|1540.8|5|
-|25|Syracuse|[Syracuse](#f/syracuse)|3-0|85.0|123|1537.66|23|
+|1|Alabama|[Alabama](#f/alabama)|4-0|50.8|28|1615.94|0|
+|2|Ohio State|[Ohio State](#f/ohiostate)|4-0|80.2|116|1605.88|0|
+|3|Penn State|[Penn State](#f/pennstate)|4-0|69.2|93|1602.53|0|
+|4|Oklahoma|[Oklahoma](#f/oklahoma)|4-0|67.2|90|1592.39|0|
+|5|Georgia|[Georgia](#f/georgia)|4-0|63.2|79|1587.72|0|
+|6|Notre Dame|[Notre Dame](#f/notredame)|4-0|54.0|38|1577.8|5|
+|7|Clemson|[Clemson](#f/clemson)|4-0|74.2|107|1573.22|5|
+|8|Wisconsin|[Wisconsin](#f/wisconsin)|3-1|53.0|36|1571.24|5|
+|9|Stanford|[Stanford](#f/stanford)|4-0|58.0|56|1571.18|1|
+|10|Central Florida|[Central Florida](#f/ucf)|3-0|83.5|121|1567.62|9|
+|11|Duke|[Duke](#f/duke)|4-0|66.0|87|1567.59|-4|
+|12|Kentucky|[Kentucky](#f/kentucky)|4-0|60.8|69|1566.37|11|
+|13|Michigan|[Michigan](#f/michigan)|3-1|62.4|73|1559.88|13|
+|14|South Florida|[South Florida](#f/usf)|4-0|83.0|120|1558.57|6|
+|15|LSU|[LSU](#f/lsu)|4-0|49.4|22|1557.77|12|
+|16|Buffalo|[Buffalo](#f/buffalo)|4-0|75.4|109|1556.75|14|
+|17|North Carolina St|[North Carolina St](#f/ncstate)|3-0|79.25|115|1556.57|14|
+|18|Syracuse|[Syracuse](#f/syracuse)|4-0|83.6|122|1555.84|7|
+|19|North Texas|[North Texas](#f/northtexas)|4-0|98.2|130|1553.44|-1|
+|20|Texas|[Texas](#f/texas)|3-1|55.4|42|1551.76|14|
+|21|West Virginia|[West Virginia](#f/westvirginia)|3-0|77.0|112|1550.67|17|
+|22|Memphis|[Memphis](#f/memphis)|3-1|86.8|125|1550.31|11|
+|23|Auburn|[Auburn](#f/auburn)|3-1|57.2|52|1545.03|17|
+|24|Fresno St|[Fresno St](#f/fresnostate)|2-1|70.25|96|1542.34|-2|
+|25|Cincinnati|[Cincinnati](#f/cincinnati)|4-0|85.8|123|1541.32|11|
 ||||||||
-|96|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-2|57.5|53|1472.48|-12|
+|107|Georgia Tech|[Georgia Tech](#f/georgiatech)|1-3|47.6|17|1452.23|-11|
 ||||||||
-|130|UTEP|[UTEP](#f/utep)|0-3|69.0|95|1402.37|-1|
+|130|UTEP|[UTEP](#f/utep)|0-4|86.2|124|1386.88|0|
 
 ---
 
-**Mean Points:** 1501.16
+**Mean Points:** 1500.73
 
-**Median Points:** 1502.99
+**Median Points:** 1503.12
 
-**Standard Deviation of Points:** 41.2
+**Standard Deviation of Points:** 47.7
 
-**Variance:** 1697.63
+**Variance:** 2275.18
 
 ---
 
-**Hardest SoS:** [Iowa St](#f/iowastate) Iowa St
+**Hardest SoS:** [UCLA](#f/ucla) UCLA
 
-**Easiest SoS:** [Oregon](#f/oregon) Oregon
+**Easiest SoS:** [North Texas](#f/northtexas) North Texas
 
 ---
 
