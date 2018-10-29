@@ -302,7 +302,7 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats, last_week):
         for key, value in sos_ranking.items():
             if value == 1:
                 easiest = key
-            if value == 130:
+            if value == 129:
                 hardest = key
 
         file.write("---\n")
