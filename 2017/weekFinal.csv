@@ -1,5 +1,5 @@
 Rank,Team,Record,SoS,SoS Rank,ELO
-1,Central Florida,13-0,62.5,79,1691.5
+1,Central Florida,13-0,62.5,80,1691.5
 2,Alabama,13-1,50.933,20,1691.4
 3,Wisconsin,13-1,53.267,33,1691.05
 4,Georgia,13-2,45.625,6,1679.56
@@ -21,7 +21,7 @@ Rank,Team,Record,SoS,SoS Rank,ELO
 20,Memphis,10-3,66.929,90,1601.62
 21,Troy,11-2,81.786,122,1588.28
 22,Michigan St,10-3,50.143,17,1585.14
-23,Miami FL,10-3,52.286,26,1584.36
+23,Miami FL,10-3,52.286,25,1584.36
 24,Ohio U.,9-4,77.214,116,1583.36
 25,Fresno St,10-4,62.333,77,1583.09
 26,Appalachian St,9-4,83.214,126,1582.79
@@ -30,10 +30,10 @@ Rank,Team,Record,SoS,SoS Rank,ELO
 29,LSU,9-4,58.357,51,1574.71
 30,Toledo,11-3,72.467,105,1573.83
 31,North Carolina St,9-4,52.357,27,1570.34
-32,Virginia Tech,9-4,62.5,80,1562.32
+32,Virginia Tech,9-4,62.5,79,1562.32
 33,Iowa St,8-5,55.214,41,1560.29
 34,San Diego St,10-3,69.5,97,1559.52
-35,Texas,7-6,57.786,49,1558.29
+35,Texas,7-6,57.786,50,1558.29
 36,Michigan,8-5,54.143,35,1557.82
 37,Army,10-3,67.143,91,1557.46
 38,Purdue,7-6,52.714,28,1555.44
@@ -50,7 +50,7 @@ Rank,Team,Record,SoS,SoS Rank,ELO
 49,Duke,7-6,59.5,59,1532.96
 50,Wake Forest,8-5,48.429,13,1531.23
 51,Arkansas St,7-5,87.308,129,1529.19
-52,Navy,7-6,52.286,25,1525.59
+52,Navy,7-6,52.286,26,1525.59
 53,Temple,7-6,62.786,81,1524.09
 54,Washington St,9-4,53.357,34,1523.81
 55,Oregon,7-6,57.643,48,1521.61
@@ -62,17 +62,17 @@ Rank,Team,Record,SoS,SoS Rank,ELO
 61,Arizona St,7-6,52.071,24,1508.28
 62,Northern Illinois,8-5,72.071,103,1504.72
 63,Texas-San Antonio,6-5,81.5,121,1501.85
-64,Mississippi,6-6,61.769,73,1501.73
+64,Mississippi,6-6,61.769,74,1501.73
 65,Florida Int'l,8-5,68.286,93,1501.65
 66,Georgia Tech,5-6,55.167,40,1500.83
 67,Arizona,7-6,66.643,89,1500.81
 68,Colorado St,7-6,74.714,113,1500.3
 69,Alabama-Birmingham,8-5,83.071,125,1497.65
-70,Kentucky,7-6,57.786,50,1497.03
-71,Pittsburgh,5-7,58.385,54,1495.99
+70,Kentucky,7-6,57.786,49,1497.03
+71,Pittsburgh,5-7,58.385,53,1495.99
 72,West Virginia,7-6,55.857,42,1492.51
 73,Eastern Michigan,5-7,69.231,95,1491.13
-74,California,5-7,61.769,74,1489.98
+74,California,5-7,61.769,73,1489.98
 75,North Texas,9-5,60.467,68,1489.03
 76,Western Michigan,6-6,70.385,99,1486.41
 77,Utah St,6-7,73.143,109,1484.71
@@ -116,7 +116,7 @@ Rank,Team,Record,SoS,SoS Rank,ELO
 115,Cincinnati,4-8,60.385,67,1378.39
 116,Coastal Carolina,3-9,80.692,120,1373.36
 117,Georgia Southern,2-10,69.385,96,1373.07
-118,Bowling Green,2-10,58.385,53,1371.77
+118,Bowling Green,2-10,58.385,54,1371.77
 119,Illinois,2-10,51.615,23,1368.25
 120,Hawai`i,3-9,74.385,112,1360.7
 121,Texas St-San Marcos,2-10,70.231,98,1358.24
