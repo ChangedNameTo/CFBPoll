@@ -1,0 +1,55 @@
+|Rank|Team|Flair|Record|SoS^^1|SoS Rank|ELO|Change|
+|---|---|---|---|---|---|---|---|
+|1|Alabama|[Alabama](#f/alabama)|11-0|61.833|63|1712.83|0|
+|2|Clemson|[Clemson](#f/clemson)|11-0|58.667|43|1697.91|0|
+|3|Notre Dame|[Notre Dame](#f/notredame)|11-0|59.333|51|1685.4|1|
+|4|Michigan|[Michigan](#f/michigan)|10-1|56.25|33|1673.59|-1|
+|5|Central Florida|[Central Florida](#f/ucf)|10-0|66.364|77|1663.92|2|
+|6|Georgia|[Georgia](#f/georgia)|10-1|56.083|31|1660.77|-1|
+|7|Oklahoma|[Oklahoma](#f/oklahoma)|10-1|58.833|45|1656.31|-1|
+|8|Washington St|[Washington St](#f/washingtonstate)|10-1|73.917|109|1639.61|2|
+|9|Ohio State|[Ohio State](#f/ohiostate)|10-1|70.083|95|1639.5|-1|
+|10|Utah St|[Utah St](#f/utahstate)|10-1|88.667|129|1633.84|-1|
+|11|Fresno St|[Fresno St](#f/fresnostate)|9-2|74.333|113|1623.22|0|
+|12|Boise St|[Boise St](#f/boisestate)|9-2|65.333|73|1621.9|0|
+|13|Penn State|[Penn State](#f/pennstate)|8-3|49.083|8|1610.55|3|
+|14|LSU|[LSU](#f/lsu)|9-2|58.333|41|1603.01|4|
+|15|Texas|[Texas](#f/texas)|8-3|57.167|37|1602.28|6|
+|16|Appalachian St|[Appalachian St](#f/appalachianstate)|8-2|77.091|117|1600.53|3|
+|17|Washington|[Washington](#f/washington)|8-3|66.167|75|1589.32|6|
+|18|West Virginia|[West Virginia](#f/westvirginia)|8-2|66.273|76|1585.73|-4|
+|19|Utah|[Utah](#f/utah)|8-3|58.25|40|1585.4|7|
+|20|Iowa|[Iowa](#f/iowa)|7-4|58.25|39|1581.09|9|
+|21|Cincinnati|[Cincinnati](#f/cincinnati)|9-2|67.167|84|1580.46|-6|
+|22|Missouri|[Missouri](#f/missouri)|7-4|50.167|9|1580.16|9|
+|23|Troy|[Troy](#f/troy)|9-2|82.417|125|1579.51|2|
+|24|Army|[Army](#f/army)|9-2|75.0|114|1577.27|0|
+|25|Temple|[Temple](#f/temple)|7-4|58.583|42|1577.0|2|
+||||||||
+|44|Georgia Tech|[Georgia Tech](#f/georgiatech)|7-4|69.0|90|1548.75|1|
+||||||||
+|129|Connecticut|[Connecticut](#f/connecticut)|1-10|59.833|55|1308.26|-1|
+
+---
+
+**Mean Points:** 1501.15
+
+**Median Points:** 1511.51
+
+**Standard Deviation of Points:** 89.82
+
+**Variance:** 8067.98
+
+---
+
+**Hardest SoS:** [UCLA](#f/ucla) UCLA
+
+**Easiest SoS:** [Utah St](#f/utahstate) Utah St
+
+---
+
+1: Lower means harder SoS
+
+[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/9csiv4/cfb_poll_20_the_elo_update/)
+
+[Link to the github repo here](https://github.com/ChangedNameTo/CFBPoll)
