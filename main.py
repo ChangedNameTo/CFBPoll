@@ -20,9 +20,12 @@ import statistics
 from random import shuffle
 # Need devnull
 import os
+# Average a list
+import numpy as np
 
 # Splitting up my file into libraries because this was tough last time
 import prepoll
+import conferences
 
 # Calls all of the other subordinate functions
 def main(args):
@@ -253,6 +256,8 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats, last_week):
         # Creates the flair map for everyone
         flair_map = generate_flair_map()
 
+        conference_ranking(final_ranking, sos_ranking)
+
         for team in final_ranking:
             # Calculates some things here to pretty up the string itself
             # Looks weird cause python is weird and does weird things
@@ -458,6 +463,8 @@ def final_rankings_graph(point_map, final_ranking, extra_stats, math_stats, last
         # Creates the flair map for everyone
         flair_map = generate_flair_map()
 
+        conference_ranking(final_ranking, sos_ranking)
+
         for team in final_ranking:
             # Calculates some things here to pretty up the string itself
             # Looks weird cause python is weird and does weird things
@@ -550,6 +557,51 @@ def season_output(week, year):
         for rank in rank_list:
             file.write("|" + str(x) + rank + "\n")
             x += 1
+
+def conference_ranking(final_ranking, sos_ranking):
+    conference_aff = 'util/conferences.csv'
+
+    f = open(conference_aff)
+    conference_csv = csv.reader(f)
+
+    conference_sos_map     = {}
+    conference_ranking_map = {}
+
+    for team in conference_csv:
+        if team[1] not in conference_sos_map.keys():
+            conference_sos_map[team[1]] = []
+        if team[1] not in conference_ranking_map.keys():
+            conference_ranking_map[team[1]] = []
+
+        conference_sos_map[team[1]].append(sos_ranking[team[0]])
+        conference_ranking_map[team[1]].append(final_ranking.index(team[0]) + 1)
+
+    for key, values in conference_sos_map.items():
+        conference_sos_map[key] = np.mean(values)
+
+    for key, values in conference_ranking_map.items():
+        conference_ranking_map[key] = np.mean(values)
+
+    ranking_copy = copy.deepcopy(conference_ranking_map)
+    ranking_order = []
+
+    for x in range(0,len(conference_ranking_map)):
+        min_conf = min(ranking_copy.items(), key=operator.itemgetter(1))[0]
+        ranking_order.append(min_conf)
+        del ranking_copy[min_conf]
+
+    with open("conference_rankings.txt", "w") as file:
+        header_string  = "|Ranking|Conference|Average Ranking|Average SOS|"
+        divider_string = "|---|---|---|---|"
+
+        file.write(header_string + "\n")
+        file.write(divider_string + "\n")
+        ranking = 1
+        for team in ranking_order:
+            file.write("|" + str(ranking) + "|" + str(team) + "|" +
+                    str(round(conference_ranking_map[team], 2))
+                    + "|" + str(round(conference_sos_map[team], 2)) + "|\n")
+            ranking += 1
 
 # Calls my function
 if __name__ == '__main__':
