@@ -1,22 +1,22 @@
 |Ranking|Conference|Average Ranking|Average SOS|
 |---|---|---|---|
-|1|SEC West|44.12|25.75|
-|2|SEC East|47.33|22.33|
-|3|PAC 12 North|51.83|56.33|
-|4|Big 10 East|52.43|21.14|
-|5|ACC Atlantic|56.0|47.43|
-|6|Big 12|57.1|46.6|
-|7|AAC East|59.83|71.67|
-|8|Big 10 West|60.71|36.57|
-|9|Sun Belt East|61.2|90.6|
-|10|Independent|66.0|86.0|
-|11|ACC Coastal|67.43|57.71|
-|12|MW Mountain|67.83|88.67|
-|13|PAC 12 South|70.33|43.83|
-|14|MW West|74.83|86.5|
-|15|AAC West|75.33|72.33|
-|16|CUSA East|75.57|98.14|
-|17|MAC East|76.33|91.5|
-|18|MAC West|82.0|92.5|
-|19|CUSA West|83.14|111.43|
-|20|Sun Belt West|84.8|93.8|
+|1|SEC West|43.12|26.0|
+|2|SEC East|49.0|28.0|
+|3|PAC 12 North|52.33|57.5|
+|4|Big 10 East|53.14|20.86|
+|5|ACC Atlantic|54.0|41.86|
+|6|Big 12|56.5|42.8|
+|7|Sun Belt East|58.2|91.6|
+|8|Big 10 West|58.71|36.0|
+|9|Independent|61.0|83.2|
+|10|AAC East|64.33|80.33|
+|11|ACC Coastal|66.0|54.14|
+|12|MW Mountain|67.17|84.67|
+|13|PAC 12 South|71.67|46.67|
+|14|CUSA East|75.0|96.14|
+|15|MAC East|75.67|94.0|
+|16|AAC West|76.5|78.83|
+|17|MW West|76.5|84.17|
+|18|CUSA West|81.71|110.57|
+|19|MAC West|86.83|93.33|
+|20|Sun Belt West|87.8|94.6|
