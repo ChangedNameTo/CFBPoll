@@ -27,6 +27,8 @@ import numpy as np
 import prepoll
 import conferences
 
+conference_aff = 'util/conferences.csv'
+
 # Calls all of the other subordinate functions
 def main(args):
     global team_list, fbs_only
@@ -108,7 +110,7 @@ def start_poll(parsed_scores, week, year, date):
             away_score = 1
 
         mom_multiplier = math.log(abs(int(score[2]) - int(score[4])) + 1)
-        corr_coeff     = 2.2 / ((rating_away - rating_home)*0.001 + 2.2)
+        corr_coeff     = 2.2 / ((rating_away - rating_home) * 0.001 + 2.2)
 
         # Apply the function for updating ratings
         new_rating_home = rating_home + k_value * (home_score - expected_home) * mom_multiplier * corr_coeff
@@ -230,11 +232,22 @@ def previous_season(parsed_scores):
 
     math_stats = math_stats_calculations(temp_point_map)
     extra_stats = extra_stats_parsing(parsed_scores)
-    # Fix this next season
+
+    # Mean reverts based off of the average elo of your conference/division
     last_season_graph(temp_point_map, final_ranking, extra_stats, math_stats, 'Final', str(2017))
 
-    for team in team_array:
-        temp_point_map[team] = (temp_point_map[team] - 1500) * (-0.9) + temp_point_map[team]
+    output      = calculate_sos(final_ranking,extra_stats)
+    sos_map     = output[0]
+    sos_ranking = output[1]
+
+    previous_conference_rank = conference_ranking(final_ranking, sos_ranking, temp_point_map, False)
+
+    f = open(conference_aff)
+    conference_csv = csv.reader(f)
+
+    for team in conference_csv:
+        temp_point_map[team[0]] = (temp_point_map[team[0]] - previous_conference_rank[team[1]]) * (-0.9) + temp_point_map[team[0]]
+
     return temp_point_map
 
 # Creates a markdown table that can be posting into the reddit comments section
@@ -256,7 +269,7 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats, last_week):
         # Creates the flair map for everyone
         flair_map = generate_flair_map()
 
-        conference_ranking(final_ranking, sos_ranking)
+        conference_ranking(final_ranking, sos_ranking, point_map, True)
 
         for team in final_ranking:
             # Calculates some things here to pretty up the string itself
@@ -463,7 +476,7 @@ def final_rankings_graph(point_map, final_ranking, extra_stats, math_stats, last
         # Creates the flair map for everyone
         flair_map = generate_flair_map()
 
-        conference_ranking(final_ranking, sos_ranking)
+        conference_ranking(final_ranking, sos_ranking, point_map, True)
 
         for team in final_ranking:
             # Calculates some things here to pretty up the string itself
@@ -558,29 +571,34 @@ def season_output(week, year):
             file.write("|" + str(x) + rank + "\n")
             x += 1
 
-def conference_ranking(final_ranking, sos_ranking):
-    conference_aff = 'util/conferences.csv'
-
+def conference_ranking(final_ranking, sos_ranking, point_map, generate_output):
     f = open(conference_aff)
     conference_csv = csv.reader(f)
 
     conference_sos_map     = {}
     conference_ranking_map = {}
+    conference_elo_map     = {}
 
     for team in conference_csv:
         if team[1] not in conference_sos_map.keys():
             conference_sos_map[team[1]] = []
         if team[1] not in conference_ranking_map.keys():
             conference_ranking_map[team[1]] = []
+        if team[1] not in conference_elo_map.keys():
+            conference_elo_map[team[1]] = []
 
         conference_sos_map[team[1]].append(sos_ranking[team[0]])
         conference_ranking_map[team[1]].append(final_ranking.index(team[0]) + 1)
+        conference_elo_map[team[1]].append(point_map[team[0]])
 
     for key, values in conference_sos_map.items():
         conference_sos_map[key] = np.mean(values)
 
     for key, values in conference_ranking_map.items():
         conference_ranking_map[key] = np.mean(values)
+
+    for key, values in conference_elo_map.items():
+        conference_elo_map[key] = np.mean(values)
 
     ranking_copy = copy.deepcopy(conference_ranking_map)
     ranking_order = []
@@ -590,18 +608,21 @@ def conference_ranking(final_ranking, sos_ranking):
         ranking_order.append(min_conf)
         del ranking_copy[min_conf]
 
-    with open("conference_rankings.txt", "w") as file:
-        header_string  = "|Ranking|Conference|Average Ranking|Average SOS|"
-        divider_string = "|---|---|---|---|"
+    if generate_output:
+        with open("conference_rankings.txt", "w") as file:
+            header_string  = "|Ranking|Conference|Average Ranking|Average SOS|"
+            divider_string = "|---|---|---|---|"
 
-        file.write(header_string + "\n")
-        file.write(divider_string + "\n")
-        ranking = 1
-        for team in ranking_order:
-            file.write("|" + str(ranking) + "|" + str(team) + "|" +
-                    str(round(conference_ranking_map[team], 2))
-                    + "|" + str(round(conference_sos_map[team], 2)) + "|\n")
-            ranking += 1
+            file.write(header_string + "\n")
+            file.write(divider_string + "\n")
+            ranking = 1
+            for team in ranking_order:
+                file.write("|" + str(ranking) + "|" + str(team) + "|" +
+                        str(round(conference_ranking_map[team], 2))
+                        + "|" + str(round(conference_sos_map[team], 2)) + "|\n")
+                ranking += 1
+
+    return conference_elo_map
 
 # Calls my function
 if __name__ == '__main__':
