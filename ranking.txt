@@ -28,21 +28,21 @@
 ||||||||
 |67|Georgia Tech|[Georgia Tech](#f/georgiatech)|7-6|65.0|74|1505.92|0|
 ||||||||
-|129|Connecticut|[Connecticut](#f/connecticut)|1-11|58.0|50|1296.46|0|
+|129|UTEP|[UTEP](#f/utep)|1-11|86.692|128|1275.6|-1|
 
 ---
 
-**Mean Points:** 1500.77
+**Mean Points:** 1499.2
 
-**Median Points:** 1506.47
+**Median Points:** 1505.18
 
-**Standard Deviation of Points:** 97.17
+**Standard Deviation of Points:** 105.18
 
-**Variance:** 9442.04
+**Variance:** 11063.6
 
 ---
 
-**Hardest SoS:** [UCLA](#f/ucla) UCLA
+**Hardest SoS:** [Purdue](#f/purdue) Purdue
 
 **Easiest SoS:** [North Texas](#f/northtexas) North Texas
 
