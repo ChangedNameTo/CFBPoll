@@ -1,17 +1,17 @@
 |Ranking|Conference|Average Ranking|Average SOS|
 |---|---|---|---|
-|1|SEC West|37.88|30.75|
-|2|Big 10 East|43.86|11.71|
-|3|ACC Atlantic|45.57|34.86|
-|4|SEC East|47.0|34.5|
-|5|PAC 12 North|48.17|54.83|
-|6|Big 10 West|48.29|24.71|
-|7|Big 12|48.4|32.0|
+|1|SEC West|38.0|29.62|
+|2|Big 10 East|43.86|11.86|
+|3|ACC Atlantic|45.43|33.57|
+|4|SEC East|47.0|35.17|
+|5|PAC 12 North|48.17|55.17|
+|6|Big 10 West|48.29|25.0|
+|7|Big 12|48.4|32.7|
 |8|Independent|62.2|81.4|
-|9|ACC Coastal|63.0|47.0|
+|9|ACC Coastal|63.0|47.14|
 |10|AAC East|64.83|74.83|
 |11|Sun Belt East|66.2|104.6|
-|12|PAC 12 South|69.5|47.0|
+|12|PAC 12 South|69.5|47.17|
 |13|MW Mountain|70.33|91.33|
 |14|AAC West|75.67|77.67|
 |15|CUSA East|78.86|100.29|
