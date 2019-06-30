@@ -41,8 +41,21 @@ class Game:
     def _is_home_win(self):
         return self.home_score > self.away_score
 
+    def _is_away_win(self):
+        return self.home_score < self.away_score
+
     def did_team_win(self, team):
-        return ((team == self.home) and self._is_home_win()) or ((team == self.away) and not self._is_home_win())
+        if(team == self.home and self._is_home_win()):
+            return True
+
+        if(team == self.home and self._is_away_win()):
+            return False
+
+        if(team == self.away and self._is_away_win()):
+            return True
+
+        if(team == self.away and self._is_home_win()):
+            return False
 
     def _home_elo_score(self):
         if self._is_home_win():

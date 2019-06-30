@@ -1,44 +1,44 @@
 |Rank|Team|Flair|Record|SoS^^1|SoS Rank|ELO|Change|
 |---|---|---|---|---|---|---|---|
-|1|Clemson|[Clemson](#f/clemson)|(6-0)|1095|127|1528.9066376825235|N/A|
-|2|Alabama|[Alabama](#f/alabama)|(5-0)|1094|129|1526.1171751516067|N/A|
-|3|Florida|[Florida](#f/florida)|(4-0)|1095|127|1517.4635798327183|N/A|
-|4|Washington St|[Washington St](#f/washingtonstate)|(5-1)|1099|126|1505.8435886398545|N/A|
-|5|Texas A&M|[Texas A&M](#f/texasam)|(0-0)|1500|1|1500|N/A|
-|6|Central Florida|[Central Florida](#f/ucf)|(4-1)|1101|122|1492.6667055765022|N/A|
-|7|Iowa|[Iowa](#f/iowa)|(4-2)|1101|122|1491.7049247466866|N/A|
-|8|Florida Int'l|[Florida Int'l](#f/fiu)|(4-1)|1102|116|1488.915889771712|N/A|
-|9|Boise St|[Boise St](#f/boisestate)|(5-1)|1101|122|1488.561566058552|N/A|
-|10|Michigan St|[Michigan St](#f/michiganstate)|(3-3)|1102|116|1486.9217763111321|N/A|
-|11|Wake Forest|[Wake Forest](#f/wakeforest)|(5-1)|1102|116|1485.6694971492873|N/A|
-|12|Fresno St|[Fresno St](#f/fresnostate)|(6-2)|1101|122|1485.1064828545|N/A|
-|13|Notre Dame|[Notre Dame](#f/notredame)|(5-1)|1102|116|1484.5625133305334|N/A|
-|14|Northwestern|[Northwestern](#f/northwestern)|(6-1)|1102|116|1482.9999478216528|N/A|
-|15|Syracuse|[Syracuse](#f/syracuse)|(4-2)|1102|116|1482.3220099441796|N/A|
-|16|North Texas|[North Texas](#f/northtexas)|(4-2)|1103|110|1478.574413534442|N/A|
-|17|Utah St|[Utah St](#f/utahstate)|(5-2)|1103|110|1478.1278793819852|N/A|
-|18|Washington|[Washington](#f/washington)|(4-3)|1103|110|1477.6542076880771|N/A|
-|19|Army|[Army](#f/army)|(5-2)|1103|110|1475.6526708092958|N/A|
-|20|Appalachian St|[Appalachian St](#f/appalachianstate)|(5-2)|1103|110|1474.7321515625208|N/A|
-|21|Marshall|[Marshall](#f/marshall)|(5-2)|1103|110|1474.3049050173024|N/A|
-|22|Ohio State|[Ohio State](#f/ohiostate)|(5-1)|1104|107|1474.1980981790266|N/A|
-|23|Oklahoma|[Oklahoma](#f/oklahoma)|(4-2)|1104|107|1473.6318176760053|N/A|
-|24|Utah|[Utah](#f/utah)|(4-2)|1104|107|1471.869169005437|N/A|
-|25|LSU|[LSU](#f/lsu)|(2-2)|1107|94|1471.661319095831|N/A|
+|1|Clemson|[Clemson](#f/clemson)|(15-0)|1476|58|1765.52|N/A|
+|2|Alabama|[Alabama](#f/alabama)|(14-1)|1478|56|1716.45|N/A|
+|3|Ohio State|[Ohio State](#f/ohiostate)|(13-1)|1505|20|1683.11|N/A|
+|4|Central Florida|[Central Florida](#f/ucf)|(12-1)|1461|79|1667.79|N/A|
+|5|Notre Dame|[Notre Dame](#f/notredame)|(12-1)|1521|11|1664.44|N/A|
+|6|Oklahoma|[Oklahoma](#f/oklahoma)|(12-2)|1529|4|1656.54|N/A|
+|7|Fresno St|[Fresno St](#f/fresnostate)|(12-2)|1460|82|1656.03|N/A|
+|8|Appalachian St|[Appalachian St](#f/appalachianstate)|(11-2)|1453|95|1654.04|N/A|
+|9|Utah St|[Utah St](#f/utahstate)|(11-2)|1434|115|1649.67|N/A|
+|10|Georgia|[Georgia](#f/georgia)|(11-3)|1515|15|1645.39|N/A|
+|11|Washington St|[Washington St](#f/washingtonstate)|(11-2)|1466|72|1625.27|N/A|
+|12|Boise St|[Boise St](#f/boisestate)|(10-3)|1504|23|1625.03|N/A|
+|13|Michigan|[Michigan](#f/michigan)|(10-3)|1527|6|1617.53|N/A|
+|14|Penn State|[Penn State](#f/pennstate)|(9-4)|1521|11|1615.62|N/A|
+|15|Washington|[Washington](#f/washington)|(10-4)|1493|34|1614.95|N/A|
+|16|Cincinnati|[Cincinnati](#f/cincinnati)|(11-2)|1450|99|1614.92|N/A|
+|17|Syracuse|[Syracuse](#f/syracuse)|(10-3)|1471|64|1612.63|N/A|
+|18|Ohio U.|[Ohio U.](#f/ohio)|(9-4)|1437|113|1611.54|N/A|
+|19|Texas|[Texas](#f/texas)|(10-4)|1523|10|1608.87|N/A|
+|20|Army|[Army](#f/army)|(11-2)|1409|125|1607.96|N/A|
+|21|LSU|[LSU](#f/lsu)|(10-3)|1473|62|1607.4|N/A|
+|22|Iowa|[Iowa](#f/iowa)|(9-4)|1482|50|1601.07|N/A|
+|23|Florida|[Florida](#f/florida)|(10-3)|1466|72|1599.95|N/A|
+|24|Troy|[Troy](#f/troy)|(10-3)|1428|121|1587.55|N/A|
+|25|Missouri|[Missouri](#f/missouri)|(8-5)|1504|23|1581.12|N/A|
 ||||||||
-|78|Georgia Tech|[Georgia Tech](#f/georgiatech)|(3-4)|1114|65|1399.113948247182|N/A|
+|66|Georgia Tech|[Georgia Tech](#f/georgiatech)|(7-6)|1470|68|1504.48|N/A|
 ||||||||
-|129|Rice|[Rice](#f/rice)|(0-7)|1133|7|1263.865238760883|N/A|
+|129|Connecticut|[Connecticut](#f/connecticut)|(1-11)|1491|36|1299.62|N/A|
 
 ---
 
-**Mean Points:** 1410.85
+**Mean Points:** 1501.1
 
-**Median Points:** 1417.6
+**Median Points:** 1505.89
 
-**Standard Deviation of Points:** 59.64
+**Standard Deviation of Points:** 94.82
 
-**Variance:** 3556.42
+**Variance:** 8990.5
 
 ---
 

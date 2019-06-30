@@ -121,7 +121,7 @@ class Ranking():
                 else:
                     home = self._get_team(captures[0][1])
                     home_score = captures[0][2]
-                    away = self._get_team(captures[0][2])
+                    away = self._get_team(captures[0][3])
                     away_score = captures[0][4]
                     if captures[0][5]:
                         site = captures[0][5]
@@ -224,6 +224,11 @@ class Ranking():
             team_object.set_rank(rank, self.week)
 
     def markdown_output(self):
+        try:
+            os.remove('ranking.txt')
+        except FileNotFoundError as e:
+            pass
+
         with open('ranking.txt', 'w') as file:
             # Writes the table header
             file.write("|Rank|Team|Flair|Record|SoS^^1|SoS Rank|ELO|Change|\n")
@@ -244,9 +249,9 @@ class Ranking():
                 team_name = team[0]
                 team      = self.team_dict[team_name]
                 flair     = team.get_flair()
-                elo       = team.get_elo()
+                elo       = round(team.get_elo(), 2)
                 record    = team.get_record()
-                sos       = team.get_sos()
+                sos       = round(team.get_sos(), 2)
                 sos_rank  = team.get_sos_rank()
                 change    = team.get_change(self.week)
 
@@ -254,19 +259,15 @@ class Ranking():
                 file.write("|" + str(rank) + "|" + team_name + "|" + flair + "|" + record + "|" + str(sos) + "|" + str(sos_rank) + "|" + str(elo) + "|" + str(change) + "|\n")
                 rank = rank + 1
 
-                # # Terminates after 25
-                # if x == 26:
-                #     break
-
             # Outputs Georgia Tech's data cause I like them
             file.write("||||||||\n")
             team_name = 'Georgia Tech'
             team      = self.team_dict[team_name]
             rank      = team.get_rank()
             flair     = team.get_flair()
-            elo       = team.get_elo()
+            elo       = round(team.get_elo(), 2)
             record    = team.get_record()
-            sos       = team.get_sos()
+            sos       = round(team.get_sos(), 2)
             sos_rank  = team.get_sos_rank()
             change    = team.get_change(self.week)
 
@@ -280,9 +281,9 @@ class Ranking():
             team      = self.team_dict[team_name]
             rank      = team.get_rank()
             flair     = team.get_flair()
-            elo       = team.get_elo()
+            elo       = round(team.get_elo(), 2)
             record    = team.get_record()
-            sos       = team.get_sos()
+            sos       = round(team.get_sos(), 2)
             sos_rank  = team.get_sos_rank()
             change    = team.get_change(self.week)
 
