@@ -1,13 +1,17 @@
 # Import my objects
-import Team, Game
+from Team import Team
+from Game import Game
 
 # Import libraries
 import urllib.request
 from bs4 import BeautifulSoup
 
 # Native libraries
-import re, statistics, csv, random, operator, copy, threading, math, os
+import re, statistics, csv, random, operator, copy, threading, math, os, sqlite3
 import numpy as np
+
+conn = sqlite3.connect('poll.db')
+c    = conn.cursor()
 
 # Constants
 TEAM_LIST = 'util/teams.txt'
@@ -20,7 +24,8 @@ class Ranking():
             (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 name TEXT,
-                elo INTEGER
+                elo INTEGER,
+                sos INTEGER
             );
         ''')
         c.execute('''CREATE TABLE IF NOT EXISTS Games
@@ -39,16 +44,16 @@ class Ranking():
         conn.commit()
 
         # Generate the different utility structures
-        self.team_dict  = generate_teams()
+        self.team_dict  = self.generate_teams()
         self.team_array = list(self.team_dict.keys())
-        self.games     = parse_games()
+        self.games      = self.parse_games()
 
-        self.week = week
-        self.year = year
+        self.week      = week
+        self.year      = year
 
     def _get_team(self, team_name):
-        if(team_name in team_array):
-            return team_dict[team_name]
+        if(team_name in self.team_array):
+            return self.team_dict[team_name]
         else:
             return Team()
 
@@ -81,13 +86,15 @@ class Ranking():
     # Opens a URL containing scores and turns it into an array of Game Objects
     def parse_games(self):
         # Make the request and open the table into a parsable object
-        request = urllib.request.Request(SCORE_URL)
-        response = urllib.request.urlopen(request)
-        page_html = response.read()
+        # request = urllib.request.Request(SCORE_URL)
+        # response = urllib.request.urlopen(request)
+        # page_html = response.read()
+        f = open('past_pages/2018_cfb_scores.html', 'r', encoding = "ISO-8859-1")
+        page_html = f.read()
         soup = BeautifulSoup(page_html, 'html.parser')
         score_table = soup.pre.string
 
-        scores = re.sub(' +', ' ', scores)
+        scores = re.sub(' +', ' ', score_table)
 
         # Splits the score data along every \n char
         parsed_scores = scores.splitlines()
@@ -104,9 +111,9 @@ class Ranking():
                 if(captures[0][1] not in self.team_array and captures[0][3] not in self.team_array):
                     continue
                 else:
-                    home = _get_team(captures[0][1])
+                    home = self._get_team(captures[0][1])
                     home_score = captures[0][2]
-                    away = _get_team(captures[0][2])
+                    away = self._get_team(captures[0][2])
                     away_score = captures[0][4]
                     if captures[0][5]:
                         site = captures[0][5]
@@ -128,7 +135,7 @@ class Ranking():
                 writer.writerow(score)
 
     def run_poll(self):
-        for game in games:
+        for game in self.games:
             game.process_game()
 
     def get_results(self):
@@ -138,19 +145,19 @@ class Ranking():
         return c.fetchall()
 
     def get_elo_array(self, result_array):
-        return [x[2] for x in result_array]
+        self.elo_array = [x[2] for x in result_array]
 
     def set_mean_elo(self):
-        self.mean = round(statistics.mean(elo_array), 2)
+        self.mean = round(statistics.mean(self.elo_array), 2)
 
     def set_median_elo(self):
-        self.median = round(statistics.median(elo_array), 2)
+        self.median = round(statistics.median(self.elo_array), 2)
 
     def set_stdev_elo(self):
-        self.stdev = round(statistics.stdev(elo_array), 2)
+        self.stdev = round(statistics.stdev(self.elo_array), 2)
 
     def set_variance_elo(self):
-        self.variance = round(statistics.variance(elo_array), 2)
+        self.variance = round(statistics.variance(self.elo_array), 2)
 
     def previous_change(self, result):
         if int(week) > 1:
@@ -162,7 +169,7 @@ class Ranking():
 
         # TODO: Rewrite this entire section. It's really shit.
 
-    def markdown_output(self, elo_array):
+    def markdown_output(self):
         with open('ranking.txt', 'w') as file:
             # Writes the table header
             file.write("|Rank|Team|Flair|Record|SoS^^1|SoS Rank|ELO|Change|\n")
@@ -172,7 +179,7 @@ class Ranking():
             # conference_ranking(final_ranking, sos_ranking, point_map, True)
 
             rank = 1
-            for team in elo_array[:25]:
+            for team in self.elo_array[:25]:
                 # sos      = str(sos_map[team])
                 # sos_rank = sos_ranking[team]
                 # sos_rank = str(sos_rank)
@@ -264,13 +271,13 @@ ranking = Ranking()
 ranking.run_poll()
 result = ranking.get_results()
 
-elo_array = ranking.get_elo_array(result)
+ranking.get_elo_array(result)
 
-ranking.set_mean_elo(elo_array)
-ranking.set_median_elo(elo_array)
-ranking.set_stdev_elo(elo_array)
-ranking.set_variance_elo(elo_array)
+ranking.set_mean_elo()
+ranking.set_median_elo()
+ranking.set_stdev_elo()
+ranking.set_variance_elo()
 
 # previous_change = ranking.previous_change(result)
 
-ranking.markdown_output(elo_array)
+ranking.markdown_output()
