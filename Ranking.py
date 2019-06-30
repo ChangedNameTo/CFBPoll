@@ -319,7 +319,7 @@ class Ranking():
             # file.write("\n")
             file.write("---\n")
             file.write("\n")
-            file.write("1: Lower means harder SoS\n")
+            file.write("1: Lower means easier SoS\n")
             file.write("\n")
             file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/9csiv4/cfb_poll_20_the_elo_update/)\n")
             file.write("\n")
