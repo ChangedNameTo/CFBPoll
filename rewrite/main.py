@@ -110,11 +110,11 @@ def start_poll(parsed_scores, week, year, date):
             away_score = 1
 
         mom_multiplier = math.log(abs(int(score[2]) - int(score[4])) + 1)
-        corr_coeff     = 2.2 / ((rating_away - rating_home) * 0.001 + 2.2)
+        corr_coefficient    = 2.2 / ((rating_away - rating_home) * 0.001 + 2.2)
 
         # Apply the function for updating ratings
-        new_rating_home = rating_home + k_value * (home_score - expected_home) * mom_multiplier * corr_coeff
-        new_rating_away = rating_away + k_value * (away_score - expected_away) * mom_multiplier * corr_coeff
+        new_rating_home = rating_home + k_value * (home_score - expected_home) * mom_multiplier * corr_coefficient
+        new_rating_away = rating_away + k_value * (away_score - expected_away) * mom_multiplier * corr_coefficient
 
         # Check that the new ratings for winners is actually higher
         if(home_score == 1):
@@ -288,7 +288,7 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats, last_week):
             if x == 26:
                 break
 
-        # Outputs GT's data cause I like them
+        # Outputs Georgia Tech's data cause I like them
         file.write("||||||||\n")
         team     = 'Georgia Tech'
         rank     = final_ranking.index(team) + 1
@@ -345,7 +345,7 @@ def markdown_output(point_map,final_ranking,extra_stats,math_stats, last_week):
         file.write("\n")
         file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/9csiv4/cfb_poll_20_the_elo_update/)\n")
         file.write("\n")
-        file.write("[Link to the github repo here](https://github.com/ChangedNameTo/CFBPoll)")
+        file.write("[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)")
 
 # Iterates through all of the scores, generates a map of opponents so SoS can be done later
 # Also tracks the records so that total game count is known
@@ -394,7 +394,7 @@ def calculate_sos(final_rankings, extra_stats):
         sos_total  = 0
         team_total = extra_stats[1][team][0] + extra_stats[1][team][1] + 1
 
-        # Fetchs the list of opponents
+        # Fetches the list of opponents
         opponents_list = extra_stats[0][team]
 
         # Grabs their final rankings
@@ -433,8 +433,8 @@ def generate_flair_map():
     return flair_map
 
 def last_season_graph(point_map, final_ranking, extra_stats, math_stats, week, year):
-    with open(str(year) + '/week' + week + '.csv', 'w') as csvfile:
-        writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_MINIMAL)
+    with open(str(year) + '/week' + week + '.csv', 'w') as csv_file:
+        writer = csv.writer(csv_file, delimiter=',', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(('Rank','Team','Record','SoS','SoS Rank','ELO'))
 
         # Terminates the ranking after 25
@@ -461,8 +461,8 @@ def last_season_graph(point_map, final_ranking, extra_stats, math_stats, week, y
             x = x + 1
 
 def final_rankings_graph(point_map, final_ranking, extra_stats, math_stats, last_week, week, year):
-    with open(str(year) + '/week' + week + '.csv', 'w') as csvfile:
-        writer = csv.writer(csvfile, delimiter=',', quoting=csv.QUOTE_MINIMAL)
+    with open(str(year) + '/week' + week + '.csv', 'w') as csv_file:
+        writer = csv.writer(csv_file, delimiter=',', quoting=csv.QUOTE_MINIMAL)
         writer.writerow(('Rank','Team','Record','SoS','SoS Rank','ELO','Change'))
 
         # Terminates the ranking after 25
@@ -531,7 +531,6 @@ def previous_change(week, year, final_ranking):
 
     return change_map
 
-
 # Season ranking evolution output for fun
 def season_output(week, year):
     # Opens the file
@@ -549,7 +548,7 @@ def season_output(week, year):
             header_string = header_string + str(x) + "|"
             divider_string = divider_string + "---|"
 
-            # Iterates over each of the weekly csvs
+            # Iterates over each weekly csv
             f        = open(str(year) + "/week" + str(x) + ".csv", 'r')
             week_csv = csv.reader(f)
             next(week_csv, None)

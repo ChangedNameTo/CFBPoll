@@ -1,0 +1,9 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "./poll.db",
+            "dialect": "SQLite",
+            "name": "Poll DB"
+        }
+    ]
+}
