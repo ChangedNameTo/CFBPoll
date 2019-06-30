@@ -52,6 +52,37 @@ class Team():
                         SET elo = ?
                       WHERE id = ?;''', (elo, self.db_id))
 
+    def set_sos(self):
+        avg_array = []
+        for game in self.games:
+            other_team = game.get_opponent(self)
+            avg_array.append(other_team.get_elo())
+
+        sos = int(np.mean(avg_array))
+        c.execute('''UPDATE Teams
+                        SET sos = ?
+                      WHERE id = ?;''', (sos, self.db_id))
+        conn.commit()
+        self.sos = sos
+
+    def get_sos(self):
+        return self.sos
+
+    def get_sos_rank(self):
+        return self.sos_rank
+
+    def set_sos_rank(self, sos_rank):
+        self.sos_rank = sos_rank
+
+    def get_rank(self):
+        return self.rank
+
+    def set_rank(self, rank, week):
+        self.rank = rank
+        c.execute('''INSERT INTO TeamWeeks (team_id,rank,week)
+                          VALUES (?, ?, ?);''',(self.db_id,rank,week))
+        conn.commit()
+
     ### Utility Methods
     def add_game(self, game):
         self.games.append(game)
@@ -65,25 +96,21 @@ class Team():
             else:
                 loses = loses + 1
 
-        return [wins, loses]
+        record = "(" + str(wins) + "-" + str(loses) + ")"
 
-    # TODO: Figure out a better way of fetching elo. Should I update the ranking to the CSV? Or make a view? Ask Stephen.
-    def set_sos(self):
-        avg_array = []
-        for game in self.games:
-            other_team = game.get_opponent(self)
-            avg_array.append(other_team.get_elo())
+        return record
 
-        sos = np.mean(avg_array)
-        c.execute('''UPDATE Teams
-                        SET sos = ?
-                      WHERE id = ?;''', (sos, self.db_id))
-        conn.commit()
-        self.sos = sos
+    def get_change(self, week):
+        if((week - 1) == 0):
+            return 'N/A'
+        else:
+            c.execute('''SELECT rank
+                        FROM TeamWeeks
+                        WHERE id = ?
+                            AND week = ?;''',(self.db_id, (week - 1)))
 
-    # TODO: Write this
-    def get_sos_rank(self):
-        c.execute('''SELECT id
-                       FROM v_sos
+            prev_week = c.fetchall()
+            current   = self.rank
+            change    = current - prev_week
 
-        ;''')
+            return change

@@ -42,7 +42,7 @@ class Game:
         return self.home_score > self.away_score
 
     def did_team_win(self, team):
-        return (isinstance(team, self.home) and self._is_home_win()) or (isinstance(team, self.away) and not self._is_home_win())
+        return ((team == self.home) and self._is_home_win()) or ((team == self.away) and not self._is_home_win())
 
     def _home_elo_score(self):
         if self._is_home_win():

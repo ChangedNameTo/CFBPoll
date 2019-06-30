@@ -26,8 +26,7 @@ class Ranking():
                 name TEXT,
                 elo INTEGER,
                 sos INTEGER
-            );
-        ''')
+            );''')
         c.execute('''CREATE TABLE IF NOT EXISTS Games
             (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -39,8 +38,17 @@ class Ranking():
                 away_elo_delta INTEGER,
                 FOREIGN KEY(home_id) REFERENCES Teams(id)
                 FOREIGN KEY(away_id) REFERENCES Teams(id)
-            );
-        ''')
+            );''')
+        c.execute('''CREATE TABLE IF NOT EXISTS TeamWeeks
+            (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                team_id INTEGER,
+                rank INTEGER,
+                week INTEGER,
+                FOREIGN KEY(team_id) REFERENCES Teams(id)
+            );''')
+        c.execute('''DELETE FROM Teams;''')
+        c.execute('''DELETE FROM Games;''')
         conn.commit()
 
         # Generate the different utility structures
@@ -169,34 +177,81 @@ class Ranking():
 
         # TODO: Rewrite this entire section. It's really shit.
 
+    def get_top_25(self):
+        c.execute('''SELECT name
+                       FROM Teams
+                   ORDER BY elo DESC
+                      LIMIT 25;''')
+        return c.fetchall()
+
+    def get_sos_ranks(self):
+        c.execute('''SELECT name, RANK()
+                       OVER (
+                           ORDER BY sos DESC
+                       ) sos_rank
+                       FROM Teams;''')
+
+        ranks = c.fetchall()
+
+        for team in ranks:
+            team_name = team[0]
+            rank      = team[1]
+
+            team_object = self._get_team(team_name)
+            team_object.set_sos_rank(rank)
+
+    def get_last_place(self):
+        c.execute('''SELECT name
+                       FROM Teams
+                   ORDER BY elo ASC
+                      LIMIT 1;''')
+        return c.fetchall()[0][0]
+
+    def generate_this_week(self):
+        c.execute('''SELECT name, RANK()
+                       OVER (
+                           ORDER BY elo DESC
+                       ) elo_rank
+                       FROM Teams;''')
+
+        ranks = c.fetchall()
+
+        for team in ranks:
+            team_name = team[0]
+            rank      = team[1]
+
+            team_object = self._get_team(team_name)
+            team_object.set_rank(rank, self.week)
+
     def markdown_output(self):
         with open('ranking.txt', 'w') as file:
             # Writes the table header
             file.write("|Rank|Team|Flair|Record|SoS^^1|SoS Rank|ELO|Change|\n")
             file.write("|---|---|---|---|---|---|---|---|\n")
 
+
             # TODO: Rewrite conference ranking
             # conference_ranking(final_ranking, sos_ranking, point_map, True)
 
             rank = 1
-            for team in self.elo_array[:25]:
+            for team in self.get_top_25():
                 # sos      = str(sos_map[team])
                 # sos_rank = sos_ranking[team]
                 # sos_rank = str(sos_rank)
                 # record   = str(extra_stats[1][team][0]) + "-" + str(extra_stats[1][team][1])
                 # change   = str(last_week[team])
 
-                team_name = team[1]
+                team_name = team[0]
                 team      = self.team_dict[team_name]
                 flair     = team.get_flair()
                 elo       = team.get_elo()
                 record    = team.get_record()
                 sos       = team.get_sos()
                 sos_rank  = team.get_sos_rank()
-                change    = team.get_change()
+                change    = team.get_change(self.week)
 
                 # # Writes to the file
-                file.write("|" + str(rank) + "|" + team_name + "|" + flair + "|" + record + "|" + sos + "|" + sos_rank + "|" + elo + "|" + change + "|\n")
+                file.write("|" + str(rank) + "|" + team_name + "|" + flair + "|" + record + "|" + str(sos) + "|" + str(sos_rank) + "|" + str(elo) + "|" + str(change) + "|\n")
                 rank = rank + 1
 
                 # # Terminates after 25
@@ -207,30 +262,32 @@ class Ranking():
             file.write("||||||||\n")
             team_name = 'Georgia Tech'
             team      = self.team_dict[team_name]
+            rank      = team.get_rank()
             flair     = team.get_flair()
             elo       = team.get_elo()
             record    = team.get_record()
             sos       = team.get_sos()
             sos_rank  = team.get_sos_rank()
-            change    = team.get_change()
+            change    = team.get_change(self.week)
 
             # # Writes to the file
-            file.write("|" + str(rank) + "|" + team_name + "|" + flair + "|" + record + "|" + sos + "|" + sos_rank + "|" + elo + "|" + change + "|\n")
+            file.write("|" + str(rank) + "|" + team_name + "|" + flair + "|" + record + "|" + str(sos) + "|" + str(sos_rank) + "|" + str(elo) + "|" + str(change) + "|\n")
             rank = rank + 1
 
             # Outputs the lowest team too just for fun
             file.write("||||||||\n")
-            team_name = elo_array[-1]
+            team_name = self.get_last_place()
             team      = self.team_dict[team_name]
+            rank      = team.get_rank()
             flair     = team.get_flair()
             elo       = team.get_elo()
             record    = team.get_record()
             sos       = team.get_sos()
             sos_rank  = team.get_sos_rank()
-            change    = team.get_change()
+            change    = team.get_change(self.week)
 
             # Writes to the file
-            file.write("|" + str(rank) + "|" + team + "|" + flair_map[team] + "|" + record + "|" + sos + "|" + sos_rank + "|" + str(round(point_map[team], 2)) + "|" + change + "|\n")
+            file.write("|" + str(rank) + "|" + team_name + "|" + flair + "|" + record + "|" + str(sos) + "|" + str(sos_rank) + "|" + str(elo) + "|" + str(change) + "|\n")
 
             file.write("\n")
 
@@ -244,13 +301,13 @@ class Ranking():
 
             file.write("---\n")
             file.write("\n")
-            file.write("**Mean Points:** " + self.mean + "\n")
+            file.write("**Mean Points:** " + str(self.mean) + "\n")
             file.write("\n")
-            file.write("**Median Points:** " + self.median + "\n")
+            file.write("**Median Points:** " + str(self.median) + "\n")
             file.write("\n")
-            file.write("**Standard Deviation of Points:** " + self.stdev + "\n")
+            file.write("**Standard Deviation of Points:** " + str(self.stdev) + "\n")
             file.write("\n")
-            file.write("**Variance:** " + self.variance + "\n")
+            file.write("**Variance:** " + str(self.variance) + "\n")
             file.write("\n")
             file.write("---\n")
             file.write("\n")
@@ -269,15 +326,16 @@ class Ranking():
 
 ranking = Ranking()
 ranking.run_poll()
+
 result = ranking.get_results()
-
 ranking.get_elo_array(result)
-
 ranking.set_mean_elo()
 ranking.set_median_elo()
 ranking.set_stdev_elo()
 ranking.set_variance_elo()
 
-# previous_change = ranking.previous_change(result)
+ranking.generate_this_week()
+
+ranking.get_sos_ranks()
 
 ranking.markdown_output()
