@@ -119,6 +119,7 @@ class Ranking():
                 if(captures[0][1] not in self.team_array and captures[0][3] not in self.team_array):
                     continue
                 else:
+
                     home = self._get_team(captures[0][1])
                     home_score = captures[0][2]
                     away = self._get_team(captures[0][3])
