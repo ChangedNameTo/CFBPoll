@@ -16,7 +16,6 @@ c    = conn.cursor()
 # Constants
 TEAM_LIST = 'util/teams.txt'
 SCORE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/scores.htm'
-SCORE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/schedules.htm'
 
 class Ranking():
     def __init__(self, year=2019, week=1):
@@ -130,44 +129,6 @@ class Ranking():
                         new_game = Game(home, home_score, away, away_score, site)
                     else:
                         new_game = Game(home, home_score, away, away_score)
-
-                    captured_scores.append(new_game)
-            except IndexError as inst:
-                pass
-
-        return captured_scores
-
-    def parse_future(self):
-        # Make the request and open the table into a parsable object
-        request = urllib.request.Request(SCORE_URL)
-        response = urllib.request.urlopen(request)
-        page_html = response.read()
-        # f = open('past_pages/2018_cfb_scores.html', 'r', encoding = "ISO-8859-1")
-        # page_html = f.read()
-        soup = BeautifulSoup(page_html, 'html.parser')
-        scores = soup.pre.string
-
-        # scores = re.sub(' +', ' ', score_table)
-
-        # Splits the score data along every \n char
-        future_games = scores.splitlines()
-
-        # Deletes header rows
-        del future_games[0:3]
-
-        captured_scores = []
-
-        for game in future_games:
-            captures = re.findall("(\d{2}-\w{3}-\d{2})\s([\w\s'-.&`]*?)\s{2,}([\w\s'-.&`]*?)\s{2,}", game)
-            print(captures)
-            try:
-                if(captures[0][1] not in self.team_array and captures[0][2] not in self.team_array):
-                    continue
-                else:
-
-                    home = self._get_team(captures[0][1])
-                    away = self._get_team(captures[0][2])
-                    new_game = SimGame(home, away)
 
                     captured_scores.append(new_game)
             except IndexError as inst:
@@ -378,8 +339,5 @@ ranking.set_variance_elo()
 ranking.generate_this_week()
 
 ranking.get_sos_ranks()
-
-# # Prediction time
-# ranking.parse_future()
 
 ranking.markdown_output()
