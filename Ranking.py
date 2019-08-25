@@ -1,6 +1,7 @@
 # Import my objects
 from Team import Team
 from Game import Game
+from Conference import Conference
 
 # Import libraries
 import urllib.request
@@ -17,16 +18,30 @@ c    = conn.cursor()
 TEAM_LIST = 'util/teams.txt'
 SCORE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/scores.htm'
 SCORE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/schedules.htm'
+YEAR = 2019
 
 class Ranking():
     def __init__(self, year=2019, week=1):
+        # Clears out the db
+        c.execute('''DROP TABLE IF EXISTS Conferences;''')
+        c.execute('''DROP TABLE IF EXISTS Teams;''')
+        c.execute('''DROP TABLE IF EXISTS Games;''')
+        c.execute('''DROP TABLE IF EXISTS TeamWeeks;''')
+
         # Create the database
+        c.execute('''CREATE TABLE IF NOT EXISTS Conferences
+            (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                name TEXT
+            );''')
         c.execute('''CREATE TABLE IF NOT EXISTS Teams
             (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 name TEXT,
-                elo INTEGER,
-                sos INTEGER
+                elo FLOAT,
+                sos INTEGER,
+                conference_id INTEGER,
+                FOREIGN KEY(conference_id) REFERENCES Conferences(id)
             );''')
         c.execute('''CREATE TABLE IF NOT EXISTS Games
             (
@@ -48,13 +63,34 @@ class Ranking():
                 week INTEGER,
                 FOREIGN KEY(team_id) REFERENCES Teams(id)
             );''')
-        c.execute('''DELETE FROM Teams;''')
-        c.execute('''DELETE FROM Games;''')
         conn.commit()
 
+        self.team_dict       = {}
+        self.conference_dict = {}
+
+        flair_map            = self.generate_flair_map()
+        fbs_teams            = open(TEAM_LIST, 'r')
+
+        f = open('2019SeedFile.csv')
+        seed_csv = csv.reader(f)
+
+        for line in seed_csv:
+            name       = line[0]
+            elo        = float(line[1])
+            conference = line[2]
+
+            if(conference not in self.conference_dict.keys()):
+                self.conference_dict[conference] = Conference(conference)
+
+            conf_id = self.conference_dict[conference].get_db_id()
+
+            new_team = Team(name, elo, conf_id)
+            new_team.set_flair(flair_map[name])
+            self.team_dict[name] = new_team
+
         # Generate the different utility structures
-        self.team_dict  = self.generate_teams()
         self.team_array = list(self.team_dict.keys())
+        self.conf_array = list(self.conference_dict.keys())
         self.games      = self.parse_games()
 
         self.week      = week
@@ -78,19 +114,11 @@ class Ranking():
 
         return flair_map
 
-    def generate_teams(self):
-        flair_map = self.generate_flair_map()
-        fbs_teams = open(TEAM_LIST, 'r')
-        team_dict = {}
-
-        for line in fbs_teams:
-            if( len(line) > 0 ):
-                team_name            = line.strip("\n")
-                new_team             = Team(team_name)
-                new_team.set_flair(flair_map[team_name])
-                team_dict[team_name] = new_team
-
-        return team_dict
+    # Adjusts all teams relative to their divsion's mean elo when seeding
+    def mean_reversion(self):
+        for conference in self.conf_array:
+            conf_object = self.conference_dict[conference]
+            conf_object.mean_reversion(self.team_dict)
 
     # Opens a URL containing scores and turns it into an array of Game Objects
     def parse_games(self):
@@ -366,6 +394,7 @@ class Ranking():
             file.write("[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)")
 
 ranking = Ranking()
+ranking.mean_reversion()
 ranking.run_poll()
 
 result = ranking.get_results()

@@ -6,11 +6,13 @@ def conference_ranking(final_ranking, sos_ranking):
 
     f = open(conference_aff)
     conference_csv = csv.reader(f)
-
-    conference_sos_map   = {}
-    conference_final_map = {}
+    conference_dict = {}
 
     for team in conference_csv:
+
+
+
+
         if team[1] not in conference_sos_map.keys():
             conference_sos_map[team[1]] = []
         if team[1] not in conference_ranking_map.keys():

@@ -7,25 +7,27 @@ conn = sqlite3.connect('poll.db')
 c    = conn.cursor()
 
 class Team():
-    def __init__(self, name=None):
+    def __init__(self, name=None, elo=1500, conference_id=None):
         self.games   = []
         self.flair   = None
 
         if name:
             self.name       = name
-            self.elo        = 1500
+            self.elo        = elo
+            self.conference_id = conference_id
             self.sos        = 1500
 
             # Insert the team into the database for easier sorting at the end
-            c.execute('''INSERT INTO Teams (name, elo, sos)
-                      VALUES (?, ?, ?);''', (name, 1500, 1500))
+            c.execute('''INSERT INTO Teams (name, elo, sos, conference_id)
+                      VALUES (?, ?, ?, ?);''', (self.name, self.elo, self.sos, self.conference_id))
             conn.commit()
             self.db_id = c.lastrowid
         else:
-            self.name       = 'Not FBS'
-            self.elo        = 1100
-            self.sos        = 1100
-            self.db_id      = None
+            self.name          = 'Not FBS'
+            self.elo           = 1100
+            self.sos           = 1100
+            self.conference_id = 'Not FBS'
+            self.db_id         = None
 
     def expected_outcome(self, other_rating):
             return (1 / ( 1 + 10**( ( other_rating - self.elo ) / 400 ) ))
