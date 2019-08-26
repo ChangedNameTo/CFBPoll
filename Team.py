@@ -3,7 +3,7 @@ import numpy as np
 
 import Game
 
-conn = sqlite3.connect('poll.db')
+conn = sqlite3.connect('poll.db', timeout=30)
 c    = conn.cursor()
 
 class Team():
@@ -52,7 +52,8 @@ class Team():
         self.elo = elo
         c.execute('''UPDATE Teams
                         SET elo = ?
-                      WHERE id = ?;''', (elo, self.db_id))
+                      WHERE id = ?;''', (self.elo, self.db_id))
+        conn.commit()
 
     def set_sos(self):
         avg_array = []

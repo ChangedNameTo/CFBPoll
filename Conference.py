@@ -1,7 +1,7 @@
 import sqlite3
 import numpy as numpy
 
-conn = sqlite3.connect('poll.db')
+conn = sqlite3.connect('poll.db', timeout=10)
 c    = conn.cursor()
 
 class Conference():

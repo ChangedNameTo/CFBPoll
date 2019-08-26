@@ -18,7 +18,9 @@ c    = conn.cursor()
 TEAM_LIST = 'util/teams.txt'
 SCORE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/scores.htm'
 SCORE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/schedules.htm'
-YEAR = 2019
+
+YEAR      = 2019
+WEEK      = 1
 
 class Ranking():
     def __init__(self, year=2019, week=1):
@@ -123,11 +125,11 @@ class Ranking():
     # Opens a URL containing scores and turns it into an array of Game Objects
     def parse_games(self):
         # Make the request and open the table into a parsable object
-        # request = urllib.request.Request(SCORE_URL)
-        # response = urllib.request.urlopen(request)
-        # page_html = response.read()
-        f = open('past_pages/2018_cfb_scores.html', 'r', encoding = "ISO-8859-1")
-        page_html = f.read()
+        request = urllib.request.Request(SCORE_URL)
+        response = urllib.request.urlopen(request)
+        page_html = response.read()
+        # f = open('past_pages/2018_cfb_scores.html', 'r', encoding = "ISO-8859-1")
+        # page_html = f.read()
         soup = BeautifulSoup(page_html, 'html.parser')
         score_table = soup.pre.string
 
@@ -408,7 +410,7 @@ ranking.generate_this_week()
 
 ranking.get_sos_ranks()
 
+ranking.markdown_output()
+
 # # Prediction time
 # ranking.parse_future()
-
-ranking.markdown_output()
