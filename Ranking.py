@@ -17,7 +17,7 @@ c    = conn.cursor()
 # Constants
 TEAM_LIST = 'util/teams.txt'
 SCORE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/scores.htm'
-SCORE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/schedules.htm'
+SCHEDULE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/schedules.htm'
 
 YEAR      = 2019
 WEEK      = 1
@@ -301,7 +301,7 @@ class Ranking():
 
         with open('ranking.txt', 'w') as file:
             # Writes the table header
-            file.write("|Rank|Team|Flair|Record|SoS^^1|SoS Rank|ELO|Change|\n")
+            file.write("|Rank|Team|Flair|Record|ELO|SoS^^1|SoS Rank|Change|\n")
             file.write("|---|---|---|---|---|---|---|---|\n")
 
 
@@ -326,7 +326,7 @@ class Ranking():
                 change    = team.get_change(self.week)
 
                 # # Writes to the file
-                file.write("|" + str(rank) + "|" + team_name + "|" + flair + "|" + record + "|" + str(sos) + "|" + str(sos_rank) + "|" + str(elo) + "|" + str(change) + "|\n")
+                file.write("|" + str(rank) + "|" + team_name + "|" + flair + "|" + record + "|" + str(elo) + "|" + str(sos) + "|" + str(sos_rank) + "|" + str(change) + "|\n")
                 rank = rank + 1
 
             # Outputs Georgia Tech's data cause I like them
@@ -342,7 +342,7 @@ class Ranking():
             change    = team.get_change(self.week)
 
             # # Writes to the file
-            file.write("|" + str(rank) + "|" + team_name + "|" + flair + "|" + record + "|" + str(sos) + "|" + str(sos_rank) + "|" + str(elo) + "|" + str(change) + "|\n")
+            file.write("|" + str(rank) + "|" + team_name + "|" + flair + "|" + record + "|" + str(elo) + "|" + str(sos) + "|" + str(sos_rank) + "|" + str(change) + "|\n")
             rank = rank + 1
 
             # Outputs the lowest team too just for fun
@@ -358,7 +358,7 @@ class Ranking():
             change    = team.get_change(self.week)
 
             # Writes to the file
-            file.write("|" + str(rank) + "|" + team_name + "|" + flair + "|" + record + "|" + str(sos) + "|" + str(sos_rank) + "|" + str(elo) + "|" + str(change) + "|\n")
+            file.write("|" + str(rank) + "|" + team_name + "|" + flair + "|" + record + "|" + str(elo) + "|" + str(sos) + "|" + str(sos_rank) + "|" + str(change) + "|\n")
 
             file.write("\n")
 
