@@ -395,6 +395,25 @@ class Ranking():
             file.write("\n")
             file.write("[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)")
 
+    def output_week_csv(self, result):
+        week_csv_string = 'csv/' + str(YEAR) + '/week_' + str(WEEK) + '.csv'
+        with open(week_csv_string, 'w') as week_csv:
+            writer = csv.writer(week_csv, delimiter=',', quoting=csv.QUOTE_MINIMAL)
+            writer.writerow(('Rank','Team','Record','ELO','SoS','SoS Rank','Change'))
+
+            rank = 1
+            for team in result:
+                name     = team[1]
+                team_obj = self.team_dict[name]
+                record   = team_obj.get_record()
+                elo      = round(team_obj.get_elo(),2)
+                sos      = round(team_obj.get_sos(),2)
+                sos_rank = team_obj.get_sos_rank()
+                change   = team_obj.get_change(WEEK)
+
+                writer.writerow((rank, name, record, elo, sos, sos_rank, change))
+                rank = rank + 1
+
 ranking = Ranking()
 ranking.mean_reversion()
 ranking.run_poll()
@@ -411,6 +430,8 @@ ranking.generate_this_week()
 ranking.get_sos_ranks()
 
 ranking.markdown_output()
+
+ranking.output_week_csv(result)
 
 # # Prediction time
 # ranking.parse_future()
