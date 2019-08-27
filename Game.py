@@ -8,6 +8,7 @@ c    = conn.cursor()
 
 K_VALUE = 15
 
+#TODO: Convert this to be FinishedGame so that I can make this a subclass of the parent "Game"
 class Game:
     def __init__(self, home, home_score, away, away_score, site=None):
         self.home           = home

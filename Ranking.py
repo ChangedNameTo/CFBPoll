@@ -8,7 +8,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 
 # Native libraries
-import re, statistics, csv, random, operator, copy, threading, math, os, sqlite3
+import re, statistics, csv, random, operator, copy, threading, math, os, sqlite3, calendar
 import numpy as np
 
 conn = sqlite3.connect('poll.db')
@@ -21,6 +21,7 @@ SCHEDULE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/schedules.htm'
 
 YEAR      = 2019
 WEEK      = 1
+END_DATE  = '05-Sep-19'
 
 class Ranking():
     def __init__(self, year=2019, week=1):
@@ -169,7 +170,7 @@ class Ranking():
 
     def parse_future(self):
         # Make the request and open the table into a parsable object
-        request = urllib.request.Request(SCORE_URL)
+        request = urllib.request.Request(SCHEDULE_URL)
         response = urllib.request.urlopen(request)
         page_html = response.read()
         # f = open('past_pages/2018_cfb_scores.html', 'r', encoding = "ISO-8859-1")
@@ -187,23 +188,38 @@ class Ranking():
 
         captured_scores = []
 
-        for game in future_games:
-            captures = re.findall("(\d{2}-\w{3}-\d{2})\s([\w\s'-.&`]*?)\s{2,}([\w\s'-.&`]*?)\s{2,}", game)
-            print(captures)
-            try:
-                if(captures[0][1] not in self.team_array and captures[0][2] not in self.team_array):
-                    continue
-                else:
+        week_csv_string = 'csv/' + str(YEAR) + '/week_' + str(WEEK) + '_predictions.csv'
+        with open(week_csv_string, 'w') as week_csv:
+            writer = csv.writer(week_csv, delimiter=',', quoting=csv.QUOTE_MINIMAL)
+            writer.writerow(('Date','Home','Away','Predicted Winner'))
 
-                    home = self._get_team(captures[0][1])
-                    away = self._get_team(captures[0][2])
-                    new_game = SimGame(home, away)
+            for game in future_games:
+                captures = re.findall("(\d{2}-\w{3}-\d{2})\s([\w\s'-.&`]*?)\s{2,}([\w\s'-.&`]*?)\s{2,}", game)
+                try:
+                    #TODO: Make this use calendar and datetime to do more intelligent bounding
+                    if(captures[0][0] == END_DATE):
+                        break
 
-                    captured_scores.append(new_game)
-            except IndexError as inst:
-                pass
+                    if(captures[0][1] not in self.team_array and captures[0][2] not in self.team_array):
+                        continue
+                    else:
+                        date = captures[0][0]
 
-        return captured_scores
+                        home = self._get_team(captures[0][1])
+                        away = self._get_team(captures[0][2])
+
+                        home_elo = round(home.get_elo(), 2)
+                        away_elo = round(away.get_elo(), 2)
+
+                        winner = home if home_elo > away_elo else away
+
+                        home_string   = home.get_name() + ' (' + str(home_elo) + ')'
+                        away_string   = away.get_name() + ' (' + str(away_elo) + ')'
+                        winner_string = winner.get_name()
+
+                        writer.writerow((date,home_string, away_string, winner_string))
+                except IndexError as inst:
+                    pass
 
     def output_games(self):
         with open('csv/' + str(year) + '/week' + week + 'scores.csv', 'w') as csv_file:
@@ -433,5 +449,5 @@ ranking.markdown_output()
 
 ranking.output_week_csv(result)
 
-# # Prediction time
-# ranking.parse_future()
+# Prediction time
+ranking.parse_future()
