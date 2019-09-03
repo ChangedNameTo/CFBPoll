@@ -449,5 +449,5 @@ ranking.markdown_output()
 
 ranking.output_week_csv(result)
 
-# Prediction time
-ranking.parse_future()
+# # Prediction time
+# ranking.parse_future()
