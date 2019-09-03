@@ -104,6 +104,9 @@ class Team():
         return record
 
     def get_change(self, week):
+        # FIX ME NOW
+        return 'N/A'
+
         if((week - 1) == 0):
             return 'N/A'
         else:

@@ -20,8 +20,10 @@ SCORE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/scores.htm'
 SCHEDULE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/schedules.htm'
 
 YEAR      = 2019
-WEEK      = 1
-END_DATE  = '05-Sep-19'
+WEEK      = 2
+
+START_DATE = '05-Sep-19'
+END_DATE   = '12-Sep-19'
 
 class Ranking():
     def __init__(self, year=2019, week=1):
@@ -191,11 +193,19 @@ class Ranking():
         week_csv_string = 'csv/' + str(YEAR) + '/week_' + str(WEEK) + '_predictions.csv'
         with open(week_csv_string, 'w') as week_csv:
             writer = csv.writer(week_csv, delimiter=',', quoting=csv.QUOTE_MINIMAL)
-            writer.writerow(('Date','Home','Away','Predicted Winner'))
+            writer.writerow(('Date','Home','Away','Predicted Winner', 'Odds'))
 
+            # Hacky way to continue....
+            found_present = False
             for game in future_games:
                 captures = re.findall("(\d{2}-\w{3}-\d{2})\s([\w\s'-.&`]*?)\s{2,}([\w\s'-.&`]*?)\s{2,}", game)
                 try:
+                    if(found_present == False):
+                        if(captures[0][0] != START_DATE):
+                            continue
+                        else:
+                            found_present = True
+
                     #TODO: Make this use calendar and datetime to do more intelligent bounding
                     if(captures[0][0] == END_DATE):
                         break
@@ -212,12 +222,15 @@ class Ranking():
                         away_elo = round(away.get_elo(), 2)
 
                         winner = home if home_elo > away_elo else away
+                        loser  = home if home_elo < away_elo else away
 
                         home_string   = home.get_name() + ' (' + str(home_elo) + ')'
                         away_string   = away.get_name() + ' (' + str(away_elo) + ')'
-                        winner_string = winner.get_name()
 
-                        writer.writerow((date,home_string, away_string, winner_string))
+                        winner_string = winner.get_name()
+                        winner_odds = round((winner.expected_outcome(loser.get_elo()) * 100), 2)
+
+                        writer.writerow((date,home_string, away_string, winner_string, winner_odds))
                 except IndexError as inst:
                     pass
 
@@ -449,5 +462,5 @@ ranking.markdown_output()
 
 ranking.output_week_csv(result)
 
-# # Prediction time
-# ranking.parse_future()
+# Prediction time
+ranking.parse_future()
