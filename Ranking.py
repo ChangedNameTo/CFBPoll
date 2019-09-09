@@ -2,6 +2,7 @@
 from Team import Team
 from Game import Game
 from Conference import Conference
+from Constants import *
 
 # Import libraries
 import urllib.request
@@ -13,17 +14,6 @@ import numpy as np
 
 conn = sqlite3.connect('poll.db')
 c    = conn.cursor()
-
-# Constants
-TEAM_LIST = 'util/teams.txt'
-SCORE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/scores.htm'
-SCHEDULE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/schedules.htm'
-
-YEAR      = 2019
-WEEK      = 2
-
-START_DATE = '05-Sep-19'
-END_DATE   = '12-Sep-19'
 
 class Ranking():
     def __init__(self, year=2019, week=1):

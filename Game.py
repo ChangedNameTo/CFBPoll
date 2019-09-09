@@ -3,10 +3,11 @@ import sqlite3
 
 import Team
 
+from Constants import *
+
 conn = sqlite3.connect('poll.db')
 c    = conn.cursor()
 
-K_VALUE = 15
 
 #TODO: Convert this to be FinishedGame so that I can make this a subclass of the parent "Game"
 class Game:
