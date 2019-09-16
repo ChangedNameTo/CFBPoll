@@ -27,7 +27,8 @@ class Ranking():
         c.execute('''CREATE TABLE IF NOT EXISTS Conferences
             (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
-                name TEXT
+                name TEXT,
+                p5 BOOLEAN
             );''')
         c.execute('''CREATE TABLE IF NOT EXISTS Teams
             (
@@ -73,9 +74,10 @@ class Ranking():
             name       = line[0]
             elo        = float(line[1])
             conference = line[2]
+            p5         = (line[3] == 'True')
 
             if(conference not in self.conference_dict.keys()):
-                self.conference_dict[conference] = Conference(conference)
+                self.conference_dict[conference] = Conference(conference, p5)
 
             conf_id = self.conference_dict[conference].get_db_id()
 

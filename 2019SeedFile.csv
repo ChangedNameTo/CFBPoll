@@ -1,129 +1,129 @@
-Clemson,1770.51,ACC Atlantic
-Alabama,1728.05,SEC West
-Ohio State,1693.57,Big 10 East
-Central Florida,1671.29,AAC East
-Notre Dame,1671.14,Independent
-Oklahoma,1665.6,Big 12
-Fresno St,1654.51,MW West
-Appalachian St,1650.4,Sun Belt East
-Georgia,1643.28,SEC East
-Utah St,1639.69,MW Mountain
-Boise St,1629.09,MW Mountain
-Washington St,1624.81,PAC 12 North
-Michigan,1615.75,Big 10 East
-Penn State,1615.32,Big 10 East
-Washington,1614.91,PAC 12 North
-LSU,1614.37,SEC West
-Texas,1614.03,Big 12
-Army,1613.82,Independent
-Ohio U.,1606.66,MAC East
-Cincinnati,1604.57,AAC East
-Syracuse,1604.41,ACC Atlantic
-Iowa,1601.63,Big 10 West
-Florida,1600.98,SEC East
-Texas A&M,1598.65,SEC West
-Troy,1580.85,Sun Belt East
-Kentucky,1580.16,SEC East
-Mississippi St,1578.64,SEC West
-Alabama-Birmingham,1576.58,CUSA West
-Missouri,1576.16,SEC West
-Northwestern,1569.29,Big 10 West
-Stanford,1565.82,PAC 12 North
-Iowa St,1565.29,Big 12
-Utah,1563.06,PAC 12 South
-Georgia Southern,1560.54,Sun Belt East
-North Carolina St,1558.43,ACC Atlantic
-Auburn,1557.49,SEC West
-Buffalo,1556.91,MAC East
-West Virginia,1556.21,Big 12
-Wisconsin,1555.2,Big 10 West
-Temple,1555.07,AAC East
-Memphis,1552.61,AAC West
-Marshall,1550.51,CUSA East
-Oregon,1544.44,PAC 12 North
-Arkansas St,1544.23,Sun Belt West
-Florida Int'l,1543.67,CUSA East
-Virginia,1542.04,ACC Coastal
-North Texas,1537.87,CUSA West
-Michigan St,1535.65,Big 10 East
-Boston College,1530.76,ACC Atlantic
-Brigham Young,1528.77,Independent
-Duke,1528.18,ACC Coastal
-Miami OH,1526.38,MAC East
-Minnesota,1525.23,Big 10 West
-Arizona St,1522.45,PAC 12 South
-Oklahoma St,1522.18,Big 12
-Miami FL,1519.28,ACC Coastal
-Middle Tennessee St,1519.18,CUSA East
-Houston,1518.19,AAC West
-Toledo,1517.41,MAC West
-Pittsburgh,1513.46,ACC Coastal
-Eastern Michigan,1511.55,MAC West
-Tulane,1509.97,AAC West
-Nevada,1509.25,MW West
-Southern Miss,1506.97,CUSA West
-TCU,1506.47,Big 12
-Purdue,1506.29,Big 10 West
-Georgia Tech,1505.92,ACC Coastal
-Louisiana Tech,1505.58,CUSA West
-Wake Forest,1502.89,ACC Atlantic
-South Carolina,1500.52,SEC East
-Wyoming,1498.93,MW Mountain
-Baylor,1494.09,Big 12
-Vanderbilt,1493.27,SEC East
-San Diego St,1492.52,MW West
-Arizona,1492.03,PAC 12 South
-Kansas St,1490.67,Big 12
-Northern Illinois,1488.76,MAC West
-Florida Atlantic,1484.99,CUSA East
-Southern Cal,1484.59,PAC 12 South
-Air Force,1479.7,MW Mountain
-California,1479.41,PAC 12 North
-Maryland,1477.25,Big 10 East
-Louisiana-Lafayette,1473.49,Sun Belt West
-Virginia Tech,1471.52,ACC Coastal
-Louisiana-Monroe,1468.3,Sun Belt West
-Nebraska,1467.83,Big 10 West
-South Florida,1464.5,AAC East
-Texas Tech,1462.77,Big 12
-Western Michigan,1457.78,MAC West
-Indiana,1457.09,Big 10 East
-Florida St,1449.44,ACC Atlantic
-SMU,1448.87,AAC West
-Hawai`i,1448.77,MW West
-Tennessee,1448.7,SEC East
-Mississippi,1440.25,SEC West
-Colorado,1435.78,PAC 12 South
-Western Kentucky,1416.67,CUSA East
-UNC-Charlotte,1416.19,CUSA East
-UCLA,1414.46,PAC 12 South
-Coastal Carolina,1405.71,Sun Belt East
-UNLV,1405.65,MW West
-Illinois,1400.67,Big 10 West
-Kansas,1400.11,Big 12
-Navy,1399.72,AAC West
-Tulsa,1390.66,AAC West
-North Carolina,1390.41,ACC Coastal
-Massachusetts,1388.3,Independent
-East Carolina,1387.05,AAC East
-Texas St-San Marcos,1386.23,Sun Belt West
-Ball St,1379.78,MAC West
-Old Dominion,1379.66,CUSA East
-Texas-San Antonio,1377.26,CUSA West
-Akron,1376.37,MAC East
-New Mexico,1375.99,MW Mountain
-Arkansas,1370.48,SEC West
-Colorado St,1368.58,MW Mountain
-Bowling Green,1367.22,MAC East
-South Alabama,1365.01,Sun Belt West
-Kent St,1354.37,MAC East
-Georgia St,1354.04,Sun Belt East
-San José St,1348.44,MW West
-Rutgers,1347.81,Big 10 East
-Louisville,1341.57,ACC Atlantic
-Rice,1338.83,CUSA West
-Oregon St,1338.08,PAC 12 North
-Central Michigan,1333.1,MAC West
-New Mexico St,1331.51,Independent
-UTEP,1311.22,CUSA West
-Connecticut,1296.46,AAC East
+Clemson,1770.51,ACC Atlantic,True
+Alabama,1728.05,SEC West,True
+Ohio State,1693.57,Big 10 East,True
+Central Florida,1671.29,AAC East,False
+Notre Dame,1671.14,Independent,False
+Oklahoma,1665.6,Big 12,True
+Fresno St,1654.51,MW West,False
+Appalachian St,1650.4,Sun Belt East,False
+Georgia,1643.28,SEC East,True
+Utah St,1639.69,MW Mountain,False
+Boise St,1629.09,MW Mountain,False
+Washington St,1624.81,PAC 12 North,True
+Michigan,1615.75,Big 10 East,True
+Penn State,1615.32,Big 10 East,True
+Washington,1614.91,PAC 12 North,True
+LSU,1614.37,SEC West,True
+Texas,1614.03,Big 12,True
+Army,1613.82,Independent,False
+Ohio U.,1606.66,MAC East,False
+Cincinnati,1604.57,AAC East,False
+Syracuse,1604.41,ACC Atlantic,True
+Iowa,1601.63,Big 10 West,True
+Florida,1600.98,SEC East,True
+Texas A&M,1598.65,SEC West,True
+Troy,1580.85,Sun Belt East,False
+Kentucky,1580.16,SEC East,True
+Mississippi St,1578.64,SEC West,True
+Alabama-Birmingham,1576.58,CUSA West,False
+Missouri,1576.16,SEC West,True
+Northwestern,1569.29,Big 10 West,True
+Stanford,1565.82,PAC 12 North,True
+Iowa St,1565.29,Big 12,True
+Utah,1563.06,PAC 12 South,True
+Georgia Southern,1560.54,Sun Belt East,False
+North Carolina St,1558.43,ACC Atlantic,True
+Auburn,1557.49,SEC West,True
+Buffalo,1556.91,MAC East,False
+West Virginia,1556.21,Big 12,True
+Wisconsin,1555.2,Big 10 West,True
+Temple,1555.07,AAC East,False
+Memphis,1552.61,AAC West,False
+Marshall,1550.51,CUSA East,False
+Oregon,1544.44,PAC 12 North,True
+Arkansas St,1544.23,Sun Belt West,False
+Florida Int'l,1543.67,CUSA East,False
+Virginia,1542.04,ACC Coastal,True
+North Texas,1537.87,CUSA West,False
+Michigan St,1535.65,Big 10 East,True
+Boston College,1530.76,ACC Atlantic,True
+Brigham Young,1528.77,Independent,False
+Duke,1528.18,ACC Coastal,True
+Miami OH,1526.38,MAC East,False
+Minnesota,1525.23,Big 10 West,True
+Arizona St,1522.45,PAC 12 South,True
+Oklahoma St,1522.18,Big 12,True
+Miami FL,1519.28,ACC Coastal,True
+Middle Tennessee St,1519.18,CUSA East,False
+Houston,1518.19,AAC West,False
+Toledo,1517.41,MAC West,False
+Pittsburgh,1513.46,ACC Coastal,True
+Eastern Michigan,1511.55,MAC West,False
+Tulane,1509.97,AAC West,False
+Nevada,1509.25,MW West,False
+Southern Miss,1506.97,CUSA West,False
+TCU,1506.47,Big 12,True
+Purdue,1506.29,Big 10 West,True
+Georgia Tech,1505.92,ACC Coastal,True
+Louisiana Tech,1505.58,CUSA West,False
+Wake Forest,1502.89,ACC Atlantic,True
+South Carolina,1500.52,SEC East,True
+Wyoming,1498.93,MW Mountain,False
+Baylor,1494.09,Big 12,True
+Vanderbilt,1493.27,SEC East,True
+San Diego St,1492.52,MW West,False
+Arizona,1492.03,PAC 12 South,True
+Kansas St,1490.67,Big 12,True
+Northern Illinois,1488.76,MAC West,False
+Florida Atlantic,1484.99,CUSA East,False
+Southern Cal,1484.59,PAC 12 South,True
+Air Force,1479.7,MW Mountain,False
+California,1479.41,PAC 12 North,True
+Maryland,1477.25,Big 10 East,True
+Louisiana-Lafayette,1473.49,Sun Belt West,False
+Virginia Tech,1471.52,ACC Coastal,True
+Louisiana-Monroe,1468.3,Sun Belt West,False
+Nebraska,1467.83,Big 10 West,True
+South Florida,1464.5,AAC East,False
+Texas Tech,1462.77,Big 12,True
+Western Michigan,1457.78,MAC West,False
+Indiana,1457.09,Big 10 East,True
+Florida St,1449.44,ACC Atlantic,True
+SMU,1448.87,AAC West,False
+Hawai`i,1448.77,MW West,False
+Tennessee,1448.7,SEC East,True
+Mississippi,1440.25,SEC West,True
+Colorado,1435.78,PAC 12 South,True
+Western Kentucky,1416.67,CUSA East,False
+UNC-Charlotte,1416.19,CUSA East,False
+UCLA,1414.46,PAC 12 South,True
+Coastal Carolina,1405.71,Sun Belt East,False
+UNLV,1405.65,MW West,False
+Illinois,1400.67,Big 10 West,True
+Kansas,1400.11,Big 12,True
+Navy,1399.72,AAC West,False
+Tulsa,1390.66,AAC West,False
+North Carolina,1390.41,ACC Coastal,True
+Massachusetts,1388.3,Independent,False
+East Carolina,1387.05,AAC East,False
+Texas St-San Marcos,1386.23,Sun Belt West,False
+Ball St,1379.78,MAC West,False
+Old Dominion,1379.66,CUSA East,False
+Texas-San Antonio,1377.26,CUSA West,False
+Akron,1376.37,MAC East,False
+New Mexico,1375.99,MW Mountain,False
+Arkansas,1370.48,SEC West,True
+Colorado St,1368.58,MW Mountain,False
+Bowling Green,1367.22,MAC East,False
+South Alabama,1365.01,Sun Belt West,False
+Kent St,1354.37,MAC East,False
+Georgia St,1354.04,Sun Belt East,False
+San José St,1348.44,MW West,False
+Rutgers,1347.81,Big 10 East,True
+Louisville,1341.57,ACC Atlantic,True
+Rice,1338.83,CUSA West,False
+Oregon St,1338.08,PAC 12 North,True
+Central Michigan,1333.1,MAC West,False
+New Mexico St,1331.51,Independent,False
+UTEP,1311.22,CUSA West,False
+Connecticut,1296.46,AAC East,False

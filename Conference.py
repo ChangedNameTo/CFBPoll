@@ -5,11 +5,12 @@ conn = sqlite3.connect('poll.db', timeout=10)
 c    = conn.cursor()
 
 class Conference():
-    def __init__(self, name):
+    def __init__(self, name, p5):
         self.name = name
+        self.p5 = p5
 
-        c.execute('''INSERT INTO Conferences (name)
-                          VALUES (?);''', (self.name,))
+        c.execute('''INSERT INTO Conferences (name, p5)
+                          VALUES (?, ?);''', (self.name, self.p5))
         conn.commit()
         self.db_id = c.lastrowid
 

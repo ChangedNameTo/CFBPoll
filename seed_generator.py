@@ -6,9 +6,11 @@ f = open(conference_aff)
 conference_csv = csv.reader(f)
 
 conference_dict = {}
+p5_dict = {}
 
 for team in conference_csv:
     conference_dict[team[0]] = team[1]
+    p5_dict[team[1]] = team[2]
 
 f.close()
 
@@ -24,5 +26,6 @@ with open('2019SeedFile.csv', 'w') as csv_file:
         name = team[1]
         elo = team[5]
         conference = conference_dict[name]
+        p5 = p5_dict[conference]
 
-        writer.writerow((name, elo, conference))
+        writer.writerow((name, elo, conference, p5))
