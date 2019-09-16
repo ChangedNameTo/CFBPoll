@@ -323,10 +323,6 @@ class Ranking():
             file.write("|Rank|Team|Flair|Record|ELO|SoS^^1|SoS Rank|Change|\n")
             file.write("|---|---|---|---|---|---|---|---|\n")
 
-
-            # TODO: Rewrite conference ranking
-            # conference_ranking(final_ranking, sos_ranking, point_map, True)
-
             rank = 1
             for team in self.get_top_25():
                 # sos      = str(sos_map[team])
@@ -433,6 +429,29 @@ class Ranking():
                 writer.writerow((rank, name, record, elo, sos, sos_rank, change))
                 rank = rank + 1
 
+    def conference_ranking(self):
+        c.execute('''SELECT c.name, round(AVG(t.elo), 2) as average
+                       FROM Conferences c
+                       JOIN Teams t ON t.conference_id = c.id
+                   GROUP BY c.name
+                   ORDER BY average DESC;''')
+
+        ranks = c.fetchall()
+
+        week_conference_csv = 'csv/' + str(YEAR) + '/week_' + str(WEEK) + '_conferences.csv'
+        with open(week_conference_csv, 'w') as week_csv:
+            writer = csv.writer(week_csv, delimiter=',', quoting=csv.QUOTE_MINIMAL)
+            writer.writerow(('Rank','Conference','Elo'))
+
+            rank = 1
+            for conference in ranks:
+                name = conference[0]
+                elo  = conference[1]
+
+                writer.writerow((rank, name, elo))
+                rank = rank + 1
+
+
 ranking = Ranking()
 ranking.mean_reversion()
 ranking.run_poll()
@@ -451,6 +470,7 @@ ranking.get_sos_ranks()
 ranking.markdown_output()
 
 ranking.output_week_csv(result)
+ranking.conference_ranking()
 
 # Prediction time
 ranking.parse_future()

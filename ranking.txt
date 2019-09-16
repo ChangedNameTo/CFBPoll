@@ -1,44 +1,44 @@
 |Rank|Team|Flair|Record|ELO|SoS^^1|SoS Rank|Change|
 |---|---|---|---|---|---|---|---|
-|1|Clemson|[Clemson](#f/clemson)|(2-0)|1665.99|1521|22|N/A|
-|2|Alabama|[Alabama](#f/alabama)|(2-0)|1662.41|1438|56|N/A|
-|3|Ohio State|[Ohio State](#f/ohiostate)|(2-0)|1644.95|1472|42|N/A|
-|4|LSU|[LSU](#f/lsu)|(2-0)|1632.03|1530|14|N/A|
-|5|Georgia|[Georgia](#f/georgia)|(2-0)|1611.76|1296|94|N/A|
-|6|Mississippi St|[Mississippi St](#f/mississippistate)|(2-0)|1607.02|1450|54|N/A|
-|7|Iowa|[Iowa](#f/iowa)|(2-0)|1603.83|1466|47|N/A|
-|8|Kentucky|[Kentucky](#f/kentucky)|(2-0)|1603.16|1456|49|N/A|
-|9|Oklahoma|[Oklahoma](#f/oklahoma)|(2-0)|1602.97|1282|107|N/A|
-|10|Auburn|[Auburn](#f/auburn)|(2-0)|1601.67|1504|31|N/A|
-|11|Penn State|[Penn State](#f/pennstate)|(2-0)|1599.23|1282|107|N/A|
-|12|Michigan|[Michigan](#f/michigan)|(2-0)|1597.41|1504|31|N/A|
-|13|Washington St|[Washington St](#f/washingtonstate)|(2-0)|1595.61|1246|120|N/A|
-|14|Wisconsin|[Wisconsin](#f/wisconsin)|(2-0)|1594.51|1414|58|N/A|
-|15|Central Florida|[Central Florida](#f/ucf)|(2-0)|1588.74|1259|114|N/A|
-|16|Michigan St|[Michigan St](#f/michiganstate)|(2-0)|1587.86|1426|57|N/A|
-|17|Notre Dame|[Notre Dame](#f/notredame)|(1-0)|1584.7|1448|55|N/A|
-|18|Appalachian St|[Appalachian St](#f/appalachianstate)|(2-0)|1584.34|1267|112|N/A|
-|19|Florida|[Florida](#f/florida)|(2-0)|1581.75|1292|98|N/A|
-|20|Missouri|[Missouri](#f/missouri)|(1-1)|1578.27|1512|27|N/A|
-|21|North Carolina St|[North Carolina St](#f/ncstate)|(2-0)|1577.92|1269|111|N/A|
-|22|Boise St|[Boise St](#f/boisestate)|(2-0)|1575.12|1490|37|N/A|
-|23|Texas A&M|[Texas A&M](#f/texasam)|(1-1)|1570.9|1534|13|N/A|
-|24|Maryland|[Maryland](#f/maryland)|(2-0)|1568.36|1306|88|N/A|
-|25|Utah|[Utah](#f/utah)|(2-0)|1566.5|1469|44|N/A|
+|1|Clemson|[Clemson](#f/clemson)|(3-0)|1686.96|1513|17|N/A|
+|2|Alabama|[Alabama](#f/alabama)|(3-0)|1681.44|1465|32|N/A|
+|3|Ohio State|[Ohio State](#f/ohiostate)|(3-0)|1669.58|1501|22|N/A|
+|4|Georgia|[Georgia](#f/georgia)|(3-0)|1638.63|1343|102|N/A|
+|5|LSU|[LSU](#f/lsu)|(3-0)|1634.1|1385|59|N/A|
+|6|Oklahoma|[Oklahoma](#f/oklahoma)|(3-0)|1621.83|1318|113|N/A|
+|7|Auburn|[Auburn](#f/auburn)|(3-0)|1619.38|1478|30|N/A|
+|8|Penn State|[Penn State](#f/pennstate)|(3-0)|1612.21|1335|107|N/A|
+|9|Central Florida|[Central Florida](#f/ucf)|(3-0)|1611.83|1348|95|N/A|
+|10|Notre Dame|[Notre Dame](#f/notredame)|(2-0)|1611.5|1448|36|N/A|
+|11|Washington St|[Washington St](#f/washingtonstate)|(3-0)|1607.56|1317|115|N/A|
+|12|Florida|[Florida](#f/florida)|(3-0)|1602.67|1384|63|N/A|
+|13|Iowa|[Iowa](#f/iowa)|(3-0)|1601.04|1486|28|N/A|
+|14|Michigan|[Michigan](#f/michigan)|(2-0)|1595.71|1504|21|N/A|
+|15|Washington|[Washington](#f/washington)|(2-1)|1591.67|1365|78|N/A|
+|16|Wisconsin|[Wisconsin](#f/wisconsin)|(2-0)|1591.57|1415|43|N/A|
+|17|Texas|[Texas](#f/texas)|(2-1)|1584.97|1490|26|N/A|
+|18|Missouri|[Missouri](#f/missouri)|(2-1)|1583.5|1378|68|N/A|
+|19|Mississippi St|[Mississippi St](#f/mississippistate)|(2-1)|1583.28|1496|25|N/A|
+|20|Appalachian St|[Appalachian St](#f/appalachianstate)|(2-0)|1583.01|1268|125|N/A|
+|21|Kentucky|[Kentucky](#f/kentucky)|(2-1)|1579.13|1510|20|N/A|
+|22|Boise St|[Boise St](#f/boisestate)|(3-0)|1579.12|1359|85|N/A|
+|23|Oklahoma St|[Oklahoma St](#f/oklahomastate)|(3-0)|1577.89|1321|112|N/A|
+|24|Texas A&M|[Texas A&M](#f/texasam)|(2-1)|1577.39|1381|65|N/A|
+|25|Kansas St|[Kansas St](#f/kansasstate)|(3-0)|1576.44|1352|90|N/A|
 ||||||||
-|78|Georgia Tech|[Georgia Tech](#f/georgiatech)|(1-1)|1485.48|1550|8|N/A|
+|90|Georgia Tech|[Georgia Tech](#f/georgiatech)|(1-2)|1469.28|1406|48|N/A|
 ||||||||
-|129|Rice|[Rice](#f/rice)|(0-2)|1378.81|1557|6|N/A|
+|129|Akron|[Akron](#f/akron)|(0-3)|1354.53|1488|27|N/A|
 
 ---
 
-**Mean Points:** 1504.02
+**Mean Points:** 1504.48
 
-**Median Points:** 1499.7
+**Median Points:** 1501.81
 
-**Standard Deviation of Points:** 65.89
+**Standard Deviation of Points:** 73.11
 
-**Variance:** 4341.85
+**Variance:** 5345.33
 
 ---
 
