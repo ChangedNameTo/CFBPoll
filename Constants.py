@@ -1,5 +1,5 @@
 # Constants
-TEAM_LIST    = 'util/teams.txt'
+TEAM_LIST    = 'util/csvs/teams.txt'
 SCORE_URL    = 'http://prwolfe.bol.ucla.edu/cfootball/scores.htm'
 SCHEDULE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/schedules.htm'
 

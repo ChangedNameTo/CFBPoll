@@ -103,7 +103,7 @@ class Ranking():
         flair_map = {}
 
         # Reads in the flair map
-        with open('util/flair_list.csv') as flair_csv:
+        with open('util/csvs/flair_list.csv') as flair_csv:
             csvReader = csv.reader(flair_csv)
             for row in csvReader:
                 # Formats the flair strings then adds them to the map
