@@ -1,3 +1,5 @@
+from Constants import *
+
 import sqlite3
 import numpy as numpy
 
@@ -34,6 +36,6 @@ class Conference():
             team_obj = team_dict[team_name[0]]
 
             prev_elo = team_obj.get_elo()
-            new_elo = ((prev_elo - avg_elo) * 0.33) + avg_elo
+            new_elo = ((prev_elo - avg_elo) * MEAN_REV) + avg_elo
 
             team_obj.set_elo(new_elo)
