@@ -1,50 +1,54 @@
 Date,Home,Away,Predicted Winner,Odds
-03-Oct-19,Temple (1540.6),East Carolina (1428.64),Temple,65.58
-03-Oct-19,Georgia Southern (1445.72),South Alabama (1348.15),Georgia Southern,63.68
-04-Oct-19,Central Florida (1594.2),Cincinnati (1575.55),Central Florida,52.68
-04-Oct-19,New Mexico (1406.92),San José St (1473.11),San José St,59.41
-05-Oct-19,Rice (1346.34),Alabama-Birmingham (1532.06),Alabama-Birmingham,74.44
-05-Oct-19,Tulane (1550.12),Army (1525.19),Tulane,53.58
-05-Oct-19,Ohio U. (1427.54),Buffalo (1414.79),Ohio U.,51.83
-05-Oct-19,Eastern Michigan (1444.52),Central Michigan (1462.44),Central Michigan,52.58
-05-Oct-19,Arizona (1543.16),Colorado (1508.0),Arizona,55.04
-05-Oct-19,San Diego St (1541.4),Colorado St (1374.02),San Diego St,72.38
-05-Oct-19,South Florida (1459.56),Connecticut (1369.39),South Florida,62.69
-05-Oct-19,Pittsburgh (1494.92),Duke (1534.6),Duke,55.69
-05-Oct-19,Auburn (1636.65),Florida (1644.79),Florida,51.17
-05-Oct-19,Massachusetts (1327.09),Florida Int'l (1451.85),Florida Int'l,67.22
-05-Oct-19,Arkansas St (1458.71),Georgia St (1490.88),Georgia St,54.62
-05-Oct-19,North Carolina (1516.97),Georgia Tech (1396.9),North Carolina,66.62
-05-Oct-19,TCU (1544.34),Iowa St (1593.52),Iowa St,57.03
-05-Oct-19,Oklahoma (1649.02),Kansas (1452.56),Oklahoma,75.6
-05-Oct-19,Baylor (1615.31),Kansas St (1523.89),Baylor,62.86
-05-Oct-19,Memphis (1602.51),Louisiana-Monroe (1440.69),Memphis,71.74
-05-Oct-19,Boston College (1517.65),Louisville (1495.97),Boston College,53.12
-05-Oct-19,Utah St (1514.81),LSU (1662.99),LSU,70.12
-05-Oct-19,Virginia Tech (1493.74),Miami FL (1478.1),Virginia Tech,52.25
-05-Oct-19,Iowa (1590.37),Michigan (1597.86),Michigan,51.08
-05-Oct-19,Marshall (1417.83),Middle Tennessee St (1433.93),Middle Tennessee St,52.31
-05-Oct-19,Illinois (1498.03),Minnesota (1591.33),Minnesota,63.11
-05-Oct-19,Vanderbilt (1416.46),Mississippi (1526.32),Mississippi,65.3
-05-Oct-19,Troy (1467.81),Missouri (1619.2),Missouri,70.51
-05-Oct-19,Air Force (1508.39),Navy (1527.29),Navy,52.72
-05-Oct-19,Northwestern (1458.74),Nebraska (1548.57),Nebraska,62.65
-05-Oct-19,Not FBS (1100),New Mexico St (1326.63),New Mexico St,78.66
-05-Oct-19,Ball St (1426.76),Northern Illinois (1375.63),Ball St,57.31
-05-Oct-19,Bowling Green (1342.7),Notre Dame (1620.28),Notre Dame,83.17
-05-Oct-19,Michigan St (1592.79),Ohio State (1726.35),Ohio State,68.33
-05-Oct-19,Western Kentucky (1493.11),Old Dominion (1389.66),Western Kentucky,64.46
-05-Oct-19,California (1512.97),Oregon (1602.55),Oregon,62.61
-05-Oct-19,Purdue (1449.46),Penn State (1655.31),Penn State,76.58
-05-Oct-19,Maryland (1547.37),Rutgers (1402.11),Maryland,69.77
-05-Oct-19,Tulsa (1456.44),SMU (1617.51),SMU,71.65
-05-Oct-19,Washington (1591.55),Stanford (1499.06),Washington,63.0
-05-Oct-19,Georgia (1653.42),Tennessee (1437.12),Georgia,77.65
-05-Oct-19,Oklahoma St (1558.98),Texas Tech (1517.84),Oklahoma St,55.89
-05-Oct-19,Western Michigan (1472.01),Toledo (1523.86),Toledo,57.41
-05-Oct-19,Oregon St (1488.72),UCLA (1392.34),Oregon St,63.52
-05-Oct-19,Boise St (1600.91),UNLV (1371.39),Boise St,78.94
-05-Oct-19,Texas-San Antonio (1397.13),UTEP (1344.84),Texas-San Antonio,57.47
-05-Oct-19,Texas (1610.05),West Virginia (1514.92),Texas,63.36
-05-Oct-19,Kent St (1432.11),Wisconsin (1667.35),Wisconsin,79.48
-09-Oct-19,Appalachian St (1594.05),Louisiana-Lafayette (1532.35),Appalachian St,58.79
+10-Oct-19,Syracuse (1505.59),North Carolina St (1510.33),North Carolina St,50.68
+10-Oct-19,Louisiana-Monroe (1440.69),Texas St-San Marcos (1413.3),Louisiana-Monroe,53.93
+11-Oct-19,Virginia (1548.16),Miami FL (1478.1),Virginia,59.95
+11-Oct-19,Colorado St (1374.02),New Mexico (1406.92),New Mexico,54.72
+11-Oct-19,Colorado (1508.0),Oregon (1602.55),Oregon,63.28
+12-Oct-19,Fresno St (1493.45),Air Force (1508.39),Air Force,52.15
+12-Oct-19,Kent St (1432.11),Akron (1326.5),Kent St,64.75
+12-Oct-19,Washington (1591.55),Arizona (1543.16),Washington,56.92
+12-Oct-19,Washington St (1526.66),Arizona St (1558.11),Arizona St,54.51
+12-Oct-19,Texas Tech (1517.84),Baylor (1615.31),Baylor,63.67
+12-Oct-19,Hawai`i (1533.84),Boise St (1600.91),Boise St,59.53
+12-Oct-19,Toledo (1523.86),Bowling Green (1342.7),Toledo,73.94
+12-Oct-19,New Mexico St (1326.63),Central Michigan (1462.44),Central Michigan,68.61
+12-Oct-19,Florida St (1543.08),Clemson (1661.43),Clemson,66.4
+12-Oct-19,Georgia St (1490.88),Coastal Carolina (1500.92),Coastal Carolina,51.44
+12-Oct-19,Georgia Tech (1396.9),Duke (1534.6),Duke,68.84
+12-Oct-19,Ball St (1426.76),Eastern Michigan (1444.52),Eastern Michigan,52.55
+12-Oct-19,Middle Tennessee St (1433.93),Florida Atlantic (1493.16),Florida Atlantic,58.44
+12-Oct-19,UNC-Charlotte (1433.59),Florida Int'l (1451.85),Florida Int'l,52.63
+12-Oct-19,South Carolina (1496.97),Georgia (1653.42),Georgia,71.11
+12-Oct-19,Cincinnati (1575.55),Houston (1468.26),Cincinnati,64.97
+12-Oct-19,Michigan (1597.86),Illinois (1498.03),Michigan,63.98
+12-Oct-19,Rutgers (1402.11),Indiana (1524.34),Indiana,66.9
+12-Oct-19,Penn State (1655.31),Iowa (1590.37),Penn State,59.24
+12-Oct-19,Arkansas (1485.08),Kentucky (1489.65),Kentucky,50.66
+12-Oct-19,Massachusetts (1327.09),Louisiana Tech (1518.46),Louisiana Tech,75.06
+12-Oct-19,Florida (1644.79),LSU (1662.99),LSU,52.62
+12-Oct-19,Old Dominion (1389.66),Marshall (1417.83),Marshall,54.05
+12-Oct-19,Nebraska (1548.57),Minnesota (1591.33),Minnesota,56.12
+12-Oct-19,Mississippi (1526.32),Missouri (1619.2),Missouri,63.06
+12-Oct-19,San José St (1473.11),Nevada (1442.74),San José St,54.36
+12-Oct-19,Southern Cal (1536.79),Notre Dame (1620.28),Notre Dame,61.79
+12-Oct-19,Northern Illinois (1375.63),Ohio U. (1427.54),Ohio U.,57.42
+12-Oct-19,Utah (1581.68),Oregon St (1488.72),Utah,63.07
+12-Oct-19,Maryland (1547.37),Purdue (1449.46),Maryland,63.73
+12-Oct-19,Wyoming (1559.85),San Diego St (1541.4),Wyoming,52.65
+12-Oct-19,Brigham Young (1446.42),South Florida (1459.56),South Florida,51.89
+12-Oct-19,North Texas (1436.61),Southern Miss (1479.78),Southern Miss,56.18
+12-Oct-19,Memphis (1602.51),Temple (1540.6),Memphis,58.82
+12-Oct-19,Mississippi St (1556.85),Tennessee (1437.12),Mississippi St,66.58
+12-Oct-19,Oklahoma (1649.02),Texas (1610.05),Oklahoma,55.58
+12-Oct-19,Alabama (1690.45),Texas A&M (1542.23),Alabama,70.12
+12-Oct-19,Alabama-Birmingham (1532.06),Texas-San Antonio (1397.13),Alabama-Birmingham,68.5
+12-Oct-19,Connecticut (1369.39),Tulane (1550.12),Tulane,73.89
+12-Oct-19,Navy (1527.29),Tulsa (1456.44),Navy,60.06
+12-Oct-19,UNLV (1371.39),Vanderbilt (1416.46),Vanderbilt,56.45
+12-Oct-19,Not FBS (1100),Virginia Tech (1493.74),Virginia Tech,90.61
+12-Oct-19,Louisville (1495.97),Wake Forest (1594.63),Wake Forest,63.83
+12-Oct-19,Iowa St (1593.52),West Virginia (1514.92),Iowa St,61.12
+12-Oct-19,Army (1525.19),Western Kentucky (1493.11),Army,54.6
+12-Oct-19,Miami OH (1436.95),Western Michigan (1472.01),Western Michigan,55.03
+12-Oct-19,Michigan St (1592.79),Wisconsin (1667.35),Wisconsin,60.57
+16-Oct-19,South Alabama (1348.15),Troy (1467.81),Troy,66.57
