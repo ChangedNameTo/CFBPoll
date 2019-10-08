@@ -1,4 +1,5 @@
 from Constants import *
+from statistics import mean
 
 import sqlite3
 import numpy as numpy
@@ -36,6 +37,10 @@ class Conference():
             team_obj = team_dict[team_name[0]]
 
             prev_elo = team_obj.get_elo()
-            new_elo = ((prev_elo - avg_elo) * MEAN_REV) + avg_elo
+            adj_elo = ([1500] * WEEK)
+            adj_elo.append(prev_elo)
+            adj_elo = mean(adj_elo)
+            new_elo = mean([avg_elo, adj_elo])
+            # new_elo = 1500
 
             team_obj.set_elo(new_elo)
