@@ -3,6 +3,7 @@ from Team import Team
 from Game import Game
 from Conference import Conference
 from Constants import *
+from Dates import wolfe_to_date
 
 # Import libraries
 import urllib.request
@@ -10,6 +11,8 @@ from bs4 import BeautifulSoup
 
 # Native libraries
 import re, statistics, csv, random, operator, copy, threading, math, os, sqlite3, calendar
+import datetime
+from datetime import timedelta
 import numpy as np
 
 conn = sqlite3.connect('poll.db')
@@ -22,6 +25,7 @@ class Ranking():
         c.execute('''DROP TABLE IF EXISTS Teams;''')
         c.execute('''DROP TABLE IF EXISTS Games;''')
         c.execute('''DROP TABLE IF EXISTS TeamWeeks;''')
+        c.execute('''DROP TABLE IF EXISTS Weeks;''')
 
         # Create the database
         c.execute('''CREATE TABLE IF NOT EXISTS Conferences
@@ -58,6 +62,12 @@ class Ranking():
                 rank INTEGER,
                 week INTEGER,
                 FOREIGN KEY(team_id) REFERENCES Teams(id)
+            );''')
+        c.execute('''CREATE TABLE IF NOT EXISTS Weeks
+            (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                start_date INTEGER,
+                end_date INTEGER
             );''')
         conn.commit()
 
@@ -98,6 +108,18 @@ class Ranking():
             return self.team_dict[team_name]
         else:
             return Team()
+
+    def generate_weeks(self):
+        year, month, day = wolfe_to_date(SEED_DATE)
+        curr_date = datetime.date(year, month, day)
+        end_date = datetime.date(2020, 1, 14)
+        while(curr_date < end_date):
+            s = curr_date.strftime('%Y-%m-%d')
+            curr_date = curr_date + timedelta(weeks=1)
+            e = curr_date.strftime('%Y-%m-%d')
+            c.execute('''INSERT INTO Weeks (start_date, end_date)
+                              VALUES (date(?), date(?));''',(s, e))
+            conn.commit()
 
     def generate_flair_map(self):
         flair_map = {}
@@ -145,7 +167,7 @@ class Ranking():
                 if(captures[0][1] not in self.team_array and captures[0][3] not in self.team_array):
                     continue
                 else:
-
+                    date = captures[0][0]
                     home = self._get_team(captures[0][1])
                     home_score = captures[0][2]
                     away = self._get_team(captures[0][3])
@@ -225,13 +247,6 @@ class Ranking():
                         writer.writerow((date,home_string, away_string, winner_string, winner_odds))
                 except IndexError as inst:
                     pass
-
-    def output_games(self):
-        with open('csv/' + str(year) + '/week' + week + 'scores.csv', 'w') as csv_file:
-            writer = csv.writer(csv_file, delimiter=',', quoting=csv.QUOTE_MINIMAL)
-            writer.writerow(('Date','Home','Home Score','Away','Away Score','Location if Neutral Site'))
-            for score in self.scores:
-                writer.writerow(score)
 
     def run_poll(self):
         for game in self.games:
@@ -455,6 +470,7 @@ class Ranking():
 
 
 ranking = Ranking()
+ranking.generate_weeks()
 ranking.mean_reversion()
 ranking.run_poll()
 
