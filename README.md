@@ -9,4 +9,4 @@ Has to be run using Python3.
 
 Run the program using the command:
 
-`python3 main.py fbs_scores.csv teams.txt true`
+`python3 Ranking.py`
