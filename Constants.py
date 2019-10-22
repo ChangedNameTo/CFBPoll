@@ -4,7 +4,7 @@ SCORE_URL    = 'http://prwolfe.bol.ucla.edu/cfootball/scores.htm'
 SCHEDULE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/schedules.htm'
 
 YEAR      = 2019
-WEEK      = 8
+WEEK      = 9
 K_VALUE   = (24 - WEEK)
 
 SEED_DATE = '24-Aug-19'
