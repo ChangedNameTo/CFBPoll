@@ -11,23 +11,16 @@ class Team():
         self.games   = []
         self.flair   = None
 
-        if name:
-            self.name       = name
-            self.elo        = elo
-            self.conference_id = conference_id
-            self.sos        = 1500
+        self.name       = name
+        self.elo        = elo
+        self.conference_id = conference_id
+        self.sos        = 1500
 
-            # Insert the team into the database for easier sorting at the end
-            c.execute('''INSERT INTO Teams (name, elo, sos, conference_id)
-                      VALUES (?, ?, ?, ?);''', (self.name, self.elo, self.sos, self.conference_id))
-            conn.commit()
-            self.db_id = c.lastrowid
-        else:
-            self.name          = 'Not FBS'
-            self.elo           = 1100
-            self.sos           = 1100
-            self.conference_id = 'Not FBS'
-            self.db_id         = None
+        # Insert the team into the database for easier sorting at the end
+        c.execute('''INSERT INTO Teams (name, elo, sos, conference_id)
+                    VALUES (?, ?, ?, ?);''', (self.name, self.elo, self.sos, self.conference_id))
+        conn.commit()
+        self.db_id = c.lastrowid
 
     def expected_outcome(self, other_rating):
             return (1 / ( 1 + 10**( ( other_rating - self.elo ) / 400 ) ))
@@ -46,27 +39,30 @@ class Team():
         return self.flair
 
     def set_flair(self, flair):
-        self.flair = flair
+        if self.ignore_action():
+            self.flair = flair
 
     def set_elo(self, elo):
-        self.elo = elo
-        c.execute('''UPDATE Teams
-                        SET elo = ?
-                      WHERE id = ?;''', (self.elo, self.db_id))
-        conn.commit()
+        if self.ignore_action():
+            self.elo = elo
+            c.execute('''UPDATE Teams
+                            SET elo = ?
+                        WHERE id = ?;''', (self.elo, self.db_id))
+            conn.commit()
 
     def set_sos(self):
-        avg_array = []
-        for game in self.games:
-            other_team = game.get_opponent(self)
-            avg_array.append(other_team.get_elo())
+        if self.ignore_action():
+            avg_array = []
+            for game in self.games:
+                other_team = game.get_opponent(self)
+                avg_array.append(other_team.get_elo())
 
-        sos = int(np.mean(avg_array))
-        c.execute('''UPDATE Teams
-                        SET sos = ?
-                      WHERE id = ?;''', (sos, self.db_id))
-        conn.commit()
-        self.sos = sos
+            sos = int(np.mean(avg_array))
+            c.execute('''UPDATE Teams
+                            SET sos = ?
+                        WHERE id = ?;''', (sos, self.db_id))
+            conn.commit()
+            self.sos = sos
 
     def get_sos(self):
         return self.sos
@@ -75,33 +71,40 @@ class Team():
         return self.sos_rank
 
     def set_sos_rank(self, sos_rank):
-        self.sos_rank = sos_rank
+        if self.ignore_action():
+            self.sos_rank = sos_rank
 
     def get_rank(self):
         return self.rank
 
     def set_rank(self, rank, week):
-        self.rank = rank
-        c.execute('''INSERT INTO TeamWeeks (team_id,rank,week)
-                          VALUES (?, ?, ?);''',(self.db_id,rank,week))
-        conn.commit()
+        if self.ignore_action():
+            self.rank = rank
+            c.execute('''INSERT INTO TeamWeeks (team_id,rank,week)
+                            VALUES (?, ?, ?);''',(self.db_id,rank,week))
+            conn.commit()
 
     ### Utility Methods
     def add_game(self, game):
-        self.games.append(game)
+        if self.ignore_action():
+            self.games.append(game)
+
+    def ignore_action(self):
+        return self.name != "Not FBS"
 
     def get_record(self):
-        wins  = 0
-        loses = 0
-        for game in self.games:
-            if game.did_team_win(self):
-                wins = wins + 1
-            else:
-                loses = loses + 1
+        if self.ignore_action():
+            wins  = 0
+            loses = 0
+            for game in self.games:
+                if game.did_team_win(self):
+                    wins = wins + 1
+                else:
+                    loses = loses + 1
 
-        record = "(" + str(wins) + "-" + str(loses) + ")"
+            record = "(" + str(wins) + "-" + str(loses) + ")"
 
-        return record
+            return record
 
     def get_change(self, week):
         # FIX ME NOW
