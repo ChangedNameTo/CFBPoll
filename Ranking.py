@@ -92,7 +92,8 @@ class Ranking():
             conf_id = self.conference_dict[conference].get_db_id()
 
             new_team = Team(name, elo, conf_id)
-            new_team.set_flair(flair_map[name])
+            if new_team.ignore_action():
+                new_team.set_flair(flair_map[name])
             self.team_dict[name] = new_team
 
         # Generate the different utility structures
@@ -104,10 +105,10 @@ class Ranking():
         self.year      = year
 
     def _get_team(self, team_name):
-        if(team_name in self.team_array):
+        if team_name in self.team_array:
             return self.team_dict[team_name]
         else:
-            return Team()
+            return self.team_dict['Not FBS']
 
     def generate_weeks(self):
         year, month, day = wolfe_to_date(SEED_DATE)
@@ -255,6 +256,7 @@ class Ranking():
     def get_results(self):
         c.execute('''SELECT id, name, elo
                        FROM Teams
+                      WHERE name NOT LIKE 'Not FBS'
                    ORDER BY elo DESC;''')
         return c.fetchall()
 
@@ -286,6 +288,7 @@ class Ranking():
     def get_top_25(self):
         c.execute('''SELECT name
                        FROM Teams
+                      WHERE name NOT LIKE 'Not FBS'
                    ORDER BY elo DESC
                       LIMIT 25;''')
         return c.fetchall()
@@ -295,7 +298,8 @@ class Ranking():
                        OVER (
                            ORDER BY sos DESC
                        ) sos_rank
-                       FROM Teams;''')
+                       FROM Teams
+                      WHERE name NOT LIKE 'Not FBS';''')
 
         ranks = c.fetchall()
 
@@ -309,6 +313,7 @@ class Ranking():
     def get_last_place(self):
         c.execute('''SELECT name
                        FROM Teams
+                      WHERE name NOT LIKE 'Not FBS'
                    ORDER BY elo ASC
                       LIMIT 1;''')
         return c.fetchall()[0][0]
@@ -318,7 +323,8 @@ class Ranking():
                        OVER (
                            ORDER BY elo DESC
                        ) elo_rank
-                       FROM Teams;''')
+                       FROM Teams
+                      WHERE name NOT LIKE 'Not FBS';''')
 
         ranks = c.fetchall()
 
