@@ -1,0 +1,2 @@
+class Betting(object):
+    pass
