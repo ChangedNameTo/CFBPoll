@@ -243,7 +243,7 @@ class Ranking():
                         away_string   = away.get_name() + ' (' + str(away_elo) + ')'
 
                         winner_string = winner.get_name()
-                        winner_odds = round((winner.expected_outcome(loser.get_elo()) * 100), 2)
+                        winner_odds = round((winner.expected_outcome(loser.get_elo(), True) * 100), 2)
 
                         writer.writerow((date,home_string, away_string, winner_string, winner_odds))
                 except IndexError as inst:

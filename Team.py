@@ -22,8 +22,14 @@ class Team():
         conn.commit()
         self.db_id = c.lastrowid
 
-    def expected_outcome(self, other_rating):
-            return (1 / ( 1 + 10**( ( other_rating - self.elo ) / 400 ) ))
+    def expected_outcome(self, other_rating,predict=False, home=True):
+        if predict:
+            return (1 / ( 1 + 10**( ( other_rating - (self.elo + 25) ) / 400 ) ) )
+        else:
+            if (home):
+                return (1 / ( 1 + 10**( ( other_rating - (self.elo + 25) ) / 400 ) ) )
+            else:
+                return (1 / ( 1 + 10**( ( other_rating - (self.elo - 25) ) / 400 ) ) )
 
     ### Getters/Setters
     def get_name(self):

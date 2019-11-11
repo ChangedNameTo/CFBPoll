@@ -94,8 +94,8 @@ class Game:
         away_elo = self.away.get_elo()
 
         # Home field advantage accounts for a 2.5 increase in expected score according to Sagarin and accounted for here
-        expected_home = self.home.expected_outcome(away_elo) + 2.5
-        expected_away = self.away.expected_outcome(home_elo)
+        expected_home = self.home.expected_outcome(away_elo, False, True)
+        expected_away = self.away.expected_outcome(home_elo, False, False)
 
         mov_multiplier = self._mov_multiplier()
 
