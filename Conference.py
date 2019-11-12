@@ -20,6 +20,12 @@ class Conference():
     def get_db_id(self):
         return self.db_id
 
+    def set_flair(self, flair):
+        self.flair = flair
+
+    def get_flair(self):
+        return self.flair
+
     def mean_reversion(self, team_dict):
         # Get the team ids for this conference
         c.execute('''SELECT name

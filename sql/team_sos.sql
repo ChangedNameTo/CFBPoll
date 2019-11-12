@@ -6,5 +6,5 @@ SELECT g.id AS game_id,
   FROM Games g
   JOIN Teams th ON g.home_id = th.id
   JOIN Teams ta ON g.away_id = ta.id
- WHERE th.name = 'Florida'
-    OR ta.name = 'Florida'
+ WHERE th.name = 'Tulsa'
+    OR ta.name = 'Tulsa'
