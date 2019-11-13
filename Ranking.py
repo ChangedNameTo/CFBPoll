@@ -75,9 +75,9 @@ class Ranking():
         self.conference_dict = {}
 
         flair_map            = self.generate_flair_map()
-        fbs_teams            = open(TEAM_LIST, 'r')
 
-        f = open('2019SeedFile.csv')
+        # f = open('2019SeedFile.csv')
+        f = open('2018SeedFile.csv')
         seed_csv = csv.reader(f)
 
         for line in seed_csv:
@@ -110,7 +110,7 @@ class Ranking():
         if team_name in self.team_array:
             return self.team_dict[team_name]
         else:
-            return self.team_dict['Not FBS']
+            return self.team_dict['Not D1']
 
     def generate_weeks(self):
         year, month, day = wolfe_to_date(SEED_DATE)
@@ -152,11 +152,11 @@ class Ranking():
     # Opens a URL containing scores and turns it into an array of Game Objects
     def parse_games(self):
         # Make the request and open the table into a parsable object
-        request = urllib.request.Request(SCORE_URL)
-        response = urllib.request.urlopen(request)
-        page_html = response.read()
-        # f = open('past_pages/2018_cfb_scores.html', 'r', encoding = "ISO-8859-1")
-        # page_html = f.read()
+        # request = urllib.request.Request(SCORE_URL)
+        # response = urllib.request.urlopen(request)
+        # page_html = response.read()
+        f = open('past_pages/2018_cfb_scores.html', 'r', encoding = "ISO-8859-1")
+        page_html = f.read()
         soup = BeautifulSoup(page_html, 'html.parser')
         score_table = soup.pre.string
 
