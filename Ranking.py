@@ -400,14 +400,6 @@ class Ranking():
 
             file.write("\n")
 
-            # TODO: This won't work with the new system either
-            # Writes out the easiest and hardest SoS
-            # for key, value in sos_ranking.items():
-            #     if value == 1:
-            #         easiest = key
-            #     if value == 129:
-            #         hardest = key
-
             file.write("---\n")
             file.write("\n")
             file.write("**Mean Points:** " + str(self.mean) + "\n")
