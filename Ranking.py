@@ -76,8 +76,7 @@ class Ranking():
 
         flair_map            = self.generate_flair_map()
 
-        # f = open('2019SeedFile.csv')
-        f = open('2018SeedFile.csv')
+        f = open('2019SeedFile.csv')
         seed_csv = csv.reader(f)
 
         for line in seed_csv:
@@ -93,7 +92,7 @@ class Ranking():
 
             conf_id = self.conference_dict[conference].get_db_id()
 
-            new_team = Team(name, elo, conf_id)
+            new_team = Team(name, elo, conf_id, conference)
             if new_team.ignore_action():
                 if(name in flair_map.keys()):
                     new_team.set_flair(flair_map[name])
@@ -155,11 +154,11 @@ class Ranking():
     # Opens a URL containing scores and turns it into an array of Game Objects
     def parse_games(self):
         # Make the request and open the table into a parsable object
-        # request = urllib.request.Request(SCORE_URL)
-        # response = urllib.request.urlopen(request)
-        # page_html = response.read()
-        f = open('past_pages/2018_cfb_scores.html', 'r', encoding = "ISO-8859-1")
-        page_html = f.read()
+        request = urllib.request.Request(SCORE_URL)
+        response = urllib.request.urlopen(request)
+        page_html = response.read()
+        # f = open('past_pages/2018_cfb_scores.html', 'r', encoding = "ISO-8859-1")
+        # page_html = f.read()
         soup = BeautifulSoup(page_html, 'html.parser')
         score_table = soup.pre.string
 
@@ -268,7 +267,7 @@ class Ranking():
     def get_results(self):
         c.execute('''SELECT id, name, elo
                        FROM Teams
-                      WHERE name NOT LIKE 'Not FBS'
+                      WHERE name NOT LIKE 'Not D1'
                    ORDER BY elo DESC;''')
         return c.fetchall()
 
@@ -300,7 +299,7 @@ class Ranking():
     def get_top_25(self):
         c.execute('''SELECT name
                        FROM Teams
-                      WHERE name NOT LIKE 'Not FBS'
+                      WHERE name NOT LIKE 'Not D1'
                    ORDER BY elo DESC
                       LIMIT 25;''')
         return c.fetchall()
@@ -311,7 +310,7 @@ class Ranking():
                            ORDER BY sos DESC
                        ) sos_rank
                        FROM Teams
-                      WHERE name NOT LIKE 'Not FBS';''')
+                      WHERE name NOT LIKE 'Not D1';''')
 
         ranks = c.fetchall()
 
@@ -325,7 +324,7 @@ class Ranking():
     def get_last_place(self):
         c.execute('''SELECT name
                        FROM Teams
-                      WHERE name NOT LIKE 'Not FBS'
+                      WHERE name NOT LIKE 'Not D1'
                    ORDER BY elo ASC
                       LIMIT 1;''')
         return c.fetchall()[0][0]
@@ -336,7 +335,7 @@ class Ranking():
                            ORDER BY elo DESC
                        ) elo_rank
                        FROM Teams
-                      WHERE name NOT LIKE 'Not FBS';''')
+                      WHERE name NOT LIKE 'Not D1';''')
 
         ranks = c.fetchall()
 
@@ -470,7 +469,7 @@ class Ranking():
         week_csv_string = 'csv/' + str(YEAR) + '/week_' + str(WEEK) + '.csv'
         with open(week_csv_string, 'w') as week_csv:
             writer = csv.writer(week_csv, delimiter=',', quoting=csv.QUOTE_MINIMAL)
-            writer.writerow(('Rank','Team','Record','ELO','SoS','SoS Rank','Change'))
+            writer.writerow(('Rank','Team','Record','ELO','SoS','SoS Rank','Change','Conference','Is P5'))
 
             rank = 1
             for team in result:
@@ -481,8 +480,10 @@ class Ranking():
                 sos      = round(team_obj.get_sos(),2)
                 sos_rank = team_obj.get_sos_rank()
                 change   = team_obj.get_change(WEEK)
+                conference   = team_obj.get_conference_name()
+                is_p5 = team_obj.is_p5()
 
-                writer.writerow((rank, name, record, elo, sos, sos_rank, change))
+                writer.writerow((rank, name, record, elo, sos, sos_rank, change, conference, is_p5))
                 rank = rank + 1
 
     def conference_ranking(self):

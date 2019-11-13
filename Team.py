@@ -7,13 +7,14 @@ conn = sqlite3.connect('poll.db', timeout=30)
 c    = conn.cursor()
 
 class Team():
-    def __init__(self, name=None, elo=1500, conference_id=None):
+    def __init__(self, name=None, elo=1500, conference_id=None, conference_name="CFB"):
         self.games   = []
         self.flair   = None
 
         self.name       = name
         self.elo        = elo
         self.conference_id = conference_id
+        self.conference_name = conference_name
         self.sos        = 1500
 
         # Insert the team into the database for easier sorting at the end
@@ -34,6 +35,22 @@ class Team():
     ### Getters/Setters
     def get_name(self):
         return self.name
+
+    def get_conference_name(self):
+        return self.conference_name
+
+    def is_p5(self):
+        return self.conference_name in [
+            'SEC West',
+            'Big 10 East',
+            'Big 12',
+            'Big 10 West',
+            'SEC East',
+            'PAC 12 North',
+            'ACC Atlantic',
+            'PAC 12 South',
+            'ACC Coastal'
+        ]
 
     def get_db_id(self):
         return self.db_id
@@ -96,7 +113,7 @@ class Team():
             self.games.append(game)
 
     def ignore_action(self):
-        return self.name != "Not FBS"
+        return self.name != "Not D1"
 
     def get_record(self):
         if self.ignore_action():

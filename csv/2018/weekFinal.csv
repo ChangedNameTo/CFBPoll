@@ -1,130 +1,255 @@
-Rank,Team,Record,SoS,SoS Rank,ELO,Change
-1,Clemson,15-0,51.0,18,1770.51,1
-2,Alabama,14-1,51.062,19,1728.05,-1
-3,Ohio State,13-1,57.133,46,1693.57,0
-4,Central Florida,12-1,66.643,85,1671.29,0
-5,Notre Dame,12-1,53.786,28,1671.14,0
-6,Oklahoma,12-2,49.733,11,1665.6,0
-7,Fresno St,12-2,69.333,95,1654.51,0
-8,Appalachian St,11-2,71.571,103,1650.4,0
-9,Georgia,11-3,48.867,9,1643.28,0
-10,Utah St,11-2,78.286,124,1639.69,0
-11,Boise St,10-3,56.286,42,1629.09,0
-12,Washington St,11-2,65.643,82,1624.81,0
-13,Michigan,10-3,50.714,16,1615.75,0
-14,Penn State,9-4,51.5,20,1615.32,0
-15,Washington,10-4,54.133,29,1614.91,0
-16,LSU,10-3,50.0,12,1614.37,0
-17,Texas,10-4,53.467,26,1614.03,0
-18,Army,11-2,74.286,115,1613.82,0
-19,Ohio U.,9-4,77.0,122,1606.66,0
-20,Cincinnati,11-2,71.214,102,1604.57,0
-21,Syracuse,10-3,65.143,76,1604.41,0
-22,Iowa,9-4,58.214,51,1601.63,0
-23,Florida,10-3,57.929,48,1600.98,0
-24,Texas A&M,9-4,46.643,4,1598.65,0
-25,Troy,10-3,74.143,113,1580.85,0
-26,Kentucky,10-3,56.143,41,1580.16,0
-27,Mississippi St,8-5,50.214,14,1578.64,0
-28,Alabama-Birmingham,11-3,75.6,119,1576.58,0
-29,Missouri,8-5,54.429,31,1576.16,0
-30,Northwestern,9-5,49.467,10,1569.29,0
-31,Stanford,9-4,56.929,45,1565.82,0
-32,Iowa St,8-5,56.0,40,1565.29,0
-33,Utah,9-5,52.8,24,1563.06,0
-34,Georgia Southern,10-3,73.0,108,1560.54,0
-35,North Carolina St,9-4,65.5,81,1558.43,0
-36,Auburn,8-5,55.286,35,1557.49,0
-37,Buffalo,10-4,70.933,100,1556.91,0
-38,West Virginia,8-4,57.462,47,1556.21,0
-39,Wisconsin,8-5,58.0,49,1555.2,0
-40,Temple,8-5,67.929,89,1555.07,0
-41,Memphis,8-6,74.533,116,1552.61,0
-42,Marshall,9-4,74.071,112,1550.51,0
-43,Oregon,9-4,66.286,84,1544.44,0
-44,Arkansas St,8-5,74.643,117,1544.23,0
-45,Florida Int'l,9-4,82.0,128,1543.67,0
-46,Virginia,8-5,72.0,106,1542.04,0
-47,North Texas,9-4,84.071,129,1537.87,0
-48,Michigan St,7-6,51.857,22,1535.65,0
-49,Boston College,7-5,62.385,66,1530.76,0
-50,Brigham Young,7-6,62.429,68,1528.77,0
-51,Duke,8-5,54.714,32,1528.18,0
-52,Miami OH,6-6,61.692,64,1526.38,0
-53,Minnesota,7-6,54.286,30,1525.23,0
-54,Arizona St,7-6,58.857,54,1522.45,0
-55,Oklahoma St,7-6,55.143,33,1522.18,0
-56,Miami FL,7-6,59.286,58,1519.28,0
-57,Middle Tennessee St,8-6,59.133,56,1519.18,0
-58,Houston,8-5,75.786,120,1518.19,0
-59,Toledo,7-6,73.143,109,1517.41,0
-60,Pittsburgh,7-7,44.733,2,1513.46,0
-61,Eastern Michigan,7-6,74.214,114,1511.55,0
-62,Tulane,7-6,65.357,80,1509.97,0
-63,Nevada,8-5,72.929,107,1509.25,0
-64,Southern Miss,6-5,73.917,111,1506.97,0
-65,TCU,7-6,55.714,37,1506.47,0
-66,Purdue,6-7,45.357,3,1506.29,0
-67,Georgia Tech,7-6,65.0,74,1505.92,0
-68,Louisiana Tech,8-5,74.929,118,1505.58,0
-69,Wake Forest,7-6,55.714,38,1502.89,0
-70,South Carolina,7-6,53.571,27,1500.52,0
-71,Wyoming,6-6,64.462,71,1498.93,0
-72,Baylor,7-6,59.5,62,1494.09,0
-73,Vanderbilt,6-7,55.357,36,1493.27,0
-74,San Diego St,7-6,62.286,65,1492.52,0
-75,Arizona,5-7,65.231,78,1492.03,0
-76,Kansas St,5-7,56.385,43,1490.67,0
-77,Northern Illinois,8-6,58.4,52,1488.76,0
-78,Florida Atlantic,5-7,59.462,60,1484.99,0
-79,Southern Cal,5-7,55.154,34,1484.59,0
-80,Air Force,5-7,67.538,88,1479.7,0
-81,California,7-6,65.214,77,1479.41,0
-82,Maryland,5-7,48.385,8,1477.25,0
-83,Louisiana-Lafayette,7-7,63.4,70,1473.49,0
-84,Virginia Tech,6-7,58.643,53,1471.52,0
-85,Louisiana-Monroe,6-6,71.846,105,1468.3,0
-86,Nebraska,4-8,47.308,6,1467.83,0
-87,South Florida,7-6,68.643,92,1464.5,0
-88,Texas Tech,5-7,56.538,44,1462.77,0
-89,Western Michigan,7-6,67.286,87,1457.78,0
-90,Indiana,5-7,47.077,5,1457.09,0
-91,Florida St,5-7,50.846,17,1449.44,0
-92,SMU,5-7,58.923,55,1448.87,0
-93,Hawai`i,8-6,69.533,96,1448.77,0
-94,Tennessee,5-7,50.0,13,1448.7,0
-95,Mississippi,5-7,59.462,61,1440.25,0
-96,Colorado,5-7,68.692,93,1435.78,0
-97,Western Kentucky,3-9,78.231,123,1416.67,0
-98,UNC-Charlotte,5-7,65.308,79,1416.19,0
-99,UCLA,3-9,40.615,1,1414.46,0
-100,Coastal Carolina,5-7,64.615,73,1405.71,0
-101,UNLV,4-8,71.615,104,1405.65,0
-102,Illinois,4-8,64.462,72,1400.67,0
-103,Kansas,3-9,62.692,69,1400.11,0
-104,Navy,3-10,52.5,23,1399.72,0
-105,Tulsa,3-9,69.769,97,1390.66,0
-106,North Carolina,2-9,60.667,63,1390.41,0
-107,Massachusetts,4-8,66.769,86,1388.3,0
-108,East Carolina,3-9,62.385,67,1387.05,0
-109,Texas St-San Marcos,3-9,76.615,121,1386.23,0
-110,Ball St,4-8,70.154,98,1379.78,0
-111,Old Dominion,4-8,79.077,125,1379.66,0
-112,Texas-San Antonio,3-9,65.0,75,1377.26,0
-113,Akron,4-8,66.0,83,1376.37,0
-114,New Mexico,3-9,68.0,90,1375.99,0
-115,Arkansas,2-10,52.923,25,1370.48,0
-116,Colorado St,3-9,70.385,99,1368.58,0
-117,Bowling Green,3-9,71.077,101,1367.22,0
-118,South Alabama,3-9,59.231,57,1365.01,0
-119,Kent St,2-10,69.0,94,1354.37,0
-120,Georgia St,2-10,59.308,59,1354.04,0
-121,San José St,1-11,55.846,39,1348.44,0
-122,Rutgers,1-11,50.615,15,1347.81,0
-123,Louisville,2-10,47.846,7,1341.57,0
-124,Rice,2-11,68.286,91,1338.83,0
-125,Oregon St,2-10,51.538,21,1338.08,0
-126,Central Michigan,1-11,73.692,110,1333.1,0
-127,New Mexico St,3-9,79.231,126,1331.51,0
-128,UTEP,1-11,79.769,127,1311.22,0
-129,Connecticut,1-11,58.0,50,1296.46,0
+Clemson,1822.07,ACC Atlantic,TRUE
+Alabama,1773.76,SEC West,TRUE
+Ohio State,1721,Big 10 East,TRUE
+Central Florida,1697.13,AAC East,FALSE
+Notre Dame,1691.25,Independent,FALSE
+Oklahoma,1677.97,Big 12,TRUE
+Fresno St,1673.76,MW West,FALSE
+Georgia,1671.44,SEC East,TRUE
+Appalachian St,1664.12,Sun Belt East,FALSE
+Utah St,1650.16,MW Mountain,FALSE
+Boise St,1646.2,MW Mountain,FALSE
+Syracuse,1640.94,ACC Atlantic,TRUE
+Ohio U.,1639.18,MAC East,FALSE
+Cincinnati,1638.86,AAC East,FALSE
+Washington,1638.09,PAC 12 North,TRUE
+Washington St,1638.09,PAC 12 North,TRUE
+Michigan,1636.53,Big 10 East,TRUE
+Florida,1636.1,SEC East,TRUE
+Penn State,1635.72,Big 10 East,TRUE
+Army,1634.22,Independent,FALSE
+LSU,1633.13,SEC West,TRUE
+Texas,1632.04,Big 12,TRUE
+Iowa,1621.82,Big 10 West,TRUE
+Troy,1616.27,Sun Belt East,FALSE
+North Dakota St,1615.38,MVFC,FALSE
+Missouri,1606.59,SEC East,TRUE
+Texas A&M,1600.73,SEC West,TRUE
+Mississippi St,1592.02,SEC West,TRUE
+Auburn,1589.51,SEC West,TRUE
+Kentucky,1589.43,SEC East,TRUE
+West Virginia,1585.29,Big 12,TRUE
+Virginia,1583.68,ACC Coastal,TRUE
+Georgia Southern,1581.65,Sun Belt East,FALSE
+Iowa St,1581.35,Big 12,TRUE
+Utah,1580.69,PAC 12 South,TRUE
+Buffalo,1580.52,MAC East,FALSE
+Memphis,1579.22,AAC West,FALSE
+Stanford,1571.72,PAC 12 North,TRUE
+Northwestern,1570.14,Big 10 West,TRUE
+North Carolina St,1568.18,ACC Atlantic,TRUE
+Temple,1565.77,AAC East,FALSE
+Arkansas St,1562.01,Sun Belt West,FALSE
+Boston College,1557.18,ACC Atlantic,TRUE
+Brigham Young,1557.06,Independent,FALSE
+Wisconsin,1555.72,Big 10 West,TRUE
+Michigan St,1550.02,Big 10 East,TRUE
+Oregon,1537.53,PAC 12 North,TRUE
+Duke,1535.24,ACC Coastal,TRUE
+Minnesota,1534.17,Big 10 West,TRUE
+Miami OH,1533.97,MAC East,FALSE
+Toledo,1532.29,MAC West,FALSE
+Houston,1531.64,AAC West,FALSE
+Oklahoma St,1531.55,Big 12,TRUE
+Eastern Michigan,1527.01,MAC West,FALSE
+Pittsburgh,1521.18,ACC Coastal,TRUE
+Arizona St,1518.01,PAC 12 South,TRUE
+Princeton,1516.98,Ivy League,FALSE
+South Carolina,1516.01,SEC East,TRUE
+Tulane,1511.87,AAC West,FALSE
+Miami FL,1511.84,ACC Coastal,TRUE
+Georgia Tech,1510.43,ACC Coastal,TRUE
+Nevada,1509.49,MW West,FALSE
+Purdue,1506.36,Big 10 West,TRUE
+Arizona,1505.63,PAC 12 South,TRUE
+Wake Forest,1504.5,ACC Atlantic,TRUE
+Eastern Washington,1503.46,Big Sky,FALSE
+TCU,1503.34,Big 12,TRUE
+San José St,1500,MW West,FALSE
+Vanderbilt,1498.34,SEC East,TRUE
+Kennesaw St,1497.94,Big South,FALSE
+Baylor,1495.95,Big 12,TRUE
+San Diego St,1491.84,MW West,FALSE
+Air Force,1491.59,MW Mountain,FALSE
+Kansas St,1489.24,Big 12,TRUE
+Maryland,1486.99,Big 10 East,TRUE
+California,1480.72,PAC 12 North,TRUE
+Southern Cal,1480.4,PAC 12 South,TRUE
+Nebraska,1479.82,Big 10 West,TRUE
+Wyoming,1479.77,MW Mountain,FALSE
+Louisiana-Lafayette,1477.19,Sun Belt West,FALSE
+Texas Tech,1475.04,Big 12,TRUE
+South Dakota St,1470,MVFC,FALSE
+Louisiana-Monroe,1464.38,Sun Belt West,FALSE
+Dartmouth,1464.11,Ivy League,FALSE
+Virginia Tech,1461.13,ACC Coastal,TRUE
+Western Michigan,1460.1,MAC West,FALSE
+Northern Illinois,1459.95,MAC West,FALSE
+Tennessee,1448.84,SEC East,TRUE
+Liberty,1448.66,Independent,FALSE
+South Florida,1448.36,AAC East,FALSE
+James Madison,1447.96,CAA,FALSE
+Indiana,1445.79,Big 10 East,TRUE
+Mississippi,1445.03,SEC West,TRUE
+North Carolina A&T,1444.97,MEAC,FALSE
+Florida St,1443.25,ACC Atlantic,TRUE
+Hawai`i,1438.71,MW West,FALSE
+SMU,1438.18,AAC West,FALSE
+Colorado,1437.4,PAC 12 South,TRUE
+Alabama-Birmingham,1436.2,CUSA West,FALSE
+North Texas,1427.54,CUSA West,FALSE
+Weber St,1426.63,Big Sky,FALSE
+Colgate,1422.98,Patriot,FALSE
+UNLV,1418.05,MW West,FALSE
+UC-Davis,1412.21,Big Sky,FALSE
+Marshall,1410.75,CUSA East,FALSE
+Nicholls St,1409.05,Southland,FALSE
+Wofford,1402.41,Southern,FALSE
+Alcorn St,1401.49,SWAC East,FALSE
+Coastal Carolina,1398.84,Sun Belt East,FALSE
+UCLA,1398.35,PAC 12 South,TRUE
+Illinois,1397.73,Big 10 West,TRUE
+Florida Int'l,1395.29,CUSA East,FALSE
+Navy,1395.05,AAC West,FALSE
+Kansas,1393.85,Big 12,TRUE
+SE Missouri St,1393.68,OVC,FALSE
+Texas St-San Marcos,1391.17,Sun Belt West,FALSE
+North Carolina,1387.32,ACC Coastal,TRUE
+Tulsa,1383.32,AAC West,FALSE
+Jacksonville St,1380.09,OVC,FALSE
+San Diego,1379.84,Pioneer,FALSE
+New Mexico,1378.66,MW Mountain,FALSE
+Middle Tennessee St,1378.26,CUSA East,FALSE
+Monmouth NJ,1377.92,Big South,FALSE
+East Carolina,1377.44,AAC East,FALSE
+LIU Post,1375.28,NEC,FALSE
+Harvard,1374.04,Ivy League,FALSE
+Duquesne,1371.03,NEC,FALSE
+Massachusetts,1370.99,Independent,FALSE
+Stony Brook,1369.17,CAA,FALSE
+Maine,1367.88,CAA,FALSE
+Drake,1361.26,Pioneer,FALSE
+Arkansas,1359.56,SEC West,TRUE
+Bowling Green,1359.16,MAC East,FALSE
+Ball St,1357.95,MAC West,FALSE
+Louisiana Tech,1357.52,CUSA West,FALSE
+Akron,1357.1,MAC East,FALSE
+Towson,1354.41,CAA,FALSE
+Samford,1353.45,Southern,FALSE
+Kent St,1351.58,MAC East,FALSE
+South Alabama,1351.48,Sun Belt West,FALSE
+Sacred Heart,1348.14,NEC,FALSE
+Lamar,1347.37,Southland,FALSE
+Southern U.,1347.17,SWAC West,FALSE
+New Mexico St,1344.86,Independent,FALSE
+Dayton,1341.53,Pioneer,FALSE
+Stetson,1341.49,Pioneer,FALSE
+Illinois St,1341.37,MVFC,FALSE
+Northern Iowa,1338.83,MVFC,FALSE
+Southern Miss,1338.47,CUSA West,FALSE
+Furman,1337.6,Southern,FALSE
+Georgia St,1336.51,Sun Belt East,FALSE
+Central Conn St,1335.98,NEC,FALSE
+Rutgers,1335.96,Big 10 East,TRUE
+Central Arkansas,1331.53,Southland,FALSE
+Indiana St,1331.05,MVFC,FALSE
+Colorado St,1330.26,MW Mountain,FALSE
+Oregon St,1328.03,PAC 12 North,TRUE
+Montana St,1325.99,Big Sky,FALSE
+Abilene Christian,1325.9,Southland,FALSE
+Florida Atlantic,1325.11,CUSA East,FALSE
+Louisville,1321.19,ACC Atlantic,TRUE
+Incarnate Word,1320.1,Southland,FALSE
+The Citadel,1319.04,Southern,FALSE
+Central Michigan,1318.65,MAC West,FALSE
+Alabama A&M,1317.31,SWAC East,FALSE
+Delaware,1316.75,CAA,FALSE
+Montana,1314.25,Big Sky,FALSE
+Elon,1312.6,CAA,FALSE
+Rhode Island,1311.87,CAA,FALSE
+North Alabama,1306.47,Big South,FALSE
+Grambling St,1306.2,SWAC West,FALSE
+Columbia,1304.82,Ivy League,FALSE
+Hampton,1303.55,Big South,FALSE
+Western Illinois,1303.07,MVFC,FALSE
+Prairie View A&M,1301.31,SWAC West,FALSE
+Yale,1301.28,Ivy League,FALSE
+Chattanooga,1300.26,Southern,FALSE
+East Tennessee St,1296.79,Southern,FALSE
+Eastern Kentucky,1294.59,OVC,FALSE
+Idaho St,1293.03,Big Sky,FALSE
+Villanova,1292.99,CAA,FALSE
+Pennsylvania,1292.38,Ivy League,FALSE
+Florida A&M,1290.31,MEAC,FALSE
+Not FBS,1288.24,FCS,FALSE
+Sam Houston St,1286.84,Southland,FALSE
+Campbell,1286.38,Big South,FALSE
+Mercer,1286.17,Southern,FALSE
+South Carolina St,1285.53,MEAC,FALSE
+Austin Peay,1283.95,OVC,FALSE
+Howard,1282.54,MEAC,FALSE
+Cal Poly SLO,1281.39,Big Sky,FALSE
+Marist,1280.52,Pioneer,FALSE
+St Francis PA,1280.47,NEC,FALSE
+New Hampshire,1280.22,CAA,FALSE
+Bethune-Cookman,1278.22,MEAC,FALSE
+Davidson,1277.8,Pioneer,FALSE
+Connecticut,1274.45,AAC East,FALSE
+Youngstown St,1268.78,MVFC,FALSE
+Holy Cross,1266.92,Patriot,FALSE
+McNeese St,1266.25,Southland,FALSE
+North Carolina Central,1261.36,MEAC,FALSE
+Charleston Southern,1261.27,Big South,FALSE
+Georgetown DC,1258.3,Patriot,FALSE
+Murray St,1253.97,OVC,FALSE
+UNC-Charlotte,1250.49,CUSA East,FALSE
+SE Louisiana,1249.26,Southland,FALSE
+Tennessee St,1248.59,OVC,FALSE
+Morgan St,1245.35,MEAC,FALSE
+South Dakota,1242.21,MVFC,FALSE
+Western Kentucky,1238.16,CUSA East,FALSE
+Jackson St,1234.25,SWAC East,FALSE
+Portland St,1233.8,Big Sky,FALSE
+William & Mary,1233.16,CAA,FALSE
+Northwestern St,1231.87,Southland,FALSE
+Idaho,1230.16,Big Sky,FALSE
+Old Dominion,1230.06,CUSA East,FALSE
+Cornell NY,1226.93,Ivy League,FALSE
+Eastern Illinois,1224.22,OVC,FALSE
+Northern Arizona,1219.05,Big Sky,FALSE
+Tennessee-Martin,1217.55,OVC,FALSE
+Southern Illinois,1214.9,MVFC,FALSE
+Richmond,1209.72,CAA,FALSE
+Wagner,1206.98,NEC,FALSE
+Missouri St,1200.18,MVFC,FALSE
+Gardner-Webb,1197.08,Big South,FALSE
+Delaware St,1193.14,MEAC,FALSE
+Norfolk St,1192.99,MEAC,FALSE
+Albany NY,1190.76,CAA,FALSE
+Bryant,1190.4,NEC,FALSE
+Texas-San Antonio,1188.39,CUSA West,FALSE
+Butler,1181.65,Pioneer,FALSE
+Lehigh,1176.96,Patriot,FALSE
+Valparaiso,1173.67,Pioneer,FALSE
+Western Carolina,1167.03,Southern,FALSE
+Alabama St,1165.56,SWAC East,FALSE
+Fordham,1164.54,Patriot,FALSE
+Stephen F. Austin,1163.64,Southland,FALSE
+Morehead St,1159.51,Pioneer,FALSE
+Rice,1159.19,CUSA West,FALSE
+Northern Colorado,1157.5,Big Sky,FALSE
+Jacksonville FL,1153.43,Pioneer,FALSE
+Lafayette,1151.46,Patriot,FALSE
+Arkansas-Pine Bluff,1148.63,SWAC West,FALSE
+Presbyterian,1148,Big South,FALSE
+Texas Southern,1144.63,SWAC West,FALSE
+Southern Utah,1140.46,Big Sky,FALSE
+Sacramento St,1136.74,Big Sky,FALSE
+UTEP,1131.07,CUSA West,FALSE
+Brown,1129.42,Ivy League,FALSE
+VMI,1123.47,Southern,FALSE
+Robert Morris PA,1120.28,NEC,FALSE
+Missouri Valley,1117.5,SWAC East,FALSE
+Bucknell,1104.71,Patriot,FALSE
+Houston Baptist,1103.11,Southland,FALSE
+Tennessee Tech,1076.52,OVC,FALSE

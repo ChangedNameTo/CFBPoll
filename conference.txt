@@ -1,38 +1,38 @@
 |Rank|Conference|Flair|ELO|
 |---|---|---|---|
-|1|SEC West|[SEC West](#l/sec)|1570.64|
-|2|SEC East|[SEC East](#l/sec)|1566.6|
-|3|ACC Atlantic|[ACC Atlantic](#l/acc)|1551.15|
-|4|Big 10 East|[Big 10 East](#l/big10)|1544.54|
-|5|Big 12|[Big 12](#l/big12)|1536.46|
-|6|PAC 12 North|[PAC 12 North](#l/pac12)|1531.55|
-|7|Big 10 West|[Big 10 West](#l/big10)|1523.37|
-|8|Sun Belt East|[Sun Belt East](#l/sunbelt)|1519.66|
-|9|Independent|[Independent](#l/cfb)|1507.54|
-|10|MW West|[MW West](#l/mwc)|1505.24|
-|11|ACC Coastal|[ACC Coastal](#l/acc)|1500.57|
-|12|AAC East|[AAC East](#l/aac)|1500.35|
-|13|MW Mountain|[MW Mountain](#l/mwc)|1496.04|
-|14|PAC 12 South|[PAC 12 South](#l/pac12)|1486.55|
-|15|AAC West|[AAC West](#l/aac)|1473.13|
-|16|MAC East|[MAC East](#l/mac)|1470.24|
-|17|Sun Belt West|[Sun Belt West](#l/sunbelt)|1449.23|
-|18|MAC West|[MAC West](#l/mac)|1442.67|
-|19|MVFC|[MVFC](#l/mvc)|1331.7|
-|20|Ivy League|[Ivy League](#l/ivy)|1326.04|
-|21|CUSA East|[CUSA East](#l/cusa)|1318.22|
-|22|CAA|[CAA](#l/caa)|1307.16|
-|23|CUSA West|[CUSA West](#l/cusa)|1292.82|
-|24|Southern|[Southern](#l/socon)|1286.36|
-|25|Big South|[Big South](#l/bigsouth)|1282.23|
-|26|Big Sky|[Big Sky](#l/bigsky)|1277.29|
-|27|Southland|[Southland](#l/southland)|1273.97|
-|28|NEC|[NEC](#l/nec)|1267.99|
-|29|MEAC|[MEAC](#l/meac)|1264.18|
-|30|OVC|[OVC](#l/ovc)|1261.9|
-|31|Pioneer|[Pioneer](#l/pioneer)|1255.6|
-|32|SWAC West|[SWAC West](#l/swac)|1240.13|
-|33|SWAC East|[SWAC East](#l/swac)|1227.12|
-|34|Patriot|[Patriot](#l/patriot)|1220.72|
-|35|FCS|[FCS](#l/cfb)|1100.0|
-|36|D2|[D2](#l/cfb)|919.8|
+|1|SEC West|[SEC West](#l/sec)|1589.53|
+|2|Big 10 East|[Big 10 East](#l/big10)|1581.97|
+|3|Big 12|[Big 12](#l/big12)|1562.72|
+|4|SEC East|[SEC East](#l/sec)|1559.41|
+|5|PAC 12 North|[PAC 12 North](#l/pac12)|1552.96|
+|6|Big 10 West|[Big 10 West](#l/big10)|1551.35|
+|7|ACC Atlantic|[ACC Atlantic](#l/acc)|1551.3|
+|8|AAC West|[AAC West](#l/aac)|1550.72|
+|9|Sun Belt East|[Sun Belt East](#l/sunbelt)|1532.17|
+|10|MW Mountain|[MW Mountain](#l/mwc)|1528.8|
+|11|ACC Coastal|[ACC Coastal](#l/acc)|1518.76|
+|12|PAC 12 South|[PAC 12 South](#l/pac12)|1518.75|
+|13|AAC East|[AAC East](#l/aac)|1503.71|
+|14|MW West|[MW West](#l/mwc)|1484.46|
+|15|MAC West|[MAC West](#l/mac)|1473.84|
+|16|Sun Belt West|[Sun Belt West](#l/sunbelt)|1459.94|
+|17|Independent|[Independent](#l/cfb)|1450.46|
+|18|Ivy League|[Ivy League](#l/ivy)|1429.69|
+|19|MVFC|[MVFC](#l/mvc)|1423.14|
+|20|MAC East|[MAC East](#l/mac)|1422.31|
+|21|CAA|[CAA](#l/caa)|1415.61|
+|22|CUSA East|[CUSA East](#l/cusa)|1409.86|
+|23|FCS|[FCS](#l/cfb)|1387.89|
+|24|CUSA West|[CUSA West](#l/cusa)|1382.71|
+|25|Big Sky|[Big Sky](#l/bigsky)|1375.23|
+|26|Southern|[Southern](#l/socon)|1374.65|
+|27|OVC|[OVC](#l/ovc)|1366.81|
+|28|Southland|[Southland](#l/southland)|1365.62|
+|29|Big South|[Big South](#l/bigsouth)|1360.04|
+|30|NEC|[NEC](#l/nec)|1357.08|
+|31|MEAC|[MEAC](#l/meac)|1344.5|
+|32|Pioneer|[Pioneer](#l/pioneer)|1341.29|
+|33|SWAC West|[SWAC West](#l/swac)|1330.25|
+|34|SWAC East|[SWAC East](#l/swac)|1313.1|
+|35|Patriot|[Patriot](#l/patriot)|1299.61|
+|36|CFB|[CFB](#f/cfb)|1100.0|
