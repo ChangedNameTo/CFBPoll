@@ -87,7 +87,9 @@ class Ranking():
             p5         = (line[3] == 'True')
 
             if(conference not in self.conference_dict.keys()):
-                self.conference_dict[conference] = Conference(conference, p5)
+                new_conf = Conference(conference, p5)
+                new_conf.set_flair(flair_map[conference])
+                self.conference_dict[conference] = new_conf
 
             conf_id = self.conference_dict[conference].get_db_id()
 
@@ -131,6 +133,13 @@ class Ranking():
             for row in csvReader:
                 # Formats the flair strings then adds them to the map
                 flair_map[row[0]] = "[" + row[0] + "]" + "(#f/" + row[1] + ")"
+
+        # Reads in the flair map
+        with open('util/csvs/conference_flair.csv') as flair_csv:
+            csvReader = csv.reader(flair_csv)
+            for row in csvReader:
+                # Formats the flair strings then adds them to the map
+                flair_map[row[0]] = "[" + row[0] + "]" + "(#l/" + row[1] + ")"
 
         return flair_map
 
@@ -243,7 +252,7 @@ class Ranking():
                         away_string   = away.get_name() + ' (' + str(away_elo) + ')'
 
                         winner_string = winner.get_name()
-                        winner_odds = round((winner.expected_outcome(loser.get_elo()) * 100), 2)
+                        winner_odds = round((winner.expected_outcome(loser.get_elo(), True) * 100), 2)
 
                         writer.writerow((date,home_string, away_string, winner_string, winner_odds))
                 except IndexError as inst:
@@ -425,6 +434,35 @@ class Ranking():
             file.write("\n")
             file.write("[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)")
 
+    def conference_output(self):
+        try:
+            os.remove('conference.txt')
+        except FileNotFoundError as e:
+            pass
+
+        with open('conference.txt', 'w') as file:
+            # Writes the table header
+            file.write("|Rank|Conference|Flair|ELO|\n")
+            file.write("|---|---|---|---|\n")
+
+            c.execute('''SELECT c.name, round(AVG(t.elo), 2) as average
+                        FROM Conferences c
+                        JOIN Teams t ON t.conference_id = c.id
+                    GROUP BY c.name
+                    ORDER BY average DESC;''')
+
+            ranks = c.fetchall()
+
+            rank = 1
+            for conference in ranks:
+                name = conference[0]
+                conf_obj = self.conference_dict[name]
+                flair = conf_obj.get_flair()
+                elo  = conference[1]
+
+                file.write("|" + str(rank) + "|" + name + "|" + flair + "|" + str(elo) + "|\n")
+                rank = rank + 1
+
     def output_week_csv(self, result):
         week_csv_string = 'csv/' + str(YEAR) + '/week_' + str(WEEK) + '.csv'
         with open(week_csv_string, 'w') as week_csv:
@@ -487,6 +525,7 @@ ranking.markdown_output()
 
 ranking.output_week_csv(result)
 ranking.conference_ranking()
+ranking.conference_output()
 
 # Prediction time
 ranking.parse_future()

@@ -1,0 +1,23 @@
+|Rank|Conference|Flair|ELO|
+|---|---|---|---|
+|1|SEC West|[SEC West](#l/sec)|1577.59|
+|2|Big 10 East|[Big 10 East](#l/big10)|1571.86|
+|3|Big 12|[Big 12](#l/big12)|1549.42|
+|4|Big 10 West|[Big 10 West](#l/big10)|1546.15|
+|5|AAC West|[AAC West](#l/aac)|1539.39|
+|6|SEC East|[SEC East](#l/sec)|1538.84|
+|7|PAC 12 North|[PAC 12 North](#l/pac12)|1538.64|
+|8|ACC Atlantic|[ACC Atlantic](#l/acc)|1533.34|
+|9|Sun Belt East|[Sun Belt East](#l/sunbelt)|1515.33|
+|10|MW Mountain|[MW Mountain](#l/mwc)|1514.27|
+|11|PAC 12 South|[PAC 12 South](#l/pac12)|1508.73|
+|12|ACC Coastal|[ACC Coastal](#l/acc)|1504.84|
+|13|AAC East|[AAC East](#l/aac)|1489.05|
+|14|CUSA East|[CUSA East](#l/cusa)|1461.54|
+|15|MW West|[MW West](#l/mwc)|1461.32|
+|16|MAC West|[MAC West](#l/mac)|1457.62|
+|17|Sun Belt West|[Sun Belt West](#l/sunbelt)|1443.48|
+|18|Independent|[Independent](#l/na)|1442.22|
+|19|CUSA West|[CUSA West](#l/cusa)|1438.2|
+|20|MAC East|[MAC East](#l/mac)|1413.58|
+|21|FCS|[FCS](#l/na)|1100.0|
