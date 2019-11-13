@@ -4,6 +4,7 @@ from Game import Game
 from Conference import Conference
 from Constants import YEAR, WEEK, SEED_DATE, START_DATE, END_DATE, SCHEDULE_URL, SCORE_URL
 from Dates import wolfe_to_date
+from Betting import Betting
 
 # Import libraries
 import urllib.request
