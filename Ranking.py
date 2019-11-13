@@ -2,7 +2,7 @@
 from Team import Team
 from Game import Game
 from Conference import Conference
-from Constants import *
+from Constants import YEAR, WEEK, SEED_DATE, START_DATE, END_DATE, SCHEDULE_URL, SCORE_URL
 from Dates import wolfe_to_date
 
 # Import libraries
@@ -179,7 +179,6 @@ class Ranking():
                 if(captures[0][1] not in self.team_array and captures[0][3] not in self.team_array):
                     continue
                 else:
-                    date = captures[0][0]
                     home = self._get_team(captures[0][1])
                     home_score = captures[0][2]
                     away = self._get_team(captures[0][3])
@@ -191,7 +190,7 @@ class Ranking():
                         new_game = Game(home, home_score, away, away_score)
 
                     captured_scores.append(new_game)
-            except IndexError as inst:
+            except IndexError:
                 pass
 
         return captured_scores
@@ -213,8 +212,6 @@ class Ranking():
 
         # Deletes header rows
         del future_games[0:3]
-
-        captured_scores = []
 
         week_csv_string = 'csv/' + str(YEAR) + '/week_' + str(WEEK) + '_predictions.csv'
         with open(week_csv_string, 'w') as week_csv:
@@ -257,7 +254,7 @@ class Ranking():
                         winner_odds = round((winner.expected_outcome(loser.get_elo(), True) * 100), 2)
 
                         writer.writerow((date,home_string, away_string, winner_string, winner_odds))
-                except IndexError as inst:
+                except IndexError:
                     pass
 
     def run_poll(self):
@@ -339,7 +336,7 @@ class Ranking():
     def markdown_output(self):
         try:
             os.remove('ranking.txt')
-        except FileNotFoundError as e:
+        except FileNotFoundError:
             pass
 
         with open('ranking.txt', 'w') as file:
@@ -429,7 +426,7 @@ class Ranking():
     def conference_output(self):
         try:
             os.remove('conference.txt')
-        except FileNotFoundError as e:
+        except FileNotFoundError:
             pass
 
         with open('conference.txt', 'w') as file:
