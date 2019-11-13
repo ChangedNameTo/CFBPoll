@@ -1,44 +1,44 @@
 |Rank|Team|Flair|Record|ELO|SoS^^1|SoS Rank|Change|
 |---|---|---|---|---|---|---|---|
-|1|Ohio State|[Ohio State](#f/ohiostate)|(9-0)|1754.61|1527|35|N/A|
-|2|Clemson|[Clemson](#f/clemson)|(10-0)|1742.84|1488|83|N/A|
-|3|LSU|[LSU](#f/lsu)|(9-0)|1719.12|1526|40|N/A|
-|4|Alabama|[Alabama](#f/alabama)|(8-1)|1709.05|1512|57|N/A|
-|5|Georgia|[Georgia](#f/georgia)|(8-1)|1701.55|1517|51|N/A|
-|6|Penn State|[Penn State](#f/pennstate)|(8-1)|1680.4|1536|23|N/A|
-|7|Minnesota|[Minnesota](#f/minnesota)|(9-0)|1675.17|1512|57|N/A|
-|8|Oregon|[Oregon](#f/oregon)|(8-1)|1673.59|1526|40|N/A|
-|9|Utah|[Utah](#f/utah)|(8-1)|1669.34|1489|79|N/A|
-|10|Florida|[Florida](#f/florida)|(8-2)|1658.17|1545|15|N/A|
-|11|Oklahoma|[Oklahoma](#f/oklahoma)|(8-1)|1656.06|1502|67|N/A|
-|12|Baylor|[Baylor](#f/baylor)|(9-0)|1654.46|1462|108|N/A|
-|13|Wisconsin|[Wisconsin](#f/wisconsin)|(7-2)|1652.53|1543|18|N/A|
-|14|Auburn|[Auburn](#f/auburn)|(7-2)|1651.81|1556|6|N/A|
-|15|Appalachian St|[Appalachian St](#f/appalachianstate)|(8-1)|1643.95|1456|112|N/A|
-|16|Michigan|[Michigan](#f/michigan)|(7-2)|1640.89|1532|29|N/A|
-|17|Memphis|[Memphis](#f/memphis)|(8-1)|1637.11|1483|88|N/A|
-|18|Central Florida|[Central Florida](#f/ucf)|(7-3)|1634.7|1476|97|N/A|
-|19|Boise St|[Boise St](#f/boisestate)|(8-1)|1630.74|1490|78|N/A|
-|20|SMU|[SMU](#f/smu)|(9-1)|1623.02|1472|100|N/A|
-|21|North Dakota St|[CFB](#f/cfb)|(10-0)|1618.71|1350|209|N/A|
-|22|Indiana|[Indiana](#f/indiana)|(7-2)|1617.44|1462|108|N/A|
-|23|Navy|[Navy](#f/navy)|(7-1)|1615.93|1479|93|N/A|
-|24|Cincinnati|[Cincinnati](#f/cincinnati)|(8-1)|1614.57|1493|74|N/A|
-|25|Air Force|[Air Force](#f/airforce)|(7-2)|1613.33|1483|88|N/A|
+|1|Ohio State|[Ohio State](#f/ohiostate)|(9-0)|1755.59|1527|35|N/A|
+|2|Clemson|[Clemson](#f/clemson)|(10-0)|1744.12|1487|83|N/A|
+|3|LSU|[LSU](#f/lsu)|(9-0)|1719.97|1526|38|N/A|
+|4|Alabama|[Alabama](#f/alabama)|(8-1)|1710.19|1512|56|N/A|
+|5|Georgia|[Georgia](#f/georgia)|(8-1)|1702.47|1517|51|N/A|
+|6|Penn State|[Penn State](#f/pennstate)|(8-1)|1681.05|1536|23|N/A|
+|7|Minnesota|[Minnesota](#f/minnesota)|(9-0)|1675.29|1512|56|N/A|
+|8|Oregon|[Oregon](#f/oregon)|(8-1)|1673.72|1526|38|N/A|
+|9|Utah|[Utah](#f/utah)|(8-1)|1669.6|1489|78|N/A|
+|10|Florida|[Florida](#f/florida)|(8-2)|1658.74|1545|15|N/A|
+|11|Oklahoma|[Oklahoma](#f/oklahoma)|(8-1)|1656.83|1502|66|N/A|
+|12|Baylor|[Baylor](#f/baylor)|(9-0)|1654.02|1461|108|N/A|
+|13|Wisconsin|[Wisconsin](#f/wisconsin)|(7-2)|1652.8|1543|17|N/A|
+|14|Auburn|[Auburn](#f/auburn)|(7-2)|1652.25|1556|7|N/A|
+|15|Appalachian St|[Appalachian St](#f/appalachianstate)|(8-1)|1644.55|1455|112|N/A|
+|16|Michigan|[Michigan](#f/michigan)|(7-2)|1641.57|1532|29|N/A|
+|17|Memphis|[Memphis](#f/memphis)|(8-1)|1637.31|1482|89|N/A|
+|18|Central Florida|[Central Florida](#f/ucf)|(7-3)|1635.45|1475|98|N/A|
+|19|Boise St|[Boise St](#f/boisestate)|(8-1)|1631.34|1489|78|N/A|
+|20|SMU|[SMU](#f/smu)|(9-1)|1622.54|1472|100|N/A|
+|21|North Dakota St|[CFB](#f/cfb)|(10-0)|1618.46|1349|209|N/A|
+|22|Indiana|[Indiana](#f/indiana)|(7-2)|1616.97|1461|108|N/A|
+|23|Cincinnati|[Cincinnati](#f/cincinnati)|(8-1)|1615.21|1493|74|N/A|
+|24|Navy|[Navy](#f/navy)|(7-1)|1615.02|1479|93|N/A|
+|25|Air Force|[Air Force](#f/airforce)|(7-2)|1613.31|1483|88|N/A|
 ||||||||
-|160|Georgia Tech|[Georgia Tech](#f/georgiatech)|(2-7)|1398.69|1538|22|N/A|
+|159|Georgia Tech|[Georgia Tech](#f/georgiatech)|(2-7)|1398.89|1538|22|N/A|
 ||||||||
-|255|Missouri Valley|[CFB](#f/cfb)|(3-7)|1156.95|1100|255|N/A|
+|255|Missouri Valley|[CFB](#f/cfb)|(3-7)|1154.68|1100|255|N/A|
 
 ---
 
-**Mean Points:** 1441.96
+**Mean Points:** 1440.99
 
-**Median Points:** 1444.67
+**Median Points:** 1443.24
 
-**Standard Deviation of Points:** 122.19
+**Standard Deviation of Points:** 122.98
 
-**Variance:** 14931.34
+**Variance:** 15123.52
 
 ---
 

@@ -3,9 +3,9 @@ TEAM_LIST    = 'util/csvs/teams.txt'
 SCORE_URL    = 'http://prwolfe.bol.ucla.edu/cfootball/scores.htm'
 SCHEDULE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/schedules.htm'
 
-# YEAR      = 2019
-YEAR      = 2018
-WEEK      = 16
+YEAR      = 2019
+# YEAR      = 2018
+WEEK      = 12
 K_VALUE   = 18
 
 SEED_DATE = '24-Aug-19'
