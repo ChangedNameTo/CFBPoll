@@ -95,7 +95,10 @@ class Ranking():
 
             new_team = Team(name, elo, conf_id)
             if new_team.ignore_action():
-                new_team.set_flair(flair_map[name])
+                if(name in flair_map.keys()):
+                    new_team.set_flair(flair_map[name])
+                else:
+                    new_team.set_flair(flair_map['CFB'])
             self.team_dict[name] = new_team
 
         # Generate the different utility structures

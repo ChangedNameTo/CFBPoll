@@ -1,4 +1,4 @@
-Abilene Christian,1500,Southland,FALSE,TRUE
+Abilene Christian,1100,Southland,FALSE,TRUE
 Clemson,1500,ACC Atlantic,TRUE,FALSE
 Alabama,1500,SEC West,TRUE,FALSE
 Ohio State,1500,Big 10 East,TRUE,FALSE
@@ -26,7 +26,7 @@ Texas A&M,1500,SEC West,TRUE,FALSE
 Troy,1500,Sun Belt East,FALSE,FALSE
 Kentucky,1500,SEC East,TRUE,FALSE
 Mississippi St,1500,SEC West,TRUE,FALSE
-Alabama-Birmingham,1500,CUSA West,FALSE,TRUE
+Alabama-Birmingham,1100,CUSA West,FALSE,TRUE
 Missouri,1500,SEC East,TRUE,FALSE
 Northwestern,1500,Big 10 West,TRUE,FALSE
 Stanford,1500,PAC 12 North,TRUE,FALSE
@@ -40,12 +40,12 @@ West Virginia,1500,Big 12,TRUE,FALSE
 Wisconsin,1500,Big 10 West,TRUE,FALSE
 Temple,1500,AAC East,FALSE,FALSE
 Memphis,1500,AAC West,FALSE,FALSE
-Marshall,1500,CUSA East,FALSE,TRUE
+Marshall,1100,CUSA East,FALSE,TRUE
 Oregon,1500,PAC 12 North,TRUE,FALSE
 Arkansas St,1500,Sun Belt West,FALSE,FALSE
-Florida Int'l,1500,CUSA East,FALSE,TRUE
+Florida Int'l,1100,CUSA East,FALSE,TRUE
 Virginia,1500,ACC Coastal,TRUE,FALSE
-North Texas,1500,CUSA West,FALSE,TRUE
+North Texas,1100,CUSA West,FALSE,TRUE
 Michigan St,1500,Big 10 East,TRUE,FALSE
 Boston College,1500,ACC Atlantic,TRUE,FALSE
 Brigham Young,1500,Independent,FALSE,FALSE
@@ -55,18 +55,18 @@ Minnesota,1500,Big 10 West,TRUE,FALSE
 Arizona St,1500,PAC 12 South,TRUE,FALSE
 Oklahoma St,1500,Big 12,TRUE,FALSE
 Miami FL,1500,ACC Coastal,TRUE,FALSE
-Middle Tennessee St,1500,CUSA East,FALSE,TRUE
+Middle Tennessee St,1100,CUSA East,FALSE,TRUE
 Houston,1500,AAC West,FALSE,FALSE
 Toledo,1500,MAC West,FALSE,FALSE
 Pittsburgh,1500,ACC Coastal,TRUE,FALSE
 Eastern Michigan,1500,MAC West,FALSE,FALSE
 Tulane,1500,AAC West,FALSE,FALSE
 Nevada,1500,MW West,FALSE,FALSE
-Southern Miss,1500,CUSA West,FALSE,TRUE
+Southern Miss,1100,CUSA West,FALSE,TRUE
 TCU,1500,Big 12,TRUE,FALSE
 Purdue,1500,Big 10 West,TRUE,FALSE
 Georgia Tech,1500,ACC Coastal,TRUE,FALSE
-Louisiana Tech,1500,CUSA West,FALSE,TRUE
+Louisiana Tech,1100,CUSA West,FALSE,TRUE
 Wake Forest,1500,ACC Atlantic,TRUE,FALSE
 South Carolina,1500,SEC East,TRUE,FALSE
 Wyoming,1500,MW Mountain,FALSE,FALSE
@@ -76,7 +76,7 @@ San Diego St,1500,MW West,FALSE,FALSE
 Arizona,1500,PAC 12 South,TRUE,FALSE
 Kansas St,1500,Big 12,TRUE,FALSE
 Northern Illinois,1500,MAC West,FALSE,FALSE
-Florida Atlantic,1500,CUSA East,FALSE,TRUE
+Florida Atlantic,1100,CUSA East,FALSE,TRUE
 Southern Cal,1500,PAC 12 South,TRUE,FALSE
 Air Force,1500,MW Mountain,FALSE,FALSE
 California,1500,PAC 12 North,TRUE,FALSE
@@ -95,8 +95,8 @@ Hawai`i,1500,MW West,FALSE,FALSE
 Tennessee,1500,SEC East,TRUE,FALSE
 Mississippi,1500,SEC West,TRUE,FALSE
 Colorado,1500,PAC 12 South,TRUE,FALSE
-Western Kentucky,1500,CUSA East,FALSE,TRUE
-UNC-Charlotte,1500,CUSA East,FALSE,TRUE
+Western Kentucky,1100,CUSA East,FALSE,TRUE
+UNC-Charlotte,1100,CUSA East,FALSE,TRUE
 UCLA,1500,PAC 12 South,TRUE,FALSE
 Coastal Carolina,1500,Sun Belt East,FALSE,FALSE
 UNLV,1500,MW West,FALSE,FALSE
@@ -109,8 +109,8 @@ Massachusetts,1500,Independent,FALSE,FALSE
 East Carolina,1500,AAC East,FALSE,FALSE
 Texas St-San Marcos,1500,Sun Belt West,FALSE,FALSE
 Ball St,1500,MAC West,FALSE,FALSE
-Old Dominion,1500,CUSA East,FALSE,TRUE
-Texas-San Antonio,1500,CUSA West,FALSE,TRUE
+Old Dominion,1100,CUSA East,FALSE,TRUE
+Texas-San Antonio,1100,CUSA West,FALSE,TRUE
 Akron,1500,MAC East,FALSE,FALSE
 New Mexico,1500,MW Mountain,FALSE,FALSE
 Arkansas,1500,SEC West,TRUE,FALSE
@@ -122,135 +122,135 @@ Georgia St,1500,Sun Belt East,FALSE,FALSE
 San José St,1500,MW West,FALSE,FALSE
 Rutgers,1500,Big 10 East,TRUE,FALSE
 Louisville,1500,ACC Atlantic,TRUE,FALSE
-Rice,1500,CUSA West,FALSE,TRUE
+Rice,1100,CUSA West,FALSE,TRUE
 Oregon St,1500,PAC 12 North,TRUE,FALSE
 Central Michigan,1500,MAC West,FALSE,FALSE
 New Mexico St,1500,Independent,FALSE,FALSE
-UTEP,1500,CUSA West,FALSE,TRUE
+UTEP,1100,CUSA West,FALSE,TRUE
 Connecticut,1500,AAC East,FALSE,FALSE
 Liberty,1500,Independent,FALSE,FALSE
-Not FBS,1100,FCS,FALSE,
-Alabama A&M,1500,SWAC East,FALSE,TRUE
-Alabama St,1500,SWAC East,FALSE,TRUE
-Albany NY,1500,CAA,FALSE,TRUE
-Alcorn St,1500,SWAC East,FALSE,TRUE
-Arkansas-Pine Bluff,1500,SWAC West,FALSE,TRUE
-Austin Peay,1500,OVC,FALSE,TRUE
-Bethune-Cookman,1500,MEAC,FALSE,TRUE
-Brown,1500,Ivy League,FALSE,TRUE
-Bryant,1500,NEC,FALSE,TRUE
-Bucknell,1500,Patriot,FALSE,TRUE
-Butler,1500,Pioneer,FALSE,TRUE
-Cal Poly SLO,1500,Big Sky,FALSE,TRUE
-Campbell,1500,Big South,FALSE,TRUE
-Central Arkansas,1500,Southland,FALSE,TRUE
-Central Conn St,1500,NEC,FALSE,TRUE
-Charleston Southern,1500,Big South,FALSE,TRUE
-Chattanooga,1500,Southern,FALSE,TRUE
-Colgate,1500,Patriot,FALSE,TRUE
-Columbia,1500,Ivy League,FALSE,TRUE
-Cornell NY,1500,Ivy League,FALSE,TRUE
-Dartmouth,1500,Ivy League,FALSE,TRUE
-Davidson,1500,Pioneer,FALSE,TRUE
-Dayton,1500,Pioneer,FALSE,TRUE
-Delaware,1500,CAA,FALSE,TRUE
-Delaware St,1500,MEAC,FALSE,TRUE
-Drake,1500,Pioneer,FALSE,TRUE
-Duquesne,1500,NEC,FALSE,TRUE
-East Tennessee St,1500,Southern,FALSE,TRUE
-Eastern Illinois,1500,OVC,FALSE,TRUE
-Eastern Kentucky,1500,OVC,FALSE,TRUE
-Eastern Washington,1500,Big Sky,FALSE,TRUE
-Elon,1500,CAA,FALSE,TRUE
-Florida A&M,1500,MEAC,FALSE,TRUE
-Fordham,1500,Patriot,FALSE,TRUE
-Furman,1500,Southern,FALSE,TRUE
-Gardner-Webb,1500,Big South,FALSE,TRUE
-Georgetown DC,1500,Patriot,FALSE,TRUE
-Grambling St,1500,SWAC West,FALSE,TRUE
-Hampton,1500,Big South,FALSE,TRUE
-Harvard,1500,Ivy League,FALSE,TRUE
-Holy Cross,1500,Patriot,FALSE,TRUE
-Houston Baptist,1500,Southland,FALSE,TRUE
-Howard,1500,MEAC,FALSE,TRUE
-Idaho,1500,Big Sky,FALSE,TRUE
-Idaho St,1500,Big Sky,FALSE,TRUE
-Illinois St,1500,MVFC,FALSE,TRUE
-Incarnate Word,1500,Southland,FALSE,TRUE
-Indiana St,1500,MVFC,FALSE,TRUE
-Jackson St,1500,SWAC East,FALSE,TRUE
-Jacksonville FL,1500,Pioneer,FALSE,TRUE
-Jacksonville St,1500,OVC,FALSE,TRUE
-James Madison,1500,CAA,FALSE,TRUE
-Kennesaw St,1500,Big South,FALSE,TRUE
-Lafayette,1500,Patriot,FALSE,TRUE
-Lamar,1500,Southland,FALSE,TRUE
-Lehigh,1500,Patriot,FALSE,TRUE
-LIU Post,1500,NEC,FALSE,TRUE
-Maine,1500,CAA,FALSE,TRUE
-Marist,1500,Pioneer,FALSE,TRUE
-McNeese St,1500,Southland,FALSE,TRUE
-Mercer,1500,Southern,FALSE,TRUE
-Missouri St,1500,MVFC,FALSE,TRUE
-Missouri Valley,1500,SWAC East,FALSE,TRUE
-Monmouth NJ,1500,Big South,FALSE,TRUE
-Montana,1500,Big Sky,FALSE,TRUE
-Montana St,1500,Big Sky,FALSE,TRUE
-Morehead St,1500,Pioneer,FALSE,TRUE
-Morgan St,1500,MEAC,FALSE,TRUE
-Murray St,1500,OVC,FALSE,TRUE
-New Hampshire,1500,CAA,FALSE,TRUE
-Nicholls St,1500,Southland,FALSE,TRUE
-Norfolk St,1500,MEAC,FALSE,TRUE
-North Alabama,1500,Big South,FALSE,TRUE
-North Carolina A&T,1500,MEAC,FALSE,TRUE
-North Carolina Central,1500,MEAC,FALSE,TRUE
-North Dakota St,1500,MVFC,FALSE,TRUE
-Northern Arizona,1500,Big Sky,FALSE,TRUE
-Northern Colorado,1500,Big Sky,FALSE,TRUE
-Northern Iowa,1500,MVFC,FALSE,TRUE
-Northwestern St,1500,Southland,FALSE,TRUE
-Pennsylvania,1500,Ivy League,FALSE,TRUE
-Portland St,1500,Big Sky,FALSE,TRUE
-Prairie View A&M,1500,SWAC West,FALSE,TRUE
-Presbyterian,1500,Big South,FALSE,TRUE
-Princeton,1500,Ivy League,FALSE,TRUE
-Rhode Island,1500,CAA,FALSE,TRUE
-Richmond,1500,CAA,FALSE,TRUE
-Robert Morris PA,1500,NEC,FALSE,TRUE
-Sacramento St,1500,Big Sky,FALSE,TRUE
-Sacred Heart,1500,NEC,FALSE,TRUE
-Sam Houston St,1500,Southland,FALSE,TRUE
-Samford,1500,Southern,FALSE,TRUE
-San Diego,1500,Pioneer,FALSE,TRUE
-SE Louisiana,1500,Southland,FALSE,TRUE
-SE Missouri St,1500,OVC,FALSE,TRUE
-South Carolina St,1500,MEAC,FALSE,TRUE
-South Dakota,1500,MVFC,FALSE,TRUE
-South Dakota St,1500,MVFC,FALSE,TRUE
-Southern Illinois,1500,MVFC,FALSE,TRUE
-Southern U.,1500,SWAC West,FALSE,TRUE
-Southern Utah,1500,Big Sky,FALSE,TRUE
-St Francis PA,1500,NEC,FALSE,TRUE
-Stephen F. Austin,1500,Southland,FALSE,TRUE
-Stetson,1500,Pioneer,FALSE,TRUE
-Stony Brook,1500,CAA,FALSE,TRUE
-Tennessee St,1500,OVC,FALSE,TRUE
-Tennessee Tech,1500,OVC,FALSE,TRUE
-Tennessee-Martin,1500,OVC,FALSE,TRUE
-Texas Southern,1500,SWAC West,FALSE,TRUE
-The Citadel,1500,Southern,FALSE,TRUE
-Towson,1500,CAA,FALSE,TRUE
-UC-Davis,1500,Big Sky,FALSE,TRUE
-Valparaiso,1500,Pioneer,FALSE,TRUE
-Villanova,1500,CAA,FALSE,TRUE
-VMI,1500,Southern,FALSE,TRUE
-Wagner,1500,NEC,FALSE,TRUE
-Weber St,1500,Big Sky,FALSE,TRUE
-Western Carolina,1500,Southern,FALSE,TRUE
-Western Illinois,1500,MVFC,FALSE,TRUE
-William & Mary,1500,CAA,FALSE,TRUE
-Wofford,1500,Southern,FALSE,TRUE
-Yale,1500,Ivy League,FALSE,TRUE
-Youngstown St,1500,MVFC,FALSE,TRUE
+Not FBS,1100,FCS,FALSE,TRUE
+Alabama A&M,1100,SWAC East,FALSE,TRUE
+Alabama St,1100,SWAC East,FALSE,TRUE
+Albany NY,1100,CAA,FALSE,TRUE
+Alcorn St,1100,SWAC East,FALSE,TRUE
+Arkansas-Pine Bluff,1100,SWAC West,FALSE,TRUE
+Austin Peay,1100,OVC,FALSE,TRUE
+Bethune-Cookman,1100,MEAC,FALSE,TRUE
+Brown,1100,Ivy League,FALSE,TRUE
+Bryant,1100,NEC,FALSE,TRUE
+Bucknell,1100,Patriot,FALSE,TRUE
+Butler,1100,Pioneer,FALSE,TRUE
+Cal Poly SLO,1100,Big Sky,FALSE,TRUE
+Campbell,1100,Big South,FALSE,TRUE
+Central Arkansas,1100,Southland,FALSE,TRUE
+Central Conn St,1100,NEC,FALSE,TRUE
+Charleston Southern,1100,Big South,FALSE,TRUE
+Chattanooga,1100,Southern,FALSE,TRUE
+Colgate,1100,Patriot,FALSE,TRUE
+Columbia,1100,Ivy League,FALSE,TRUE
+Cornell NY,1100,Ivy League,FALSE,TRUE
+Dartmouth,1100,Ivy League,FALSE,TRUE
+Davidson,1100,Pioneer,FALSE,TRUE
+Dayton,1100,Pioneer,FALSE,TRUE
+Delaware,1100,CAA,FALSE,TRUE
+Delaware St,1100,MEAC,FALSE,TRUE
+Drake,1100,Pioneer,FALSE,TRUE
+Duquesne,1100,NEC,FALSE,TRUE
+East Tennessee St,1100,Southern,FALSE,TRUE
+Eastern Illinois,1100,OVC,FALSE,TRUE
+Eastern Kentucky,1100,OVC,FALSE,TRUE
+Eastern Washington,1100,Big Sky,FALSE,TRUE
+Elon,1100,CAA,FALSE,TRUE
+Florida A&M,1100,MEAC,FALSE,TRUE
+Fordham,1100,Patriot,FALSE,TRUE
+Furman,1100,Southern,FALSE,TRUE
+Gardner-Webb,1100,Big South,FALSE,TRUE
+Georgetown DC,1100,Patriot,FALSE,TRUE
+Grambling St,1100,SWAC West,FALSE,TRUE
+Hampton,1100,Big South,FALSE,TRUE
+Harvard,1100,Ivy League,FALSE,TRUE
+Holy Cross,1100,Patriot,FALSE,TRUE
+Houston Baptist,1100,Southland,FALSE,TRUE
+Howard,1100,MEAC,FALSE,TRUE
+Idaho,1100,Big Sky,FALSE,TRUE
+Idaho St,1100,Big Sky,FALSE,TRUE
+Illinois St,1100,MVFC,FALSE,TRUE
+Incarnate Word,1100,Southland,FALSE,TRUE
+Indiana St,1100,MVFC,FALSE,TRUE
+Jackson St,1100,SWAC East,FALSE,TRUE
+Jacksonville FL,1100,Pioneer,FALSE,TRUE
+Jacksonville St,1100,OVC,FALSE,TRUE
+James Madison,1100,CAA,FALSE,TRUE
+Kennesaw St,1100,Big South,FALSE,TRUE
+Lafayette,1100,Patriot,FALSE,TRUE
+Lamar,1100,Southland,FALSE,TRUE
+Lehigh,1100,Patriot,FALSE,TRUE
+LIU Post,1100,NEC,FALSE,TRUE
+Maine,1100,CAA,FALSE,TRUE
+Marist,1100,Pioneer,FALSE,TRUE
+McNeese St,1100,Southland,FALSE,TRUE
+Mercer,1100,Southern,FALSE,TRUE
+Missouri St,1100,MVFC,FALSE,TRUE
+Missouri Valley,1100,SWAC East,FALSE,TRUE
+Monmouth NJ,1100,Big South,FALSE,TRUE
+Montana,1100,Big Sky,FALSE,TRUE
+Montana St,1100,Big Sky,FALSE,TRUE
+Morehead St,1100,Pioneer,FALSE,TRUE
+Morgan St,1100,MEAC,FALSE,TRUE
+Murray St,1100,OVC,FALSE,TRUE
+New Hampshire,1100,CAA,FALSE,TRUE
+Nicholls St,1100,Southland,FALSE,TRUE
+Norfolk St,1100,MEAC,FALSE,TRUE
+North Alabama,1100,Big South,FALSE,TRUE
+North Carolina A&T,1100,MEAC,FALSE,TRUE
+North Carolina Central,1100,MEAC,FALSE,TRUE
+North Dakota St,1100,MVFC,FALSE,TRUE
+Northern Arizona,1100,Big Sky,FALSE,TRUE
+Northern Colorado,1100,Big Sky,FALSE,TRUE
+Northern Iowa,1100,MVFC,FALSE,TRUE
+Northwestern St,1100,Southland,FALSE,TRUE
+Pennsylvania,1100,Ivy League,FALSE,TRUE
+Portland St,1100,Big Sky,FALSE,TRUE
+Prairie View A&M,1100,SWAC West,FALSE,TRUE
+Presbyterian,1100,Big South,FALSE,TRUE
+Princeton,1100,Ivy League,FALSE,TRUE
+Rhode Island,1100,CAA,FALSE,TRUE
+Richmond,1100,CAA,FALSE,TRUE
+Robert Morris PA,1100,NEC,FALSE,TRUE
+Sacramento St,1100,Big Sky,FALSE,TRUE
+Sacred Heart,1100,NEC,FALSE,TRUE
+Sam Houston St,1100,Southland,FALSE,TRUE
+Samford,1100,Southern,FALSE,TRUE
+San Diego,1100,Pioneer,FALSE,TRUE
+SE Louisiana,1100,Southland,FALSE,TRUE
+SE Missouri St,1100,OVC,FALSE,TRUE
+South Carolina St,1100,MEAC,FALSE,TRUE
+South Dakota,1100,MVFC,FALSE,TRUE
+South Dakota St,1100,MVFC,FALSE,TRUE
+Southern Illinois,1100,MVFC,FALSE,TRUE
+Southern U.,1100,SWAC West,FALSE,TRUE
+Southern Utah,1100,Big Sky,FALSE,TRUE
+St Francis PA,1100,NEC,FALSE,TRUE
+Stephen F. Austin,1100,Southland,FALSE,TRUE
+Stetson,1100,Pioneer,FALSE,TRUE
+Stony Brook,1100,CAA,FALSE,TRUE
+Tennessee St,1100,OVC,FALSE,TRUE
+Tennessee Tech,1100,OVC,FALSE,TRUE
+Tennessee-Martin,1100,OVC,FALSE,TRUE
+Texas Southern,1100,SWAC West,FALSE,TRUE
+The Citadel,1100,Southern,FALSE,TRUE
+Towson,1100,CAA,FALSE,TRUE
+UC-Davis,1100,Big Sky,FALSE,TRUE
+Valparaiso,1100,Pioneer,FALSE,TRUE
+Villanova,1100,CAA,FALSE,TRUE
+VMI,1100,Southern,FALSE,TRUE
+Wagner,1100,NEC,FALSE,TRUE
+Weber St,1100,Big Sky,FALSE,TRUE
+Western Carolina,1100,Southern,FALSE,TRUE
+Western Illinois,1100,MVFC,FALSE,TRUE
+William & Mary,1100,CAA,FALSE,TRUE
+Wofford,1100,Southern,FALSE,TRUE
+Yale,1100,Ivy League,FALSE,TRUE
+Youngstown St,1100,MVFC,FALSE,TRUE
 Not D1,1100,D2,FALSE,FALSE
