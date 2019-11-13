@@ -286,16 +286,6 @@ class Ranking():
     def set_variance_elo(self):
         self.variance = round(statistics.variance(self.elo_array), 2)
 
-    def previous_change(self, result):
-        if int(week) > 1:
-            f             = open(str(year) + "/week" + str(int(week) - 1) + ".csv", 'r')
-            previous_week = csv.reader(f)
-        else:
-            f             = open(str(int(year) - 1) + "/weekFinal.csv", 'r')
-            previous_week = csv.reader(f)
-
-        # TODO: Rewrite this entire section. It's really shit.
-
     def get_top_25(self):
         c.execute('''SELECT name
                        FROM Teams
