@@ -414,9 +414,9 @@ class Ranking():
             # TODO: Gotta update this too
             file.write("---\n")
             file.write("\n")
-            file.write("1: SoS is the average of all opponents at time of ranking, not at time of playing.\n")
+            file.write("1: SoS is the average of all opponents at time of ranking, not at time of playing. I don't believe in the 'ranked win' paradigm, if my poll supported it yet I would randomize the schedule.\n")
             file.write("\n")
-            file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/9csiv4/cfb_poll_20_the_elo_update/)\n")
+            file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)\n")
             file.write("\n")
             file.write("[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)")
 
