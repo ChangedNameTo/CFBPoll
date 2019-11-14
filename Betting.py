@@ -1,2 +1,2 @@
-# class Betting(object):
-#     pass
+class Betting(object):
+    pass

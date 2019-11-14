@@ -77,7 +77,7 @@ class Ranking():
 
         flair_map            = self.generate_flair_map()
 
-        f = open('2019SeedFile.csv')
+        f = open('util/seeds/2019SeedFile.csv')
         seed_csv = csv.reader(f)
 
         for line in seed_csv:
@@ -342,7 +342,7 @@ class Ranking():
 
         with open('ranking.txt', 'w') as file:
             # Writes the table header
-            file.write("|Rank|Team|Flair|Record|ELO|SoS^^1|SoS Rank|Change|\n")
+            file.write("|Rank|Team|Flair|Record|Elo|SoS^^1|SoS Rank|Change|\n")
             file.write("|---|---|---|---|---|---|---|---|\n")
 
             rank = 1
@@ -412,13 +412,9 @@ class Ranking():
             file.write("---\n")
             file.write("\n")
             # TODO: Gotta update this too
-            # file.write("**Hardest SoS:** " + flair_map[easiest] + " " + easiest + "\n")
-            # file.write("\n")
-            # file.write("**Easiest SoS:** " + flair_map[hardest] + " " + hardest + "\n")
-            # file.write("\n")
             file.write("---\n")
             file.write("\n")
-            file.write("1: Lower means easier SoS\n")
+            file.write("1: SoS is the average of all opponents at time of ranking, not at time of playing.\n")
             file.write("\n")
             file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/9csiv4/cfb_poll_20_the_elo_update/)\n")
             file.write("\n")
