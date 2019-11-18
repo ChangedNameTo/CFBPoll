@@ -1,51 +1,51 @@
-|Rank|Team|Flair|Record|ELO|SoS^^1|SoS Rank|Change|
+|Rank|Team|Flair|Record|Elo|SoS^^1|SoS Rank|Change|
 |---|---|---|---|---|---|---|---|
-|1|Ohio State|[Ohio State](#f/ohiostate)|(9-0)|1755.59|1527|35|N/A|
-|2|Clemson|[Clemson](#f/clemson)|(10-0)|1744.12|1487|83|N/A|
-|3|LSU|[LSU](#f/lsu)|(9-0)|1719.97|1526|38|N/A|
-|4|Alabama|[Alabama](#f/alabama)|(8-1)|1710.19|1512|56|N/A|
-|5|Georgia|[Georgia](#f/georgia)|(8-1)|1702.47|1517|51|N/A|
-|6|Penn State|[Penn State](#f/pennstate)|(8-1)|1681.05|1536|23|N/A|
-|7|Minnesota|[Minnesota](#f/minnesota)|(9-0)|1675.29|1512|56|N/A|
-|8|Oregon|[Oregon](#f/oregon)|(8-1)|1673.72|1526|38|N/A|
-|9|Utah|[Utah](#f/utah)|(8-1)|1669.6|1489|78|N/A|
-|10|Florida|[Florida](#f/florida)|(8-2)|1658.74|1545|15|N/A|
-|11|Oklahoma|[Oklahoma](#f/oklahoma)|(8-1)|1656.83|1502|66|N/A|
-|12|Baylor|[Baylor](#f/baylor)|(9-0)|1654.02|1461|108|N/A|
-|13|Wisconsin|[Wisconsin](#f/wisconsin)|(7-2)|1652.8|1543|17|N/A|
-|14|Auburn|[Auburn](#f/auburn)|(7-2)|1652.25|1556|7|N/A|
-|15|Appalachian St|[Appalachian St](#f/appalachianstate)|(8-1)|1644.55|1455|112|N/A|
-|16|Michigan|[Michigan](#f/michigan)|(7-2)|1641.57|1532|29|N/A|
-|17|Memphis|[Memphis](#f/memphis)|(8-1)|1637.31|1482|89|N/A|
-|18|Central Florida|[Central Florida](#f/ucf)|(7-3)|1635.45|1475|98|N/A|
-|19|Boise St|[Boise St](#f/boisestate)|(8-1)|1631.34|1489|78|N/A|
-|20|SMU|[SMU](#f/smu)|(9-1)|1622.54|1472|100|N/A|
-|21|North Dakota St|[CFB](#f/cfb)|(10-0)|1618.46|1349|209|N/A|
-|22|Indiana|[Indiana](#f/indiana)|(7-2)|1616.97|1461|108|N/A|
-|23|Cincinnati|[Cincinnati](#f/cincinnati)|(8-1)|1615.21|1493|74|N/A|
-|24|Navy|[Navy](#f/navy)|(7-1)|1615.02|1479|93|N/A|
-|25|Air Force|[Air Force](#f/airforce)|(7-2)|1613.31|1483|88|N/A|
+|1|Clemson|[Clemson](#f/clemson)|(11-0)|1767.94|1493|79|N/A|
+|2|Ohio State|[Ohio State](#f/ohiostate)|(10-0)|1762.87|1515|52|N/A|
+|3|LSU|[LSU](#f/lsu)|(10-0)|1732.73|1527|37|N/A|
+|4|Alabama|[Alabama](#f/alabama)|(9-1)|1724.72|1506|65|N/A|
+|5|Georgia|[Georgia](#f/georgia)|(9-1)|1716.3|1529|34|N/A|
+|6|Penn State|[Penn State](#f/pennstate)|(9-1)|1696.89|1537|25|N/A|
+|7|Utah|[Utah](#f/utah)|(9-1)|1692.2|1489|81|N/A|
+|8|Oregon|[Oregon](#f/oregon)|(9-1)|1689.82|1521|41|N/A|
+|9|Florida|[Florida](#f/florida)|(9-2)|1676.1|1552|11|N/A|
+|10|Michigan|[Michigan](#f/michigan)|(8-2)|1666.56|1532|33|N/A|
+|11|Wisconsin|[Wisconsin](#f/wisconsin)|(8-2)|1666.48|1540|19|N/A|
+|12|Oklahoma|[Oklahoma](#f/oklahoma)|(9-1)|1665.72|1520|42|N/A|
+|13|Appalachian St|[Appalachian St](#f/appalachianstate)|(9-1)|1664.84|1458|111|N/A|
+|14|Minnesota|[Minnesota](#f/minnesota)|(9-1)|1659.65|1516|51|N/A|
+|15|Memphis|[Memphis](#f/memphis)|(9-1)|1650.34|1487|87|N/A|
+|16|Boise St|[Boise St](#f/boisestate)|(9-1)|1645.37|1480|92|N/A|
+|17|Baylor|[Baylor](#f/baylor)|(9-1)|1645.03|1481|91|N/A|
+|18|Auburn|[Auburn](#f/auburn)|(7-3)|1638.01|1580|3|N/A|
+|19|Notre Dame|[Notre Dame](#f/notredame)|(8-2)|1637.42|1538|23|N/A|
+|20|North Dakota St|[CFB](#f/cfb)|(11-0)|1636.57|1352|207|N/A|
+|21|Central Florida|[Central Florida](#f/ucf)|(7-3)|1635.22|1476|96|N/A|
+|22|Air Force|[Air Force](#f/airforce)|(8-2)|1629.22|1488|85|N/A|
+|23|Texas A&M|[Texas A&M](#f/texasam)|(7-3)|1627.99|1500|73|N/A|
+|24|SMU|[SMU](#f/smu)|(9-1)|1622.68|1472|101|N/A|
+|25|Cincinnati|[Cincinnati](#f/cincinnati)|(9-1)|1620.99|1497|77|N/A|
 ||||||||
-|159|Georgia Tech|[Georgia Tech](#f/georgiatech)|(2-7)|1398.89|1538|22|N/A|
+|171|Georgia Tech|[Georgia Tech](#f/georgiatech)|(2-8)|1380.24|1541|17|N/A|
 ||||||||
-|255|Missouri Valley|[CFB](#f/cfb)|(3-7)|1154.68|1100|255|N/A|
+|255|Missouri Valley|[CFB](#f/cfb)|(3-8)|1125.03|1100|255|N/A|
 
 ---
 
-**Mean Points:** 1440.99
+**Mean Points:** 1441.28
 
-**Median Points:** 1443.24
+**Median Points:** 1445.72
 
-**Standard Deviation of Points:** 122.98
+**Standard Deviation of Points:** 127.85
 
-**Variance:** 15123.52
-
----
+**Variance:** 16344.59
 
 ---
 
-1: Lower means easier SoS
+---
 
-[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/9csiv4/cfb_poll_20_the_elo_update/)
+1: SoS is the average of all opponents at time of ranking, not at time of playing. I don't believe in the 'ranked win' paradigm, if my poll supported it yet I would randomize the schedule.
+
+[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)
 
 [Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)
