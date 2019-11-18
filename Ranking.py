@@ -85,6 +85,7 @@ class Ranking():
             elo        = float(line[1])
             conference = line[2]
             p5         = (line[3] == 'True')
+            bv_name    = line[4]
 
             if(conference not in self.conference_dict.keys()):
                 new_conf = Conference(conference, p5)
