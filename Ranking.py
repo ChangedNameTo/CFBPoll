@@ -217,7 +217,7 @@ class Ranking():
         week_csv_string = 'csv/' + str(YEAR) + '/week_' + str(WEEK) + '_predictions.csv'
         with open(week_csv_string, 'w') as week_csv:
             writer = csv.writer(week_csv, delimiter=',', quoting=csv.QUOTE_MINIMAL)
-            writer.writerow(('Date','Home','Away','Predicted Winner', 'Odds'))
+            writer.writerow(('Date','Home','Away','Predicted Winner', '% to Win', 'Spread'))
 
             # Hacky way to continue....
             found_present = False
@@ -254,7 +254,9 @@ class Ranking():
                         winner_string = winner.get_name()
                         winner_odds = round((winner.expected_outcome(loser.get_elo(), True) * 100), 2)
 
-                        writer.writerow((date,home_string, away_string, winner_string, winner_odds))
+                        winner_spread = round((winner.get_elo() - loser.get_elo()) / 10, 2)
+
+                        writer.writerow((date,home_string, away_string, winner_string, winner_odds, winner_spread))
                 except IndexError:
                     pass
 
