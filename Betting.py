@@ -10,7 +10,7 @@ games = odds_data[0]['events']
 
 with open('cfb_odds.csv', 'w') as odds_csv:
     writer = csv.writer(odds_csv, delimiter=',', quoting=csv.QUOTE_MINIMAL)
-    writer.writerow(('Game ID','Game Time','Home','H Spread','H Odds','Away','A Spread','A Odds','URL'))
+    writer.writerow(('Game ID','Game Time','Home','Home Spread','Home Odds','Away','Away Spread','Away Odds','URL'))
 
     for game in games:
         game_id = game['id']

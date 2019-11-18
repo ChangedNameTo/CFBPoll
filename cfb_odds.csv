@@ -1,4 +1,4 @@
-Game ID,Game Time,Home,H Spread,H Odds,Away,A Spread,A Odds,URL
+Game ID,Game Time,Home,Home Spread,Home Odds,Away,Away Spread,Away Odds,URL
 6018838,2019-11-19 19:31:00,Northern Illinois,-4.5,-105,Eastern Michigan,4.5,-115,https://www.bovada.lv/sports/football/college-football/eastern-michigan-northern-illinois-201911191931
 6018837,2019-11-19 19:31:00,Bowling Green,18.5,-110,Ohio,-18.5,-110,https://www.bovada.lv/sports/football/college-football/ohio-bowling-green-201911191931
 6018843,2019-11-20 19:31:00,Miami Ohio,-30.0,-115,Akron,30.0,-105,https://www.bovada.lv/sports/football/college-football/akron-miami-ohio-201911201931
@@ -19,7 +19,7 @@ Game ID,Game Time,Home,H Spread,H Odds,Away,A Spread,A Odds,URL
 6018902,2019-11-23 14:01:00,New Mexico,22.0,-110,Air Force,-22.0,-110,https://www.bovada.lv/sports/football/college-football/air-force-new-mexico-201911231401
 6018870,2019-11-23 14:31:00,Notre Dame (#15),-19.0,-110,Boston College,19.0,-110,https://www.bovada.lv/sports/football/college-football/boston-college-notre-dame-15-201911231431
 6018872,2019-11-23 14:31:00,Appalachian State (#23) ,-28.5,-110,Texas State,28.5,-110,https://www.bovada.lv/sports/football/college-football/texas-state-appalachian-state-23-201911231431
-6018879,2019-11-23 15:01:00,Arkansas State,0.0,-110,Georgia Southern,0.0,-110,https://www.bovada.lv/sports/football/college-football/georgia-southern-arkansas-state-201911231501
+6018879,2019-11-23 15:01:00,Arkansas State,-1.0,-110,Georgia Southern,1.0,-110,https://www.bovada.lv/sports/football/college-football/georgia-southern-arkansas-state-201911231501
 6018878,2019-11-23 15:31:00,Charlotte,6.5,-110,Marshall,-6.5,-110,https://www.bovada.lv/sports/football/college-football/marshall-charlotte-201911231531
 6018846,2019-11-23 15:31:00,Indiana ,8.5,-105,Michigan (#12),-8.5,-115,https://www.bovada.lv/sports/football/college-football/michigan-12-indiana-201911231531
 6018840,2019-11-23 15:31:00,Maryland,4.0,-110,Nebraska,-4.0,-110,https://www.bovada.lv/sports/football/college-football/nebraska-maryland-201911231531
@@ -49,5 +49,5 @@ Game ID,Game Time,Home,H Spread,H Odds,Away,A Spread,A Odds,URL
 6018877,2019-11-23 21:01:00,Washington State,-12.0,-110,Oregon State,12.0,-110,https://www.bovada.lv/sports/football/college-football/oregon-state-washington-state-201911232101
 6018857,2019-11-23 22:01:00,Arizona,21.5,-110,Utah (#7),-21.5,-110,https://www.bovada.lv/sports/football/college-football/utah-7-arizona-201911232201
 6018871,2019-11-23 22:01:00,Colorado,14.5,-110,Washington U ,-14.5,-110,https://www.bovada.lv/sports/football/college-football/washington-u-colorado-201911232201
-6018869,2019-11-23 22:31:00,Fresno State,-13.0,-115,Nevada,13.0,-105,https://www.bovada.lv/sports/football/college-football/nevada-fresno-state-201911232231
+6018869,2019-11-23 22:31:00,Fresno State,-13.5,-110,Nevada,13.5,-110,https://www.bovada.lv/sports/football/college-football/nevada-fresno-state-201911232231
 6018903,2019-11-24 23:01:00,Hawaii,-1.0,-110,San Diego State,1.0,-110,https://www.bovada.lv/sports/football/college-football/san-diego-state-hawaii-201911242301
