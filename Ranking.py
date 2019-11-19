@@ -312,6 +312,22 @@ class Ranking():
             team_object = self._get_team(team_name)
             team_object.set_sos_rank(rank)
 
+    def get_weakest_sos(self):
+        c.execute('''SELECT name
+                       FROM Teams
+                   ORDER BY sos ASC
+                      LIMIT 1;''')
+
+        self.weakest_sos = c.fetchall()[0][0]
+
+    def get_hardest_sos(self):
+        c.execute('''SELECT name
+                       FROM Teams
+                   ORDER BY sos DESC
+                      LIMIT 1;''')
+
+        self.hardest_sos = c.fetchall()[0][0]
+
     def get_last_place(self):
         c.execute('''SELECT name
                        FROM Teams
@@ -414,6 +430,12 @@ class Ranking():
             file.write("\n")
             file.write("---\n")
             file.write("\n")
+            file.write("**Weakest SOS:** " + str(self.weakest_sos) + "\n")
+            file.write("\n")
+            file.write("**Hardest SOS:** " + str(self.hardest_sos) + "\n")
+            file.write("\n")
+            file.write("---\n")
+            file.write("\n")
             file.write("1: SoS is the average of all opponents at time of ranking, not at time of playing. I don't believe in the 'ranked win' paradigm, if my poll supported it yet I would randomize the schedule.\n")
             file.write("\n")
             file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)\n")
@@ -508,6 +530,8 @@ ranking.set_variance_elo()
 ranking.generate_this_week()
 
 ranking.get_sos_ranks()
+ranking.get_weakest_sos()
+ranking.get_hardest_sos()
 
 ranking.markdown_output()
 

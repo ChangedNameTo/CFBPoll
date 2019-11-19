@@ -1,4 +1,4 @@
-from Constants import ODDS_URL, BASE_URL
+from Constants import ODDS_URL, BASE_URL, YEAR, WEEK
 
 import requests, time, csv, re
 from datetime import datetime
