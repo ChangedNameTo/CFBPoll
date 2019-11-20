@@ -355,11 +355,28 @@ class Ranking():
 
     def markdown_output(self):
         try:
-            os.remove('ranking.txt')
+            os.remove('README.md')
         except FileNotFoundError:
             pass
 
-        with open('ranking.txt', 'w') as file:
+        with open('README.md', 'w') as file:
+            file.write('''# CFBPoll
+Computerized poll to automatically rank college football teams each week
+
+Requires beautiful soup to run. Install:
+
+`pip install beautifulsoup4`
+
+Has to be run using Python3.
+
+Run the program using the command:
+
+`python3 Ranking.py`
+
+---
+
+''')
+
             # Writes the table header
             file.write("|Rank|Team|Flair|Record|Elo|SoS^^1|SoS Rank|Change|\n")
             file.write("|---|---|---|---|---|---|---|---|\n")
@@ -513,31 +530,3 @@ class Ranking():
 
                 writer.writerow((rank, name, elo))
                 rank = rank + 1
-
-
-ranking = Ranking()
-ranking.generate_weeks()
-ranking.mean_reversion()
-ranking.run_poll()
-
-result = ranking.get_results()
-ranking.get_elo_array(result)
-ranking.set_mean_elo()
-ranking.set_median_elo()
-ranking.set_stdev_elo()
-ranking.set_variance_elo()
-
-ranking.generate_this_week()
-
-ranking.get_sos_ranks()
-ranking.get_weakest_sos()
-ranking.get_hardest_sos()
-
-ranking.markdown_output()
-
-ranking.output_week_csv(result)
-ranking.conference_ranking()
-ranking.conference_output()
-
-# Prediction time
-ranking.parse_future()
