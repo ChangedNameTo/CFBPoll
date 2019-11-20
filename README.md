@@ -12,6 +12,7 @@ Run the program using the command:
 `python3 Ranking.py`
 
 ---
+
 |Rank|Team|Flair|Record|Elo|SoS^^1|SoS Rank|Change|
 |---|---|---|---|---|---|---|---|
 |1|Clemson|[Clemson](#f/clemson)|(11-0)|1767.63|1493|79|N/A|

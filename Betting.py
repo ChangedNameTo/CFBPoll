@@ -13,7 +13,7 @@ team_names = []
 def extract_name(team_name):
     return re.findall('^([\w\s&-]*?)\s?[\(#\d\)]*\s*?$',team_name)[0]
 
-with open('cfb_odds.csv', 'w') as odds_csv:
+with open('text_odds/cfb_odds.csv', 'w') as odds_csv:
     writer = csv.writer(odds_csv, delimiter=',', quoting=csv.QUOTE_MINIMAL)
     writer.writerow(('Game ID','Game Time','Home','Home Spread','Home Odds','Away','Away Spread','Away Odds','URL'))
 
@@ -49,7 +49,7 @@ with open('cfb_odds.csv', 'w') as odds_csv:
 
         writer.writerow((game_id,game_time,home,home_spread,home_odds,away,away_spread,away_odds,game_url))
 
-with open('bovada_names.txt', 'w') as file:
+with open('text_dumps/bovada_names.txt', 'w') as file:
     for name in team_names:
         file.write(name+'\n')
 
