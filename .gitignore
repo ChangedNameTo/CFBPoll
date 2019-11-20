@@ -1,3 +1,6 @@
+# Do not open the polling db
+poll.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -109,4 +112,3 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
