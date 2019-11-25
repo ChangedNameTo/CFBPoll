@@ -465,7 +465,7 @@ Run the program using the command:
         except FileNotFoundError:
             pass
 
-        with open('text_odds/conference.txt', 'w') as file:
+        with open('text_dumps/conference.txt', 'w') as file:
             # Writes the table header
             file.write("|Rank|Conference|Flair|ELO|\n")
             file.write("|---|---|---|---|\n")
