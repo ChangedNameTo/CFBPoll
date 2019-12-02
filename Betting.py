@@ -36,6 +36,7 @@ with open('text_dumps/cfb_odds.csv', 'w') as odds_csv:
         odds = game['displayGroups'][0]['markets']
 
         for odds_type in odds:
+            print(odds_type)
             if odds_type['description'] == 'Point Spread':
                 outcomes = odds_type['outcomes']
                 for outcome in outcomes:

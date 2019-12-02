@@ -1,120 +1,98 @@
-Akron
-Ohio
-Northern Illinois
-Western Michigan
-Mississippi State
-Mississippi
-Buffalo U
-Bowling Green
-Eastern Michigan
-Kent State
-Ball State
-Miami Ohio
-Virginia
-Virginia Tech
-Nebraska
-Iowa
-Arkansas
-Missouri
 South Alabama
 Arkansas State
-Colorado State
-Boise State
-TCU
-West Virginia
 Troy
 Appalachian State
-Memphis
-Cincinnati
-Texas
-Texas Tech
-Washington U
-Washington State
 Central Florida
 South Florida
-Pittsburgh
-Boston College
 South Carolina
 Clemson
-Temple
-Connecticut
 Marshall
 Florida International
 Georgia Tech
 Georgia
-Kansas State
-Iowa State
-Houston
-Navy
-NC State
-North Carolina
-Penn State
-Rutgers
+Purdue
+Indiana
+Kentucky
+Louisville
+Illinois
+Northwestern
+Michigan
+Ohio State
 Coastal Carolina
 Texas State
 East Carolina
 Tulsa
-Tennessee
-Vanderbilt
 Syracuse
 Wake Forest
-Minnesota
-Wisconsin
 Old Dominion
 Charlotte
-Utah
-Colorado
 Western Kentucky
 Middle Tenn State
 Liberty
 New Mexico State
 Air Force
 Wyoming
-San Jose State
-Fresno State
 UTEP
 Rice
 Nevada
 UNLV
+Auburn
+Alabama
+Kansas
+Baylor
+Pittsburgh
+Boston College
+Temple
+Connecticut
+Michigan State
+Maryland
+Duke
+Miami Florida
+Penn State
+Rutgers
+Florida Atlantic
+Southern Mississippi
+Louisiana Tech
+Texas-San Antonio
+Minnesota
+Wisconsin
+Stanford
+Notre Dame
+Oregon
+Oregon State
+SMU
+Tulane
+North Texas
+UAB
+New Mexico
+Utah State
+Tennessee
+Vanderbilt
+Georgia Southern
+Georgia State
+Kansas State
+Iowa State 
+Houston
+Navy
+NC State
+North Carolina
+LSU
+Texas A&M
+Utah
+Colorado
+Florida
+Florida State
+Louisiana-Lafayette
+UL Monroe
+Oklahoma State
+Oklahoma
+San Diego State
+BYU
 Arizona State
 Arizona
 UCLA
 California
-Georgia Southern
-Georgia State
-Purdue
-Indiana
-Louisiana-Lafayette
-UL Monroe
-Kentucky
-Louisville
-Michigan State
-Maryland
-Illinois
-Northwestern
-Stanford
-Notre Dame
-Oklahoma State
-Oklahoma
-LSU
-Texas A&M
-Louisiana Tech
-Texas-San Antonio
-SMU
-Tulane
-New Mexico
-Utah State
-Auburn
-Alabama
-Michigan
-Ohio State
-Florida
-Florida State
-Duke
-Miami Florida
-San Diego State
-BYU
-Oregon
-Oregon State
+San Jose State
+Fresno State
 Hawaii
 Army

@@ -5,13 +5,13 @@ SCHEDULE_URL = 'http://prwolfe.bol.ucla.edu/cfootball/schedules.htm'
 
 # YEAR      = 2018
 YEAR      = 2019
-WEEK      = 15
+WEEK      = 16
 K_VALUE   = 18
 
 SEED_DATE = '24-Aug-19'
 
-START_DATE = '27-Nov-19'
-END_DATE   = '04-Dec-19'
+START_DATE = '04-Dec-19'
+END_DATE   = '11-Dec-19'
 
 # Betting Info
 # ODDS_URL = 'https://services.bovada.lv/services/sports/event/coupon/events/A/description/football/nfl?marketFilterId=def&preMatchOnly=true&lang=en'

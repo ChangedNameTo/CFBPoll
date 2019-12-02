@@ -4,7 +4,7 @@ from Game import Game
 from Conference import Conference
 from Constants import YEAR, WEEK, SEED_DATE, START_DATE, END_DATE, SCHEDULE_URL, SCORE_URL
 from Dates import wolfe_to_date
-from Betting import Betting
+# from Betting import Betting
 
 # Import libraries
 import urllib.request
@@ -53,7 +53,8 @@ class Ranking():
                 away_id INTEGER,
                 away_score INTEGER,
                 away_elo_delta INTEGER,
-                FOREIGN KEY(home_id) REFERENCES Teams(id)
+                k_value INTEGER,
+                FOREIGN KEY(home_id) REFERENCES Teams(id),
                 FOREIGN KEY(away_id) REFERENCES Teams(id)
             );''')
         c.execute('''CREATE TABLE IF NOT EXISTS TeamWeeks

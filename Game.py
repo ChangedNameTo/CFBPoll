@@ -21,8 +21,8 @@ class Game:
         self.site           = site
 
         # Insert the game into the DB
-        c.execute('''INSERT INTO Games (home_id, home_score, home_elo_delta, away_id, away_score, away_elo_delta)
-                          VALUES (?, ?, ?, ?, ?, ?);''', (home.get_db_id(), self.home_score, None, away.get_db_id(), self.away_score, None))
+        c.execute('''INSERT INTO Games (home_id, home_score, home_elo_delta, away_id, away_score, away_elo_delta, k_value)
+                          VALUES (?, ?, ?, ?, ?, ?, ?);''', (home.get_db_id(), self.home_score, None, away.get_db_id(), self.away_score, None, K_VALUE))
         conn.commit()
         self.db_id          = c.lastrowid
 

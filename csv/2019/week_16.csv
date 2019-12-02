@@ -1,0 +1,256 @@
+Rank,Team,Record,ELO,SoS,SoS Rank,Change,Conference,Is P5
+1,Ohio State,(12-0),1803.56,1542,25,N/A,Big 10 East,True
+2,Clemson,(12-0),1777.82,1498,73,N/A,ACC Atlantic,True
+3,LSU,(12-0),1768.79,1529,36,N/A,SEC West,True
+4,Georgia,(11-1),1738.19,1533,35,N/A,SEC East,True
+5,Utah,(11-1),1718.11,1477,89,N/A,PAC 12 South,True
+6,Alabama,(10-2),1718.06,1499,72,N/A,SEC West,True
+7,Wisconsin,(10-2),1707.94,1554,7,N/A,Big 10 West,True
+8,Florida,(10-2),1697.71,1554,7,N/A,SEC East,True
+9,Oklahoma,(11-1),1694.86,1519,56,N/A,Big 12,True
+10,Appalachian St,(11-1),1692.6,1455,108,N/A,Sun Belt East,False
+11,Oregon,(10-2),1691.38,1518,57,N/A,PAC 12 North,True
+12,Penn State,(10-2),1687.37,1544,22,N/A,Big 10 East,True
+13,Memphis,(11-1),1687.36,1487,81,N/A,AAC West,False
+14,Baylor,(11-1),1680.41,1484,84,N/A,Big 12,True
+15,Notre Dame,(10-2),1675.81,1535,32,N/A,Independent,False
+16,Michigan,(9-3),1667.2,1559,6,N/A,Big 10 East,True
+17,Auburn,(9-3),1666.53,1577,2,N/A,SEC West,True
+18,Boise St,(11-1),1663.08,1448,116,N/A,MW Mountain,False
+19,Central Florida,(9-3),1659.7,1473,95,N/A,AAC East,False
+20,North Dakota St,(12-0),1649.98,1355,204,N/A,MVFC,False
+21,Air Force,(10-2),1646.31,1450,113,N/A,MW Mountain,False
+22,Minnesota,(10-2),1645.68,1521,52,N/A,Big 10 West,True
+23,Louisiana-Lafayette,(10-2),1640.85,1458,105,N/A,Sun Belt West,False
+24,Iowa,(9-3),1633.81,1541,26,N/A,Big 10 West,True
+25,James Madison,(11-1),1627.3,1385,170,N/A,CAA,False
+26,SMU,(10-2),1624.29,1478,88,N/A,AAC West,False
+27,Virginia,(9-3),1622.61,1489,79,N/A,ACC Coastal,True
+28,Navy,(9-2),1614.56,1506,63,N/A,AAC West,False
+29,Washington,(7-5),1613.72,1527,41,N/A,PAC 12 North,True
+30,Kansas St,(8-4),1610.74,1524,49,N/A,Big 12,True
+31,Cincinnati,(10-2),1605.17,1508,62,N/A,AAC East,False
+32,Kentucky,(7-5),1603.18,1511,60,N/A,SEC East,True
+33,Iowa St,(7-5),1603.18,1549,13,N/A,Big 12,True
+34,Southern Cal,(8-4),1598.9,1536,30,N/A,PAC 12 South,True
+35,Oklahoma St,(8-4),1593.37,1529,36,N/A,Big 12,True
+36,Virginia Tech,(8-4),1590.26,1482,86,N/A,ACC Coastal,True
+37,Tennessee,(7-5),1590.01,1547,15,N/A,SEC East,True
+38,Texas A&M,(7-5),1588.27,1536,30,N/A,SEC West,True
+39,Indiana,(8-4),1585.91,1494,75,N/A,Big 10 East,True
+40,San Diego St,(9-3),1585.84,1441,120,N/A,MW West,False
+41,Dartmouth,(9-1),1572.0,1365,195,N/A,Ivy League,False
+42,Texas,(7-5),1566.48,1549,13,N/A,Big 12,True
+43,Buffalo,(7-5),1561.53,1457,106,N/A,MAC East,False
+44,Hawai`i,(9-4),1558.81,1465,102,N/A,MW West,False
+45,Temple,(8-4),1558.28,1486,82,N/A,AAC East,False
+46,Wake Forest,(8-4),1556.35,1506,63,N/A,ACC Atlantic,True
+47,Austin Peay,(10-3),1554.98,1344,216,N/A,OVC,False
+48,Florida Atlantic,(9-3),1552.0,1441,120,N/A,CUSA East,False
+49,Wyoming,(7-5),1551.95,1469,99,N/A,MW Mountain,False
+50,Monmouth NJ,(11-2),1551.09,1366,193,N/A,Big South,False
+51,Yale,(9-1),1543.69,1395,157,N/A,Ivy League,False
+52,Central Michigan,(8-4),1543.22,1455,108,N/A,MAC West,False
+53,Missouri,(6-6),1542.6,1528,39,N/A,SEC East,True
+54,Boston College,(6-6),1539.36,1516,58,N/A,ACC Atlantic,True
+55,Kennesaw St,(11-2),1537.39,1317,240,N/A,Big South,False
+56,Arizona St,(7-5),1537.0,1527,41,N/A,PAC 12 South,True
+57,Georgia Southern,(7-5),1536.72,1520,54,N/A,Sun Belt East,False
+58,Florida St,(6-6),1535.57,1552,11,N/A,ACC Atlantic,True
+59,North Carolina,(6-6),1534.22,1528,39,N/A,ACC Coastal,True
+60,Michigan St,(6-6),1530.98,1553,10,N/A,Big 10 East,True
+61,Western Michigan,(7-5),1528.09,1473,95,N/A,MAC West,False
+62,Miami FL,(6-6),1526.57,1520,54,N/A,ACC Coastal,True
+63,Washington St,(6-6),1526.47,1490,78,N/A,PAC 12 North,True
+64,Montana St,(9-3),1524.11,1346,212,N/A,Big Sky,False
+65,Mississippi St,(6-6),1524.02,1569,3,N/A,SEC West,True
+66,South Dakota St,(8-4),1522.76,1404,150,N/A,MVFC,False
+67,Brigham Young,(7-5),1520.69,1506,63,N/A,Independent,False
+68,Louisville,(7-5),1520.4,1554,7,N/A,ACC Atlantic,True
+69,California,(7-5),1519.96,1522,51,N/A,PAC 12 North,True
+70,TCU,(5-7),1515.75,1543,23,N/A,Big 12,True
+71,Montana,(9-3),1513.49,1429,128,N/A,Big Sky,False
+72,Villanova,(9-4),1512.74,1364,197,N/A,CAA,False
+73,Northern Iowa,(9-4),1511.59,1413,139,N/A,MVFC,False
+74,San Diego,(9-3),1511.31,1351,208,N/A,Pioneer,False
+75,Sacramento St,(9-3),1510.9,1377,179,N/A,Big Sky,False
+76,Utah St,(7-5),1509.5,1529,36,N/A,MW Mountain,False
+77,Albany NY,(9-4),1508.92,1392,161,N/A,CAA,False
+78,Ohio U.,(6-6),1508.24,1443,118,N/A,MAC East,False
+79,Princeton,(8-2),1508.17,1365,195,N/A,Ivy League,False
+80,Liberty,(7-5),1508.15,1429,128,N/A,Independent,False
+81,Mississippi,(4-8),1507.91,1551,12,N/A,SEC West,True
+82,Central Conn St,(11-2),1506.92,1298,247,N/A,NEC,False
+83,Weber St,(9-3),1505.97,1368,188,N/A,Big Sky,False
+84,Western Kentucky,(8-4),1505.83,1433,124,N/A,CUSA East,False
+85,San José St,(0-0),1502.65,1500,69,N/A,MW West,False
+86,Tulane,(6-6),1501.45,1509,61,N/A,AAC West,False
+87,Louisiana Tech,(9-3),1501.44,1374,182,N/A,CUSA West,False
+88,Georgia St,(7-5),1499.95,1489,79,N/A,Sun Belt East,False
+89,Arkansas St,(7-5),1498.78,1496,74,N/A,Sun Belt West,False
+90,Pittsburgh,(7-5),1498.76,1526,43,N/A,ACC Coastal,True
+91,Illinois,(6-6),1497.95,1501,68,N/A,Big 10 West,True
+92,Nebraska,(5-7),1496.86,1503,67,N/A,Big 10 West,True
+93,Wofford,(8-4),1494.18,1398,154,N/A,Southern,False
+94,Oregon St,(5-7),1491.88,1526,43,N/A,PAC 12 North,True
+95,SE Louisiana,(8-4),1491.48,1366,193,N/A,Southland,False
+96,Troy,(5-7),1490.54,1470,97,N/A,Sun Belt East,False
+97,Syracuse,(5-7),1489.16,1512,59,N/A,ACC Atlantic,True
+98,North Carolina A&T,(8-3),1487.79,1347,210,N/A,MEAC,False
+99,Illinois St,(9-4),1483.86,1387,167,N/A,MVFC,False
+100,Alabama-Birmingham,(9-3),1481.14,1358,203,N/A,CUSA West,False
+101,Ball St,(5-7),1480.58,1468,100,N/A,MAC West,False
+102,Texas Tech,(4-8),1477.81,1525,47,N/A,Big 12,True
+103,South Carolina,(4-8),1474.06,1603,1,N/A,SEC East,True
+104,Miami OH,(7-5),1472.65,1486,82,N/A,MAC East,False
+105,Army,(5-7),1472.35,1411,142,N/A,Independent,False
+106,South Carolina St,(8-3),1470.53,1336,225,N/A,MEAC,False
+107,Kent St,(6-6),1467.51,1484,84,N/A,MAC East,False
+108,Sam Houston St,(7-5),1467.05,1295,250,N/A,Southland,False
+109,West Virginia,(5-7),1466.71,1564,4,N/A,Big 12,True
+110,Southern Illinois,(7-5),1464.73,1409,146,N/A,MVFC,False
+111,Marshall,(8-4),1464.61,1450,113,N/A,CUSA East,False
+112,Towson,(7-5),1464.22,1421,131,N/A,CAA,False
+113,Nevada,(7-5),1464.21,1442,119,N/A,MW West,False
+114,Coastal Carolina,(5-7),1463.51,1470,97,N/A,Sun Belt East,False
+115,Northwestern,(3-8),1463.28,1535,32,N/A,Big 10 West,True
+116,Duke,(5-7),1463.08,1537,29,N/A,ACC Coastal,True
+117,Purdue,(4-8),1462.29,1543,23,N/A,Big 10 West,True
+118,Fresno St,(4-8),1461.06,1482,86,N/A,MW West,False
+119,Dayton,(8-3),1460.19,1328,231,N/A,Pioneer,False
+120,Louisiana-Monroe,(5-7),1455.72,1521,52,N/A,Sun Belt West,False
+121,Florida A&M,(9-2),1455.64,1346,212,N/A,MEAC,False
+122,Alcorn St,(8-3),1455.25,1301,246,N/A,SWAC East,False
+123,Furman,(8-5),1452.65,1380,176,N/A,Southern,False
+124,Eastern Michigan,(6-6),1450.72,1476,92,N/A,MAC West,False
+125,Nicholls St,(9-4),1445.93,1364,197,N/A,Southland,False
+126,Davidson,(8-4),1444.2,1290,251,N/A,Pioneer,False
+127,Southern Miss,(7-5),1443.57,1447,117,N/A,CUSA West,False
+128,Colorado St,(4-8),1443.22,1463,103,N/A,MW Mountain,False
+129,Houston,(4-8),1442.74,1534,34,N/A,AAC West,False
+130,SE Missouri St,(9-4),1441.32,1381,175,N/A,OVC,False
+131,Colorado,(5-7),1440.13,1545,19,N/A,PAC 12 South,True
+132,UCLA,(4-8),1440.12,1546,18,N/A,PAC 12 South,True
+133,South Florida,(4-8),1437.91,1545,19,N/A,AAC East,False
+134,Central Arkansas,(9-3),1434.86,1394,159,N/A,Southland,False
+135,Stanford,(4-8),1433.52,1545,19,N/A,PAC 12 North,True
+136,New Hampshire,(6-5),1430.34,1411,142,N/A,CAA,False
+137,UNC-Charlotte,(7-5),1428.63,1421,131,N/A,CUSA East,False
+138,Eastern Kentucky,(7-5),1426.2,1345,215,N/A,OVC,False
+139,North Carolina St,(4-8),1426.0,1491,77,N/A,ACC Atlantic,True
+140,Tulsa,(4-8),1418.54,1526,43,N/A,AAC West,False
+141,Kansas,(3-9),1416.52,1547,15,N/A,Big 12,True
+142,Maryland,(3-9),1415.49,1539,27,N/A,Big 10 East,True
+143,Eastern Washington,(7-5),1414.97,1327,232,N/A,Big Sky,False
+144,Florida Int'l,(6-6),1413.92,1415,138,N/A,CUSA East,False
+145,Southern U.,(8-4),1413.33,1339,222,N/A,SWAC West,False
+146,Toledo,(6-6),1411.84,1468,100,N/A,MAC West,False
+147,Harvard,(4-6),1410.51,1417,135,N/A,Ivy League,False
+148,The Citadel,(6-6),1409.41,1375,181,N/A,Southern,False
+149,Youngstown St,(6-6),1407.88,1407,148,N/A,MVFC,False
+150,Tennessee-Martin,(7-5),1407.28,1404,150,N/A,OVC,False
+151,Grambling St,(6-5),1407.04,1338,223,N/A,SWAC West,False
+152,Arizona,(4-8),1405.68,1525,47,N/A,PAC 12 South,True
+153,South Dakota,(5-7),1403.28,1418,134,N/A,MVFC,False
+154,Northern Illinois,(5-7),1402.01,1476,92,N/A,MAC West,False
+155,Maine,(6-6),1401.76,1412,141,N/A,CAA,False
+156,Cornell NY,(4-6),1401.3,1394,159,N/A,Ivy League,False
+157,Bethune-Cookman,(7-4),1399.22,1334,226,N/A,MEAC,False
+158,McNeese St,(7-5),1398.21,1395,157,N/A,Southland,False
+159,East Carolina,(4-8),1396.27,1460,104,N/A,AAC East,False
+160,Vanderbilt,(3-9),1394.87,1538,28,N/A,SEC East,True
+161,Prairie View A&M,(6-5),1394.02,1311,244,N/A,SWAC West,False
+162,Elon,(5-6),1392.84,1432,126,N/A,CAA,False
+163,Sacred Heart,(7-5),1392.49,1313,242,N/A,NEC,False
+164,Campbell,(6-5),1388.69,1354,205,N/A,Big South,False
+165,Not FBS,(0-0),1387.89,1500,69,N/A,FCS,False
+166,UNLV,(4-8),1387.31,1451,112,N/A,MW West,False
+167,Stetson,(7-4),1386.64,1268,254,N/A,Pioneer,False
+168,Holy Cross,(7-6),1386.18,1385,170,N/A,Patriot,False
+169,LIU Post,(0-0),1385.62,1500,69,N/A,NEC,False
+170,Robert Morris PA,(7-5),1385.61,1331,228,N/A,NEC,False
+171,Georgia Tech,(3-9),1379.12,1547,15,N/A,ACC Coastal,True
+172,Arkansas,(2-10),1378.65,1523,50,N/A,SEC West,True
+173,Richmond,(5-7),1376.35,1419,133,N/A,CAA,False
+174,Drake,(6-5),1376.34,1309,245,N/A,Pioneer,False
+175,Indiana St,(5-7),1374.63,1396,155,N/A,MVFC,False
+176,Chattanooga,(6-6),1374.23,1390,163,N/A,Southern,False
+177,Middle Tennessee St,(4-8),1374.19,1439,122,N/A,CUSA East,False
+178,UC-Davis,(5-7),1371.75,1413,139,N/A,Big Sky,False
+179,Norfolk St,(5-7),1371.17,1338,223,N/A,MEAC,False
+180,Pennsylvania,(5-5),1368.58,1408,147,N/A,Ivy League,False
+181,Samford,(5-7),1367.97,1389,164,N/A,Southern,False
+182,William & Mary,(5-7),1366.39,1417,135,N/A,CAA,False
+183,Charleston Southern,(6-6),1362.5,1372,185,N/A,Big South,False
+184,St Francis PA,(6-6),1361.03,1312,243,N/A,NEC,False
+185,Jacksonville St,(6-6),1360.67,1379,177,N/A,OVC,False
+186,Rutgers,(2-10),1359.97,1560,5,N/A,Big 10 East,True
+187,Abilene Christian,(5-7),1355.01,1363,199,N/A,Southland,False
+188,Idaho,(5-7),1351.66,1388,165,N/A,Big Sky,False
+189,Duquesne,(6-5),1350.95,1325,233,N/A,NEC,False
+190,North Texas,(4-8),1349.92,1411,142,N/A,CUSA West,False
+191,Portland St,(5-7),1346.68,1331,228,N/A,Big Sky,False
+192,Alabama A&M,(7-5),1345.57,1278,252,N/A,SWAC East,False
+193,Stony Brook,(5-7),1344.58,1396,155,N/A,CAA,False
+194,Texas St-San Marcos,(3-9),1344.11,1526,43,N/A,Sun Belt West,False
+195,Delaware,(5-7),1341.45,1417,135,N/A,CAA,False
+196,Georgetown DC,(5-6),1341.17,1296,249,N/A,Patriot,False
+197,Arkansas-Pine Bluff,(6-5),1340.15,1274,253,N/A,SWAC West,False
+198,South Alabama,(2-10),1337.79,1506,63,N/A,Sun Belt West,False
+199,New Mexico St,(2-10),1336.11,1477,89,N/A,Independent,False
+200,Connecticut,(2-10),1324.76,1477,89,N/A,AAC East,False
+201,Alabama St,(5-6),1324.03,1341,221,N/A,SWAC East,False
+202,Bowling Green,(3-9),1321.21,1475,94,N/A,MAC East,False
+203,Tennessee Tech,(6-6),1320.78,1346,212,N/A,OVC,False
+204,Brown,(2-8),1319.27,1402,152,N/A,Ivy League,False
+205,New Mexico,(2-10),1318.11,1492,76,N/A,MW Mountain,False
+206,Incarnate Word,(5-7),1317.18,1343,218,N/A,Southland,False
+207,Rice,(3-9),1316.26,1449,115,N/A,CUSA West,False
+208,VMI,(5-7),1315.54,1367,191,N/A,Southern,False
+209,Columbia,(3-7),1314.01,1436,123,N/A,Ivy League,False
+210,Hampton,(5-7),1312.1,1298,247,N/A,Big South,False
+211,North Alabama,(4-7),1306.81,1369,187,N/A,Big South,False
+212,Murray St,(4-8),1303.27,1376,180,N/A,OVC,False
+213,Houston Baptist,(5-7),1302.37,1317,240,N/A,Southland,False
+214,Northern Arizona,(4-8),1301.42,1359,202,N/A,Big Sky,False
+215,Texas-San Antonio,(4-8),1294.34,1430,127,N/A,CUSA West,False
+216,Mercer,(4-8),1290.04,1387,167,N/A,Southern,False
+217,Lehigh,(4-7),1284.55,1321,235,N/A,Patriot,False
+218,East Tennessee St,(3-9),1283.6,1392,161,N/A,Southern,False
+219,Cal Poly SLO,(3-8),1283.52,1385,170,N/A,Big Sky,False
+220,Fordham,(4-8),1280.15,1362,200,N/A,Patriot,False
+221,Morehead St,(5-7),1279.99,1323,234,N/A,Pioneer,False
+222,Marist,(4-7),1278.61,1378,178,N/A,Pioneer,False
+223,North Carolina Central,(4-8),1273.05,1348,209,N/A,MEAC,False
+224,Colgate,(4-8),1271.47,1388,165,N/A,Patriot,False
+225,Bryant,(4-8),1268.35,1320,236,N/A,NEC,False
+226,Rhode Island,(2-10),1265.56,1405,149,N/A,CAA,False
+227,Stephen F. Austin,(3-9),1263.48,1368,188,N/A,Southland,False
+228,Morgan St,(3-9),1261.22,1367,191,N/A,MEAC,False
+229,Northwestern St,(3-9),1260.26,1385,170,N/A,Southland,False
+230,Jackson St,(4-8),1258.2,1318,239,N/A,SWAC East,False
+231,Lafayette,(4-8),1256.23,1368,188,N/A,Patriot,False
+232,Gardner-Webb,(3-9),1255.93,1372,185,N/A,Big South,False
+233,Western Carolina,(3-9),1248.76,1387,167,N/A,Southern,False
+234,Tennessee St,(3-9),1247.28,1342,219,N/A,OVC,False
+235,Jacksonville FL,(3-9),1244.81,1353,207,N/A,Pioneer,False
+236,Bucknell,(3-8),1243.0,1384,174,N/A,Patriot,False
+237,Lamar,(4-8),1241.82,1344,216,N/A,Southland,False
+238,Old Dominion,(1-11),1235.9,1457,106,N/A,CUSA East,False
+239,Massachusetts,(1-11),1235.55,1433,124,N/A,Independent,False
+240,Missouri St,(1-10),1234.81,1453,111,N/A,MVFC,False
+241,Idaho St,(3-9),1234.62,1373,184,N/A,Big Sky,False
+242,Southern Utah,(3-9),1233.39,1360,201,N/A,Big Sky,False
+243,Western Illinois,(1-11),1230.2,1424,130,N/A,MVFC,False
+244,Akron,(0-12),1229.33,1454,110,N/A,MAC East,False
+245,Butler,(3-9),1228.62,1331,228,N/A,Pioneer,False
+246,Presbyterian,(2-10),1227.9,1320,236,N/A,Big South,False
+247,Eastern Illinois,(1-11),1219.28,1410,145,N/A,OVC,False
+248,Howard,(2-10),1201.3,1374,182,N/A,MEAC,False
+249,Wagner,(1-11),1197.74,1354,205,N/A,NEC,False
+250,Northern Colorado,(2-10),1193.78,1342,219,N/A,Big Sky,False
+251,UTEP,(1-11),1192.87,1400,153,N/A,CUSA West,False
+252,Delaware St,(2-10),1188.15,1320,236,N/A,MEAC,False
+253,Valparaiso,(1-11),1173.7,1347,210,N/A,Pioneer,False
+254,Texas Southern,(0-11),1138.5,1334,226,N/A,SWAC West,False
+255,Missouri Valley,(3-8),1126.51,1100,255,N/A,SWAC East,False
