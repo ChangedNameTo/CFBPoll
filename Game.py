@@ -74,7 +74,7 @@ class Game:
 
     # Calculates a multiplier for the margin of victory, works as a scaling factor for when teams get blown out by much better opponents
     def _mov_multiplier(self):
-        log_part = math.log(abs(self.home_score - self.away_score))
+        log_part = math.log(abs(self.home_score - self.away_score) + 1)
 
         if self._is_home_win():
             subtracted = (self.away.get_elo() - self.home.get_elo())
@@ -82,9 +82,6 @@ class Game:
             subtracted = (self.home.get_elo() - self.away.get_elo())
 
         multiplied_part =  ( 2.2 / ( ( subtracted ) * 0.001 + 2.2 ) )
-
-        if log_part == 0:
-            log_part = 1
 
         return log_part * multiplied_part
 
