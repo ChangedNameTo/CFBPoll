@@ -83,6 +83,9 @@ class Game:
 
         multiplied_part =  ( 2.2 / ( ( subtracted ) * 0.001 + 2.2 ) )
 
+        if log_part == 0:
+            log_part = 1
+
         return log_part * multiplied_part
 
     # Takes the game object and uses it to update the elos of the teams
