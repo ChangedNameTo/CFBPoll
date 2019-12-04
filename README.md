@@ -9,7 +9,7 @@ Has to be run using Python3.
 
 Run the program using the command:
 
-`python3 Ranking.py`
+`python3 __main__.py`
 
 ---
 
