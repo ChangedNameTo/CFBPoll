@@ -42,6 +42,8 @@ class Ranking():
                 elo FLOAT,
                 sos INTEGER,
                 conference_id INTEGER,
+                bv_name TEXT,
+                fbs BOOLEAN,
                 FOREIGN KEY(conference_id) REFERENCES Conferences(id)
             );''')
         c.execute('''CREATE TABLE IF NOT EXISTS Games
@@ -87,6 +89,7 @@ class Ranking():
             conference = line[2]
             p5         = (line[3] == 'True')
             bv_name    = line[4]
+            fbs        = line[5]
 
             if(conference not in self.conference_dict.keys()):
                 new_conf = Conference(conference, p5)
