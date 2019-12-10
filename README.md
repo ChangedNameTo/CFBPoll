@@ -15,33 +15,33 @@ Run the program using the command:
 
 |Rank|Team|Flair|Record|Elo|SoS^^1|SoS Rank|Change|
 |---|---|---|---|---|---|---|---|
-|1|Ohio State|[Ohio State](#f/ohiostate)|(12-0)|1805.29|1543|24|N/A|
-|2|Clemson|[Clemson](#f/clemson)|(12-0)|1782.43|1499|72|N/A|
-|3|LSU|[LSU](#f/lsu)|(12-0)|1773.95|1529|37|N/A|
-|4|Georgia|[Georgia](#f/georgia)|(11-1)|1740.78|1535|34|N/A|
-|5|Utah|[Utah](#f/utah)|(11-1)|1720.49|1478|89|N/A|
-|6|Alabama|[Alabama](#f/alabama)|(10-2)|1714.47|1499|72|N/A|
-|7|Wisconsin|[Wisconsin](#f/wisconsin)|(10-2)|1706.54|1556|7|N/A|
-|8|Oklahoma|[Oklahoma](#f/oklahoma)|(11-1)|1704.51|1518|56|N/A|
-|9|Florida|[Florida](#f/florida)|(10-2)|1700.04|1555|8|N/A|
-|10|Appalachian St|[Appalachian St](#f/appalachianstate)|(11-1)|1693.58|1454|108|N/A|
-|11|Oregon|[Oregon](#f/oregon)|(10-2)|1693.3|1518|56|N/A|
-|12|Memphis|[Memphis](#f/memphis)|(11-1)|1691.66|1487|81|N/A|
-|13|Penn State|[Penn State](#f/pennstate)|(10-2)|1689.45|1545|20|N/A|
-|14|Baylor|[Baylor](#f/baylor)|(11-1)|1686.41|1484|84|N/A|
-|15|Notre Dame|[Notre Dame](#f/notredame)|(10-2)|1682.33|1536|31|N/A|
-|16|Michigan|[Michigan](#f/michigan)|(9-3)|1669.49|1559|6|N/A|
-|17|Auburn|[Auburn](#f/auburn)|(9-3)|1668.64|1576|2|N/A|
-|18|Boise St|[Boise St](#f/boisestate)|(11-1)|1666.36|1448|116|N/A|
-|19|Central Florida|[Central Florida](#f/ucf)|(9-3)|1652.46|1475|94|N/A|
-|20|North Dakota St|[CFB](#f/cfb)|(12-0)|1652.18|1354|205|N/A|
-|21|Air Force|[Air Force](#f/airforce)|(10-2)|1648.89|1451|112|N/A|
-|22|Minnesota|[Minnesota](#f/minnesota)|(10-2)|1648.82|1520|54|N/A|
-|23|Louisiana-Lafayette|[Louisiana-Lafayette](#f/louisiana)|(10-2)|1645.09|1457|107|N/A|
-|24|Iowa|[Iowa](#f/iowa)|(9-3)|1638.97|1541|26|N/A|
-|25|James Madison|[CFB](#f/cfb)|(11-1)|1629.3|1384|173|N/A|
+|1|Ohio State|[Ohio State](#f/ohiostate)|(13-0)|1824.95|1558|8|N/A|
+|2|Clemson|[Clemson](#f/clemson)|(13-0)|1806.05|1506|66|N/A|
+|3|LSU|[LSU](#f/lsu)|(13-0)|1799.35|1543|26|N/A|
+|4|Oregon|[Oregon](#f/oregon)|(11-2)|1725.33|1531|37|N/A|
+|5|Oklahoma|[Oklahoma](#f/oklahoma)|(12-1)|1721.05|1527|43|N/A|
+|6|Georgia|[Georgia](#f/georgia)|(11-2)|1715.38|1556|9|N/A|
+|7|Alabama|[Alabama](#f/alabama)|(10-2)|1714.47|1499|75|N/A|
+|8|Appalachian St|[Appalachian St](#f/appalachianstate)|(12-1)|1711.43|1468|103|N/A|
+|9|Memphis|[Memphis](#f/memphis)|(12-1)|1705.88|1498|76|N/A|
+|10|Florida|[Florida](#f/florida)|(10-2)|1700.04|1555|10|N/A|
+|11|Penn State|[Penn State](#f/pennstate)|(10-2)|1689.45|1545|22|N/A|
+|12|Boise St|[Boise St](#f/boisestate)|(12-1)|1689.07|1454|110|N/A|
+|13|Utah|[Utah](#f/utah)|(11-2)|1688.45|1497|77|N/A|
+|14|Wisconsin|[Wisconsin](#f/wisconsin)|(10-3)|1686.87|1576|2|N/A|
+|15|Notre Dame|[Notre Dame](#f/notredame)|(10-2)|1682.33|1536|33|N/A|
+|16|Baylor|[Baylor](#f/baylor)|(11-2)|1669.87|1504|70|N/A|
+|17|Michigan|[Michigan](#f/michigan)|(9-3)|1669.49|1559|7|N/A|
+|18|North Dakota St|[CFB](#f/cfb)|(13-0)|1669.39|1364|199|N/A|
+|19|Auburn|[Auburn](#f/auburn)|(9-3)|1668.64|1576|2|N/A|
+|20|James Madison|[CFB](#f/cfb)|(12-1)|1660.11|1394|161|N/A|
+|21|Central Florida|[Central Florida](#f/ucf)|(9-3)|1652.46|1475|96|N/A|
+|22|Air Force|[Air Force](#f/airforce)|(10-2)|1648.89|1451|113|N/A|
+|23|Minnesota|[Minnesota](#f/minnesota)|(10-2)|1648.82|1520|57|N/A|
+|24|Iowa|[Iowa](#f/iowa)|(9-3)|1638.97|1541|28|N/A|
+|25|SMU|[SMU](#f/smu)|(10-2)|1628.11|1479|90|N/A|
 ||||||||
-|171|Georgia Tech|[Georgia Tech](#f/georgiatech)|(3-9)|1381.71|1547|17|N/A|
+|171|Georgia Tech|[Georgia Tech](#f/georgiatech)|(3-9)|1381.71|1547|19|N/A|
 ||||||||
 |255|Missouri Valley|[CFB](#f/cfb)|(3-8)|1121.78|1100|255|N/A|
 
@@ -49,11 +49,11 @@ Run the program using the command:
 
 **Mean Points:** 1441.55
 
-**Median Points:** 1444.91
+**Median Points:** 1441.1
 
-**Standard Deviation of Points:** 136.11
+**Standard Deviation of Points:** 136.98
 
-**Variance:** 18525.29
+**Variance:** 18763.25
 
 ---
 
