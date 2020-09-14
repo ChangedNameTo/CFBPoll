@@ -20,40 +20,9 @@ teams = pd.DataFrame()
 plays = pd.DataFrame()
 stats = pd.DataFrame()
 
-# This function is run once to collect the seed data for the model
-for year in range(2020, 2021):
-# for year in range(2019, 2020):
-    # Fetches all games, outputs the CSV's
-    # games_result = cfbd.GamesApi().get_games(year)
-    # games = pd.DataFrame.from_records([game.__dict__ for game in games_result])
-    # if not os.path.exists('data/{}'.format(year)):
-    #     os.makedirs('data/{}'.format(year))
-    # games.to_csv('data/{}/games.csv'.format(year))
-
-    # # Fetches all teams, outputs the CSV's
-    # teams_result = cfbd.TeamsApi().get_fbs_teams(year=year)
-    # teams = pd.DataFrame.from_records([team.__dict__ for team in teams_result])
-    # teams.to_csv('data/{}/teams.csv'.format(year))
-
-    # Pull all plays, concat them, then dump them into csvs
-    # year_plays = pd.DataFrame()
-    # for week in range(1, WEEK + 1):
-    #     plays_week_result = cfbd.PlaysApi().get_plays(year=year, week=week)
-    #     plays = pd.DataFrame.from_records([play.__dict__ for play in plays_week_result])
-    #     year_plays = pd.concat([year_plays, plays])
-
-    # year_plays.to_csv('data/{}/plays.csv'.format(year))
-
-    # Pull all advanced stats, concat them, then dump them into csvs
-    # year_stats = pd.DataFrame()
-    # for week in range(1, highest_week):
-    #     stats_week_result = cfbd.StatsApi().get_team_season_stats(year=year, start_week=week, end_week=week+1)
-    #     stats = pd.DataFrame.from_records([stat.__dict__ for stat in stats_week_result])
-    #     year_stats = pd.concat([year_stats, stats])
-
-    # year_stats.to_csv('data/{}/stats.csv'.format(year))
-
-    # Since we already scraped, just load in the csv dumps
+# Since we already scraped, just load in the csv dumps
+# See ./research/stats_scraping.py
+for year in range(2019, 2020):
     year_games = pd.read_csv('data/{}/games.csv'.format(year))
     year_teams = pd.read_csv('data/{}/teams.csv'.format(year))
     year_plays = pd.read_csv('data/{}/plays.csv'.format(year))
@@ -66,11 +35,10 @@ for year in range(2020, 2021):
 
 # Clean the data and prep the frames
 games = games[['_id','_season','_week','_season_type','_start_date','_neutral_site','_conference_game','_home_id','_home_team','_home_points','_away_id','_away_team','_away_points']]
-teams = teams[['_id','_school']]
+games = pd.concat([games, pd.DataFrame(columns=['home_recent_week','home_elo','away_recent_week','away_elo','home_expected','away_expected','mov_multiplier','new_home_elo','new_away_elo','home_elo_change','away_elo_change'])])
 
-# Seed ELO and Week
-teams['elo'] = 1500
-teams['week'] = 0
+teams = teams[['_id','_school']]
+teams = pd.concat([teams, pd.DataFrame(columns=['elo','strength_of_schedule','last_played','result','elo_change'])])
 
 # Add home boolean value
 games['home_won'] = games._home_points > games._away_points
@@ -86,20 +54,48 @@ games['away_fbs'] = games.apply(lambda game : (game['_away_team'] in fbs_team_li
 games['fbs_count'] = games.apply(lambda game : (game['home_fbs'] + game['away_fbs']), axis=1)
 
 # Begin running through games. 
+def process_game(game):
+    # Pull the last week played
+    home_recent_week = games[((games['_home_team'] == game['_home_team']) | (games['_away_team'] == game['_home_team'])) & games['new_home_elo'].notna()]['_week']
+    away_recent_week = games[((games['_home_team'] == game['_away_team']) | (games['_away_team'] == game['_away_team'])) & games['new_away_elo'].notna()]['_week']
 
-# Pull Home Elo
-games['home_recent_week'] = games.apply(lambda game: (teams[teams['_school'] == game['_home_team']]['week'].argmax() if game['home_fbs'] else None), axis=1) 
-games['home_elo'] = games.apply(lambda game: (teams.loc[(teams['_school'] == game['_home_team']) & (teams['week'] == game['home_recent_week'])]['elo'].values[0] if game['home_fbs'] else 1204), axis=1)
+    # Check for the beginning of the season so this doesn't error out
+    game['home_recent_week'] = 0 if home_recent_week.empty else home_recent_week.max()
+    game['away_recent_week'] = 0 if away_recent_week.empty else away_recent_week.max()
 
-# Pull Away Elo
-games['away_recent_week'] = games.apply(lambda game: (teams[teams['_school'] == game['_away_team']]['week'].argmax() if game['away_fbs'] else None), axis=1) 
-games['away_elo'] = games.apply(lambda game: (teams.loc[(teams['_school'] == game['_away_team']) & (teams['week'] == game['away_recent_week'])]['elo'].values[0] if game['away_fbs'] else 1204), axis=1)
+    # Grab the actual frame
+    home_game_frame = games[((games['_home_team'] == game['_home_team']) | (games['_away_team'] == game['_home_team'])) & (games['_week'] == game['home_recent_week'])]
+    away_game_frame = games[((games['_home_team'] == game['_away_team']) | (games['_away_team'] == game['_away_team'])) & (games['_week'] == game['away_recent_week'])]
 
-# Get the expected value for this matchup. How likely is it that this team wins? Factor in the 2.5 score advantage for home 
-games['home_expected'] = games.apply(lambda game: (1 / (1 + 10**((game['away_elo'] - (game['home_elo'] + 25)) / 400))), axis=1)
-games['away_expected'] = games.apply(lambda game: (1 / (1 + 10**(( game['home_elo'] - (game['away_elo'] - 25)) / 400))), axis=1)
+    # The frame is empty at the start. If the team is fbs, seeds at 1500, else 1204
+    if(home_game_frame.empty):
+        if(game['home_fbs']):
+            game['home_elo'] = 1500
+        else:
+            game['home_elo'] = 1204
+    else:
+        # If the last home game frame contains the home team at home, grabs that val. Else grabs away.
+        if (home_game_frame['_home_team'].values[0] == game['_home_team']):
+            game['home_elo'] = home_game_frame['new_home_elo'].values[0]
+        else:
+            game['home_elo'] = home_game_frame['new_away_elo'].values[0]
+    
+    if(away_game_frame.empty):
+        if(game['away_fbs']):
+            game['away_elo'] = 1500
+        else:
+            game['away_elo'] = 1204
+    else:
+        # If the last home game frame contains the home team at home, grabs that val. Else grabs away.
+        if (away_game_frame['_home_team'].values[0] == game['_away_team']):
+            game['away_elo'] = away_game_frame['new_home_elo'].values[0]
+        else:
+            game['away_elo'] = away_game_frame['new_away_elo'].values[0]
 
-def mov_multiplier(game):
+    # Get the expected value for this matchup. How likely is it that this team wins? Factor in the 2.5 score advantage for home 
+    game['home_expected'] = (1 / (1 + 10**((game['away_elo'] - (game['home_elo'] + 25)) / 400)))
+    game['away_expected'] = (1 / (1 + 10**(( game['home_elo'] - (game['away_elo'] - 25)) / 400)))
+
     # Get the Margin of Victory multiplier to work as a scaling factor for skill that dampens for blowouts
     # Pad by 1 to prevent 0
     log_part = math.log(abs(game['_home_points'] - game['_away_points']) + 1)
@@ -109,21 +105,65 @@ def mov_multiplier(game):
     multiplied_part = ( 2.2 / ((subtracted) * 0.001 + 2.2))
 
     # Outputs the multiplier
-    return log_part * multiplied_part
+    game['mov_multiplier'] = log_part * multiplied_part
+    
+    # Calculates and outputs the new Elo's
+    game['new_home_elo'] = game['home_elo'] + (K_VALUE * (int(game['home_won']) - game['home_expected']) * game['mov_multiplier'])
+    game['new_away_elo'] = game['away_elo'] + (K_VALUE * (int(not game['home_won']) - game['away_expected']) * game['mov_multiplier'])
 
-games['mov_multiplier'] = games.apply(mov_multiplier, axis=1)
+    game['home_elo_change'] = game['new_home_elo'] - game['home_elo']
+    game['away_elo_change'] = game['new_away_elo'] - game['away_elo']
 
-# Calculates and outputs the new Elo's
-games['new_home_elo'] = games.apply(lambda game: game['home_elo'] + (K_VALUE * (int(game['home_won']) - game['home_expected']) * game['mov_multiplier']), axis=1)
-games['new_away_elo'] = games.apply(lambda game: game['away_elo'] + (K_VALUE * (int(not game['home_won']) - game['away_expected']) * game['mov_multiplier']), axis=1)
+    # Send it back
+    return game
 
-games.to_csv('test.csv')
+for index,game in games.iterrows():
+    games.at[index] = process_game(game)
 
-# Puts them into the team table
+# Outputs all the games to a CSV
+games.to_csv('processed_games.csv')
 
+# Add's in all that other data people love
+def process_team(team):
+    # Grabs all of 1 teams games
+    game_frame = games[((games['_home_team'] == team['_school']) | (games['_away_team'] == team['_school']))]
 
-# Spits out a ranking
+    # TODO: Strength of schedule
 
-# Spits out csvs
+    # TODO: Add in the functionality to dump the full team spreadsheets here
 
-print(games.head())
+    # Team hasn't yet played. Give them a 0. Since this is not in the game calculation, this will not affect future placement, so tOSU fans please don't PM me when they are ranked in the 80's
+    if game_frame.empty:
+        return pd.DataFrame()
+
+    max_week = game_frame['_week'].max()
+
+    # Grab that game, then solely pull info from it
+    final_frame = game_frame[(game_frame['_week'] == max_week)]
+    is_home = (final_frame['_home_team'] == team['_school']).values[0]
+    result = final_frame['home_won'].values[0]
+    if not is_home:
+        result = not result
+
+    text_result = 'W' if result else 'L'
+
+    team['elo'] = round((final_frame['new_home_elo'] if is_home else final_frame['new_away_elo']).values[0],2)
+    team['last_played'] = (final_frame['_away_team'] if is_home else final_frame['_home_team']).values[0]
+    team['result'] = '({} - {}) {}'.format(final_frame['_home_points'].values[0], final_frame['_away_points'].values[0], text_result)
+    team['elo_change'] = round((final_frame['home_elo_change'] if is_home else final_frame['away_elo_change']).values[0],2)
+
+    return team
+
+for index, team in teams.iterrows():
+    # If the team hasn't played, excluded them from being processed and filter them later
+    processed_team = process_team(team)
+    if processed_team.empty:
+        continue
+    teams.at[index] = processed_team
+
+teams = teams.sort_values(by=['elo'], ascending=False)
+
+# Outputs all teams to a CSV
+teams.to_csv('processed_teams.csv')
+
+# print(games.head())
