@@ -3,11 +3,13 @@ from pprint import pprint
 import pandas as pd
 import numpy as np
 import cfbd
+
 import os
+import math
 
 import datetime as dt
 
-from Constants import WEEK
+from Constants import WEEK, K_VALUE
 
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_columns', None)
@@ -62,13 +64,13 @@ for year in range(2020, 2021):
     plays = pd.concat([plays, year_plays])
     stats = pd.concat([stats, year_stats])
 
+# Clean the data and prep the frames
+games = games[['_id','_season','_week','_season_type','_start_date','_neutral_site','_conference_game','_home_id','_home_team','_home_points','_away_id','_away_team','_away_points']]
+teams = teams[['_id','_school']]
+
 # Seed ELO and Week
 teams['elo'] = 1500
 teams['week'] = 0
-
-# Clean the data
-games = games[['_id','_season','_week','_season_type','_start_date','_neutral_site','_conference_game','_home_id','_home_team','_home_points','_away_id','_away_team','_away_points']]
-teams = teams[['_id','_school']]
 
 # Add home boolean value
 games['home_won'] = games._home_points > games._away_points
@@ -85,21 +87,43 @@ games['fbs_count'] = games.apply(lambda game : (game['home_fbs'] + game['away_fb
 
 # Begin running through games. 
 
-def process_game(game):
-    print(game)
-    home_team = game['_home_team']
-    away_team = game['_away_team']
+# Pull Home Elo
+games['home_recent_week'] = games.apply(lambda game: (teams[teams['_school'] == game['_home_team']]['week'].argmax() if game['home_fbs'] else None), axis=1) 
+games['home_elo'] = games.apply(lambda game: (teams.loc[(teams['_school'] == game['_home_team']) & (teams['week'] == game['home_recent_week'])]['elo'].values[0] if game['home_fbs'] else 1204), axis=1)
 
-    # We want the highest week played
-    game['home_elo'] = teams.iloc[teams[teams['_school'] == home_team]['week'].argmax()]['elo']
-    game['away_elo'] = teams.iloc[teams[teams['_school'] == away_team]['week'].argmax()]['elo']
+# Pull Away Elo
+games['away_recent_week'] = games.apply(lambda game: (teams[teams['_school'] == game['_away_team']]['week'].argmax() if game['away_fbs'] else None), axis=1) 
+games['away_elo'] = games.apply(lambda game: (teams.loc[(teams['_school'] == game['_away_team']) & (teams['week'] == game['away_recent_week'])]['elo'].values[0] if game['away_fbs'] else 1204), axis=1)
 
-    # Get the expected value for this matchup. How likely is it that this team wins? 
-    # game[]
-    
-    game['fbs_matchup'] = (home_team in fbs_teams_list or away_team in fbs_teams_list)
+# Get the expected value for this matchup. How likely is it that this team wins? Factor in the 2.5 score advantage for home 
+games['home_expected'] = games.apply(lambda game: (1 / (1 + 10**((game['away_elo'] - (game['home_elo'] + 25)) / 400))), axis=1)
+games['away_expected'] = games.apply(lambda game: (1 / (1 + 10**(( game['home_elo'] - (game['away_elo'] - 25)) / 400))), axis=1)
 
-games.apply(process_game, axis=1)
+def mov_multiplier(game):
+    # Get the Margin of Victory multiplier to work as a scaling factor for skill that dampens for blowouts
+    # Pad by 1 to prevent 0
+    log_part = math.log(abs(game['_home_points'] - game['_away_points']) + 1)
+
+    # Scales blowouts by relative skill
+    subtracted = (game['away_elo'] - game['home_elo'] if game['home_won'] else game['home_elo'] - game['away_elo'])
+    multiplied_part = ( 2.2 / ((subtracted) * 0.001 + 2.2))
+
+    # Outputs the multiplier
+    return log_part * multiplied_part
+
+games['mov_multiplier'] = games.apply(mov_multiplier, axis=1)
+
+# Calculates and outputs the new Elo's
+games['new_home_elo'] = games.apply(lambda game: game['home_elo'] + (K_VALUE * (int(game['home_won']) - game['home_expected']) * game['mov_multiplier']), axis=1)
+games['new_away_elo'] = games.apply(lambda game: game['away_elo'] + (K_VALUE * (int(not game['home_won']) - game['away_expected']) * game['mov_multiplier']), axis=1)
+
+games.to_csv('test.csv')
+
+# Puts them into the team table
+
+
+# Spits out a ranking
+
+# Spits out csvs
 
 print(games.head())
-# print(games.shape)
