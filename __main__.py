@@ -1,3 +1,6 @@
+import timeit
+start = timeit.default_timer()
+
 from pprint import pprint
 
 import pandas as pd
@@ -162,8 +165,11 @@ for index, team in teams.iterrows():
     teams.at[index] = processed_team
 
 teams = teams.sort_values(by=['elo'], ascending=False)
+teams.index = np.arange(1, len(teams) + 1)
 
 # Outputs all teams to a CSV
 teams.to_csv('processed_teams.csv')
 
-# print(games.head())
+stop = timeit.default_timer()
+
+# print('Executed in: ', stop - start)
