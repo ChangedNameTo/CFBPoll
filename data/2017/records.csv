@@ -1,0 +1,131 @@
+,year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+0,2017,Air Force,Mountain West,Mountain,12,5,7,0,8,4,4,0,6,3,3,0,6,2,4,0
+1,2017,Akron,Mid-American,East,14,7,7,0,9,6,3,0,6,5,1,0,7,2,5,0
+2,2017,Alabama,SEC,West,14,13,1,0,9,8,1,0,7,7,0,0,4,3,1,0
+3,2017,Appalachian State,Sun Belt,,13,9,4,0,8,7,1,0,6,5,1,0,6,3,3,0
+4,2017,Arizona,Pac-12,South,13,7,6,0,9,5,4,0,6,4,2,0,6,3,3,0
+5,2017,Arizona State,Pac-12,South,13,7,6,0,9,6,3,0,7,5,2,0,5,2,3,0
+6,2017,Arkansas,SEC,West,12,4,8,0,8,1,7,0,6,2,4,0,4,1,3,0
+7,2017,Arkansas State,Sun Belt,,12,7,5,0,8,6,2,0,5,4,1,0,6,3,3,0
+8,2017,Army,FBS Independents,,13,10,3,0,0,0,0,0,6,6,0,0,5,2,3,0
+9,2017,Auburn,SEC,West,14,10,4,0,9,7,2,0,7,7,0,0,5,3,2,0
+10,2017,Ball State,Mid-American,West,12,2,10,0,8,0,8,0,6,2,4,0,6,0,6,0
+11,2017,Baylor,Big 12,,12,1,11,0,9,1,8,0,6,0,6,0,5,1,4,0
+12,2017,Boise State,Mountain West,Mountain,14,11,3,0,9,8,1,0,7,6,1,0,6,4,2,0
+13,2017,Boston College,ACC,Atlantic,13,7,6,0,8,4,4,0,6,2,4,0,5,4,1,0
+14,2017,Bowling Green,Mid-American,East,12,2,10,0,8,2,6,0,5,0,5,0,7,2,5,0
+15,2017,Buffalo,Mid-American,East,12,6,6,0,8,4,4,0,6,4,2,0,6,2,4,0
+16,2017,BYU,FBS Independents,,13,4,9,0,0,0,0,0,6,2,4,0,6,2,4,0
+17,2017,California,Pac-12,North,12,5,7,0,9,2,7,0,6,4,2,0,6,1,5,0
+18,2017,Central Michigan,Mid-American,West,13,8,5,0,8,6,2,0,5,3,2,0,7,5,2,0
+19,2017,Charlotte,Conference USA,East,12,1,11,0,8,1,7,0,6,1,5,0,6,0,6,0
+20,2017,Cincinnati,American Athletic,East,12,4,8,0,8,2,6,0,6,2,4,0,6,2,4,0
+21,2017,Clemson,ACC,Atlantic,14,12,2,0,9,8,1,0,7,7,0,0,5,4,1,0
+22,2017,Coastal Carolina,Sun Belt,,12,3,9,0,8,2,6,0,6,2,4,0,6,1,5,0
+23,2017,Colorado,Pac-12,South,12,5,7,0,9,2,7,0,6,3,3,0,5,1,4,0
+24,2017,Colorado State,Mountain West,Mountain,13,7,6,0,8,5,3,0,6,4,2,0,5,3,2,0
+25,2017,Connecticut,American Athletic,East,12,3,9,0,8,2,6,0,6,2,4,0,5,1,4,0
+26,2017,Duke,ACC,Coastal,13,7,6,0,8,3,5,0,7,4,3,0,5,2,3,0
+27,2017,East Carolina,American Athletic,East,12,3,9,0,8,2,6,0,7,2,5,0,5,1,4,0
+28,2017,Eastern Michigan,Mid-American,West,12,5,7,0,8,3,5,0,5,3,2,0,7,2,5,0
+29,2017,Florida,SEC,East,11,4,7,0,8,3,5,0,6,3,3,0,3,1,2,0
+30,2017,Florida Atlantic,Conference USA,East,14,11,3,0,9,9,0,0,8,7,1,0,6,4,2,0
+31,2017,Florida International,Conference USA,East,13,8,5,0,8,5,3,0,6,5,1,0,5,2,3,0
+32,2017,Florida State,ACC,Atlantic,13,7,6,0,8,3,5,0,6,3,3,0,5,3,2,0
+33,2017,Fresno State,Mountain West,West,14,10,4,0,9,7,2,0,6,5,1,0,7,4,3,0
+34,2017,Georgia,SEC,East,15,13,2,0,10,8,2,0,6,6,0,0,5,4,1,0
+35,2017,Georgia Southern,Sun Belt,,12,2,10,0,8,2,6,0,4,1,3,0,7,1,6,0
+36,2017,Georgia State,Sun Belt,,12,7,5,0,8,5,3,0,5,1,4,0,6,5,1,0
+37,2017,Georgia Tech,ACC,Coastal,11,5,6,0,8,4,4,0,6,5,1,0,4,0,4,0
+38,2017,Hawai'i,Mountain West,West,12,3,9,0,8,1,7,0,6,2,4,0,6,1,5,0
+39,2017,Houston,American Athletic,West,12,7,5,0,8,5,3,0,6,4,2,0,5,3,2,0
+40,2017,Idaho,Sun Belt,,12,4,8,0,8,3,5,0,6,2,4,0,6,2,4,0
+41,2017,Illinois,Big Ten,West,12,2,10,0,9,0,9,0,7,2,5,0,5,0,5,0
+42,2017,Indiana,Big Ten,East,12,5,7,0,9,2,7,0,6,3,3,0,6,2,4,0
+43,2017,Iowa,Big Ten,West,13,8,5,0,9,4,5,0,7,5,2,0,5,2,3,0
+44,2017,Iowa State,Big 12,,13,8,5,0,9,5,4,0,6,3,3,0,7,5,2,0
+45,2017,Kansas,Big 12,,12,1,11,0,9,0,9,0,7,1,6,0,5,0,5,0
+46,2017,Kansas State,Big 12,,13,8,5,0,9,5,4,0,7,4,3,0,5,3,2,0
+47,2017,Kent State,Mid-American,East,12,2,10,0,8,1,7,0,5,2,3,0,7,0,7,0
+48,2017,Kentucky,SEC,East,13,7,6,0,8,4,4,0,7,4,3,0,5,3,2,0
+49,2017,Louisiana,Sun Belt,,12,5,7,0,8,4,4,0,5,3,2,0,7,2,5,0
+50,2017,Louisiana Monroe,Sun Belt,,12,4,8,0,8,4,4,0,5,2,3,0,7,2,5,0
+51,2017,Louisiana Tech,Conference USA,West,13,7,6,0,8,4,4,0,7,3,4,0,5,3,2,0
+52,2017,Louisville,ACC,Atlantic,13,8,5,0,8,4,4,0,6,4,2,0,5,3,2,0
+53,2017,LSU,SEC,West,13,9,4,0,8,6,2,0,6,5,1,0,5,3,2,0
+54,2017,Marshall,Conference USA,East,13,8,5,0,8,4,4,0,6,4,2,0,6,3,3,0
+55,2017,Maryland,Big Ten,East,12,4,8,0,9,2,7,0,6,2,4,0,6,2,4,0
+56,2017,Memphis,American Athletic,West,13,10,3,0,9,7,2,0,8,7,1,0,5,3,2,0
+57,2017,Miami,ACC,Coastal,13,10,3,0,9,7,2,0,8,7,1,0,4,3,1,0
+58,2017,Miami (OH),Mid-American,East,12,5,7,0,8,4,4,0,6,3,3,0,6,2,4,0
+59,2017,Michigan,Big Ten,East,13,8,5,0,9,5,4,0,6,4,2,0,5,3,2,0
+60,2017,Michigan State,Big Ten,East,13,10,3,0,9,7,2,0,7,6,1,0,5,3,2,0
+61,2017,Middle Tennessee,Conference USA,East,13,7,6,0,8,4,4,0,6,4,2,0,6,2,4,0
+62,2017,Minnesota,Big Ten,West,12,5,7,0,9,2,7,0,7,4,3,0,5,1,4,0
+63,2017,Mississippi State,SEC,West,13,9,4,0,8,4,4,0,7,5,2,0,5,3,2,0
+64,2017,Missouri,SEC,East,13,7,6,0,8,4,4,0,7,4,3,0,5,3,2,0
+65,2017,Navy,American Athletic,West,13,7,6,0,8,4,4,0,6,5,1,0,6,2,4,0
+66,2017,NC State,ACC,Atlantic,13,9,4,0,8,6,2,0,6,5,1,0,5,3,2,0
+67,2017,Nebraska,Big Ten,West,12,4,8,0,9,3,6,0,7,2,5,0,5,2,3,0
+68,2017,Nevada,Mountain West,West,12,3,9,0,8,3,5,0,6,3,3,0,6,0,6,0
+69,2017,New Mexico,Mountain West,Mountain,12,3,9,0,8,1,7,0,6,2,4,0,6,1,5,0
+70,2017,New Mexico State,Sun Belt,,13,7,6,0,8,4,4,0,5,3,2,0,7,3,4,0
+71,2017,North Carolina,ACC,Coastal,12,3,9,0,8,1,7,0,7,1,6,0,5,2,3,0
+72,2017,Northern Illinois,Mid-American,West,13,8,5,0,8,6,2,0,6,5,1,0,6,3,3,0
+73,2017,North Texas,Conference USA,West,14,9,5,0,9,7,2,0,6,6,0,0,7,3,4,0
+74,2017,Northwestern,Big Ten,West,13,10,3,0,9,7,2,0,7,6,1,0,5,3,2,0
+75,2017,Notre Dame,FBS Independents,,13,10,3,0,0,0,0,0,7,6,1,0,5,3,2,0
+76,2017,Ohio,Mid-American,East,13,9,4,0,8,5,3,0,6,5,1,0,6,3,3,0
+77,2017,Ohio State,Big Ten,East,14,12,2,0,10,9,1,0,7,6,1,0,5,4,1,0
+78,2017,Oklahoma,Big 12,,14,12,2,0,10,9,1,0,6,5,1,0,5,5,0,0
+79,2017,Oklahoma State,Big 12,,13,10,3,0,9,6,3,0,6,3,3,0,6,6,0,0
+80,2017,Old Dominion,Conference USA,East,12,5,7,0,8,3,5,0,6,3,3,0,6,2,4,0
+81,2017,Ole Miss,SEC,West,12,6,6,0,8,3,5,0,7,4,3,0,5,2,3,0
+82,2017,Oregon,Pac-12,North,13,7,6,0,9,4,5,0,7,6,1,0,5,1,4,0
+83,2017,Oregon State,Pac-12,North,12,1,11,0,9,0,9,0,6,1,5,0,6,0,6,0
+84,2017,Penn State,Big Ten,East,13,11,2,0,9,7,2,0,7,7,0,0,5,3,2,0
+85,2017,Pittsburgh,ACC,Coastal,12,5,7,0,8,3,5,0,7,4,3,0,5,1,4,0
+86,2017,Purdue,Big Ten,West,13,7,6,0,9,4,5,0,6,4,2,0,5,2,3,0
+87,2017,Rice,Conference USA,West,12,1,11,0,8,1,7,0,5,0,5,0,6,1,5,0
+88,2017,Rutgers,Big Ten,East,12,4,8,0,9,3,6,0,7,3,4,0,5,1,4,0
+89,2017,San Diego State,Mountain West,West,13,10,3,0,8,6,2,0,7,5,2,0,5,5,0,0
+90,2017,San José State,Mountain West,West,13,2,11,0,8,1,7,0,6,2,4,0,7,0,7,0
+91,2017,SMU,American Athletic,West,13,7,6,0,8,4,4,0,7,6,1,0,5,1,4,0
+92,2017,South Alabama,Sun Belt,,12,4,8,0,8,3,5,0,6,3,3,0,6,1,5,0
+93,2017,South Carolina,SEC,East,13,9,4,0,8,5,3,0,7,5,2,0,4,2,2,0
+94,2017,Southern Mississippi,Conference USA,West,13,8,5,0,8,6,2,0,6,3,3,0,6,5,1,0
+95,2017,South Florida,American Athletic,East,12,10,2,0,8,6,2,0,6,5,1,0,5,4,1,0
+96,2017,Stanford,Pac-12,North,14,9,5,0,10,7,3,0,6,6,0,0,5,2,3,0
+97,2017,Syracuse,ACC,Atlantic,12,4,8,0,8,2,6,0,7,4,3,0,5,0,5,0
+98,2017,TCU,Big 12,,14,11,3,0,10,7,3,0,6,6,0,0,6,4,2,0
+99,2017,Temple,American Athletic,East,13,7,6,0,8,4,4,0,6,3,3,0,6,3,3,0
+100,2017,Tennessee,SEC,East,12,4,8,0,8,0,8,0,7,3,4,0,4,0,4,0
+101,2017,Texas,Big 12,,13,7,6,0,9,5,4,0,6,3,3,0,5,3,2,0
+102,2017,Texas A&M,SEC,West,13,7,6,0,8,4,4,0,7,4,3,0,4,2,2,0
+103,2017,Texas State,Sun Belt,,12,2,10,0,8,1,7,0,6,1,5,0,6,1,5,0
+104,2017,Texas Tech,Big 12,,13,6,7,0,9,3,6,0,6,2,4,0,5,3,2,0
+105,2017,Toledo,Mid-American,West,14,11,3,0,9,8,1,0,6,6,0,0,6,4,2,0
+106,2017,Troy,Sun Belt,,13,11,2,0,8,7,1,0,6,5,1,0,6,5,1,0
+107,2017,Tulane,American Athletic,West,12,5,7,0,8,3,5,0,6,4,2,0,6,1,5,0
+108,2017,Tulsa,American Athletic,West,12,2,10,0,8,1,7,0,6,2,4,0,6,0,6,0
+109,2017,UAB,Conference USA,West,13,8,5,0,8,6,2,0,6,6,0,0,6,2,4,0
+110,2017,UCF,American Athletic,East,13,13,0,0,9,9,0,0,7,7,0,0,5,5,0,0
+111,2017,UCLA,Pac-12,South,13,6,7,0,9,4,5,0,6,6,0,0,6,0,6,0
+112,2017,UMass,FBS Independents,,12,4,8,0,0,0,0,0,5,2,3,0,6,1,5,0
+113,2017,UNLV,Mountain West,West,12,5,7,0,8,4,4,0,6,2,4,0,6,3,3,0
+114,2017,USC,Pac-12,South,14,11,3,0,10,9,1,0,7,7,0,0,5,3,2,0
+115,2017,Utah,Pac-12,South,13,7,6,0,9,3,6,0,7,4,3,0,5,2,3,0
+116,2017,Utah State,Mountain West,Mountain,13,6,7,0,8,4,4,0,6,3,3,0,6,3,3,0
+117,2017,UTEP,Conference USA,West,12,0,12,0,8,0,8,0,5,0,5,0,7,0,7,0
+118,2017,UT San Antonio,Conference USA,West,11,6,5,0,8,3,5,0,5,3,2,0,6,3,3,0
+119,2017,Vanderbilt,SEC,East,12,5,7,0,8,1,7,0,7,3,4,0,5,2,3,0
+120,2017,Virginia,ACC,Coastal,13,6,7,0,8,3,5,0,7,4,3,0,6,2,4,0
+121,2017,Virginia Tech,ACC,Coastal,13,9,4,0,8,5,3,0,6,5,1,0,5,3,2,0
+122,2017,Wake Forest,ACC,Atlantic,13,8,5,0,8,4,4,0,6,4,2,0,6,3,3,0
+123,2017,Washington,Pac-12,North,13,10,3,0,9,7,2,0,7,7,0,0,5,3,2,0
+124,2017,Washington State,Pac-12,North,13,9,4,0,9,6,3,0,7,7,0,0,5,2,3,0
+125,2017,Western Kentucky,Conference USA,East,13,6,7,0,8,4,4,0,6,4,2,0,6,2,4,0
+126,2017,Western Michigan,Mid-American,West,12,6,6,0,8,4,4,0,6,4,2,0,6,2,4,0
+127,2017,West Virginia,Big 12,,13,7,6,0,9,5,4,0,6,4,2,0,5,3,2,0
+128,2017,Wisconsin,Big Ten,West,14,13,1,0,10,9,1,0,7,7,0,0,6,6,0,0
+129,2017,Wyoming,Mountain West,Mountain,13,8,5,0,8,5,3,0,7,5,2,0,5,2,3,0
