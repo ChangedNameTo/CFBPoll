@@ -132,6 +132,9 @@ def process_game(game):
 for index,game in games.iterrows():
     games.at[index] = process_game(game)
 
+# Drops a useless column
+games = games.drop(columns=['_id'])
+
 # Outputs all the games to a CSV
 games.to_csv('processed_games.csv')
 
@@ -220,8 +223,6 @@ Run the program using the command:
     file.write("**Median Elo:** {}\n".format(round(teams['elo'].median(),2)))
     file.write("\n")
     file.write("**Standard Deviation of Elo:** {}\n".format(round(teams['elo'].std(),2)))
-    file.write("\n")
-    file.write("**Variance:** {}\n".format(round(teams['elo'].var(),2)))
     file.write("\n")
     file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)\n")
     file.write("\n")
