@@ -22,6 +22,7 @@ games = pd.DataFrame()
 teams = pd.DataFrame()
 plays = pd.DataFrame()
 stats = pd.DataFrame()
+records = pd.DataFrame()
 
 # Since we already scraped, just load in the csv dumps
 # See ./research/stats_scraping.py
@@ -30,18 +31,26 @@ for year in range(2019, 2020):
     year_teams = pd.read_csv('data/{}/teams.csv'.format(year))
     year_plays = pd.read_csv('data/{}/plays.csv'.format(year))
     year_stats = pd.read_csv('data/{}/stats.csv'.format(year))
+    year_records = pd.read_csv('data/{}/records.csv'.format(year))
 
     games = pd.concat([games, year_games])
     teams = pd.concat([teams, year_teams])
     plays = pd.concat([plays, year_plays])
     stats = pd.concat([stats, year_stats])
+    records = pd.concat([records, year_records])
 
 # Clean the data and prep the frames
 games = games[['_id','_season','_week','_season_type','_start_date','_neutral_site','_conference_game','_home_id','_home_team','_home_points','_away_id','_away_team','_away_points']]
 games = pd.concat([games, pd.DataFrame(columns=['home_recent_week','home_elo','away_recent_week','away_elo','home_expected','away_expected','mov_multiplier','new_home_elo','new_away_elo','home_elo_change','away_elo_change'])])
 
+records = records[['year', 'team','conference','division','total.games','total.wins','total.losses','conferenceGames.games','conferenceGames.wins','conferenceGames.losses']]
+
 teams = teams[['_id','_school']]
-teams = pd.concat([teams, pd.DataFrame(columns=['elo','strength_of_schedule','last_played','result','elo_change'])])
+teams = pd.concat([teams, pd.DataFrame(columns=['elo','strength_of_schedule','last_played','result','elo_change','season_record','conf_record'])])
+
+# Joins records to teams
+teams = teams.join(records)
+teams = teams.drop(columns=['team'])
 
 # Add home boolean value
 games['home_won'] = games._home_points > games._away_points
@@ -154,6 +163,8 @@ def process_team(team):
     team['last_played'] = (final_frame['_away_team'] if is_home else final_frame['_home_team']).values[0]
     team['result'] = '({} - {}) {}'.format(final_frame['_home_points'].values[0], final_frame['_away_points'].values[0], text_result)
     team['elo_change'] = round((final_frame['home_elo_change'] if is_home else final_frame['away_elo_change']).values[0],2)
+    team['season_record'] = '({} - {})'.format(team['total.wins'], team['total.losses'])
+    team['conf_record'] = '({} - {})'.format(team['conferenceGames.wins'], team['total.losses'])
 
     return team
 
@@ -183,12 +194,37 @@ Run the program using the command:
 ''')
 
     # Writes the table header
-    file.write("|Rank|Team|Flair|Record|Elo|SoS^^1|SoS Rank|Change|\n")
+    file.write("|Rank|Team|Flair|Record|Elo|Last Played|Result|Change|\n")
     file.write("|---|---|---|---|---|---|---|---|\n")
     
     # Iterate over the top 25 and print them out
     for index, team in teams.iloc[:25].iterrows():
-        file.write("| {} | {} | {} | \n".format(index, team._school, '', ))
+        file.write("| {} | {} | {} | {} | {} | {} | {} | {} |\n".format(index, team._school, '', team.season_record, team.elo, team.last_played, team.result, team.elo_change))
+
+    file.write("|||||||||\n")
+
+    # I like GT, so always print them
+    gt_frame = teams[teams['_school'] == 'Georgia Tech']
+    file.write("| {} | {} | {} | {} | {} | {} | {} | {} |\n".format(gt_frame.index[0], gt_frame.iloc[0]._school, '', gt_frame.iloc[0].season_record, gt_frame.iloc[0].elo, gt_frame.iloc[0].last_played, gt_frame.iloc[0].result, gt_frame.iloc[0].elo_change))
+    file.write("|||||||||\n")
+    
+    # Lastly, always write the last place team
+    file.write("| {} | {} | {} | {} | {} | {} | {} | {} |\n".format(teams.index[-1], teams.iloc[-1]._school, '', teams.iloc[-1].season_record, teams.iloc[-1].elo, teams.iloc[-1].last_played, teams.iloc[-1].result, teams.iloc[-1].elo_change))
+    file.write("\n")
+            
+    file.write("---\n")
+    file.write("\n")
+    file.write("**Mean Elo:** {}\n".format(round(teams['elo'].mean(),2)))
+    file.write("\n")
+    file.write("**Median Elo:** {}\n".format(round(teams['elo'].median(),2)))
+    file.write("\n")
+    file.write("**Standard Deviation of Elo:** {}\n".format(round(teams['elo'].std(),2)))
+    file.write("\n")
+    file.write("**Variance:** {}\n".format(round(teams['elo'].var(),2)))
+    file.write("\n")
+    file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)\n")
+    file.write("\n")
+    file.write("[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)")
 
     stop = timeit.default_timer()
 

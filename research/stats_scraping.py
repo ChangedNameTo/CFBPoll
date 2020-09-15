@@ -3,6 +3,9 @@ import pandas as pd
 import os
 import glob
 import json
+import requests
+
+from pandas.io.json import json_normalize
 
 for year in range(2010, 2020):
     # Fetches all games, outputs the CSV's
@@ -35,8 +38,8 @@ for year in range(2010, 2020):
 
     # year_stats.to_csv('data/{}/stats.csv'.format(year))
 
-    # team_records = cfbd.GamesApi().get_team_records(year=year)
-    # converted_records = [record.__dict__ for record in team_records]
-    records = pd.read_csv('data/{}/records.csv'.format(year))
-    records = pd.json_normalize(converted_records)
+    response = requests.get('https://api.collegefootballdata.com/records?year={}'.format(year))
+    json_records = response.json()
+    records = pd.json_normalize(json_records)
+
     records.to_csv('data/{}/records.csv'.format(year))

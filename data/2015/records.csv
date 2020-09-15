@@ -1,129 +1,129 @@
-,_year,_team,_conference,_division,_total,_conference_games,_home_games,_away_games,discriminator
-0,2015,Air Force,Mountain West,Mountain,"[{'games': 14, 'losses': 6, 'ties': 0, 'wins': 8}]","[{'games': 9, 'losses': 3, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 0, 'ties': 0, 'wins': 6}]","[{'games': 7, 'losses': 5, 'ties': 0, 'wins': 2}]",
-1,2015,Akron,Mid-American,East,"[{'games': 13, 'losses': 5, 'ties': 0, 'wins': 8}]","[{'games': 8, 'losses': 3, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]",
-2,2015,Alabama,SEC,West,"[{'games': 15, 'losses': 1, 'ties': 0, 'wins': 14}]","[{'games': 9, 'losses': 1, 'ties': 0, 'wins': 8}]","[{'games': 7, 'losses': 1, 'ties': 0, 'wins': 6}]","[{'games': 4, 'losses': 0, 'ties': 0, 'wins': 4}]",
-3,2015,Appalachian State,Sun Belt,,"[{'games': 13, 'losses': 2, 'ties': 0, 'wins': 11}]","[{'games': 8, 'losses': 1, 'ties': 0, 'wins': 7}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]",
-4,2015,Arizona,Pac-12,South,"[{'games': 13, 'losses': 6, 'ties': 0, 'wins': 7}]","[{'games': 9, 'losses': 6, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-5,2015,Arizona State,Pac-12,South,"[{'games': 13, 'losses': 7, 'ties': 0, 'wins': 6}]","[{'games': 9, 'losses': 5, 'ties': 0, 'wins': 4}]","[{'games': 7, 'losses': 2, 'ties': 0, 'wins': 5}]","[{'games': 4, 'losses': 3, 'ties': 0, 'wins': 1}]",
-6,2015,Arkansas,SEC,West,"[{'games': 13, 'losses': 5, 'ties': 0, 'wins': 8}]","[{'games': 8, 'losses': 3, 'ties': 0, 'wins': 5}]","[{'games': 7, 'losses': 3, 'ties': 0, 'wins': 4}]","[{'games': 4, 'losses': 1, 'ties': 0, 'wins': 3}]",
-7,2015,Arkansas State,Sun Belt,,"[{'games': 13, 'losses': 4, 'ties': 0, 'wins': 9}]","[{'games': 8, 'losses': 0, 'ties': 0, 'wins': 8}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]",
-8,2015,Army,FBS Independents,,"[{'games': 12, 'losses': 10, 'ties': 0, 'wins': 2}]","[{'games': 0, 'losses': 0, 'ties': 0, 'wins': 0}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]","[{'games': 5, 'losses': 4, 'ties': 0, 'wins': 1}]",
-9,2015,Auburn,SEC,West,"[{'games': 13, 'losses': 6, 'ties': 0, 'wins': 7}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 7, 'losses': 4, 'ties': 0, 'wins': 3}]","[{'games': 4, 'losses': 2, 'ties': 0, 'wins': 2}]",
-10,2015,Ball State,Mid-American,West,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]",
-11,2015,Baylor,Big 12,,"[{'games': 13, 'losses': 3, 'ties': 0, 'wins': 10}]","[{'games': 9, 'losses': 3, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]","[{'games': 5, 'losses': 1, 'ties': 0, 'wins': 4}]",
-12,2015,Boise State,Mountain West,Mountain,"[{'games': 13, 'losses': 4, 'ties': 0, 'wins': 9}]","[{'games': 8, 'losses': 3, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]",
-13,2015,Boston College,ACC,Atlantic,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 8, 'ties': 0, 'wins': 0}]","[{'games': 7, 'losses': 4, 'ties': 0, 'wins': 3}]","[{'games': 4, 'losses': 4, 'ties': 0, 'wins': 0}]",
-14,2015,Bowling Green,Mid-American,East,"[{'games': 14, 'losses': 4, 'ties': 0, 'wins': 10}]","[{'games': 9, 'losses': 1, 'ties': 0, 'wins': 8}]","[{'games': 5, 'losses': 2, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 0, 'ties': 0, 'wins': 6}]",
-15,2015,Buffalo,Mid-American,East,"[{'games': 12, 'losses': 7, 'ties': 0, 'wins': 5}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]",
-16,2015,BYU,FBS Independents,,"[{'games': 13, 'losses': 4, 'ties': 0, 'wins': 9}]","[{'games': 0, 'losses': 0, 'ties': 0, 'wins': 0}]","[{'games': 6, 'losses': 0, 'ties': 0, 'wins': 6}]","[{'games': 5, 'losses': 2, 'ties': 0, 'wins': 3}]",
-17,2015,California,Pac-12,North,"[{'games': 13, 'losses': 5, 'ties': 0, 'wins': 8}]","[{'games': 9, 'losses': 5, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-18,2015,Central Michigan,Mid-American,West,"[{'games': 13, 'losses': 6, 'ties': 0, 'wins': 7}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]",
-19,2015,Charlotte,Conference USA,East,"[{'games': 12, 'losses': 10, 'ties': 0, 'wins': 2}]","[{'games': 8, 'losses': 8, 'ties': 0, 'wins': 0}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]",
-20,2015,Cincinnati,American Athletic,East,"[{'games': 13, 'losses': 6, 'ties': 0, 'wins': 7}]","[{'games': 8, 'losses': 4, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-21,2015,Clemson,ACC,Atlantic,"[{'games': 15, 'losses': 1, 'ties': 0, 'wins': 14}]","[{'games': 9, 'losses': 0, 'ties': 0, 'wins': 9}]","[{'games': 7, 'losses': 0, 'ties': 0, 'wins': 7}]","[{'games': 5, 'losses': 0, 'ties': 0, 'wins': 5}]",
-22,2015,Colorado,Pac-12,South,"[{'games': 13, 'losses': 9, 'ties': 0, 'wins': 4}]","[{'games': 9, 'losses': 8, 'ties': 0, 'wins': 1}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]",
-23,2015,Colorado State,Mountain West,Mountain,"[{'games': 13, 'losses': 6, 'ties': 0, 'wins': 7}]","[{'games': 9, 'losses': 4, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 5, 'losses': 1, 'ties': 0, 'wins': 4}]",
-24,2015,Connecticut,American Athletic,East,"[{'games': 13, 'losses': 7, 'ties': 0, 'wins': 6}]","[{'games': 8, 'losses': 4, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-25,2015,Duke,ACC,Coastal,"[{'games': 13, 'losses': 5, 'ties': 0, 'wins': 8}]","[{'games': 8, 'losses': 4, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]",
-26,2015,East Carolina,American Athletic,East,"[{'games': 12, 'losses': 7, 'ties': 0, 'wins': 5}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-27,2015,Eastern Michigan,Mid-American,West,"[{'games': 12, 'losses': 11, 'ties': 0, 'wins': 1}]","[{'games': 8, 'losses': 8, 'ties': 0, 'wins': 0}]","[{'games': 6, 'losses': 6, 'ties': 0, 'wins': 0}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]",
-28,2015,Florida,SEC,East,"[{'games': 14, 'losses': 4, 'ties': 0, 'wins': 10}]","[{'games': 9, 'losses': 2, 'ties': 0, 'wins': 7}]","[{'games': 7, 'losses': 1, 'ties': 0, 'wins': 6}]","[{'games': 4, 'losses': 1, 'ties': 0, 'wins': 3}]",
-29,2015,Florida Atlantic,Conference USA,East,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-30,2015,Florida International,Conference USA,East,"[{'games': 12, 'losses': 7, 'ties': 0, 'wins': 5}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 5, 'losses': 1, 'ties': 0, 'wins': 4}]","[{'games': 7, 'losses': 6, 'ties': 0, 'wins': 1}]",
-31,2015,Florida State,ACC,Atlantic,"[{'games': 13, 'losses': 3, 'ties': 0, 'wins': 10}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 7, 'losses': 0, 'ties': 0, 'wins': 7}]","[{'games': 5, 'losses': 2, 'ties': 0, 'wins': 3}]",
-32,2015,Fresno State,Mountain West,West,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]",
-33,2015,Georgia,SEC,East,"[{'games': 13, 'losses': 3, 'ties': 0, 'wins': 10}]","[{'games': 8, 'losses': 3, 'ties': 0, 'wins': 5}]","[{'games': 7, 'losses': 1, 'ties': 0, 'wins': 6}]","[{'games': 4, 'losses': 1, 'ties': 0, 'wins': 3}]",
-34,2015,Georgia Southern,Sun Belt,,"[{'games': 13, 'losses': 4, 'ties': 0, 'wins': 9}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]",
-35,2015,Georgia State,Sun Belt,,"[{'games': 13, 'losses': 7, 'ties': 0, 'wins': 6}]","[{'games': 8, 'losses': 3, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]",
-36,2015,Georgia Tech,ACC,Coastal,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 7, 'ties': 0, 'wins': 1}]","[{'games': 7, 'losses': 4, 'ties': 0, 'wins': 3}]","[{'games': 5, 'losses': 5, 'ties': 0, 'wins': 0}]",
-37,2015,Hawai'i,Mountain West,West,"[{'games': 13, 'losses': 10, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 8, 'ties': 0, 'wins': 0}]","[{'games': 7, 'losses': 4, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 6, 'ties': 0, 'wins': 0}]",
-38,2015,Houston,American Athletic,West,"[{'games': 14, 'losses': 1, 'ties': 0, 'wins': 13}]","[{'games': 9, 'losses': 1, 'ties': 0, 'wins': 8}]","[{'games': 8, 'losses': 0, 'ties': 0, 'wins': 8}]","[{'games': 5, 'losses': 1, 'ties': 0, 'wins': 4}]",
-39,2015,Idaho,Sun Belt,,"[{'games': 12, 'losses': 8, 'ties': 0, 'wins': 4}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]",
-40,2015,Illinois,Big Ten,West,"[{'games': 12, 'losses': 7, 'ties': 0, 'wins': 5}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]","[{'games': 5, 'losses': 4, 'ties': 0, 'wins': 1}]",
-41,2015,Indiana,Big Ten,East,"[{'games': 13, 'losses': 7, 'ties': 0, 'wins': 6}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 7, 'losses': 4, 'ties': 0, 'wins': 3}]","[{'games': 5, 'losses': 2, 'ties': 0, 'wins': 3}]",
-42,2015,Iowa,Big Ten,West,"[{'games': 14, 'losses': 2, 'ties': 0, 'wins': 12}]","[{'games': 9, 'losses': 1, 'ties': 0, 'wins': 8}]","[{'games': 7, 'losses': 0, 'ties': 0, 'wins': 7}]","[{'games': 5, 'losses': 0, 'ties': 0, 'wins': 5}]",
-43,2015,Iowa State,Big 12,,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 9, 'losses': 7, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 6, 'ties': 0, 'wins': 0}]",
-44,2015,Kansas,Big 12,,"[{'games': 12, 'losses': 12, 'ties': 0, 'wins': 0}]","[{'games': 9, 'losses': 9, 'ties': 0, 'wins': 0}]","[{'games': 7, 'losses': 7, 'ties': 0, 'wins': 0}]","[{'games': 5, 'losses': 5, 'ties': 0, 'wins': 0}]",
-45,2015,Kansas State,Big 12,,"[{'games': 13, 'losses': 7, 'ties': 0, 'wins': 6}]","[{'games': 9, 'losses': 6, 'ties': 0, 'wins': 3}]","[{'games': 7, 'losses': 3, 'ties': 0, 'wins': 4}]","[{'games': 5, 'losses': 3, 'ties': 0, 'wins': 2}]",
-46,2015,Kent State,Mid-American,East,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]",
-47,2015,Kentucky,SEC,East,"[{'games': 12, 'losses': 7, 'ties': 0, 'wins': 5}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 8, 'losses': 4, 'ties': 0, 'wins': 4}]","[{'games': 4, 'losses': 3, 'ties': 0, 'wins': 1}]",
-48,2015,Louisiana,Sun Belt,,"[{'games': 12, 'losses': 8, 'ties': 0, 'wins': 4}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]",
-49,2015,Louisiana Monroe,Sun Belt,,"[{'games': 13, 'losses': 11, 'ties': 0, 'wins': 2}]","[{'games': 8, 'losses': 7, 'ties': 0, 'wins': 1}]","[{'games': 5, 'losses': 3, 'ties': 0, 'wins': 2}]","[{'games': 8, 'losses': 8, 'ties': 0, 'wins': 0}]",
-50,2015,Louisiana Tech,Conference USA,West,"[{'games': 13, 'losses': 4, 'ties': 0, 'wins': 9}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]",
-51,2015,Louisville,ACC,Atlantic,"[{'games': 13, 'losses': 5, 'ties': 0, 'wins': 8}]","[{'games': 8, 'losses': 3, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]","[{'games': 5, 'losses': 2, 'ties': 0, 'wins': 3}]",
-52,2015,LSU,SEC,West,"[{'games': 12, 'losses': 3, 'ties': 0, 'wins': 9}]","[{'games': 8, 'losses': 3, 'ties': 0, 'wins': 5}]","[{'games': 7, 'losses': 1, 'ties': 0, 'wins': 6}]","[{'games': 4, 'losses': 2, 'ties': 0, 'wins': 2}]",
-53,2015,Marshall,Conference USA,East,"[{'games': 13, 'losses': 3, 'ties': 0, 'wins': 10}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 0, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]",
-54,2015,Maryland,Big Ten,East,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 7, 'ties': 0, 'wins': 1}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 5, 'losses': 4, 'ties': 0, 'wins': 1}]",
-55,2015,Memphis,American Athletic,West,"[{'games': 13, 'losses': 4, 'ties': 0, 'wins': 9}]","[{'games': 8, 'losses': 3, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]",
-56,2015,Miami,ACC,Coastal,"[{'games': 13, 'losses': 5, 'ties': 0, 'wins': 8}]","[{'games': 8, 'losses': 3, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]",
-57,2015,Miami (OH),Mid-American,East,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]",
-58,2015,Michigan,Big Ten,East,"[{'games': 13, 'losses': 3, 'ties': 0, 'wins': 10}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 7, 'losses': 2, 'ties': 0, 'wins': 5}]","[{'games': 5, 'losses': 1, 'ties': 0, 'wins': 4}]",
-59,2015,Michigan State,Big Ten,East,"[{'games': 14, 'losses': 2, 'ties': 0, 'wins': 12}]","[{'games': 9, 'losses': 1, 'ties': 0, 'wins': 8}]","[{'games': 7, 'losses': 0, 'ties': 0, 'wins': 7}]","[{'games': 5, 'losses': 1, 'ties': 0, 'wins': 4}]",
-60,2015,Middle Tennessee,Conference USA,East,"[{'games': 13, 'losses': 6, 'ties': 0, 'wins': 7}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-61,2015,Minnesota,Big Ten,West,"[{'games': 13, 'losses': 7, 'ties': 0, 'wins': 6}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 7, 'losses': 4, 'ties': 0, 'wins': 3}]","[{'games': 5, 'losses': 3, 'ties': 0, 'wins': 2}]",
-62,2015,Mississippi State,SEC,West,"[{'games': 13, 'losses': 4, 'ties': 0, 'wins': 9}]","[{'games': 8, 'losses': 4, 'ties': 0, 'wins': 4}]","[{'games': 7, 'losses': 3, 'ties': 0, 'wins': 4}]","[{'games': 5, 'losses': 1, 'ties': 0, 'wins': 4}]",
-63,2015,Missouri,SEC,East,"[{'games': 12, 'losses': 7, 'ties': 0, 'wins': 5}]","[{'games': 8, 'losses': 7, 'ties': 0, 'wins': 1}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 5, 'losses': 4, 'ties': 0, 'wins': 1}]",
-64,2015,Navy,American Athletic,West,"[{'games': 13, 'losses': 2, 'ties': 0, 'wins': 11}]","[{'games': 8, 'losses': 1, 'ties': 0, 'wins': 7}]","[{'games': 6, 'losses': 0, 'ties': 0, 'wins': 6}]","[{'games': 5, 'losses': 2, 'ties': 0, 'wins': 3}]",
-65,2015,NC State,ACC,Atlantic,"[{'games': 13, 'losses': 6, 'ties': 0, 'wins': 7}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]",
-66,2015,Nebraska,Big Ten,West,"[{'games': 13, 'losses': 7, 'ties': 0, 'wins': 6}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 7, 'losses': 4, 'ties': 0, 'wins': 3}]","[{'games': 5, 'losses': 3, 'ties': 0, 'wins': 2}]",
-67,2015,Nevada,Mountain West,West,"[{'games': 13, 'losses': 6, 'ties': 0, 'wins': 7}]","[{'games': 9, 'losses': 4, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-68,2015,New Mexico,Mountain West,Mountain,"[{'games': 13, 'losses': 6, 'ties': 0, 'wins': 7}]","[{'games': 8, 'losses': 3, 'ties': 0, 'wins': 5}]","[{'games': 7, 'losses': 2, 'ties': 0, 'wins': 5}]","[{'games': 5, 'losses': 3, 'ties': 0, 'wins': 2}]",
-69,2015,New Mexico State,Sun Belt,,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 5, 'losses': 4, 'ties': 0, 'wins': 1}]","[{'games': 7, 'losses': 5, 'ties': 0, 'wins': 2}]",
-70,2015,North Carolina,ACC,Coastal,"[{'games': 14, 'losses': 3, 'ties': 0, 'wins': 11}]","[{'games': 9, 'losses': 1, 'ties': 0, 'wins': 8}]","[{'games': 7, 'losses': 0, 'ties': 0, 'wins': 7}]","[{'games': 4, 'losses': 0, 'ties': 0, 'wins': 4}]",
-71,2015,Northern Illinois,Mid-American,West,"[{'games': 14, 'losses': 6, 'ties': 0, 'wins': 8}]","[{'games': 9, 'losses': 3, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]",
-72,2015,North Texas,Conference USA,West,"[{'games': 12, 'losses': 11, 'ties': 0, 'wins': 1}]","[{'games': 8, 'losses': 7, 'ties': 0, 'wins': 1}]","[{'games': 5, 'losses': 4, 'ties': 0, 'wins': 1}]","[{'games': 7, 'losses': 7, 'ties': 0, 'wins': 0}]",
-73,2015,Northwestern,Big Ten,West,"[{'games': 13, 'losses': 3, 'ties': 0, 'wins': 10}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 7, 'losses': 1, 'ties': 0, 'wins': 6}]","[{'games': 4, 'losses': 1, 'ties': 0, 'wins': 3}]",
-74,2015,Notre Dame,FBS Independents,,"[{'games': 13, 'losses': 3, 'ties': 0, 'wins': 10}]","[{'games': 0, 'losses': 0, 'ties': 0, 'wins': 0}]","[{'games': 6, 'losses': 0, 'ties': 0, 'wins': 6}]","[{'games': 5, 'losses': 2, 'ties': 0, 'wins': 3}]",
-75,2015,Ohio,Mid-American,East,"[{'games': 13, 'losses': 5, 'ties': 0, 'wins': 8}]","[{'games': 8, 'losses': 3, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]",
-76,2015,Ohio State,Big Ten,East,"[{'games': 13, 'losses': 1, 'ties': 0, 'wins': 12}]","[{'games': 8, 'losses': 1, 'ties': 0, 'wins': 7}]","[{'games': 7, 'losses': 1, 'ties': 0, 'wins': 6}]","[{'games': 5, 'losses': 0, 'ties': 0, 'wins': 5}]",
-77,2015,Oklahoma,Big 12,,"[{'games': 13, 'losses': 2, 'ties': 0, 'wins': 11}]","[{'games': 9, 'losses': 1, 'ties': 0, 'wins': 8}]","[{'games': 6, 'losses': 0, 'ties': 0, 'wins': 6}]","[{'games': 5, 'losses': 0, 'ties': 0, 'wins': 5}]",
-78,2015,Oklahoma State,Big 12,,"[{'games': 13, 'losses': 3, 'ties': 0, 'wins': 10}]","[{'games': 9, 'losses': 2, 'ties': 0, 'wins': 7}]","[{'games': 7, 'losses': 2, 'ties': 0, 'wins': 5}]","[{'games': 5, 'losses': 0, 'ties': 0, 'wins': 5}]",
-79,2015,Old Dominion,Conference USA,East,"[{'games': 12, 'losses': 7, 'ties': 0, 'wins': 5}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 7, 'losses': 4, 'ties': 0, 'wins': 3}]","[{'games': 5, 'losses': 3, 'ties': 0, 'wins': 2}]",
-80,2015,Ole Miss,SEC,West,"[{'games': 13, 'losses': 3, 'ties': 0, 'wins': 10}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 7, 'losses': 1, 'ties': 0, 'wins': 6}]","[{'games': 5, 'losses': 2, 'ties': 0, 'wins': 3}]",
-81,2015,Oregon,Pac-12,North,"[{'games': 13, 'losses': 4, 'ties': 0, 'wins': 9}]","[{'games': 9, 'losses': 2, 'ties': 0, 'wins': 7}]","[{'games': 7, 'losses': 2, 'ties': 0, 'wins': 5}]","[{'games': 5, 'losses': 1, 'ties': 0, 'wins': 4}]",
-82,2015,Oregon State,Pac-12,North,"[{'games': 12, 'losses': 10, 'ties': 0, 'wins': 2}]","[{'games': 9, 'losses': 9, 'ties': 0, 'wins': 0}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 6, 'ties': 0, 'wins': 0}]",
-83,2015,Penn State,Big Ten,East,"[{'games': 13, 'losses': 6, 'ties': 0, 'wins': 7}]","[{'games': 8, 'losses': 4, 'ties': 0, 'wins': 4}]","[{'games': 7, 'losses': 1, 'ties': 0, 'wins': 6}]","[{'games': 4, 'losses': 4, 'ties': 0, 'wins': 0}]",
-84,2015,Pittsburgh,ACC,Coastal,"[{'games': 13, 'losses': 5, 'ties': 0, 'wins': 8}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]",
-85,2015,Purdue,Big Ten,West,"[{'games': 12, 'losses': 10, 'ties': 0, 'wins': 2}]","[{'games': 8, 'losses': 7, 'ties': 0, 'wins': 1}]","[{'games': 7, 'losses': 5, 'ties': 0, 'wins': 2}]","[{'games': 5, 'losses': 5, 'ties': 0, 'wins': 0}]",
-86,2015,Rice,Conference USA,West,"[{'games': 12, 'losses': 7, 'ties': 0, 'wins': 5}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-87,2015,Rutgers,Big Ten,East,"[{'games': 12, 'losses': 8, 'ties': 0, 'wins': 4}]","[{'games': 8, 'losses': 7, 'ties': 0, 'wins': 1}]","[{'games': 7, 'losses': 5, 'ties': 0, 'wins': 2}]","[{'games': 5, 'losses': 3, 'ties': 0, 'wins': 2}]",
-88,2015,San Diego State,Mountain West,West,"[{'games': 14, 'losses': 3, 'ties': 0, 'wins': 11}]","[{'games': 9, 'losses': 0, 'ties': 0, 'wins': 9}]","[{'games': 7, 'losses': 1, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]",
-89,2015,San José State,Mountain West,West,"[{'games': 13, 'losses': 7, 'ties': 0, 'wins': 6}]","[{'games': 8, 'losses': 4, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-90,2015,SMU,American Athletic,West,"[{'games': 12, 'losses': 10, 'ties': 0, 'wins': 2}]","[{'games': 8, 'losses': 7, 'ties': 0, 'wins': 1}]","[{'games': 7, 'losses': 5, 'ties': 0, 'wins': 2}]","[{'games': 5, 'losses': 5, 'ties': 0, 'wins': 0}]",
-91,2015,South Alabama,Sun Belt,,"[{'games': 12, 'losses': 7, 'ties': 0, 'wins': 5}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-92,2015,South Carolina,SEC,East,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 7, 'ties': 0, 'wins': 1}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 5, 'losses': 5, 'ties': 0, 'wins': 0}]",
-93,2015,Southern Mississippi,Conference USA,West,"[{'games': 14, 'losses': 5, 'ties': 0, 'wins': 9}]","[{'games': 9, 'losses': 2, 'ties': 0, 'wins': 7}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 7, 'losses': 3, 'ties': 0, 'wins': 4}]",
-94,2015,South Florida,American Athletic,East,"[{'games': 13, 'losses': 5, 'ties': 0, 'wins': 8}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]",
-95,2015,Stanford,Pac-12,North,"[{'games': 14, 'losses': 2, 'ties': 0, 'wins': 12}]","[{'games': 10, 'losses': 1, 'ties': 0, 'wins': 9}]","[{'games': 7, 'losses': 1, 'ties': 0, 'wins': 6}]","[{'games': 5, 'losses': 1, 'ties': 0, 'wins': 4}]",
-96,2015,Syracuse,ACC,Atlantic,"[{'games': 12, 'losses': 8, 'ties': 0, 'wins': 4}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 7, 'losses': 3, 'ties': 0, 'wins': 4}]","[{'games': 5, 'losses': 5, 'ties': 0, 'wins': 0}]",
-97,2015,TCU,Big 12,,"[{'games': 13, 'losses': 2, 'ties': 0, 'wins': 11}]","[{'games': 9, 'losses': 2, 'ties': 0, 'wins': 7}]","[{'games': 6, 'losses': 0, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]",
-98,2015,Temple,American Athletic,East,"[{'games': 14, 'losses': 4, 'ties': 0, 'wins': 10}]","[{'games': 9, 'losses': 2, 'ties': 0, 'wins': 7}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 7, 'losses': 2, 'ties': 0, 'wins': 5}]",
-99,2015,Tennessee,SEC,East,"[{'games': 13, 'losses': 4, 'ties': 0, 'wins': 9}]","[{'games': 8, 'losses': 3, 'ties': 0, 'wins': 5}]","[{'games': 7, 'losses': 2, 'ties': 0, 'wins': 5}]","[{'games': 4, 'losses': 2, 'ties': 0, 'wins': 2}]",
-100,2015,Texas,Big 12,,"[{'games': 12, 'losses': 7, 'ties': 0, 'wins': 5}]","[{'games': 9, 'losses': 5, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 5, 'losses': 4, 'ties': 0, 'wins': 1}]",
-101,2015,Texas A&M,SEC,West,"[{'games': 13, 'losses': 5, 'ties': 0, 'wins': 8}]","[{'games': 8, 'losses': 4, 'ties': 0, 'wins': 4}]","[{'games': 7, 'losses': 2, 'ties': 0, 'wins': 5}]","[{'games': 3, 'losses': 2, 'ties': 0, 'wins': 1}]",
-102,2015,Texas State,Sun Belt,,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 6, 'ties': 0, 'wins': 0}]",
-103,2015,Texas Tech,Big 12,,"[{'games': 13, 'losses': 6, 'ties': 0, 'wins': 7}]","[{'games': 9, 'losses': 5, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]","[{'games': 5, 'losses': 2, 'ties': 0, 'wins': 3}]",
-104,2015,Toledo,Mid-American,West,"[{'games': 12, 'losses': 2, 'ties': 0, 'wins': 10}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]","[{'games': 5, 'losses': 0, 'ties': 0, 'wins': 5}]",
-105,2015,Troy,Sun Belt,,"[{'games': 12, 'losses': 8, 'ties': 0, 'wins': 4}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 5, 'losses': 3, 'ties': 0, 'wins': 2}]","[{'games': 7, 'losses': 5, 'ties': 0, 'wins': 2}]",
-106,2015,Tulane,American Athletic,West,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 7, 'ties': 0, 'wins': 1}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]",
-107,2015,Tulsa,American Athletic,West,"[{'games': 13, 'losses': 7, 'ties': 0, 'wins': 6}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]",
-108,2015,UCF,American Athletic,East,"[{'games': 12, 'losses': 12, 'ties': 0, 'wins': 0}]","[{'games': 8, 'losses': 8, 'ties': 0, 'wins': 0}]","[{'games': 6, 'losses': 6, 'ties': 0, 'wins': 0}]","[{'games': 6, 'losses': 6, 'ties': 0, 'wins': 0}]",
-109,2015,UCLA,Pac-12,South,"[{'games': 13, 'losses': 5, 'ties': 0, 'wins': 8}]","[{'games': 9, 'losses': 4, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]",
-110,2015,UMass,Mid-American,East,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-111,2015,UNLV,Mountain West,West,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]",
-112,2015,USC,Pac-12,South,"[{'games': 14, 'losses': 6, 'ties': 0, 'wins': 8}]","[{'games': 10, 'losses': 4, 'ties': 0, 'wins': 6}]","[{'games': 7, 'losses': 2, 'ties': 0, 'wins': 5}]","[{'games': 5, 'losses': 2, 'ties': 0, 'wins': 3}]",
-113,2015,Utah,Pac-12,South,"[{'games': 13, 'losses': 3, 'ties': 0, 'wins': 10}]","[{'games': 9, 'losses': 3, 'ties': 0, 'wins': 6}]","[{'games': 7, 'losses': 1, 'ties': 0, 'wins': 6}]","[{'games': 5, 'losses': 2, 'ties': 0, 'wins': 3}]",
-114,2015,Utah State,Mountain West,Mountain,"[{'games': 13, 'losses': 7, 'ties': 0, 'wins': 6}]","[{'games': 8, 'losses': 3, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 1, 'ties': 0, 'wins': 5}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]",
-115,2015,UTEP,Conference USA,West,"[{'games': 12, 'losses': 7, 'ties': 0, 'wins': 5}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 5, 'losses': 2, 'ties': 0, 'wins': 3}]","[{'games': 7, 'losses': 5, 'ties': 0, 'wins': 2}]",
-116,2015,UT San Antonio,Conference USA,West,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-117,2015,Vanderbilt,SEC,East,"[{'games': 12, 'losses': 8, 'ties': 0, 'wins': 4}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]",
-118,2015,Virginia,ACC,Coastal,"[{'games': 12, 'losses': 8, 'ties': 0, 'wins': 4}]","[{'games': 8, 'losses': 5, 'ties': 0, 'wins': 3}]","[{'games': 7, 'losses': 3, 'ties': 0, 'wins': 4}]","[{'games': 5, 'losses': 5, 'ties': 0, 'wins': 0}]",
-119,2015,Virginia Tech,ACC,Coastal,"[{'games': 13, 'losses': 6, 'ties': 0, 'wins': 7}]","[{'games': 8, 'losses': 4, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]",
-120,2015,Wake Forest,ACC,Atlantic,"[{'games': 12, 'losses': 9, 'ties': 0, 'wins': 3}]","[{'games': 8, 'losses': 7, 'ties': 0, 'wins': 1}]","[{'games': 6, 'losses': 5, 'ties': 0, 'wins': 1}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]",
-121,2015,Washington,Pac-12,North,"[{'games': 13, 'losses': 6, 'ties': 0, 'wins': 7}]","[{'games': 9, 'losses': 5, 'ties': 0, 'wins': 4}]","[{'games': 7, 'losses': 3, 'ties': 0, 'wins': 4}]","[{'games': 5, 'losses': 3, 'ties': 0, 'wins': 2}]",
-122,2015,Washington State,Pac-12,North,"[{'games': 13, 'losses': 4, 'ties': 0, 'wins': 9}]","[{'games': 9, 'losses': 3, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]",
-123,2015,Western Kentucky,Conference USA,East,"[{'games': 14, 'losses': 2, 'ties': 0, 'wins': 12}]","[{'games': 9, 'losses': 0, 'ties': 0, 'wins': 9}]","[{'games': 6, 'losses': 0, 'ties': 0, 'wins': 6}]","[{'games': 7, 'losses': 2, 'ties': 0, 'wins': 5}]",
-124,2015,Western Michigan,Mid-American,West,"[{'games': 13, 'losses': 5, 'ties': 0, 'wins': 8}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 6, 'losses': 2, 'ties': 0, 'wins': 4}]","[{'games': 6, 'losses': 3, 'ties': 0, 'wins': 3}]",
-125,2015,West Virginia,Big 12,,"[{'games': 13, 'losses': 5, 'ties': 0, 'wins': 8}]","[{'games': 9, 'losses': 5, 'ties': 0, 'wins': 4}]","[{'games': 7, 'losses': 1, 'ties': 0, 'wins': 6}]","[{'games': 5, 'losses': 4, 'ties': 0, 'wins': 1}]",
-126,2015,Wisconsin,Big Ten,West,"[{'games': 13, 'losses': 3, 'ties': 0, 'wins': 10}]","[{'games': 8, 'losses': 2, 'ties': 0, 'wins': 6}]","[{'games': 7, 'losses': 2, 'ties': 0, 'wins': 5}]","[{'games': 4, 'losses': 0, 'ties': 0, 'wins': 4}]",
-127,2015,Wyoming,Mountain West,Mountain,"[{'games': 12, 'losses': 10, 'ties': 0, 'wins': 2}]","[{'games': 8, 'losses': 6, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 4, 'ties': 0, 'wins': 2}]","[{'games': 6, 'losses': 6, 'ties': 0, 'wins': 0}]",
+,year,team,conference,division,total.games,total.wins,total.losses,total.ties,conferenceGames.games,conferenceGames.wins,conferenceGames.losses,conferenceGames.ties,homeGames.games,homeGames.wins,homeGames.losses,homeGames.ties,awayGames.games,awayGames.wins,awayGames.losses,awayGames.ties
+0,2015,Air Force,Mountain West,Mountain,14,8,6,0,9,6,3,0,6,6,0,0,7,2,5,0
+1,2015,Akron,Mid-American,East,13,8,5,0,8,5,3,0,6,3,3,0,6,4,2,0
+2,2015,Alabama,SEC,West,15,14,1,0,9,8,1,0,7,6,1,0,4,4,0,0
+3,2015,Appalachian State,Sun Belt,,13,11,2,0,8,7,1,0,6,5,1,0,6,5,1,0
+4,2015,Arizona,Pac-12,South,13,7,6,0,9,3,6,0,6,4,2,0,6,2,4,0
+5,2015,Arizona State,Pac-12,South,13,6,7,0,9,4,5,0,7,5,2,0,4,1,3,0
+6,2015,Arkansas,SEC,West,13,8,5,0,8,5,3,0,7,4,3,0,4,3,1,0
+7,2015,Arkansas State,Sun Belt,,13,9,4,0,8,8,0,0,6,5,1,0,6,4,2,0
+8,2015,Army,FBS Independents,,12,2,10,0,0,0,0,0,6,1,5,0,5,1,4,0
+9,2015,Auburn,SEC,West,13,7,6,0,8,2,6,0,7,3,4,0,4,2,2,0
+10,2015,Ball State,Mid-American,West,12,3,9,0,8,2,6,0,6,2,4,0,6,1,5,0
+11,2015,Baylor,Big 12,,13,10,3,0,9,6,3,0,6,4,2,0,5,4,1,0
+12,2015,Boise State,Mountain West,Mountain,13,9,4,0,8,5,3,0,6,4,2,0,6,4,2,0
+13,2015,Boston College,ACC,Atlantic,12,3,9,0,8,0,8,0,7,3,4,0,4,0,4,0
+14,2015,Bowling Green,Mid-American,East,14,10,4,0,9,8,1,0,5,3,2,0,6,6,0,0
+15,2015,Buffalo,Mid-American,East,12,5,7,0,8,3,5,0,6,2,4,0,6,3,3,0
+16,2015,BYU,FBS Independents,,13,9,4,0,0,0,0,0,6,6,0,0,5,3,2,0
+17,2015,California,Pac-12,North,13,8,5,0,9,4,5,0,6,5,1,0,6,2,4,0
+18,2015,Central Michigan,Mid-American,West,13,7,6,0,8,6,2,0,6,4,2,0,6,3,3,0
+19,2015,Charlotte,Conference USA,East,12,2,10,0,8,0,8,0,6,1,5,0,6,1,5,0
+20,2015,Cincinnati,American Athletic,East,13,7,6,0,8,4,4,0,6,5,1,0,6,2,4,0
+21,2015,Clemson,ACC,Atlantic,15,14,1,0,9,9,0,0,7,7,0,0,5,5,0,0
+22,2015,Colorado,Pac-12,South,13,4,9,0,9,1,8,0,6,2,4,0,6,1,5,0
+23,2015,Colorado State,Mountain West,Mountain,13,7,6,0,9,5,4,0,6,3,3,0,5,4,1,0
+24,2015,Connecticut,American Athletic,East,13,6,7,0,8,4,4,0,6,4,2,0,6,2,4,0
+25,2015,Duke,ACC,Coastal,13,8,5,0,8,4,4,0,6,3,3,0,6,4,2,0
+26,2015,East Carolina,American Athletic,East,12,5,7,0,8,3,5,0,6,3,3,0,6,2,4,0
+27,2015,Eastern Michigan,Mid-American,West,12,1,11,0,8,0,8,0,6,0,6,0,6,1,5,0
+28,2015,Florida,SEC,East,14,10,4,0,9,7,2,0,7,6,1,0,4,3,1,0
+29,2015,Florida Atlantic,Conference USA,East,12,3,9,0,8,3,5,0,6,1,5,0,6,2,4,0
+30,2015,Florida International,Conference USA,East,12,5,7,0,8,3,5,0,5,4,1,0,7,1,6,0
+31,2015,Florida State,ACC,Atlantic,13,10,3,0,8,6,2,0,7,7,0,0,5,3,2,0
+32,2015,Fresno State,Mountain West,West,12,3,9,0,8,2,6,0,6,2,4,0,6,1,5,0
+33,2015,Georgia,SEC,East,13,10,3,0,8,5,3,0,7,6,1,0,4,3,1,0
+34,2015,Georgia Southern,Sun Belt,,13,9,4,0,8,6,2,0,6,5,1,0,6,3,3,0
+35,2015,Georgia State,Sun Belt,,13,6,7,0,8,5,3,0,6,2,4,0,6,4,2,0
+36,2015,Georgia Tech,ACC,Coastal,12,3,9,0,8,1,7,0,7,3,4,0,5,0,5,0
+37,2015,Hawai'i,Mountain West,West,13,3,10,0,8,0,8,0,7,3,4,0,6,0,6,0
+38,2015,Houston,American Athletic,West,14,13,1,0,9,8,1,0,8,8,0,0,5,4,1,0
+39,2015,Idaho,Sun Belt,,12,4,8,0,8,3,5,0,6,3,3,0,6,1,5,0
+40,2015,Illinois,Big Ten,West,12,5,7,0,8,2,6,0,6,4,2,0,5,1,4,0
+41,2015,Indiana,Big Ten,East,13,6,7,0,8,2,6,0,7,3,4,0,5,3,2,0
+42,2015,Iowa,Big Ten,West,14,12,2,0,9,8,1,0,7,7,0,0,5,5,0,0
+43,2015,Iowa State,Big 12,,12,3,9,0,9,2,7,0,6,3,3,0,6,0,6,0
+44,2015,Kansas,Big 12,,12,0,12,0,9,0,9,0,7,0,7,0,5,0,5,0
+45,2015,Kansas State,Big 12,,13,6,7,0,9,3,6,0,7,4,3,0,5,2,3,0
+46,2015,Kent State,Mid-American,East,12,3,9,0,8,2,6,0,6,2,4,0,6,1,5,0
+47,2015,Kentucky,SEC,East,12,5,7,0,8,2,6,0,8,4,4,0,4,1,3,0
+48,2015,Louisiana,Sun Belt,,12,4,8,0,8,3,5,0,6,3,3,0,6,1,5,0
+49,2015,Louisiana Monroe,Sun Belt,,13,2,11,0,8,1,7,0,5,2,3,0,8,0,8,0
+50,2015,Louisiana Tech,Conference USA,West,13,9,4,0,8,6,2,0,6,5,1,0,6,3,3,0
+51,2015,Louisville,ACC,Atlantic,13,8,5,0,8,5,3,0,6,4,2,0,5,3,2,0
+52,2015,LSU,SEC,West,12,9,3,0,8,5,3,0,7,6,1,0,4,2,2,0
+53,2015,Marshall,Conference USA,East,13,10,3,0,8,6,2,0,6,6,0,0,6,3,3,0
+54,2015,Maryland,Big Ten,East,12,3,9,0,8,1,7,0,6,2,4,0,5,1,4,0
+55,2015,Memphis,American Athletic,West,13,9,4,0,8,5,3,0,6,5,1,0,6,4,2,0
+56,2015,Miami,ACC,Coastal,13,8,5,0,8,5,3,0,6,5,1,0,6,3,3,0
+57,2015,Miami (OH),Mid-American,East,12,3,9,0,8,2,6,0,6,2,4,0,6,1,5,0
+58,2015,Michigan,Big Ten,East,13,10,3,0,8,6,2,0,7,5,2,0,5,4,1,0
+59,2015,Michigan State,Big Ten,East,14,12,2,0,9,8,1,0,7,7,0,0,5,4,1,0
+60,2015,Middle Tennessee,Conference USA,East,13,7,6,0,8,6,2,0,6,5,1,0,6,2,4,0
+61,2015,Minnesota,Big Ten,West,13,6,7,0,8,2,6,0,7,3,4,0,5,2,3,0
+62,2015,Mississippi State,SEC,West,13,9,4,0,8,4,4,0,7,4,3,0,5,4,1,0
+63,2015,Missouri,SEC,East,12,5,7,0,8,1,7,0,6,3,3,0,5,1,4,0
+64,2015,Navy,American Athletic,West,13,11,2,0,8,7,1,0,6,6,0,0,5,3,2,0
+65,2015,NC State,ACC,Atlantic,13,7,6,0,8,3,5,0,6,3,3,0,6,4,2,0
+66,2015,Nebraska,Big Ten,West,13,6,7,0,8,3,5,0,7,3,4,0,5,2,3,0
+67,2015,Nevada,Mountain West,West,13,7,6,0,9,5,4,0,6,4,2,0,6,2,4,0
+68,2015,New Mexico,Mountain West,Mountain,13,7,6,0,8,5,3,0,7,5,2,0,5,2,3,0
+69,2015,New Mexico State,Sun Belt,,12,3,9,0,8,3,5,0,5,1,4,0,7,2,5,0
+70,2015,North Carolina,ACC,Coastal,14,11,3,0,9,8,1,0,7,7,0,0,4,4,0,0
+71,2015,Northern Illinois,Mid-American,West,14,8,6,0,9,6,3,0,6,5,1,0,6,3,3,0
+72,2015,North Texas,Conference USA,West,12,1,11,0,8,1,7,0,5,1,4,0,7,0,7,0
+73,2015,Northwestern,Big Ten,West,13,10,3,0,8,6,2,0,7,6,1,0,4,3,1,0
+74,2015,Notre Dame,FBS Independents,,13,10,3,0,0,0,0,0,6,6,0,0,5,3,2,0
+75,2015,Ohio,Mid-American,East,13,8,5,0,8,5,3,0,6,5,1,0,6,3,3,0
+76,2015,Ohio State,Big Ten,East,13,12,1,0,8,7,1,0,7,6,1,0,5,5,0,0
+77,2015,Oklahoma,Big 12,,13,11,2,0,9,8,1,0,6,6,0,0,5,5,0,0
+78,2015,Oklahoma State,Big 12,,13,10,3,0,9,7,2,0,7,5,2,0,5,5,0,0
+79,2015,Old Dominion,Conference USA,East,12,5,7,0,8,3,5,0,7,3,4,0,5,2,3,0
+80,2015,Ole Miss,SEC,West,13,10,3,0,8,6,2,0,7,6,1,0,5,3,2,0
+81,2015,Oregon,Pac-12,North,13,9,4,0,9,7,2,0,7,5,2,0,5,4,1,0
+82,2015,Oregon State,Pac-12,North,12,2,10,0,9,0,9,0,6,2,4,0,6,0,6,0
+83,2015,Penn State,Big Ten,East,13,7,6,0,8,4,4,0,7,6,1,0,4,0,4,0
+84,2015,Pittsburgh,ACC,Coastal,13,8,5,0,8,6,2,0,6,3,3,0,6,5,1,0
+85,2015,Purdue,Big Ten,West,12,2,10,0,8,1,7,0,7,2,5,0,5,0,5,0
+86,2015,Rice,Conference USA,West,12,5,7,0,8,3,5,0,6,3,3,0,6,2,4,0
+87,2015,Rutgers,Big Ten,East,12,4,8,0,8,1,7,0,7,2,5,0,5,2,3,0
+88,2015,San Diego State,Mountain West,West,14,11,3,0,9,9,0,0,7,6,1,0,6,4,2,0
+89,2015,San José State,Mountain West,West,13,6,7,0,8,4,4,0,6,3,3,0,6,2,4,0
+90,2015,SMU,American Athletic,West,12,2,10,0,8,1,7,0,7,2,5,0,5,0,5,0
+91,2015,South Alabama,Sun Belt,,12,5,7,0,8,3,5,0,6,3,3,0,6,2,4,0
+92,2015,South Carolina,SEC,East,12,3,9,0,8,1,7,0,6,2,4,0,5,0,5,0
+93,2015,Southern Mississippi,Conference USA,West,14,9,5,0,9,7,2,0,6,5,1,0,7,4,3,0
+94,2015,South Florida,American Athletic,East,13,8,5,0,8,6,2,0,6,5,1,0,6,3,3,0
+95,2015,Stanford,Pac-12,North,14,12,2,0,10,9,1,0,7,6,1,0,5,4,1,0
+96,2015,Syracuse,ACC,Atlantic,12,4,8,0,8,2,6,0,7,4,3,0,5,0,5,0
+97,2015,TCU,Big 12,,13,11,2,0,9,7,2,0,6,6,0,0,6,4,2,0
+98,2015,Temple,American Athletic,East,14,10,4,0,9,7,2,0,6,5,1,0,7,5,2,0
+99,2015,Tennessee,SEC,East,13,9,4,0,8,5,3,0,7,5,2,0,4,2,2,0
+100,2015,Texas,Big 12,,12,5,7,0,9,4,5,0,6,3,3,0,5,1,4,0
+101,2015,Texas A&M,SEC,West,13,8,5,0,8,4,4,0,7,5,2,0,3,1,2,0
+102,2015,Texas State,Sun Belt,,12,3,9,0,8,2,6,0,6,3,3,0,6,0,6,0
+103,2015,Texas Tech,Big 12,,13,7,6,0,9,4,5,0,6,4,2,0,5,3,2,0
+104,2015,Toledo,Mid-American,West,12,10,2,0,8,6,2,0,6,4,2,0,5,5,0,0
+105,2015,Troy,Sun Belt,,12,4,8,0,8,3,5,0,5,2,3,0,7,2,5,0
+106,2015,Tulane,American Athletic,West,12,3,9,0,8,1,7,0,6,2,4,0,6,1,5,0
+107,2015,Tulsa,American Athletic,West,13,6,7,0,8,3,5,0,6,3,3,0,6,3,3,0
+108,2015,UCF,American Athletic,East,12,0,12,0,8,0,8,0,6,0,6,0,6,0,6,0
+109,2015,UCLA,Pac-12,South,13,8,5,0,9,5,4,0,6,4,2,0,6,4,2,0
+110,2015,UMass,Mid-American,East,12,3,9,0,8,2,6,0,6,1,5,0,6,2,4,0
+111,2015,UNLV,Mountain West,West,12,3,9,0,8,2,6,0,6,2,4,0,6,1,5,0
+112,2015,USC,Pac-12,South,14,8,6,0,10,6,4,0,7,5,2,0,5,3,2,0
+113,2015,Utah,Pac-12,South,13,10,3,0,9,6,3,0,7,6,1,0,5,3,2,0
+114,2015,Utah State,Mountain West,Mountain,13,6,7,0,8,5,3,0,6,5,1,0,6,1,5,0
+115,2015,UTEP,Conference USA,West,12,5,7,0,8,3,5,0,5,3,2,0,7,2,5,0
+116,2015,UT San Antonio,Conference USA,West,12,3,9,0,8,3,5,0,6,1,5,0,6,2,4,0
+117,2015,Vanderbilt,SEC,East,12,4,8,0,8,2,6,0,6,3,3,0,6,1,5,0
+118,2015,Virginia,ACC,Coastal,12,4,8,0,8,3,5,0,7,4,3,0,5,0,5,0
+119,2015,Virginia Tech,ACC,Coastal,13,7,6,0,8,4,4,0,6,2,4,0,6,4,2,0
+120,2015,Wake Forest,ACC,Atlantic,12,3,9,0,8,1,7,0,6,1,5,0,6,2,4,0
+121,2015,Washington,Pac-12,North,13,7,6,0,9,4,5,0,7,4,3,0,5,2,3,0
+122,2015,Washington State,Pac-12,North,13,9,4,0,9,6,3,0,6,4,2,0,6,4,2,0
+123,2015,Western Kentucky,Conference USA,East,14,12,2,0,9,9,0,0,6,6,0,0,7,5,2,0
+124,2015,Western Michigan,Mid-American,West,13,8,5,0,8,6,2,0,6,4,2,0,6,3,3,0
+125,2015,West Virginia,Big 12,,13,8,5,0,9,4,5,0,7,6,1,0,5,1,4,0
+126,2015,Wisconsin,Big Ten,West,13,10,3,0,8,6,2,0,7,5,2,0,4,4,0,0
+127,2015,Wyoming,Mountain West,Mountain,12,2,10,0,8,2,6,0,6,2,4,0,6,0,6,0
