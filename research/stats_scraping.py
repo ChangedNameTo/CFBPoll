@@ -2,14 +2,15 @@ import cfbd
 import pandas as pd
 import os
 import glob
+import json
 
 for year in range(2010, 2020):
     # Fetches all games, outputs the CSV's
-    games_result = cfbd.GamesApi().get_games(year, season_type='postseason')
-    games = pd.DataFrame.from_records([game.__dict__ for game in games_result])
-    if not os.path.exists('data/{}'.format(year)):
-        os.makedirs('data/{}'.format(year))
-    games.to_csv('data/{}/postseason_games.csv'.format(year))
+    # games_result = cfbd.GamesApi().get_games(year, season_type='postseason')
+    # games = pd.DataFrame.from_records([game.__dict__ for game in games_result])
+    # if not os.path.exists('data/{}'.format(year)):
+    #     os.makedirs('data/{}'.format(year))
+    # games.to_csv('data/{}/postseason_games.csv'.format(year))
 
     # # Fetches all teams, outputs the CSV's
     # teams_result = cfbd.TeamsApi().get_fbs_teams(year=year)
@@ -33,3 +34,9 @@ for year in range(2010, 2020):
     #     year_stats = pd.concat([year_stats, stats])
 
     # year_stats.to_csv('data/{}/stats.csv'.format(year))
+
+    # team_records = cfbd.GamesApi().get_team_records(year=year)
+    # converted_records = [record.__dict__ for record in team_records]
+    records = pd.read_csv('data/{}/records.csv'.format(year))
+    records = pd.json_normalize(converted_records)
+    records.to_csv('data/{}/records.csv'.format(year))

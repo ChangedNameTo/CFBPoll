@@ -170,6 +170,28 @@ teams.index = np.arange(1, len(teams) + 1)
 # Outputs all teams to a CSV
 teams.to_csv('processed_teams.csv')
 
-stop = timeit.default_timer()
+with open('README.md', 'w') as file:
+    file.write('''# CFBPoll 4.0 by TheAlpacalypse - The Pandas Rewrite
+Computerized poll to automatically rank college football teams each week
 
-# print('Executed in: ', stop - start)
+Run the program using the command:
+
+`python3 __main__.py`
+
+---
+
+''')
+
+    # Writes the table header
+    file.write("|Rank|Team|Flair|Record|Elo|SoS^^1|SoS Rank|Change|\n")
+    file.write("|---|---|---|---|---|---|---|---|\n")
+    
+    # Iterate over the top 25 and print them out
+    for index, team in teams.iloc[:25].iterrows():
+        file.write("| {} | {} | {} | \n".format(index, team._school, '', ))
+
+    stop = timeit.default_timer()
+
+    # Fun stats for how long it took for this to generate
+    file.write('')
+    file.write('Ranking executed in: {}s'.format(round(stop - start,2)))
