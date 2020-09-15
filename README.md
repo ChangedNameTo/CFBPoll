@@ -47,8 +47,6 @@ Run the program using the command:
 
 **Standard Deviation of Elo:** 113.36
 
-**Variance:** 12849.84
-
 [Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)
 
-[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)Ranking executed in: 7.34s
+[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)Ranking executed in: 7.29s

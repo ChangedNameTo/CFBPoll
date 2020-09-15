@@ -180,7 +180,7 @@ for index, team in teams.iterrows():
 
 teams = teams.sort_values(by=['elo'], ascending=False)
 teams.index = np.arange(1, len(teams) + 1)
-teams = teams.drop(columns=['year','total.games','total.wins','total.losses','conferenceGames.games','conferenceGames.wins','conferenceGames.losses'])
+teams = teams.drop(columns=['_id','year','total.games','total.wins','total.losses','conferenceGames.games','conferenceGames.wins','conferenceGames.losses'])
 
 # Outputs all teams to a CSV
 teams.to_csv('processed_teams.csv')
