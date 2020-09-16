@@ -9,44 +9,44 @@ Run the program using the command:
 
 |Rank|Team|Flair|Record|Elo|Last Played|Result|Change|
 |---|---|---|---|---|---|---|---|
-| 1 | LSU |  | (15 - 0) | 1802.98 | Clemson | (42 - 25) W | 24.29 |
-| 2 | Ohio State |  | (13 - 1) | 1779.87 | Clemson | (23 - 29) L | -20.37 |
-| 3 | Clemson |  | (14 - 1) | 1756.73 | LSU | (42 - 25) L | -24.29 |
-| 4 | Appalachian State |  | (13 - 1) | 1714.94 | UAB | (17 - 31) W | 16.38 |
-| 5 | Oregon |  | (12 - 2) | 1696.47 | Wisconsin | (27 - 28) W | 6.37 |
-| 6 | Alabama |  | (11 - 2) | 1694.83 | Michigan | (35 - 16) W | 23.16 |
-| 7 | Georgia |  | (12 - 2) | 1694.54 | Baylor | (14 - 26) W | 23.73 |
-| 8 | Notre Dame |  | (11 - 2) | 1690.37 | Iowa State | (9 - 33) W | 24.13 |
-| 9 | Penn State |  | (11 - 2) | 1681.28 | Memphis | (53 - 39) W | 25.45 |
-| 10 | Memphis |  | (12 - 2) | 1678.72 | Penn State | (53 - 39) L | -25.45 |
-| 11 | Oklahoma |  | (12 - 2) | 1670.76 | LSU | (63 - 28) L | -25.43 |
-| 12 | Florida Atlantic |  | (11 - 3) | 1670.24 | SMU | (52 - 28) W | 26.26 |
-| 13 | Air Force |  | (11 - 2) | 1669.87 | Washington State | (21 - 31) W | 15.18 |
-| 14 | Wisconsin |  | (10 - 4) | 1662.63 | Oregon | (27 - 28) L | -6.37 |
-| 15 | UCF |  | (10 - 3) | 1661.34 | Marshall | (25 - 48) W | 23.28 |
-| 16 | Florida |  | (11 - 2) | 1656.57 | Virginia | (28 - 36) W | 18.61 |
-| 17 | Navy |  | (11 - 2) | 1652.91 | Kansas State | (17 - 20) W | 11.49 |
-| 18 | Boise State |  | (12 - 2) | 1648.89 | Washington | (38 - 7) L | -36.41 |
-| 19 | Louisiana |  | (11 - 3) | 1647.29 | Miami (OH) | (17 - 27) W | 16.49 |
-| 20 | Iowa |  | (10 - 3) | 1643.24 | USC | (49 - 24) W | 25.4 |
-| 21 | Minnesota |  | (11 - 2) | 1639.76 | Auburn | (24 - 31) W | 19.98 |
-| 22 | Utah |  | (11 - 3) | 1636.62 | Texas | (38 - 10) L | -36.38 |
-| 23 | Baylor |  | (11 - 3) | 1628.77 | Georgia | (14 - 26) L | -23.73 |
-| 24 | Cincinnati |  | (11 - 3) | 1627.43 | Boston College | (38 - 6) W | 22.03 |
-| 25 | Michigan |  | (9 - 4) | 1620.3 | Alabama | (35 - 16) L | -23.16 |
+| 1 | Army |  | (2 - 0) | 1556.84 | Louisiana Monroe | (37 - 7) W | 25.9 |
+| 2 | BYU |  | (1 - 0) | 1538.81 | Navy | (3 - 55) W | 38.81 |
+| 3 | Texas |  | (1 - 0) | 1533.84 | UTEP | (59 - 3) W | 33.84 |
+| 4 | Clemson |  | (0 - 0) | 1531.47 | Wake Forest | (13 - 37) W | 31.47 |
+| 5 | Louisiana |  | (1 - 0) | 1528.25 | Iowa State | (14 - 31) W | 28.25 |
+| 6 | Coastal Carolina |  | (1 - 0) | 1527.1 | Kansas | (23 - 38) W | 27.1 |
+| 7 | North Carolina |  | (1 - 0) | 1526.8 | Syracuse | (31 - 6) W | 26.8 |
+| 8 | Miami |  | (1 - 0) | 1524.19 | UAB | (31 - 14) W | 24.19 |
+| 9 | Appalachian State |  | (1 - 0) | 1522.8 | Charlotte | (35 - 20) W | 22.8 |
+| 10 | Notre Dame |  | (1 - 0) | 1522.27 | Duke | (27 - 13) W | 22.27 |
+| 11 | Louisville |  | (0 - 0) | 1522.27 | Western Kentucky | (35 - 21) W | 22.27 |
+| 12 | Memphis |  | (1 - 0) | 1521.71 | Arkansas State | (37 - 24) W | 21.71 |
+| 13 | SMU |  | (1 - 0) | 1520.33 | Texas State | (24 - 31) W | 20.33 |
+| 14 | Tulane |  | (1 - 0) | 1514.25 | South Alabama | (24 - 27) W | 14.25 |
+| 15 | Georgia Tech |  | (1 - 0) | 1513.55 | Florida State | (13 - 16) W | 13.55 |
+| 16 | UT San Antonio |  | (1 - 0) | 1512.94 | Texas State | (48 - 51) W | 12.94 |
+| 17 | Marshall |  | (1 - 0) | 1511.31 | Eastern Kentucky | (59 - 0) W | 11.31 |
+| 18 | Pittsburgh |  | (1 - 0) | 1511.12 | Austin Peay | (55 - 0) W | 11.12 |
+| 19 | Oklahoma |  | (1 - 0) | 1510.75 | Missouri State | (48 - 0) W | 10.75 |
+| 20 | West Virginia |  | (1 - 0) | 1510.11 | Eastern Kentucky | (56 - 10) W | 10.11 |
+| 21 | South Alabama |  | (1 - 1) | 1510.04 | Tulane | (24 - 27) L | -14.25 |
+| 22 | North Texas |  | (1 - 0) | 1509.1 | Houston Baptist | (57 - 31) W | 9.1 |
+| 23 | South Florida |  | (1 - 0) | 1508.54 | The Citadel | (27 - 6) W | 8.54 |
+| 24 | Texas Tech |  | (1 - 0) | 1502.91 | Houston Baptist | (35 - 33) W | 2.91 |
+| 25 | Georgia Southern |  | (1 - 0) | 1501.91 | Campbell | (27 - 26) W | 1.91 |
 |||||||||
-| 117 | Georgia Tech |  | (3 - 9) | 1367.21 | Georgia | (7 - 52) L | -13.47 |
+| 15 | Georgia Tech |  | (1 - 0) | 1513.55 | Florida State | (13 - 16) W | 13.55 |
 |||||||||
-| 130 | Akron |  | (0 - 12) | 1237.82 | Ohio | (3 - 52) L | -17.89 |
+| 42 | Navy |  | (0 - 1) | 1461.19 | BYU | (3 - 55) L | -38.81 |
 
 ---
 
-**Mean Elo:** 1507.07
+**Mean Elo:** 1501.88
 
-**Median Elo:** 1492.99
+**Median Elo:** 1509.57
 
-**Standard Deviation of Elo:** 113.36
+**Standard Deviation of Elo:** 24.38
 
 [Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)
 
-[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)Ranking executed in: 7.29s
+[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)Ranking executed in: 0.99s

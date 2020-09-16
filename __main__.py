@@ -1,43 +1,35 @@
+# Import the timer functions
 import timeit
 start = timeit.default_timer()
-
-from pprint import pprint
 
 import pandas as pd
 import numpy as np
 import cfbd
-
 import os
 import math
-
 import datetime as dt
+import sys
 
-from Constants import WEEK, K_VALUE
+# Import my own functions
+sys.path.insert(1, './research')
+from Constants import YEAR, K_VALUE, RUN_SCRAPER
+from stats_scraping import scrape_stats
 
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
-games = pd.DataFrame()
-teams = pd.DataFrame()
-plays = pd.DataFrame()
-stats = pd.DataFrame()
-records = pd.DataFrame()
+# Should we run the scraper? This is controlled in Constants
+if RUN_SCRAPER:
+    scrape_stats()
 
 # Since we already scraped, just load in the csv dumps
 # See ./research/stats_scraping.py
-for year in range(2019, 2020):
-    year_games = pd.read_csv('data/{}/games.csv'.format(year))
-    year_teams = pd.read_csv('data/{}/teams.csv'.format(year))
-    year_plays = pd.read_csv('data/{}/plays.csv'.format(year))
-    year_stats = pd.read_csv('data/{}/stats.csv'.format(year))
-    year_records = pd.read_csv('data/{}/records.csv'.format(year))
-
-    games = pd.concat([games, year_games])
-    teams = pd.concat([teams, year_teams])
-    plays = pd.concat([plays, year_plays])
-    stats = pd.concat([stats, year_stats])
-    records = pd.concat([records, year_records])
+games = pd.read_csv('data/{}/games.csv'.format(YEAR))
+teams = pd.read_csv('data/{}/teams.csv'.format(YEAR))
+plays = pd.read_csv('data/{}/plays.csv'.format(YEAR))
+stats = pd.read_csv('data/{}/stats.csv'.format(YEAR))
+records = pd.read_csv('data/{}/records.csv'.format(YEAR))
 
 # Clean the data and prep the frames
 games = games[['_id','_season','_week','_season_type','_start_date','_neutral_site','_conference_game','_home_id','_home_team','_home_points','_away_id','_away_team','_away_points']]
@@ -49,14 +41,19 @@ teams = teams[['_id','_school']]
 teams = pd.concat([teams, pd.DataFrame(columns=['elo','strength_of_schedule','last_played','result','elo_change','season_record','conf_record'])])
 
 # Joins records to teams
+teams = teams.set_index('_school',drop=False)
+records = records.set_index('team',drop=False)
+
 teams = teams.join(records)
+teams.index = np.arange(1, len(teams) + 1)
+
 teams = teams.drop(columns=['team'])
 
 # Add home boolean value
 games['home_won'] = games._home_points > games._away_points
 
 # Remove the unplayed games
-games['played'] = pd.to_datetime(games['_start_date'], infer_datetime_format=True).dt.tz_localize(None) < dt.datetime.now()
+games['played'] = games['_home_points'].notna()
 games.drop(games[games['played'] != True].index, inplace=True)
 
 # Generate the FBS list, then figure out if this is an FBS matchup. Both teams must be FBS.
@@ -104,9 +101,10 @@ def process_game(game):
         else:
             game['away_elo'] = away_game_frame['new_away_elo'].values[0]
 
-    # Get the expected value for this matchup. How likely is it that this team wins? Factor in the 2.5 score advantage for home 
-    game['home_expected'] = (1 / (1 + 10**((game['away_elo'] - (game['home_elo'] + 25)) / 400)))
-    game['away_expected'] = (1 / (1 + 10**(( game['home_elo'] - (game['away_elo'] - 25)) / 400)))
+    # Get the expected value for this matchup. How likely is it that this team wins? Factor in the 3.04 score advantage for home
+    # That we calculated in ./research/get_hfa_value.py, round it cause variance
+    game['home_expected'] = (1 / (1 + 10**((game['away_elo'] - (game['home_elo'] + 30)) / 400)))
+    game['away_expected'] = (1 / (1 + 10**(( game['home_elo'] - (game['away_elo'] - 30)) / 400)))
 
     # Get the Margin of Victory multiplier to work as a scaling factor for skill that dampens for blowouts
     # Pad by 1 to prevent 0
@@ -136,7 +134,7 @@ for index,game in games.iterrows():
 games = games.drop(columns=['_id'])
 
 # Outputs all the games to a CSV
-games.to_csv('processed_games.csv')
+games.to_csv('./data/{}/processed_games.csv'.format(YEAR))
 
 # Add's in all that other data people love
 def process_team(team):
@@ -166,7 +164,10 @@ def process_team(team):
     team['last_played'] = (final_frame['_away_team'] if is_home else final_frame['_home_team']).values[0]
     team['result'] = '({} - {}) {}'.format(round(final_frame['_home_points'].values[0]), round(final_frame['_away_points'].values[0]), text_result)
     team['elo_change'] = round((final_frame['home_elo_change'] if is_home else final_frame['away_elo_change']).values[0],2)
-    team['season_record'] = '({} - {})'.format(team['total.wins'], team['total.losses'])
+    try:
+        team['season_record'] = '({} - {})'.format(round(team['total.wins']), round(team['total.losses']))
+    except ValueError:
+        print(team['_school'])
     team['conf_record'] = '({} - {})'.format(team['conferenceGames.wins'], team['total.losses'])
 
     return team
@@ -178,12 +179,20 @@ for index, team in teams.iterrows():
         continue
     teams.at[index] = processed_team
 
+teams['played'] = teams['total.games'].notna()
+teams.drop(teams[teams['played'] != True].index, inplace=True)
+
+# Sorts the teams by Elo
 teams = teams.sort_values(by=['elo'], ascending=False)
+
+# Re-indexes so that I can use the index column for rank
 teams.index = np.arange(1, len(teams) + 1)
+
+# Drops excess columns that were used for derived values
 teams = teams.drop(columns=['_id','year','total.games','total.wins','total.losses','conferenceGames.games','conferenceGames.wins','conferenceGames.losses'])
 
 # Outputs all teams to a CSV
-teams.to_csv('processed_teams.csv')
+teams.to_csv('./data/{}/processed_teams.csv'.format(YEAR))
 
 with open('README.md', 'w') as file:
     file.write('''# CFBPoll 4.0 by TheAlpacalypse - The Pandas Rewrite

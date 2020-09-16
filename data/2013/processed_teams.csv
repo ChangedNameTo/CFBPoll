@@ -1,0 +1,126 @@
+,_school,elo,strength_of_schedule,last_played,result,elo_change,season_record,conf_record,conference,division
+1,Florida State,1788.54,,Auburn,(31 - 34) W,11.0,(14 - 0),(9 - 0),ACC,Atlantic
+2,Michigan State,1730.92,,Stanford,(24 - 20) W,12.51,(13 - 1),(9 - 1),Big Ten,Legends
+3,Louisville,1703.56,,Miami,(36 - 9) W,19.24,(12 - 1),(7 - 1),American Athletic,
+4,Missouri,1695.61,,Oklahoma State,(41 - 31) W,19.54,(12 - 2),(7 - 2),SEC,East
+5,Stanford,1685.26,,Michigan State,(24 - 20) L,-12.51,(11 - 3),(8 - 3),Pac-12,North
+6,Auburn,1683.55,,Florida State,(31 - 34) L,-11.0,(12 - 2),(8 - 2),SEC,West
+7,UCF,1682.02,,Baylor,(42 - 52) W,25.26,(12 - 1),(8 - 1),American Athletic,
+8,Oregon,1680.21,,Texas,(7 - 30) W,24.99,(11 - 2),(7 - 2),Pac-12,North
+9,Oklahoma,1680.03,,Alabama,(31 - 45) W,28.8,(11 - 2),(7 - 2),Big 12,
+10,Baylor,1668.4,,UCF,(42 - 52) L,-25.26,(11 - 2),(8 - 2),Big 12,
+11,Ohio State,1667.67,,Clemson,(35 - 40) L,-19.57,(12 - 2),(8 - 2),Big Ten,Leaders
+12,South Carolina,1666.84,,Wisconsin,(34 - 24) W,20.16,(11 - 2),(6 - 2),SEC,East
+13,Alabama,1664.4,,Oklahoma,(31 - 45) L,-28.8,(11 - 2),(7 - 2),SEC,West
+14,UCLA,1657.22,,Virginia Tech,(42 - 12) W,23.19,(10 - 3),(6 - 3),Pac-12,South
+15,Oklahoma State,1653.02,,Missouri,(41 - 31) L,-19.54,(10 - 3),(7 - 3),Big 12,
+16,Bowling Green,1650.19,,Pittsburgh,(27 - 30) L,-17.97,(10 - 4),(8 - 4),Mid-American,East
+17,Clemson,1649.83,,Ohio State,(35 - 40) W,19.57,(11 - 2),(7 - 2),ACC,Atlantic
+18,LSU,1646.64,,Iowa,(21 - 14) W,14.78,(10 - 3),(5 - 3),SEC,West
+19,Northern Illinois,1636.71,,Utah State,(14 - 21) L,-23.56,(12 - 2),(8 - 2),Mid-American,West
+20,Wisconsin,1634.85,,South Carolina,(34 - 24) L,-20.16,(9 - 4),(6 - 4),Big Ten,Leaders
+21,USC,1625.56,,Fresno State,(45 - 20) W,29.78,(10 - 4),(6 - 4),Pac-12,South
+22,Washington,1616.14,,BYU,(31 - 16) W,22.18,(9 - 4),(5 - 4),Pac-12,North
+23,Marshall,1615.37,,Maryland,(20 - 31) W,19.0,(10 - 4),(7 - 4),Conference USA,East
+24,North Texas,1612.05,,UNLV,(36 - 14) W,20.44,(9 - 4),(6 - 4),Conference USA,West
+25,East Carolina,1610.92,,Ohio,(37 - 20) W,16.53,(10 - 3),(6 - 3),Conference USA,East
+26,Fresno State,1608.19,,USC,(45 - 20) L,-29.78,(11 - 2),(8 - 2),Mountain West,West
+27,Arizona State,1605.42,,Texas Tech,(37 - 23) L,-29.28,(10 - 4),(8 - 4),Pac-12,South
+28,Utah State,1604.67,,Northern Illinois,(14 - 21) W,23.56,(9 - 5),(7 - 5),Mountain West,Mountain
+29,Ball State,1601.61,,Arkansas State,(20 - 23) L,-16.34,(10 - 3),(7 - 3),Mid-American,West
+30,Duke,1595.73,,Texas A&M,(52 - 48) L,-14.48,(10 - 4),(6 - 4),ACC,Coastal
+31,Texas A&M,1589.25,,Duke,(52 - 48) W,14.48,(9 - 4),(4 - 4),SEC,West
+32,Kansas State,1587.08,,Michigan,(31 - 14) W,23.73,(8 - 5),(5 - 5),Big 12,
+33,Vanderbilt,1584.7,,Houston,(24 - 41) W,30.79,(9 - 4),(4 - 4),SEC,East
+34,Arizona,1579.33,,Boston College,(19 - 42) W,28.66,(8 - 5),(4 - 5),Pac-12,South
+35,Notre Dame,1576.25,,Rutgers,(29 - 16) W,15.82,(9 - 4),(0 - 4),FBS Independents,
+36,Cincinnati,1575.37,,North Carolina,(39 - 17) L,-30.56,(9 - 4),(6 - 4),American Athletic,
+37,Rice,1569.05,,Mississippi State,(44 - 7) L,-38.36,(10 - 4),(8 - 4),Conference USA,West
+38,Iowa,1566.17,,LSU,(21 - 14) L,-14.78,(8 - 5),(5 - 5),Big Ten,Legends
+39,Houston,1566.0,,Vanderbilt,(24 - 41) L,-30.79,(8 - 5),(5 - 5),American Athletic,
+40,North Carolina,1565.32,,Cincinnati,(39 - 17) W,30.56,(7 - 6),(4 - 6),ACC,Coastal
+41,Boise State,1565.23,,Oregon State,(38 - 23) L,-28.35,(8 - 5),(6 - 5),Mountain West,Mountain
+42,Navy,1563.03,,Army,(34 - 7) W,15.34,(9 - 4),(0 - 4),FBS Independents,
+43,BYU,1561.5,,Washington,(31 - 16) L,-22.18,(8 - 5),(0 - 5),FBS Independents,
+44,Louisiana,1558.43,,Tulane,(24 - 21) W,10.43,(9 - 4),(5 - 4),Sun Belt,
+45,Georgia,1556.63,,Nebraska,(19 - 24) L,-19.06,(8 - 5),(5 - 5),SEC,East
+46,Western Kentucky,1555.73,,Arkansas State,(34 - 31) W,10.72,(8 - 4),(4 - 4),Sun Belt,
+47,Nebraska,1552.76,,Georgia,(19 - 24) W,19.06,(9 - 4),(5 - 4),Big Ten,Legends
+48,Miami,1551.4,,Louisville,(36 - 9) L,-19.24,(9 - 4),(5 - 4),ACC,Coastal
+49,Ole Miss,1548.51,,Georgia Tech,(17 - 25) W,21.76,(8 - 5),(3 - 5),SEC,West
+50,Texas,1543.96,,Oregon,(7 - 30) L,-24.99,(8 - 5),(7 - 5),Big 12,
+51,Virginia Tech,1543.64,,UCLA,(42 - 12) L,-23.19,(8 - 5),(5 - 5),ACC,Coastal
+52,Colorado State,1540.15,,Washington State,(48 - 45) W,9.94,(8 - 6),(5 - 6),Mountain West,Mountain
+53,South Alabama,1539.6,,Louisiana,(30 - 8) W,30.44,(6 - 6),(4 - 6),Sun Belt,
+54,Penn State,1538.99,,Wisconsin,(24 - 31) W,26.37,(7 - 5),(4 - 5),Big Ten,Leaders
+55,Michigan,1538.9,,Kansas State,(31 - 14) L,-23.73,(7 - 6),(3 - 6),Big Ten,Legends
+56,UT San Antonio,1538.62,,Louisiana Tech,(30 - 10) W,17.48,(7 - 5),(6 - 5),Conference USA,West
+57,Minnesota,1537.64,,Syracuse,(17 - 21) L,-17.12,(8 - 5),(4 - 5),Big Ten,Legends
+58,Texas Tech,1537.62,,Arizona State,(37 - 23) W,29.28,(8 - 5),(4 - 5),Big 12,
+59,Mississippi State,1533.96,,Rice,(44 - 7) W,38.36,(7 - 6),(3 - 6),SEC,West
+60,Syracuse,1529.88,,Minnesota,(17 - 21) W,17.12,(7 - 6),(4 - 6),ACC,Atlantic
+61,Arkansas State,1528.18,,Ball State,(20 - 23) W,16.34,(8 - 5),(5 - 5),Sun Belt,
+62,Oregon State,1526.84,,Boise State,(38 - 23) W,28.35,(7 - 6),(4 - 6),Pac-12,North
+63,Toledo,1525.91,,Akron,(31 - 29) L,-11.77,(7 - 5),(5 - 5),Mid-American,West
+64,Florida Atlantic,1524.23,,Florida International,(21 - 6) W,9.74,(6 - 6),(4 - 6),Conference USA,East
+65,Buffalo,1524.01,,San Diego State,(49 - 24) L,-31.3,(8 - 5),(6 - 5),Mid-American,East
+66,San Diego State,1522.16,,Buffalo,(49 - 24) W,31.3,(8 - 5),(6 - 5),Mountain West,West
+67,Georgia Tech,1511.08,,Ole Miss,(17 - 25) L,-21.76,(7 - 6),(5 - 6),ACC,Coastal
+68,Tulane,1505.85,,Louisiana,(24 - 21) L,-10.43,(7 - 6),(5 - 6),Conference USA,West
+69,Middle Tennessee,1497.36,,Navy,(24 - 6) L,-21.35,(8 - 5),(6 - 5),Conference USA,East
+70,UNLV,1493.17,,North Texas,(36 - 14) L,-20.44,(7 - 6),(5 - 6),Mountain West,West
+71,Pittsburgh,1492.86,,Bowling Green,(27 - 30) W,17.97,(7 - 6),(3 - 6),ACC,Coastal
+72,Boston College,1487.24,,Arizona,(19 - 42) L,-28.66,(7 - 6),(4 - 6),ACC,Atlantic
+73,San José State,1482.07,,Fresno State,(62 - 52) W,28.67,(6 - 6),(5 - 6),Mountain West,West
+74,Maryland,1481.47,,Marshall,(20 - 31) L,-19.0,(7 - 6),(3 - 6),ACC,Atlantic
+75,Indiana,1478.66,,Purdue,(56 - 36) W,15.16,(5 - 7),(3 - 7),Big Ten,Leaders
+76,Washington State,1472.26,,Colorado State,(48 - 45) L,-9.94,(6 - 7),(4 - 7),Pac-12,North
+77,Central Michigan,1464.83,,Eastern Michigan,(42 - 10) W,19.41,(6 - 6),(5 - 6),Mid-American,West
+78,Utah,1464.77,,Colorado,(24 - 17) W,14.82,(5 - 7),(2 - 7),Pac-12,South
+79,Ohio,1461.39,,East Carolina,(37 - 20) L,-16.53,(7 - 6),(4 - 6),Mid-American,East
+80,Northwestern,1461.24,,Illinois,(34 - 37) W,12.6,(5 - 7),(1 - 7),Big Ten,Legends
+81,Troy,1458.65,,Texas State,(42 - 28) W,23.71,(6 - 6),(4 - 6),Sun Belt,
+82,Tennessee,1456.0,,Kentucky,(14 - 27) W,22.18,(5 - 7),(2 - 7),SEC,East
+83,Wake Forest,1452.93,,Vanderbilt,(23 - 21) L,-6.95,(4 - 8),(2 - 8),ACC,Atlantic
+84,SMU,1447.87,,UCF,(13 - 17) L,-9.0,(5 - 7),(4 - 7),American Athletic,
+85,Florida,1445.49,,Florida State,(7 - 37) L,-13.28,(4 - 8),(3 - 8),SEC,East
+86,TCU,1445.2,,Baylor,(38 - 41) L,-7.09,(4 - 8),(2 - 8),Big 12,
+87,Rutgers,1441.57,,Notre Dame,(29 - 16) L,-15.82,(6 - 7),(3 - 7),American Athletic,
+88,Louisiana Monroe,1441.16,,Louisiana,(28 - 31) W,17.64,(6 - 6),(4 - 6),Sun Belt,
+89,Texas State,1435.48,,Troy,(42 - 28) L,-23.71,(6 - 6),(2 - 6),Sun Belt,
+90,Kent State,1432.87,,Ohio,(13 - 44) W,41.04,(4 - 8),(3 - 8),Mid-American,East
+91,Akron,1428.75,,Toledo,(31 - 29) W,11.77,(5 - 7),(4 - 7),Mid-American,East
+92,Wyoming,1425.07,,Utah State,(35 - 7) L,-17.94,(5 - 7),(3 - 7),Mountain West,Mountain
+93,Iowa State,1421.11,,West Virginia,(44 - 52) W,22.35,(3 - 9),(2 - 9),Big 12,
+94,Nevada,1419.1,,BYU,(23 - 28) L,-11.92,(4 - 8),(3 - 8),Mountain West,West
+95,Connecticut,1410.3,,Memphis,(45 - 10) W,32.24,(3 - 9),(3 - 9),American Athletic,
+96,Illinois,1404.28,,Northwestern,(34 - 37) L,-12.6,(4 - 8),(1 - 8),Big Ten,Leaders
+97,Temple,1401.58,,Memphis,(21 - 41) W,34.6,(2 - 10),(1 - 10),American Athletic,
+98,West Virginia,1395.41,,Iowa State,(44 - 52) L,-22.35,(4 - 8),(2 - 8),Big 12,
+99,Louisiana Tech,1388.36,,UT San Antonio,(30 - 10) L,-17.48,(4 - 8),(3 - 8),Conference USA,West
+100,Colorado,1385.25,,Utah,(24 - 17) L,-14.82,(4 - 8),(1 - 8),Pac-12,South
+101,Arkansas,1383.76,,LSU,(31 - 27) L,-5.76,(3 - 9),(0 - 9),SEC,West
+102,Memphis,1381.29,,Connecticut,(45 - 10) L,-32.24,(3 - 9),(1 - 9),American Athletic,
+103,Tulsa,1380.05,,North Texas,(10 - 42) L,-21.11,(3 - 9),(2 - 9),Conference USA,West
+104,New Mexico,1374.01,,Boise State,(45 - 17) L,-14.56,(3 - 9),(1 - 9),Mountain West,Mountain
+105,NC State,1363.91,,Maryland,(21 - 41) L,-23.75,(3 - 9),(0 - 9),ACC,Atlantic
+106,Army,1357.7,,Navy,(34 - 7) L,-15.34,(3 - 9),(0 - 9),FBS Independents,
+107,Kansas,1354.88,,Kansas State,(10 - 31) L,-18.53,(3 - 9),(1 - 9),Big 12,
+108,Kentucky,1349.36,,Tennessee,(14 - 27) L,-22.18,(2 - 10),(0 - 10),SEC,East
+109,UTEP,1341.2,,Middle Tennessee,(48 - 17) L,-18.11,(2 - 10),(1 - 10),Conference USA,West
+110,Hawai'i,1333.17,,Army,(49 - 42) W,20.69,(1 - 11),(0 - 11),Mountain West,West
+111,Virginia,1333.1,,Virginia Tech,(6 - 16) L,-12.56,(2 - 10),(0 - 10),ACC,Coastal
+112,South Florida,1323.87,,Rutgers,(31 - 6) L,-20.2,(2 - 10),(2 - 10),American Athletic,
+113,Air Force,1322.2,,Colorado State,(58 - 13) L,-17.77,(2 - 10),(0 - 10),Mountain West,Mountain
+114,Southern Mississippi,1318.12,,UAB,(27 - 62) W,40.31,(1 - 11),(1 - 11),Conference USA,East
+115,UAB,1312.13,,Southern Mississippi,(27 - 62) L,-40.31,(2 - 10),(1 - 10),Conference USA,East
+116,New Mexico State,1310.01,,Idaho,(24 - 16) W,17.79,(2 - 10),(0 - 10),FBS Independents,
+117,California,1303.41,,Stanford,(63 - 13) L,-9.27,(1 - 11),(0 - 11),Pac-12,North
+118,UMass,1301.52,,Ohio,(51 - 23) L,-17.6,(1 - 11),(1 - 11),Mid-American,East
+119,Western Michigan,1301.43,,Northern Illinois,(33 - 14) L,-5.6,(1 - 11),(1 - 11),Mid-American,West
+120,Eastern Michigan,1301.29,,Central Michigan,(42 - 10) L,-19.41,(2 - 10),(1 - 10),Mid-American,West
+121,Purdue,1294.2,,Indiana,(56 - 36) L,-15.16,(1 - 11),(0 - 11),Big Ten,Leaders
+122,Idaho,1268.57,,New Mexico State,(24 - 16) L,-17.79,(1 - 11),(0 - 11),FBS Independents,
+123,Georgia State,1264.12,,South Alabama,(17 - 38) L,-15.92,(0 - 12),(0 - 12),Sun Belt,
+124,Florida International,1263.99,,Florida Atlantic,(21 - 6) L,-9.74,(1 - 11),(1 - 11),Conference USA,East
+125,Miami (OH),1261.54,,Ball State,(55 - 14) L,-8.47,(0 - 12),(0 - 12),Mid-American,East
