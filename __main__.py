@@ -12,7 +12,7 @@ import sys
 
 # Import my own functions
 sys.path.insert(1, './research')
-from Constants import YEAR, K_VALUE, RUN_SCRAPER
+from Constants import YEAR, K_VALUE, RUN_SCRAPER, HFA, FCS_ELO
 from stats_scraping import scrape_stats
 
 pd.set_option('display.max_colwidth', None)
@@ -81,7 +81,7 @@ def process_game(game):
         if(game['home_fbs']):
             game['home_elo'] = 1500
         else:
-            game['home_elo'] = 1204
+            game['home_elo'] = FCS_ELO
     else:
         # If the last home game frame contains the home team at home, grabs that val. Else grabs away.
         if (home_game_frame['_home_team'].values[0] == game['_home_team']):
@@ -93,7 +93,7 @@ def process_game(game):
         if(game['away_fbs']):
             game['away_elo'] = 1500
         else:
-            game['away_elo'] = 1204
+            game['away_elo'] = FCS_ELO
     else:
         # If the last home game frame contains the home team at home, grabs that val. Else grabs away.
         if (away_game_frame['_home_team'].values[0] == game['_away_team']):
@@ -103,8 +103,8 @@ def process_game(game):
 
     # Get the expected value for this matchup. How likely is it that this team wins? Factor in the 3.04 score advantage for home
     # That we calculated in ./research/get_hfa_value.py, round it cause variance
-    game['home_expected'] = (1 / (1 + 10**((game['away_elo'] - (game['home_elo'] + 30)) / 400)))
-    game['away_expected'] = (1 / (1 + 10**(( game['home_elo'] - (game['away_elo'] - 30)) / 400)))
+    game['home_expected'] = (1 / (1 + 10**((game['away_elo'] - (game['home_elo'] + HFA)) / 400)))
+    game['away_expected'] = (1 / (1 + 10**(( game['home_elo'] - (game['away_elo'] - HFA)) / 400)))
 
     # Get the Margin of Victory multiplier to work as a scaling factor for skill that dampens for blowouts
     # Pad by 1 to prevent 0
@@ -198,10 +198,15 @@ with open('README.md', 'w') as file:
     file.write('''# CFBPoll 4.0 by TheAlpacalypse - The Pandas Rewrite
 Computerized poll to automatically rank college football teams each week
 
-Run the program using the command:
+First install the dependencies using the command:
+
+`pip install -r requirements.txt`
+
+Then run the program using the command:
 
 `python3 __main__.py`
 
+Use `Constants.py` to tweak the values I use to generate the ranking. I have tried to avoid leaving any raw values in this main program to let users experiment.
 ---
 
 ''')
