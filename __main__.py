@@ -32,7 +32,7 @@ stats = pd.read_csv('data/{}/stats.csv'.format(YEAR))
 records = pd.read_csv('data/{}/records.csv'.format(YEAR))
 
 # Clean the data and prep the frames
-games = games[['_id','_season','_week','_season_type','_start_date','_neutral_site','_conference_game','_home_id','_home_team','_home_points','_away_id','_away_team','_away_points']]
+games = games[['_id','_season','_week','_season_type','_start_date','_neutral_site','_conference_game','_home_team','_home_points','_away_team','_away_points']]
 games = pd.concat([games, pd.DataFrame(columns=['home_recent_week','home_elo','away_recent_week','away_elo','home_expected','away_expected','mov_multiplier','new_home_elo','new_away_elo','home_elo_change','away_elo_change'])])
 
 records = records[['year', 'team','conference','division','total.games','total.wins','total.losses','conferenceGames.games','conferenceGames.wins','conferenceGames.losses']]
@@ -235,10 +235,10 @@ Run the program using the command:
     file.write("\n")
     file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)\n")
     file.write("\n")
-    file.write("[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)")
+    file.write("[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)\n")
 
     stop = timeit.default_timer()
 
     # Fun stats for how long it took for this to generate
-    file.write('')
+    file.write('\n')
     file.write('Ranking executed in: {}s'.format(round(stop - start,2)))
