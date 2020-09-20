@@ -6,6 +6,7 @@ import json
 import requests
 
 from pandas.io.json import json_normalize
+from Constants import WEEK
 
 def scrape_stats():
     for year in range(2020, 2021):
@@ -32,7 +33,7 @@ def scrape_stats():
 
         # # Pull all advanced stats, concat them, then dump them into csvs
         year_stats = pd.DataFrame()
-        for week in range(1, highest_week):
+        for week in range(1, WEEK + 1):
             stats_week_result = cfbd.StatsApi().get_team_season_stats(year=year, start_week=week, end_week=week+1)
             stats = pd.DataFrame.from_records([stat.__dict__ for stat in stats_week_result])
             year_stats = pd.concat([year_stats, stats])

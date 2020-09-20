@@ -12,7 +12,7 @@ import sys
 
 # Import my own functions
 sys.path.insert(1, './research')
-from Constants import YEAR, K_VALUE, RUN_SCRAPER, HFA, FCS_ELO
+from Constants import YEAR, K_VALUE, RUN_SCRAPER, HFA, FCS_ELO, WEEK
 from stats_scraping import scrape_stats
 
 pd.set_option('display.max_colwidth', None)
@@ -33,7 +33,7 @@ records = pd.read_csv('data/{}/records.csv'.format(YEAR))
 
 # Clean the data and prep the frames
 games = games[['_id','_season','_week','_season_type','_start_date','_neutral_site','_conference_game','_home_team','_home_points','_away_team','_away_points']]
-games = pd.concat([games, pd.DataFrame(columns=['home_recent_week','home_elo','away_recent_week','away_elo','home_expected','away_expected','mov_multiplier','new_home_elo','new_away_elo','home_elo_change','away_elo_change'])])
+games = pd.concat([games, pd.DataFrame(columns=['home_recent_week','home_elo','away_recent_week','away_elo','home_expected','away_expected','mov_multiplier','new_home_elo','new_away_elo','home_elo_change','away_elo_change','predicted_home_win','predicted_away_win','correct_prediction'])])
 
 records = records[['year', 'team','conference','division','total.games','total.wins','total.losses','conferenceGames.games','conferenceGames.wins','conferenceGames.losses']]
 
@@ -51,6 +51,7 @@ teams = teams.drop(columns=['team'])
 
 # Add home boolean value
 games['home_won'] = games._home_points > games._away_points
+games['away_won'] = ~games['home_won']
 
 # Remove the unplayed games
 games['played'] = games['_home_points'].notna()
@@ -121,8 +122,14 @@ def process_game(game):
     game['new_home_elo'] = game['home_elo'] + (K_VALUE * (int(game['home_won']) - game['home_expected']) * game['mov_multiplier'])
     game['new_away_elo'] = game['away_elo'] + (K_VALUE * (int(not game['home_won']) - game['away_expected']) * game['mov_multiplier'])
 
+    # Records the change from the previous weeks output
     game['home_elo_change'] = game['new_home_elo'] - game['home_elo']
     game['away_elo_change'] = game['new_away_elo'] - game['away_elo']
+
+    # Checks which team we expected to win. Did they win? Helps develop model feedback
+    game['predicted_home_win'] = game['home_expected'] > game['away_expected']
+    game['predicted_away_win'] = game['home_expected'] < game['away_expected']
+    game['correct_prediction'] = ((game['home_won'] and game['predicted_home_win']) or (game['away_won'] and game['predicted_away_win']))
 
     # Send it back
     return game
@@ -194,6 +201,7 @@ teams = teams.drop(columns=['_id','year','total.games','total.wins','total.losse
 # Outputs all teams to a CSV
 teams.to_csv('./data/{}/processed_teams.csv'.format(YEAR))
 
+# Outputs to the Reddit .md format
 with open('README.md', 'w') as file:
     file.write('''# CFBPoll 4.0 by TheAlpacalypse - The Pandas Rewrite
 Computerized poll to automatically rank college football teams each week
@@ -237,6 +245,10 @@ Use `Constants.py` to tweak the values I use to generate the ranking. I have tri
     file.write("**Median Elo:** {}\n".format(round(teams['elo'].median(),2)))
     file.write("\n")
     file.write("**Standard Deviation of Elo:** {}\n".format(round(teams['elo'].std(),2)))
+    file.write("\n")
+    file.write("**Predictions Quality (Season):** {}% Correct\n".format(round((len(games[(games['correct_prediction'] == True)]))/len(games) * 100,2)))
+    file.write("\n")
+    file.write("**Predictions Quality (Week):** {}% Correct (Last Week: {}%)\n".format((round((len(games[(games['correct_prediction'] == True) & (games['_week'] == WEEK)]))/len(games) * 100,2)),(round((len(games[(games['correct_prediction'] == True) & (games['_week'] == (WEEK - 1))]))/len(games) * 100,2))))
     file.write("\n")
     file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)\n")
     file.write("\n")
