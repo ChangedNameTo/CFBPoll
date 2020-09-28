@@ -44,6 +44,7 @@ for iter_year in range(START_YEAR, YEAR + 1):
     plays = pd.read_csv('data/{}/plays.csv'.format(iter_year))
     stats = pd.read_csv('data/{}/stats.csv'.format(iter_year))
     records = pd.read_csv('data/{}/records.csv'.format(iter_year))
+    flair = pd.read_csv('data/flair_list.csv')
 
     if iter_year != START_YEAR:
         previous_teams = pd.read_csv('data/{}/processed_teams.csv'.format(iter_year - 1))
@@ -60,11 +61,18 @@ for iter_year in range(START_YEAR, YEAR + 1):
     # Joins records to teams
     teams = teams.set_index('_school',drop=False)
     records = records.set_index('team',drop=False)
-
     teams = teams.join(records)
-    teams.index = np.arange(1, len(teams) + 1)
-
+    
+    # Joins flair to teams
+    flair = flair.set_index('school',drop=False)
+    teams = teams.join(flair)
+    
+    # Drops the column joins
     teams = teams.drop(columns=['team'])
+    teams = teams.drop(columns=['school'])
+
+    # Resets the index to a number 
+    teams.index = np.arange(1, len(teams) + 1)
 
     # Add home boolean value
     games['home_won'] = games._home_points > games._away_points
@@ -212,7 +220,7 @@ for iter_year in range(START_YEAR, YEAR + 1):
             team['result'] = '({} - **{}**) {}'.format(round(final_frame['_home_points'].values[0]), round(final_frame['_away_points'].values[0]), text_result)
         team['elo_change'] = round((final_frame['home_elo_change'] if is_home else final_frame['away_elo_change']).values[0],2)
         team['season_record'] = '({} - {})'.format(round(team['total.wins']), round(team['total.losses']))
-        team['conf_record'] = '({} - {})'.format(team['conferenceGames.wins'], team['total.losses'])
+        team['conf_record'] = '({} - {})'.format(round(team['conferenceGames.wins']), round(team['total.losses']))
 
         return team
 
@@ -236,7 +244,7 @@ for iter_year in range(START_YEAR, YEAR + 1):
     teams = teams.drop(columns=['_id','year','total.games','total.wins','total.losses','conferenceGames.games','conferenceGames.wins','conferenceGames.losses'])
 
     # Outputs all teams to a CSV
-    teams.to_csv('./data/{}/processed_teams.csv'.format(YEAR))
+    teams.to_csv('./data/{}/processed_teams.csv'.format(iter_year))
 
     # Outputs to the Reddit .md format
     if(not TESTING and iter_year == YEAR):
@@ -262,17 +270,17 @@ for iter_year in range(START_YEAR, YEAR + 1):
             
             # Iterate over the top 25 and print them out
             for index, team in teams.iloc[:25].iterrows():
-                file.write("| {} | {} | {} | {} | {} | {} | {} | {} |\n".format(index, team._school, '', team.season_record, team.elo, team.last_played, team.result, team.elo_change))
+                file.write("| {} | {} | [](#f/{}) | {} | {} | {} | {} | {} |\n".format(index, team._school, team.flair, team.season_record, team.elo, team.last_played, team.result, team.elo_change))
 
             file.write("|||||||||\n")
 
             # I like GT, so always print them
             gt_frame = teams[teams['_school'] == 'Georgia Tech']
-            file.write("| {} | {} | {} | {} | {} | {} | {} | {} |\n".format(gt_frame.index[0], gt_frame.iloc[0]._school, '', gt_frame.iloc[0].season_record, gt_frame.iloc[0].elo, gt_frame.iloc[0].last_played, gt_frame.iloc[0].result, gt_frame.iloc[0].elo_change))
+            file.write("| {} | {} | [](#f/{}) | {} | {} | {} | {} | {} |\n".format(gt_frame.index[0], gt_frame.iloc[0]._school, gt_frame.iloc[0].flair, gt_frame.iloc[0].season_record, gt_frame.iloc[0].elo, gt_frame.iloc[0].last_played, gt_frame.iloc[0].result, gt_frame.iloc[0].elo_change))
             file.write("|||||||||\n")
             
             # Lastly, always write the last place team
-            file.write("| {} | {} | {} | {} | {} | {} | {} | {} |\n".format(teams.index[-1], teams.iloc[-1]._school, '', teams.iloc[-1].season_record, teams.iloc[-1].elo, teams.iloc[-1].last_played, teams.iloc[-1].result, teams.iloc[-1].elo_change))
+            file.write("| {} | {} | [](#f/{}) | {} | {} | {} | {} | {} |\n".format(teams.index[-1], teams.iloc[-1]._school, teams.iloc[-1].flair, teams.iloc[-1].season_record, teams.iloc[-1].elo, teams.iloc[-1].last_played, teams.iloc[-1].result, teams.iloc[-1].elo_change))
             file.write("\n")
                     
             file.write("---\n")
