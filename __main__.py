@@ -9,6 +9,7 @@ import os
 import math
 import datetime as dt
 import sys
+import progressbar
 
 # Import my own functions
 sys.path.insert(1, './research')
@@ -18,6 +19,9 @@ from stats_scraping import scrape_stats
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
+
+# Set up the progressbar
+bar = progressbar.ProgressBar(max_value=(YEAR+1 - START_YEAR))
 
 # Should we run the scraper? This is controlled in Constants
 if RUN_SCRAPER:
@@ -32,7 +36,7 @@ if TESTING:
 
 # We need to run this fresh every time, as adjustments should propogate to avoid years falling out of sync
 for iter_year in range(START_YEAR, YEAR + 1):
-    print(iter_year)
+    bar.update(iter_year - START_YEAR)
     # Since we already scraped, just load in the csv dumps
     # See ./research/stats_scraping.py
     games = pd.read_csv('data/{}/games.csv'.format(iter_year))
@@ -238,10 +242,13 @@ for iter_year in range(START_YEAR, YEAR + 1):
     if(not TESTING and iter_year == YEAR):
         with open('README.md', 'w') as file:
             file.write('# CFBPoll 4.0 by TheAlpacalypse - The Pandas Rewrite\n')
+            file.write('\n')
             file.write('Computerized poll to automatically rank college football teams each week\n')
             file.write('First install the dependencies using the command:\n')
+            file.write('\n')
             file.write('`pip install -r requirements.txt`\n')
             file.write('Then run the program using the command:\n')
+            file.write('\n')
             file.write('`python3 __main__.py`\n')
             file.write('Use `Constants.py` to tweak the values I use to generate the ranking. I have tried to avoid leaving any raw values in this main program to let users experiment.\n')
             file.write('---\n')
