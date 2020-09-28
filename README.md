@@ -4,9 +4,11 @@ Computerized poll to automatically rank college football teams each week
 First install the dependencies using the command:
 
 `pip install -r requirements.txt`
+
 Then run the program using the command:
 
 `python3 __main__.py`
+
 Use `Constants.py` to tweak the values I use to generate the ranking. I have tried to avoid leaving any raw values in this main program to let users experiment.
 ---
 |Rank|Team|Flair|Record|Elo|Last Played|Result|Change|
@@ -57,4 +59,4 @@ Use `Constants.py` to tweak the values I use to generate the ranking. I have tri
 
 [Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)
 
-Poll program runtime: 70.02s
+Poll program runtime: 71.87s

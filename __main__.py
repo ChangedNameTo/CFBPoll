@@ -247,9 +247,11 @@ for iter_year in range(START_YEAR, YEAR + 1):
             file.write('First install the dependencies using the command:\n')
             file.write('\n')
             file.write('`pip install -r requirements.txt`\n')
+            file.write('\n')
             file.write('Then run the program using the command:\n')
             file.write('\n')
             file.write('`python3 __main__.py`\n')
+            file.write('\n')
             file.write('Use `Constants.py` to tweak the values I use to generate the ranking. I have tried to avoid leaving any raw values in this main program to let users experiment.\n')
             file.write('---\n')
 
