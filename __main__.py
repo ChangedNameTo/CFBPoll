@@ -207,9 +207,9 @@ for iter_year in range(START_YEAR, YEAR + 1):
         team['elo'] = round((final_frame['new_home_elo'] if is_home else final_frame['new_away_elo']).values[0],2)
         team['last_played'] = (final_frame['_away_team'] if is_home else final_frame['_home_team']).values[0]
         if is_home:
-            team['result'] = '(*{}* - {}) {}'.format(round(final_frame['_home_points'].values[0]), round(final_frame['_away_points'].values[0]), text_result)
+            team['result'] = '(**{}** - {}) {}'.format(round(final_frame['_home_points'].values[0]), round(final_frame['_away_points'].values[0]), text_result)
         else:
-            team['result'] = '({} - *{}*) {}'.format(round(final_frame['_home_points'].values[0]), round(final_frame['_away_points'].values[0]), text_result)
+            team['result'] = '({} - **{}**) {}'.format(round(final_frame['_home_points'].values[0]), round(final_frame['_away_points'].values[0]), text_result)
         team['elo_change'] = round((final_frame['home_elo_change'] if is_home else final_frame['away_elo_change']).values[0],2)
         team['season_record'] = '({} - {})'.format(round(team['total.wins']), round(team['total.losses']))
         team['conf_record'] = '({} - {})'.format(team['conferenceGames.wins'], team['total.losses'])

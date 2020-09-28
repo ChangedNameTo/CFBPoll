@@ -1,73 +1,73 @@
 ,_school,elo,strength_of_schedule,last_played,result,elo_change,season_record,conf_record,conference,division,played
-1,Clemson,1680.34,,The Citadel,(*49* - 0) W,4.49,(2 - 0),(1.0 - 0.0),ACC,Atlantic,True
-2,LSU,1650.72,,Mississippi State,(*34* - 44) L,-31.35,(0 - 1),(0.0 - 1.0),SEC,West,True
-3,Notre Dame,1647.91,,South Florida,(*52* - 0) W,18.99,(2 - 0),(1.0 - 0.0),FBS Independents,,True
-4,Alabama,1638.1,,Missouri,(19 - *38*) W,21.09,(1 - 0),(1.0 - 0.0),SEC,West,True
-5,UCF,1636.23,,East Carolina,(28 - *51*) W,17.84,(2 - 0),(1.0 - 0.0),American Athletic,East,True
-6,Georgia,1634.85,,Arkansas,(10 - *37*) W,17.02,(1 - 0),(1.0 - 0.0),SEC,East,True
-7,Louisiana,1629.21,,Georgia Southern,(*20* - 18) W,6.14,(3 - 0),(2.0 - 0.0),Sun Belt,,True
-8,Memphis,1624.52,,Arkansas State,(*37* - 24) W,16.35,(1 - 0),(0.0 - 0.0),American Athletic,West,True
-9,Appalachian State,1623.83,,Campbell,(*52* - 21) W,5.24,(2 - 1),(0.0 - 1.0),Sun Belt,,True
-10,Florida,1614.17,,Ole Miss,(35 - *51*) W,19.93,(1 - 0),(1.0 - 0.0),SEC,East,True
-11,SMU,1609.39,,Stephen F. Austin,(*50* - 7) W,5.85,(2 - 0),(0.0 - 0.0),American Athletic,West,True
-12,Cincinnati,1602.51,,Army,(*24* - 10) W,18.8,(2 - 0),(0.0 - 0.0),American Athletic,East,True
-13,Baylor,1594.29,,Kansas,(*47* - 14) W,16.41,(1 - 0),(1.0 - 0.0),Big 12,,True
-14,Oklahoma,1594.24,,Kansas State,(*35* - 38) L,-15.88,(1 - 1),(0.0 - 1.0),Big 12,,True
-15,Texas,1588.13,,Texas Tech,(56 - *63*) W,15.85,(2 - 0),(1.0 - 0.0),Big 12,,True
-16,Auburn,1580.71,,Kentucky,(*29* - 13) W,22.16,(1 - 0),(1.0 - 0.0),SEC,West,True
-17,BYU,1575.34,,Troy,(*48* - 7) W,28.12,(2 - 0),(0.0 - 0.0),FBS Independents,,True
-18,Louisiana Tech,1571.64,,Houston Baptist,(*66* - 38) W,6.45,(2 - 0),(1.0 - 0.0),Conference USA,West,True
-19,Miami,1568.24,,Florida State,(*52* - 10) W,25.32,(3 - 0),(2.0 - 0.0),ACC,Coastal,True
-20,Oklahoma State,1566.23,,West Virginia,(*27* - 13) W,17.97,(2 - 0),(1.0 - 0.0),Big 12,,True
-21,Navy,1559.71,,Tulane,(24 - *27*) W,12.96,(1 - 1),(1.0 - 1.0),American Athletic,West,True
-22,North Carolina,1559.04,,Syracuse,(*31* - 6) W,22.5,(1 - 0),(1.0 - 0.0),ACC,Coastal,True
-23,Virginia,1556.53,,Duke,(*38* - 20) W,17.02,(1 - 0),(1.0 - 0.0),ACC,Coastal,True
-24,Virginia Tech,1552.01,,NC State,(*45* - 24) W,19.44,(1 - 0),(1.0 - 0.0),ACC,Coastal,True
-25,Tulane,1546.66,,Southern Mississippi,(24 - *66*) W,32.61,(2 - 1),(0.0 - 1.0),American Athletic,West,True
-26,Tennessee,1544.79,,South Carolina,(27 - *31*) W,12.95,(1 - 0),(1.0 - 0.0),SEC,East,True
-27,Pittsburgh,1544.38,,Louisville,(*23* - 20) W,10.66,(3 - 0),(2.0 - 0.0),ACC,Coastal,True
-28,Texas A&M,1543.67,,Vanderbilt,(*17* - 12) W,9.97,(1 - 0),(1.0 - 0.0),SEC,West,True
-29,Marshall,1542.78,,Appalachian State,(*17* - 7) W,25.99,(2 - 0),(0.0 - 0.0),Conference USA,East,True
-30,Kansas State,1539.73,,Oklahoma,(35 - *38*) W,15.88,(1 - 1),(1.0 - 1.0),Big 12,,True
-31,Liberty,1535.78,,Florida International,(*36* - 34) W,7.77,(2 - 0),(0.0 - 0.0),FBS Independents,,True
-32,Boston College,1529.43,,Texas State,(*24* - 21) W,8.33,(1 - 0),(1.0 - 0.0),ACC,Atlantic,True
-33,UAB,1521.61,,South Alabama,(10 - *42*) W,29.12,(2 - 1),(0.0 - 1.0),Conference USA,West,True
-34,Kentucky,1518.13,,Auburn,(29 - *13*) L,-22.16,(0 - 1),(0.0 - 1.0),SEC,East,True
-35,Iowa State,1515.91,,TCU,(34 - *37*) W,13.24,(1 - 1),(1.0 - 1.0),Big 12,,True
-36,Arkansas State,1515.57,,Kansas State,(31 - *35*) W,17.13,(1 - 1),(0.0 - 1.0),Sun Belt,,True
-37,Mississippi State,1509.49,,LSU,(34 - *44*) W,31.35,(1 - 0),(1.0 - 0.0),SEC,West,True
-38,Western Kentucky,1507.06,,Liberty,(*24* - 30) L,-19.78,(0 - 2),(0.0 - 2.0),Conference USA,East,True
-39,Army,1506.54,,Cincinnati,(24 - *10*) L,-18.8,(2 - 1),(0.0 - 1.0),FBS Independents,,True
-40,Coastal Carolina,1500.58,,Campbell,(*43* - 21) W,8.91,(2 - 0),(0.0 - 0.0),Sun Belt,,True
-41,Louisville,1498.69,,Pittsburgh,(23 - *20*) L,-10.66,(1 - 2),(0.0 - 2.0),ACC,Atlantic,True
-42,Georgia Southern,1494.18,,Louisiana,(20 - *18*) L,-6.14,(1 - 1),(0.0 - 1.0),Sun Belt,,True
-43,Troy,1487.29,,BYU,(48 - *7*) L,-28.12,(0 - 1),(0.0 - 1.0),Sun Belt,,True
-44,TCU,1479.0,,Iowa State,(*34* - 37) L,-13.24,(0 - 1),(0.0 - 1.0),Big 12,,True
-45,Missouri,1472.89,,Alabama,(*19* - 38) L,-21.09,(0 - 1),(0.0 - 1.0),SEC,East,True
-46,Wake Forest,1472.86,,NC State,(45 - *42*) L,-13.05,(0 - 2),(0.0 - 2.0),ACC,Atlantic,True
-47,Charlotte,1471.13,,Appalachian State,(35 - *20*) L,-14.3,(0 - 1),(0.0 - 1.0),Conference USA,East,True
-48,Georgia State,1468.81,,Louisiana,(*31* - 34) L,-9.38,(0 - 1),(0.0 - 1.0),Sun Belt,,True
-49,Florida International,1467.75,,Liberty,(36 - *34*) L,-7.77,(0 - 1),(0.0 - 1.0),Conference USA,East,True
-50,Texas Tech,1459.45,,Texas,(*56* - 63) L,-15.85,(1 - 1),(0.0 - 1.0),Big 12,,True
-51,Syracuse,1459.29,,Georgia Tech,(*37* - 20) W,22.31,(1 - 2),(1.0 - 2.0),ACC,Atlantic,True
-52,West Virginia,1457.7,,Oklahoma State,(27 - *13*) L,-17.97,(1 - 1),(0.0 - 1.0),Big 12,,True
-53,UT San Antonio,1451.88,,Middle Tennessee,(*37* - 35) W,7.89,(3 - 0),(0.0 - 0.0),Conference USA,West,True
-54,Ole Miss,1451.03,,Florida,(*35* - 51) L,-19.93,(0 - 1),(0.0 - 1.0),SEC,West,True
-55,Tulsa,1450.52,,Oklahoma State,(16 - *7*) L,-15.58,(0 - 1),(0.0 - 1.0),American Athletic,West,True
-56,Florida State,1449.48,,Miami,(52 - *10*) L,-25.32,(0 - 2),(0.0 - 2.0),ACC,Atlantic,True
-57,South Florida,1445.17,,Notre Dame,(52 - *0*) L,-18.99,(1 - 1),(0.0 - 1.0),American Athletic,East,True
-58,South Carolina,1440.73,,Tennessee,(*27* - 31) L,-12.95,(0 - 1),(0.0 - 1.0),SEC,East,True
-59,North Texas,1436.4,,SMU,(*35* - 65) L,-24.56,(1 - 1),(0.0 - 1.0),Conference USA,West,True
-60,Southern Mississippi,1431.04,,Tulane,(*24* - 66) L,-32.61,(0 - 3),(0.0 - 3.0),Conference USA,West,True
-61,NC State,1424.29,,Virginia Tech,(45 - *24*) L,-19.44,(1 - 1),(1.0 - 1.0),ACC,Atlantic,True
-62,East Carolina,1410.67,,UCF,(*28* - 51) L,-17.84,(0 - 1),(0.0 - 1.0),American Athletic,East,True
-63,Texas State,1410.4,,Boston College,(24 - *21*) L,-8.33,(1 - 2),(1.0 - 2.0),Sun Belt,,True
-64,Duke,1409.12,,Virginia,(38 - *20*) L,-17.02,(0 - 3),(0.0 - 3.0),ACC,Coastal,True
-65,UTEP,1400.36,,Louisiana Monroe,(6 - *31*) W,35.07,(3 - 1),(0.0 - 1.0),Conference USA,West,True
-66,Vanderbilt,1399.61,,Texas A&M,(17 - *12*) L,-9.97,(0 - 1),(0.0 - 1.0),SEC,East,True
-67,South Alabama,1397.72,,UAB,(*10* - 42) L,-29.12,(1 - 2),(0.0 - 2.0),Sun Belt,,True
-68,Georgia Tech,1391.73,,Syracuse,(37 - *20*) L,-22.31,(1 - 2),(1.0 - 2.0),ACC,Coastal,True
-69,Kansas,1389.7,,Baylor,(47 - *14*) L,-16.41,(0 - 2),(0.0 - 2.0),Big 12,,True
-70,Middle Tennessee,1388.83,,UT San Antonio,(37 - *35*) L,-7.89,(0 - 2),(0.0 - 2.0),Conference USA,East,True
-71,Arkansas,1385.49,,Georgia,(*10* - 37) L,-17.02,(0 - 1),(0.0 - 1.0),SEC,West,True
-72,Louisiana Monroe,1378.78,,UTEP,(*6* - 31) L,-35.07,(0 - 3),(0.0 - 3.0),Sun Belt,,True
+1,Clemson,1680.34,,The Citadel,(**49** - 0) W,4.49,(2 - 0),(1.0 - 0.0),ACC,Atlantic,True
+2,LSU,1650.72,,Mississippi State,(**34** - 44) L,-31.35,(0 - 1),(0.0 - 1.0),SEC,West,True
+3,Notre Dame,1647.91,,South Florida,(**52** - 0) W,18.99,(2 - 0),(1.0 - 0.0),FBS Independents,,True
+4,Alabama,1638.1,,Missouri,(19 - **38**) W,21.09,(1 - 0),(1.0 - 0.0),SEC,West,True
+5,UCF,1636.23,,East Carolina,(28 - **51**) W,17.84,(2 - 0),(1.0 - 0.0),American Athletic,East,True
+6,Georgia,1634.85,,Arkansas,(10 - **37**) W,17.02,(1 - 0),(1.0 - 0.0),SEC,East,True
+7,Louisiana,1629.21,,Georgia Southern,(**20** - 18) W,6.14,(3 - 0),(2.0 - 0.0),Sun Belt,,True
+8,Memphis,1624.52,,Arkansas State,(**37** - 24) W,16.35,(1 - 0),(0.0 - 0.0),American Athletic,West,True
+9,Appalachian State,1623.83,,Campbell,(**52** - 21) W,5.24,(2 - 1),(0.0 - 1.0),Sun Belt,,True
+10,Florida,1614.17,,Ole Miss,(35 - **51**) W,19.93,(1 - 0),(1.0 - 0.0),SEC,East,True
+11,SMU,1609.39,,Stephen F. Austin,(**50** - 7) W,5.85,(2 - 0),(0.0 - 0.0),American Athletic,West,True
+12,Cincinnati,1602.51,,Army,(**24** - 10) W,18.8,(2 - 0),(0.0 - 0.0),American Athletic,East,True
+13,Baylor,1594.29,,Kansas,(**47** - 14) W,16.41,(1 - 0),(1.0 - 0.0),Big 12,,True
+14,Oklahoma,1594.24,,Kansas State,(**35** - 38) L,-15.88,(1 - 1),(0.0 - 1.0),Big 12,,True
+15,Texas,1588.13,,Texas Tech,(56 - **63**) W,15.85,(2 - 0),(1.0 - 0.0),Big 12,,True
+16,Auburn,1580.71,,Kentucky,(**29** - 13) W,22.16,(1 - 0),(1.0 - 0.0),SEC,West,True
+17,BYU,1575.34,,Troy,(**48** - 7) W,28.12,(2 - 0),(0.0 - 0.0),FBS Independents,,True
+18,Louisiana Tech,1571.64,,Houston Baptist,(**66** - 38) W,6.45,(2 - 0),(1.0 - 0.0),Conference USA,West,True
+19,Miami,1568.24,,Florida State,(**52** - 10) W,25.32,(3 - 0),(2.0 - 0.0),ACC,Coastal,True
+20,Oklahoma State,1566.23,,West Virginia,(**27** - 13) W,17.97,(2 - 0),(1.0 - 0.0),Big 12,,True
+21,Navy,1559.71,,Tulane,(24 - **27**) W,12.96,(1 - 1),(1.0 - 1.0),American Athletic,West,True
+22,North Carolina,1559.04,,Syracuse,(**31** - 6) W,22.5,(1 - 0),(1.0 - 0.0),ACC,Coastal,True
+23,Virginia,1556.53,,Duke,(**38** - 20) W,17.02,(1 - 0),(1.0 - 0.0),ACC,Coastal,True
+24,Virginia Tech,1552.01,,NC State,(**45** - 24) W,19.44,(1 - 0),(1.0 - 0.0),ACC,Coastal,True
+25,Tulane,1546.66,,Southern Mississippi,(24 - **66**) W,32.61,(2 - 1),(0.0 - 1.0),American Athletic,West,True
+26,Tennessee,1544.79,,South Carolina,(27 - **31**) W,12.95,(1 - 0),(1.0 - 0.0),SEC,East,True
+27,Pittsburgh,1544.38,,Louisville,(**23** - 20) W,10.66,(3 - 0),(2.0 - 0.0),ACC,Coastal,True
+28,Texas A&M,1543.67,,Vanderbilt,(**17** - 12) W,9.97,(1 - 0),(1.0 - 0.0),SEC,West,True
+29,Marshall,1542.78,,Appalachian State,(**17** - 7) W,25.99,(2 - 0),(0.0 - 0.0),Conference USA,East,True
+30,Kansas State,1539.73,,Oklahoma,(35 - **38**) W,15.88,(1 - 1),(1.0 - 1.0),Big 12,,True
+31,Liberty,1535.78,,Florida International,(**36** - 34) W,7.77,(2 - 0),(0.0 - 0.0),FBS Independents,,True
+32,Boston College,1529.43,,Texas State,(**24** - 21) W,8.33,(1 - 0),(1.0 - 0.0),ACC,Atlantic,True
+33,UAB,1521.61,,South Alabama,(10 - **42**) W,29.12,(2 - 1),(0.0 - 1.0),Conference USA,West,True
+34,Kentucky,1518.13,,Auburn,(29 - **13**) L,-22.16,(0 - 1),(0.0 - 1.0),SEC,East,True
+35,Iowa State,1515.91,,TCU,(34 - **37**) W,13.24,(1 - 1),(1.0 - 1.0),Big 12,,True
+36,Arkansas State,1515.57,,Kansas State,(31 - **35**) W,17.13,(1 - 1),(0.0 - 1.0),Sun Belt,,True
+37,Mississippi State,1509.49,,LSU,(34 - **44**) W,31.35,(1 - 0),(1.0 - 0.0),SEC,West,True
+38,Western Kentucky,1507.06,,Liberty,(**24** - 30) L,-19.78,(0 - 2),(0.0 - 2.0),Conference USA,East,True
+39,Army,1506.54,,Cincinnati,(24 - **10**) L,-18.8,(2 - 1),(0.0 - 1.0),FBS Independents,,True
+40,Coastal Carolina,1500.58,,Campbell,(**43** - 21) W,8.91,(2 - 0),(0.0 - 0.0),Sun Belt,,True
+41,Louisville,1498.69,,Pittsburgh,(23 - **20**) L,-10.66,(1 - 2),(0.0 - 2.0),ACC,Atlantic,True
+42,Georgia Southern,1494.18,,Louisiana,(20 - **18**) L,-6.14,(1 - 1),(0.0 - 1.0),Sun Belt,,True
+43,Troy,1487.29,,BYU,(48 - **7**) L,-28.12,(0 - 1),(0.0 - 1.0),Sun Belt,,True
+44,TCU,1479.0,,Iowa State,(**34** - 37) L,-13.24,(0 - 1),(0.0 - 1.0),Big 12,,True
+45,Missouri,1472.89,,Alabama,(**19** - 38) L,-21.09,(0 - 1),(0.0 - 1.0),SEC,East,True
+46,Wake Forest,1472.86,,NC State,(45 - **42**) L,-13.05,(0 - 2),(0.0 - 2.0),ACC,Atlantic,True
+47,Charlotte,1471.13,,Appalachian State,(35 - **20**) L,-14.3,(0 - 1),(0.0 - 1.0),Conference USA,East,True
+48,Georgia State,1468.81,,Louisiana,(**31** - 34) L,-9.38,(0 - 1),(0.0 - 1.0),Sun Belt,,True
+49,Florida International,1467.75,,Liberty,(36 - **34**) L,-7.77,(0 - 1),(0.0 - 1.0),Conference USA,East,True
+50,Texas Tech,1459.45,,Texas,(**56** - 63) L,-15.85,(1 - 1),(0.0 - 1.0),Big 12,,True
+51,Syracuse,1459.29,,Georgia Tech,(**37** - 20) W,22.31,(1 - 2),(1.0 - 2.0),ACC,Atlantic,True
+52,West Virginia,1457.7,,Oklahoma State,(27 - **13**) L,-17.97,(1 - 1),(0.0 - 1.0),Big 12,,True
+53,UT San Antonio,1451.88,,Middle Tennessee,(**37** - 35) W,7.89,(3 - 0),(0.0 - 0.0),Conference USA,West,True
+54,Ole Miss,1451.03,,Florida,(**35** - 51) L,-19.93,(0 - 1),(0.0 - 1.0),SEC,West,True
+55,Tulsa,1450.52,,Oklahoma State,(16 - **7**) L,-15.58,(0 - 1),(0.0 - 1.0),American Athletic,West,True
+56,Florida State,1449.48,,Miami,(52 - **10**) L,-25.32,(0 - 2),(0.0 - 2.0),ACC,Atlantic,True
+57,South Florida,1445.17,,Notre Dame,(52 - **0**) L,-18.99,(1 - 1),(0.0 - 1.0),American Athletic,East,True
+58,South Carolina,1440.73,,Tennessee,(**27** - 31) L,-12.95,(0 - 1),(0.0 - 1.0),SEC,East,True
+59,North Texas,1436.4,,SMU,(**35** - 65) L,-24.56,(1 - 1),(0.0 - 1.0),Conference USA,West,True
+60,Southern Mississippi,1431.04,,Tulane,(**24** - 66) L,-32.61,(0 - 3),(0.0 - 3.0),Conference USA,West,True
+61,NC State,1424.29,,Virginia Tech,(45 - **24**) L,-19.44,(1 - 1),(1.0 - 1.0),ACC,Atlantic,True
+62,East Carolina,1410.67,,UCF,(**28** - 51) L,-17.84,(0 - 1),(0.0 - 1.0),American Athletic,East,True
+63,Texas State,1410.4,,Boston College,(24 - **21**) L,-8.33,(1 - 2),(1.0 - 2.0),Sun Belt,,True
+64,Duke,1409.12,,Virginia,(38 - **20**) L,-17.02,(0 - 3),(0.0 - 3.0),ACC,Coastal,True
+65,UTEP,1400.36,,Louisiana Monroe,(6 - **31**) W,35.07,(3 - 1),(0.0 - 1.0),Conference USA,West,True
+66,Vanderbilt,1399.61,,Texas A&M,(17 - **12**) L,-9.97,(0 - 1),(0.0 - 1.0),SEC,East,True
+67,South Alabama,1397.72,,UAB,(**10** - 42) L,-29.12,(1 - 2),(0.0 - 2.0),Sun Belt,,True
+68,Georgia Tech,1391.73,,Syracuse,(37 - **20**) L,-22.31,(1 - 2),(1.0 - 2.0),ACC,Coastal,True
+69,Kansas,1389.7,,Baylor,(47 - **14**) L,-16.41,(0 - 2),(0.0 - 2.0),Big 12,,True
+70,Middle Tennessee,1388.83,,UT San Antonio,(37 - **35**) L,-7.89,(0 - 2),(0.0 - 2.0),Conference USA,East,True
+71,Arkansas,1385.49,,Georgia,(**10** - 37) L,-17.02,(0 - 1),(0.0 - 1.0),SEC,West,True
+72,Louisiana Monroe,1378.78,,UTEP,(**6** - 31) L,-35.07,(0 - 3),(0.0 - 3.0),Sun Belt,,True
