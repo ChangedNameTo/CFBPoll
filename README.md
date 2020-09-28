@@ -1,63 +1,57 @@
 # CFBPoll 4.0 by TheAlpacalypse - The Pandas Rewrite
 Computerized poll to automatically rank college football teams each week
-
 First install the dependencies using the command:
-
 `pip install -r requirements.txt`
-
 Then run the program using the command:
-
 `python3 __main__.py`
-
 Use `Constants.py` to tweak the values I use to generate the ranking. I have tried to avoid leaving any raw values in this main program to let users experiment.
 ---
-
 |Rank|Team|Flair|Record|Elo|Last Played|Result|Change|
 |---|---|---|---|---|---|---|---|
-| 1 | Army |  | (2 - 0) | 1556.84 | Louisiana Monroe | (*37* - 7) W | 25.9 |
-| 2 | Notre Dame |  | (2 - 0) | 1553.73 | South Florida | (*52* - 0) W | 31.45 |
-| 3 | SMU |  | (2 - 0) | 1553.07 | North Texas | (35 - *65*) W | 32.74 |
-| 4 | Miami |  | (2 - 0) | 1549.88 | Louisville | (34 - *47*) W | 25.69 |
-| 5 | Louisiana |  | (2 - 0) | 1540.96 | Georgia State | (31 - *34*) W | 12.7 |
-| 6 | Clemson |  | (2 - 0) | 1540.48 | The Citadel | (*49* - 0) W | 9.01 |
-| 7 | BYU |  | (1 - 0) | 1538.81 | Navy | (3 - *55*) W | 38.81 |
-| 8 | Coastal Carolina |  | (2 - 0) | 1534.7 | Campbell | (*43* - 21) W | 7.6 |
-| 9 | UCF |  | (1 - 0) | 1533.88 | Georgia Tech | (21 - *49*) W | 33.88 |
-| 10 | Texas |  | (1 - 0) | 1533.84 | UTEP | (*59* - 3) W | 33.84 |
-| 11 | Troy |  | (0 - 0) | 1532.1 | Middle Tennessee | (14 - *47*) W | 32.1 |
-| 12 | Marshall |  | (2 - 0) | 1531.63 | Appalachian State | (*17* - 7) W | 20.33 |
-| 13 | Pittsburgh |  | (2 - 0) | 1529.48 | Syracuse | (*21* - 10) W | 18.36 |
-| 14 | Boston College |  | (1 - 0) | 1528.3 | Duke | (6 - *26*) W | 28.3 |
-| 15 | North Carolina |  | (1 - 0) | 1526.8 | Syracuse | (*31* - 6) W | 26.8 |
-| 16 | Memphis |  | (1 - 0) | 1521.71 | Arkansas State | (*37* - 24) W | 21.71 |
-| 17 | UT San Antonio |  | (2 - 0) | 1519.79 | Stephen F. Austin | (*24* - 10) W | 6.85 |
-| 18 | Oklahoma State |  | (1 - 0) | 1518.94 | Tulsa | (*16* - 7) W | 18.94 |
-| 19 | Liberty |  | (1 - 0) | 1518.09 | Western Kentucky | (24 - *30*) W | 18.09 |
-| 20 | Oklahoma |  | (1 - 0) | 1510.75 | Missouri State | (*48* - 0) W | 10.75 |
-| 21 | NC State |  | (1 - 0) | 1510.44 | Wake Forest | (*45* - 42) W | 10.44 |
-| 22 | West Virginia |  | (1 - 0) | 1510.11 | Eastern Kentucky | (*56* - 10) W | 10.11 |
-| 23 | South Alabama |  | (1 - 1) | 1510.04 | Tulane | (*24* - 27) L | -14.25 |
-| 24 | Cincinnati |  | (1 - 0) | 1509.41 | Austin Peay | (*55* - 20) W | 9.41 |
-| 25 | Louisiana Tech |  | (1 - 0) | 1506.41 | Southern Mississippi | (30 - *31*) W | 6.41 |
+| 1 | Clemson |  | (2 - 0) | 1680.34 | The Citadel | (*49* - 0) W | 4.49 |
+| 2 | LSU |  | (0 - 1) | 1650.72 | Mississippi State | (*34* - 44) L | -31.35 |
+| 3 | Notre Dame |  | (2 - 0) | 1647.91 | South Florida | (*52* - 0) W | 18.99 |
+| 4 | Alabama |  | (1 - 0) | 1638.1 | Missouri | (19 - *38*) W | 21.09 |
+| 5 | UCF |  | (2 - 0) | 1636.23 | East Carolina | (28 - *51*) W | 17.84 |
+| 6 | Georgia |  | (1 - 0) | 1634.85 | Arkansas | (10 - *37*) W | 17.02 |
+| 7 | Louisiana |  | (3 - 0) | 1629.21 | Georgia Southern | (*20* - 18) W | 6.14 |
+| 8 | Memphis |  | (1 - 0) | 1624.52 | Arkansas State | (*37* - 24) W | 16.35 |
+| 9 | Appalachian State |  | (2 - 1) | 1623.83 | Campbell | (*52* - 21) W | 5.24 |
+| 10 | Florida |  | (1 - 0) | 1614.17 | Ole Miss | (35 - *51*) W | 19.93 |
+| 11 | SMU |  | (2 - 0) | 1609.39 | Stephen F. Austin | (*50* - 7) W | 5.85 |
+| 12 | Cincinnati |  | (2 - 0) | 1602.51 | Army | (*24* - 10) W | 18.8 |
+| 13 | Baylor |  | (1 - 0) | 1594.29 | Kansas | (*47* - 14) W | 16.41 |
+| 14 | Oklahoma |  | (1 - 1) | 1594.24 | Kansas State | (*35* - 38) L | -15.88 |
+| 15 | Texas |  | (2 - 0) | 1588.13 | Texas Tech | (56 - *63*) W | 15.85 |
+| 16 | Auburn |  | (1 - 0) | 1580.71 | Kentucky | (*29* - 13) W | 22.16 |
+| 17 | BYU |  | (2 - 0) | 1575.34 | Troy | (*48* - 7) W | 28.12 |
+| 18 | Louisiana Tech |  | (2 - 0) | 1571.64 | Houston Baptist | (*66* - 38) W | 6.45 |
+| 19 | Miami |  | (3 - 0) | 1568.24 | Florida State | (*52* - 10) W | 25.32 |
+| 20 | Oklahoma State |  | (2 - 0) | 1566.23 | West Virginia | (*27* - 13) W | 17.97 |
+| 21 | Navy |  | (1 - 1) | 1559.71 | Tulane | (24 - *27*) W | 12.96 |
+| 22 | North Carolina |  | (1 - 0) | 1559.04 | Syracuse | (*31* - 6) W | 22.5 |
+| 23 | Virginia |  | (1 - 0) | 1556.53 | Duke | (*38* - 20) W | 17.02 |
+| 24 | Virginia Tech |  | (1 - 0) | 1552.01 | NC State | (*45* - 24) W | 19.44 |
+| 25 | Tulane |  | (2 - 1) | 1546.66 | Southern Mississippi | (24 - *66*) W | 32.61 |
 |||||||||
-| 38 | Georgia Tech |  | (1 - 1) | 1479.68 | UCF | (*21* - 49) L | -33.88 |
+| 68 | Georgia Tech |  | (1 - 2) | 1391.73 | Syracuse | (37 - *20*) L | -22.31 |
 |||||||||
-| 52 | Middle Tennessee |  | (0 - 1) | 1436.96 | Troy | (*14* - 47) L | -32.1 |
+| 72 | Louisiana Monroe |  | (0 - 3) | 1378.78 | UTEP | (*6* - 31) L | -35.07 |
 
 ---
 
-**Mean Elo:** 1502.25
+**Mean Elo:** 1512.67
 
-**Median Elo:** 1502.7
+**Median Elo:** 1512.53
 
-**Standard Deviation of Elo:** 30.7
+**Standard Deviation of Elo:** 79.08
 
-**Predictions Quality (Season):** 61.22% Correct
+**Predictions Quality (Season):** 79.75% Correct
 
-**Predictions Quality (Week):** 20.41% Correct (Last Week: 28.57%)
+**Predictions Quality (Week):** 16.46% Correct (Last Week: 21.52%)
 
 [Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)
 
 [Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)
 
-Poll program runtime: 1.11s
+Poll program runtime: 70.29s

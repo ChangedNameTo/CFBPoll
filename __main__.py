@@ -12,7 +12,7 @@ import sys
 
 # Import my own functions
 sys.path.insert(1, './research')
-from Constants import YEAR, K_VALUE, RUN_SCRAPER, HFA, FCS_ELO, WEEK, START_YEAR, TESTING
+from Constants import YEAR, K_VALUE, RUN_SCRAPER, HFA, FCS_ELO, WEEK, START_YEAR, TESTING, MEAN_REVERSION
 from stats_scraping import scrape_stats
 
 pd.set_option('display.max_colwidth', None)
@@ -31,7 +31,8 @@ if TESTING:
     testing_stats = pd.DataFrame()
 
 # We need to run this fresh every time, as adjustments should propogate to avoid years falling out of sync
-for iter_year in range(START_YEAR, YEAR):
+for iter_year in range(START_YEAR, YEAR + 1):
+    print(iter_year)
     # Since we already scraped, just load in the csv dumps
     # See ./research/stats_scraping.py
     games = pd.read_csv('data/{}/games.csv'.format(iter_year))
@@ -39,6 +40,9 @@ for iter_year in range(START_YEAR, YEAR):
     plays = pd.read_csv('data/{}/plays.csv'.format(iter_year))
     stats = pd.read_csv('data/{}/stats.csv'.format(iter_year))
     records = pd.read_csv('data/{}/records.csv'.format(iter_year))
+
+    if iter_year != START_YEAR:
+        previous_teams = pd.read_csv('data/{}/processed_teams.csv'.format(iter_year - 1))
 
     # Clean the data and prep the frames
     games = games[['_id','_season','_week','_season_type','_start_date','_neutral_site','_conference_game','_home_team','_home_points','_away_team','_away_points']]
@@ -86,10 +90,18 @@ for iter_year in range(START_YEAR, YEAR):
         home_game_frame = games[((games['_home_team'] == game['_home_team']) | (games['_away_team'] == game['_home_team'])) & (games['_week'] == game['home_recent_week'])]
         away_game_frame = games[((games['_home_team'] == game['_away_team']) | (games['_away_team'] == game['_away_team'])) & (games['_week'] == game['away_recent_week'])]
 
-        # The frame is empty at the start. If the team is fbs, seeds at 1500, else 1204
+        # The frame is empty at the start. 
         if(home_game_frame.empty):
             if(game['home_fbs']):
-                game['home_elo'] = 1500
+                # How are we getting our seed value? Is it the default of 1500, or the mean reverted value?
+                if iter_year == START_YEAR:
+                    game['home_elo'] = 1500
+                else:
+                    seed_elo = previous_teams[(previous_teams['_school'] == game['_home_team'])]
+                    if not seed_elo['elo'].empty:
+                        game['home_elo'] = ((seed_elo['elo'].values[0] - 1500) * MEAN_REVERSION) + 1500
+                    else:
+                        game['home_elo'] = 1500
             else:
                 game['home_elo'] = FCS_ELO
         else:
@@ -101,7 +113,15 @@ for iter_year in range(START_YEAR, YEAR):
         
         if(away_game_frame.empty):
             if(game['away_fbs']):
-                game['away_elo'] = 1500
+                # How are we getting our seed value? Is it the default of 1500, or the mean reverted value?
+                if iter_year == START_YEAR:
+                    game['away_elo'] = 1500
+                else:
+                    seed_elo = previous_teams[(previous_teams['_school'] == game['_away_team'])]
+                    if not seed_elo['elo'].empty:
+                        game['away_elo'] = ((seed_elo['elo'].values[0] - 1500) * MEAN_REVERSION) + 1500
+                    else:
+                        game['away_elo'] = 1500
             else:
                 game['away_elo'] = FCS_ELO
         else:
@@ -138,7 +158,11 @@ for iter_year in range(START_YEAR, YEAR):
         # Checks which team we expected to win. Did they win? Helps develop model feedback
         game['predicted_home_win'] = game['home_expected'] > game['away_expected']
         game['predicted_away_win'] = game['home_expected'] < game['away_expected']
-        game['correct_prediction'] = ((game['home_won'] and game['predicted_home_win']) or (game['away_won'] and game['predicted_away_win']))
+        try:
+            game['correct_prediction'] = ((game['home_won'] and game['predicted_home_win']) or (game['away_won'] and game['predicted_away_win']))
+        except ValueError:
+            print(game)
+            raise ValueError
 
         # Send it back
         return game
@@ -211,7 +235,7 @@ for iter_year in range(START_YEAR, YEAR):
     teams.to_csv('./data/{}/processed_teams.csv'.format(YEAR))
 
     # Outputs to the Reddit .md format
-    if(not TESTING):
+    if(not TESTING and iter_year == YEAR):
         with open('README.md', 'w') as file:
             file.write('# CFBPoll 4.0 by TheAlpacalypse - The Pandas Rewrite\n')
             file.write('Computerized poll to automatically rank college football teams each week\n')
@@ -262,7 +286,7 @@ for iter_year in range(START_YEAR, YEAR):
             # Fun stats for how long it took for this to generate
             file.write('\n')
             file.write('Poll program runtime: {}s'.format(round(stop - start,2)))
-    else:
+    elif TESTING:
         testing_games = pd.concat([testing_games, games])
         testing_plays = pd.concat([testing_plays, plays])
         testing_teams = pd.concat([testing_teams, teams])
