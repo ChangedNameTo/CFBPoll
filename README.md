@@ -10,6 +10,7 @@ Then run the program using the command:
 `python3 __main__.py`
 
 Use `Constants.py` to tweak the values I use to generate the ranking. I have tried to avoid leaving any raw values in this main program to let users experiment.
+
 ---
 |Rank|Team|Flair|Record|Elo|Last Played|Result|Change|
 |---|---|---|---|---|---|---|---|
@@ -59,4 +60,4 @@ Use `Constants.py` to tweak the values I use to generate the ranking. I have tri
 
 [Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)
 
-Poll program runtime: 71.87s
+Poll program runtime: 72.88s

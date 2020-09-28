@@ -253,6 +253,7 @@ for iter_year in range(START_YEAR, YEAR + 1):
             file.write('`python3 __main__.py`\n')
             file.write('\n')
             file.write('Use `Constants.py` to tweak the values I use to generate the ranking. I have tried to avoid leaving any raw values in this main program to let users experiment.\n')
+            file.write('\n')
             file.write('---\n')
 
             # Writes the table header
