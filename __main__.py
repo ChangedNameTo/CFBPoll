@@ -56,7 +56,7 @@ for iter_year in range(START_YEAR, YEAR + 1):
     records = records[['year', 'team','conference','division','total.games','total.wins','total.losses','conferenceGames.games','conferenceGames.wins','conferenceGames.losses']]
 
     teams = teams[['_id','_school']]
-    teams = pd.concat([teams, pd.DataFrame(columns=['elo','strength_of_schedule','last_played','result','elo_change','season_record','conf_record'])])
+    teams = pd.concat([teams, pd.DataFrame(columns=['elo','_year','strength_of_schedule','last_played','result','elo_change','season_record','conf_record'])])
 
     # Joins records to teams
     teams = teams.set_index('_school',drop=False)
@@ -70,6 +70,9 @@ for iter_year in range(START_YEAR, YEAR + 1):
     # Drops the column joins
     teams = teams.drop(columns=['team'])
     teams = teams.drop(columns=['school'])
+
+    # Adds the year
+    teams['_year'] = iter_year
 
     # Resets the index to a number 
     teams.index = np.arange(1, len(teams) + 1)

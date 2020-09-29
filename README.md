@@ -60,4 +60,4 @@ Use `Constants.py` to tweak the values I use to generate the ranking. I have tri
 
 [Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)
 
-Poll program runtime: 69.64s
+Poll program runtime: 69.99s
