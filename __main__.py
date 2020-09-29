@@ -291,14 +291,33 @@ for iter_year in range(START_YEAR, YEAR + 1):
             file.write("\n")
             file.write("**Standard Deviation of Elo:** {}\n".format(round(teams['elo'].std(),2)))
             file.write("\n")
-            file.write("**Predictions Quality (Season):** {}% Correct\n".format(round((len(games[(games['correct_prediction'] == True)]))/len(games) * 100,2)))
+
+            # Season prediction quality outputs
+            number_correct_season = len(games[(games['correct_prediction'] == True)])
+            number_of_games = len(games)
+            season_percent_correct = round(((number_correct_season / number_of_games) * 100), 2)
+
+            file.write("**Predictions Quality (Season):** {}% Correct\n".format(season_percent_correct))
+
+            # Weekly quality outputs
+            # Now for the current week
             file.write("\n")
-            file.write("**Predictions Quality (Week):** {}% Correct (Last Week: {}%)\n".format((round((len(games[(games['correct_prediction'] == True) & (games['_week'] == WEEK)]))/len(games) * 100,2)),(round((len(games[(games['correct_prediction'] == True) & (games['_week'] == (WEEK - 1))]))/len(games) * 100,2))))
+            number_correct_curr_week =  len(games[(games['correct_prediction'] == True) & (games['_week'] == WEEK)])
+            number_of_games_curr_week = len(games[games['_week'] == WEEK])
+            curr_week_percent_correct = round(((number_correct_curr_week / number_of_games_curr_week) * 100), 2)
+            
+            # And then the last week
+            number_correct_last_week =  len(games[(games['correct_prediction'] == True) & (games['_week'] == WEEK - 1)])
+            number_of_games_last_week = len(games[games['_week'] == WEEK - 1])
+            last_week_percent_correct = round(((number_correct_last_week / number_of_games_last_week) * 100), 2)
+
+            file.write("**Predictions Quality (Week):** {}% Correct (Last Week: {}%)\n".format(curr_week_percent_correct, last_week_percent_correct))
             file.write("\n")
             file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)\n")
             file.write("\n")
             file.write("[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)\n")
 
+            bar.update(iter_year + 1 - START_YEAR)
             stop = timeit.default_timer()
 
             # Fun stats for how long it took for this to generate

@@ -54,10 +54,10 @@ Use `Constants.py` to tweak the values I use to generate the ranking. I have tri
 
 **Predictions Quality (Season):** 82.28% Correct
 
-**Predictions Quality (Week):** 16.46% Correct (Last Week: 24.05%)
+**Predictions Quality (Week):** 86.67% Correct (Last Week: 68.42%)
 
 [Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)
 
 [Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)
 
-Poll program runtime: 70.52s
+Poll program runtime: 69.64s
