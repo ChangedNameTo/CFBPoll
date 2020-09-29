@@ -52,6 +52,10 @@ Use `Constants.py` to tweak the values I use to generate the ranking. I have tri
 
 **Standard Deviation of Elo:** 95.88
 
+**Easiest Strength of Schedule:** Coastal Carolina
+
+**Hardest Strength of Schedule:** Mississippi State
+
 **Predictions Quality (Season):** 82.28% Correct
 
 **Predictions Quality (Week):** 86.67% Correct (Last Week: 68.42%)
@@ -60,4 +64,4 @@ Use `Constants.py` to tweak the values I use to generate the ranking. I have tri
 
 [Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)
 
-Poll program runtime: 69.99s
+Poll program runtime: 74.02s

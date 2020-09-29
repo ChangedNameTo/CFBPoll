@@ -8,7 +8,7 @@ WEEK      = 4
 RUN_SCRAPER = False # Run this if the values in the csvs are out of date
 
 # Researching constants
-TESTING = True # Set this to false if you care about poll output. 
+TESTING = False # Set this to false if you care about poll output. 
 
 # Value Constants - Tweak the poll outputs.
 # My default values are derived using the research contained in the /research directory.

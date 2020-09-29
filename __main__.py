@@ -19,6 +19,7 @@ from stats_scraping import scrape_stats
 pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
+pd.set_option('mode.chained_assignment', None) # Disable this if you have issues. This is to supress a warning in the SOS section of the Team code that is working as intended. 
 
 # Set up the progressbar
 bar = progressbar.ProgressBar(max_value=(YEAR+1 - START_YEAR))
@@ -194,9 +195,12 @@ for iter_year in range(START_YEAR, YEAR + 1):
     # Add's in all that other data people love
     def process_team(team):
         # Grabs all of 1 teams games
-        game_frame = games[((games['_home_team'] == team['_school']) | (games['_away_team'] == team['_school']))]
+        game_frame = games.loc[((games['_home_team'] == team['_school']) | (games['_away_team'] == team['_school']))]
 
-        # TODO: Strength of schedule
+        # Calculates trength of schedule as a function of the opponent elo at the time you played them
+        game_frame.loc[game_frame['_home_team'] != team['_school'], 'opponent_elo'] = game_frame['home_elo']
+        game_frame.loc[game_frame['_away_team'] != team['_school'], 'opponent_elo'] = game_frame['away_elo']
+        team['strength_of_schedule'] = round(game_frame.opponent_elo.mean(), 2)
 
         # TODO: Add in the functionality to dump the full team spreadsheets here
 
@@ -208,19 +212,30 @@ for iter_year in range(START_YEAR, YEAR + 1):
 
         # Grab that game, then solely pull info from it
         final_frame = game_frame[(game_frame['_week'] == max_week)]
+
+        # Is this team home
         is_home = (final_frame['_home_team'] == team['_school']).values[0]
+
+        # Win or Lose?
         result = final_frame['home_won'].values[0]
         if not is_home:
             result = not result
 
+        # Convert bool to W/L
         text_result = 'W' if result else 'L'
 
+        # Gets the current elo
         team['elo'] = round((final_frame['new_home_elo'] if is_home else final_frame['new_away_elo']).values[0],2)
+
+        # Grabs the name of the last team played
         team['last_played'] = (final_frame['_away_team'] if is_home else final_frame['_home_team']).values[0]
+
+        # Creates the Results Column
         if is_home:
             team['result'] = '(**{}** - {}) {}'.format(round(final_frame['_home_points'].values[0]), round(final_frame['_away_points'].values[0]), text_result)
         else:
             team['result'] = '({} - **{}**) {}'.format(round(final_frame['_home_points'].values[0]), round(final_frame['_away_points'].values[0]), text_result)
+
         team['elo_change'] = round((final_frame['home_elo_change'] if is_home else final_frame['away_elo_change']).values[0],2)
         team['season_record'] = '({} - {})'.format(round(team['total.wins']), round(team['total.losses']))
         team['conf_record'] = '({} - {})'.format(round(team['conferenceGames.wins']), round(team['total.losses']))
@@ -249,6 +264,13 @@ for iter_year in range(START_YEAR, YEAR + 1):
     # Outputs all teams to a CSV
     teams.to_csv('./data/{}/processed_teams.csv'.format(iter_year))
 
+    # Strength of Schedule Rankings
+    sos = teams.sort_values(by=['strength_of_schedule'], ascending=False)
+    sos.index = np.arange(1,len(sos) + 1)
+
+    # Completes the progress bar
+    bar.update(iter_year + 1 - START_YEAR)
+    
     # Outputs to the Reddit .md format
     if(not TESTING and iter_year == YEAR):
         with open('README.md', 'w') as file:
@@ -295,6 +317,12 @@ for iter_year in range(START_YEAR, YEAR + 1):
             file.write("**Standard Deviation of Elo:** {}\n".format(round(teams['elo'].std(),2)))
             file.write("\n")
 
+            # Strength of Schedule Outputs 
+            file.write("**Easiest Strength of Schedule:** {}\n".format(sos.iloc[-1]._school))
+            file.write("\n")
+            file.write("**Hardest Strength of Schedule:** {}\n".format(sos.iloc[0]._school))
+            file.write("\n")
+
             # Season prediction quality outputs
             number_correct_season = len(games[(games['correct_prediction'] == True)])
             number_of_games = len(games)
@@ -320,7 +348,6 @@ for iter_year in range(START_YEAR, YEAR + 1):
             file.write("\n")
             file.write("[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)\n")
 
-            bar.update(iter_year + 1 - START_YEAR)
             stop = timeit.default_timer()
 
             # Fun stats for how long it took for this to generate
