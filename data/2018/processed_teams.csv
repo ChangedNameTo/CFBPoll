@@ -1,131 +1,131 @@
 ,_school,elo,_year,strength_of_schedule,last_played,result,elo_change,season_record,conf_record,conference,division,flair,played
-1,Clemson,1921.08,2018,1563.76,Alabama,(16 - **44**) W,34.93,(15 - 0),(9 - 0),ACC,Atlantic,clemson,True
-2,Alabama,1880.04,2018,1582.32,Clemson,(**16** - 44) L,-34.93,(14 - 1),(9 - 1),SEC,West,alabama,True
-3,Ohio State,1811.25,2018,1559.84,Washington,(**28** - 23) W,12.14,(13 - 1),(9 - 1),Big Ten,East,ohiostate,True
-4,Oklahoma,1787.49,2018,1564.95,Alabama,(45 - **34**) L,-15.2,(12 - 2),(9 - 2),Big 12,,oklahoma,True
-5,Notre Dame,1777.46,2018,1571.26,Clemson,(30 - **3**) L,-22.79,(12 - 1),(0 - 1),FBS Independents,,notredame,True
-6,UCF,1759.27,2018,1496.93,LSU,(**32** - 40) L,-25.56,(12 - 1),(9 - 1),American Athletic,East,ucf,True
-7,Georgia,1757.09,2018,1554.94,Texas,(**21** - 28) L,-25.49,(11 - 3),(7 - 3),SEC,East,georgia,True
-8,Washington,1720.76,2018,1539.36,Ohio State,(28 - **23**) L,-12.14,(10 - 4),(8 - 4),Pac-12,North,washington,True
-9,LSU,1713.65,2018,1564.24,UCF,(32 - **40**) W,25.56,(10 - 3),(5 - 3),SEC,West,lsu,True
-10,Penn State,1709.9,2018,1545.71,Kentucky,(**24** - 27) L,-16.75,(9 - 4),(6 - 4),Big Ten,East,pennstate,True
-11,Boise State,1709.82,2018,1531.36,Fresno State,(**16** - 19) L,-15.05,(10 - 3),(7 - 3),Mountain West,Mountain,,True
-12,Appalachian State,1707.1,2018,1453.11,Middle Tennessee,(**45** - 13) W,18.53,(11 - 2),(8 - 2),Sun Belt,,appalachianstate,True
-13,Fresno State,1699.86,2018,1476.87,Arizona State,(**31** - 20) W,13.44,(12 - 2),(8 - 2),Mountain West,West,fresnostate,True
-14,Michigan,1691.57,2018,1556.29,Florida,(**15** - 41) L,-39.32,(10 - 3),(8 - 3),Big Ten,East,michigan,True
-15,Washington State,1676.19,2018,1506.35,Iowa State,(**28** - 26) W,7.43,(11 - 2),(7 - 2),Pac-12,North,,True
-16,Texas,1671.0,2018,1578.51,Georgia,(21 - **28**) W,25.49,(10 - 4),(7 - 4),Big 12,,texas,True
-17,Army,1669.87,2018,1448.58,Houston,(**70** - 14) W,28.1,(11 - 2),(0 - 2),FBS Independents,,army,True
-18,Iowa,1662.39,2018,1527.02,Mississippi State,(**27** - 22) W,15.56,(9 - 4),(5 - 4),Big Ten,West,iowa,True
-19,Auburn,1660.53,2018,1554.1,Purdue,(**63** - 14) W,25.11,(8 - 5),(3 - 5),SEC,West,auburn,True
-20,Utah State,1657.68,2018,1448.27,North Texas,(13 - **52**) W,31.61,(11 - 2),(7 - 2),Mountain West,Mountain,,True
-21,Stanford,1657.24,2018,1527.69,Pittsburgh,(13 - **14**) W,5.29,(9 - 4),(6 - 4),Pac-12,North,stanford,True
-22,Wisconsin,1655.99,2018,1515.84,Miami,(**35** - 3) W,28.87,(8 - 5),(5 - 5),Big Ten,West,wisconsin,True
-23,Florida,1655.05,2018,1521.55,Michigan,(15 - **41**) W,39.32,(10 - 3),(5 - 3),SEC,East,florida,True
-24,Mississippi State,1652.26,2018,1553.81,Iowa,(27 - **22**) L,-15.56,(8 - 5),(4 - 5),SEC,West,mississippistate,True
-25,Texas A&M,1648.85,2018,1569.27,NC State,(**52** - 13) W,32.9,(9 - 4),(5 - 4),SEC,West,texasam,True
-26,Northwestern,1646.44,2018,1558.84,Utah,(20 - **31**) W,25.75,(9 - 5),(8 - 5),Big Ten,West,northwestern,True
-27,Troy,1640.86,2018,1454.54,Buffalo,(**42** - 32) W,16.87,(10 - 3),(7 - 3),Sun Belt,,troy,True
-28,Ohio,1638.1,2018,1418.53,San Diego State,(**27** - 0) W,24.12,(9 - 4),(6 - 4),Mid-American,East,,True
-29,Utah,1623.28,2018,1538.19,Northwestern,(**20** - 31) L,-25.75,(9 - 5),(6 - 5),Pac-12,South,utah,True
-30,Syracuse,1619.15,2018,1526.67,West Virginia,(**34** - 18) W,24.67,(10 - 3),(6 - 3),ACC,Atlantic,syracuse,True
-31,Kentucky,1618.58,2018,1529.29,Penn State,(24 - **27**) W,16.75,(9 - 4),(4 - 4),SEC,East,kentucky,True
-32,Missouri,1615.32,2018,1538.73,Oklahoma State,(38 - **33**) L,-16.97,(9 - 4),(5 - 4),SEC,East,missouri,True
-33,NC State,1614.85,2018,1487.06,Texas A&M,(52 - **13**) L,-32.9,(9 - 4),(5 - 4),ACC,Atlantic,ncstate,True
-34,Miami,1599.69,2018,1523.11,Wisconsin,(35 - **3**) L,-28.87,(7 - 6),(4 - 6),ACC,Coastal,miami,True
-35,Memphis,1598.13,2018,1473.45,Wake Forest,(37 - **34**) L,-14.0,(8 - 6),(5 - 6),American Athletic,West,memphis,True
-36,Iowa State,1594.49,2018,1541.89,Washington State,(28 - **26**) L,-7.43,(8 - 5),(6 - 5),Big 12,,iowastate,True
-37,UAB,1592.41,2018,1435.84,Northern Illinois,(13 - **37**) W,28.62,(11 - 3),(8 - 3),Conference USA,West,uab,True
-38,West Virginia,1591.92,2018,1521.0,Syracuse,(34 - **18**) L,-24.67,(8 - 4),(6 - 4),Big 12,,westvirginia,True
-39,Cincinnati,1591.66,2018,1470.07,Virginia Tech,(31 - **35**) W,14.05,(11 - 2),(6 - 2),American Athletic,East,cincinnati,True
-40,Oklahoma State,1591.31,2018,1524.42,Missouri,(**38** - 33) W,16.97,(7 - 6),(3 - 6),Big 12,,oklahomastate,True
-41,Temple,1588.17,2018,1477.42,Duke,(56 - **27**) L,-35.2,(8 - 5),(7 - 5),American Athletic,East,temple,True
-42,Michigan State,1587.92,2018,1542.25,Oregon,(7 - **6**) L,-6.18,(7 - 6),(5 - 6),Big Ten,East,michiganstate,True
-43,Marshall,1578.95,2018,1455.0,South Florida,(20 - **38**) W,27.62,(9 - 4),(6 - 4),Conference USA,East,marshall,True
-44,TCU,1575.22,2018,1514.56,California,(**10** - 7) W,9.15,(7 - 6),(4 - 6),Big 12,,tcu,True
-45,Oregon,1568.41,2018,1487.95,Michigan State,(**7** - 6) W,6.18,(9 - 4),(5 - 4),Pac-12,North,oregon,True
-46,Boston College,1565.29,2018,1537.17,Syracuse,(**21** - 42) L,-32.5,(7 - 5),(4 - 5),ACC,Atlantic,bostoncollege,True
-47,Arkansas State,1564.61,2018,1444.03,Nevada,(16 - **13**) L,-14.47,(8 - 5),(5 - 5),Sun Belt,,arkansasstate,True
-48,USC,1563.47,2018,1531.3,Notre Dame,(**17** - 24) L,-10.61,(5 - 7),(4 - 7),Pac-12,South,,True
-49,Duke,1557.1,2018,1528.72,Temple,(**56** - 27) W,35.2,(8 - 5),(3 - 5),ACC,Coastal,duke,True
-50,Houston,1555.59,2018,1472.73,Army,(70 - **14**) L,-28.1,(8 - 5),(5 - 5),American Athletic,West,houston,True
-51,Virginia,1553.31,2018,1520.31,South Carolina,(**28** - 0) W,31.02,(8 - 5),(4 - 5),ACC,Coastal,virginia,True
-52,Buffalo,1552.94,2018,1452.87,Troy,(42 - **32**) L,-16.87,(10 - 4),(7 - 4),Mid-American,East,buffalo,True
-53,Toledo,1552.65,2018,1431.45,Florida International,(**32** - 35) L,-14.74,(7 - 6),(5 - 6),Mid-American,West,toledo,True
-54,Pittsburgh,1550.3,2018,1571.68,Stanford,(**13** - 14) L,-5.29,(7 - 7),(6 - 7),ACC,Coastal,pittsburgh,True
-55,San Diego State,1544.99,2018,1466.68,Ohio,(27 - **0**) L,-24.12,(7 - 6),(4 - 6),Mountain West,West,,True
-56,Minnesota,1543.66,2018,1528.8,Georgia Tech,(10 - **34**) W,36.06,(7 - 6),(3 - 6),Big Ten,West,minnesota,True
-57,Georgia Tech,1543.6,2018,1529.22,Minnesota,(**10** - 34) L,-36.06,(7 - 6),(5 - 6),ACC,Coastal,georgiatech,True
-58,Arizona State,1541.05,2018,1554.49,Fresno State,(31 - **20**) L,-13.44,(7 - 6),(5 - 6),Pac-12,South,,True
-59,Georgia Southern,1540.69,2018,1449.4,Eastern Michigan,(21 - **23**) W,9.92,(10 - 3),(6 - 3),Sun Belt,,georgiasouthern,True
-60,Florida International,1540.27,2018,1438.26,Toledo,(32 - **35**) W,14.74,(9 - 4),(6 - 4),Conference USA,East,fiu,True
-61,North Texas,1539.48,2018,1430.18,Utah State,(**13** - 52) L,-31.61,(9 - 4),(5 - 4),Conference USA,West,northtexas,True
-62,Wake Forest,1537.56,2018,1527.68,Memphis,(**37** - 34) W,14.0,(7 - 6),(3 - 6),ACC,Atlantic,wakeforest,True
-63,South Carolina,1536.79,2018,1521.99,Virginia,(28 - **0**) L,-31.02,(7 - 6),(4 - 6),SEC,East,southcarolina,True
-64,BYU,1533.09,2018,1510.41,Western Michigan,(**49** - 18) W,28.58,(7 - 6),(0 - 6),FBS Independents,,byu,True
-65,Middle Tennessee,1532.58,2018,1477.53,Appalachian State,(45 - **13**) L,-18.53,(8 - 6),(7 - 6),Conference USA,East,middletennessee,True
-66,Florida Atlantic,1532.19,2018,1481.42,Charlotte,(**24** - 27) L,-18.5,(5 - 7),(3 - 7),Conference USA,East,fau,True
-67,Kansas State,1528.78,2018,1515.26,Iowa State,(42 - **38**) L,-11.55,(5 - 7),(3 - 7),Big 12,,kansasstate,True
-68,Wyoming,1528.15,2018,1464.27,New Mexico,(3 - **31**) W,23.24,(6 - 6),(4 - 6),Mountain West,Mountain,wyoming,True
-69,Purdue,1527.49,2018,1557.05,Auburn,(63 - **14**) L,-25.11,(6 - 7),(5 - 7),Big Ten,West,purdue,True
-70,Louisiana Tech,1524.73,2018,1432.91,Hawai'i,(**31** - 14) W,16.5,(8 - 5),(5 - 5),Conference USA,West,louisianatech,True
-71,Virginia Tech,1515.69,2018,1525.46,Cincinnati,(**31** - 35) L,-14.05,(6 - 7),(4 - 7),ACC,Coastal,virginiatech,True
-72,South Florida,1505.38,2018,1474.18,Marshall,(**20** - 38) L,-27.62,(7 - 6),(3 - 6),American Athletic,East,usf,True
-73,Tulane,1504.87,2018,1487.63,Louisiana,(24 - **41**) W,28.46,(7 - 6),(5 - 6),American Athletic,West,tulane,True
-74,Florida State,1500.55,2018,1564.89,Florida,(**14** - 41) L,-28.28,(5 - 7),(3 - 7),ACC,Atlantic,floridastate,True
-75,Southern Mississippi,1498.75,2018,1440.43,UTEP,(7 - **39**) W,13.93,(6 - 5),(5 - 5),Conference USA,West,southernmiss,True
-76,Miami (OH),1498.33,2018,1479.35,Ball State,(**42** - 21) W,14.15,(6 - 6),(6 - 6),Mid-American,East,,True
-77,Arizona,1495.62,2018,1503.74,Arizona State,(**40** - 41) L,-6.07,(5 - 7),(4 - 7),Pac-12,South,arizona,True
-78,Northern Illinois,1494.67,2018,1501.8,UAB,(**13** - 37) L,-28.62,(8 - 6),(7 - 6),Mid-American,West,northernillinois,True
-79,Air Force,1489.44,2018,1478.27,Colorado State,(**27** - 19) W,13.79,(5 - 7),(3 - 7),Mountain West,Mountain,airforce,True
-80,Nevada,1487.52,2018,1459.53,Arkansas State,(**16** - 13) W,14.47,(8 - 5),(5 - 5),Mountain West,West,nevada,True
-81,Eastern Michigan,1486.64,2018,1449.35,Georgia Southern,(**21** - 23) L,-9.92,(7 - 6),(5 - 6),Mid-American,West,easternmichigan,True
-82,Vanderbilt,1484.92,2018,1514.28,Baylor,(**38** - 45) L,-22.52,(6 - 7),(3 - 7),SEC,East,vanderbilt,True
-83,California,1482.68,2018,1500.53,TCU,(10 - **7**) L,-9.15,(7 - 6),(4 - 6),Pac-12,North,california,True
-84,Baylor,1477.88,2018,1523.73,Vanderbilt,(38 - **45**) W,22.52,(7 - 6),(4 - 6),Big 12,,baylor,True
-85,Western Michigan,1476.87,2018,1429.33,BYU,(49 - **18**) L,-28.58,(7 - 6),(5 - 6),Mid-American,West,westernmichigan,True
-86,Liberty,1462.11,2018,1434.58,Norfolk State,(**52** - 17) W,12.32,(6 - 6),(0 - 6),FBS Independents,,liberty,True
-87,Nebraska,1462.02,2018,1545.35,Iowa,(31 - **28**) L,-6.45,(4 - 8),(3 - 8),Big Ten,West,nebraska,True
-88,Texas Tech,1459.06,2018,1533.77,Baylor,(**24** - 35) L,-27.2,(5 - 7),(3 - 7),Big 12,,texastech,True
-89,Ole Miss,1458.0,2018,1504.0,Mississippi State,(**3** - 35) L,-21.26,(5 - 7),(1 - 7),SEC,West,olemiss,True
-90,Louisiana,1451.26,2018,1487.64,Tulane,(**24** - 41) L,-28.46,(7 - 7),(5 - 7),Sun Belt,,louisiana,True
-91,Maryland,1450.25,2018,1543.57,Penn State,(38 - **3**) L,-11.98,(5 - 7),(3 - 7),Big Ten,East,maryland,True
-92,Indiana,1449.03,2018,1543.0,Purdue,(**21** - 28) L,-17.15,(5 - 7),(2 - 7),Big Ten,East,indiana,True
-93,Colorado,1438.42,2018,1498.42,California,(33 - **21**) L,-19.32,(5 - 7),(2 - 7),Pac-12,South,colorado,True
-94,Tennessee,1436.02,2018,1524.01,Vanderbilt,(38 - **13**) L,-25.3,(5 - 7),(2 - 7),SEC,East,tennessee,True
-95,SMU,1435.08,2018,1490.16,Tulsa,(27 - **24**) L,-14.42,(5 - 7),(4 - 7),American Athletic,West,smu,True
-96,Louisiana Monroe,1424.22,2018,1447.59,Louisiana,(**28** - 31) L,-12.29,(6 - 6),(4 - 6),Sun Belt,,ulm,True
-97,UCLA,1408.27,2018,1562.93,Stanford,(**42** - 49) L,-11.04,(3 - 9),(3 - 9),Pac-12,South,ucla,True
-98,Navy,1408.26,2018,1513.95,Army,(17 - **10**) L,-8.06,(3 - 10),(2 - 10),American Athletic,West,navy,True
-99,Western Kentucky,1408.09,2018,1447.15,Louisiana Tech,(15 - **30**) W,35.22,(3 - 9),(2 - 9),Conference USA,East,wku,True
-100,North Carolina,1375.75,2018,1509.09,NC State,(**28** - 34) L,-8.93,(2 - 9),(1 - 9),ACC,Coastal,northcarolina,True
-101,Hawai'i,1374.73,2018,1463.95,Louisiana Tech,(31 - **14**) L,-16.5,(8 - 6),(5 - 6),Mountain West,West,,True
-102,Colorado State,1372.44,2018,1454.09,Air Force,(27 - **19**) L,-13.79,(3 - 9),(2 - 9),Mountain West,Mountain,,True
-103,Louisville,1366.75,2018,1541.56,Kentucky,(**10** - 56) L,-21.43,(2 - 10),(0 - 10),ACC,Atlantic,louisville,True
-104,Old Dominion,1366.33,2018,1438.47,Rice,(27 - **13**) L,-31.68,(4 - 8),(2 - 8),Conference USA,East,olddominion,True
-105,Tulsa,1359.67,2018,1459.84,SMU,(**27** - 24) W,14.42,(3 - 9),(2 - 9),American Athletic,West,tulsa,True
-106,Coastal Carolina,1358.13,2018,1443.44,South Alabama,(31 - **28**) L,-13.45,(5 - 7),(2 - 7),Sun Belt,,coastalcarolina,True
-107,UMass,1356.72,2018,1464.42,Georgia,(66 - **27**) L,-5.81,(4 - 8),(0 - 8),FBS Independents,,,True
-108,Arkansas,1352.96,2018,1543.36,Missouri,(38 - **0**) L,-12.11,(2 - 10),(0 - 10),SEC,West,arkansas,True
-109,New Mexico,1352.42,2018,1512.34,Wyoming,(**3** - 31) L,-23.24,(3 - 9),(1 - 9),Mountain West,Mountain,newmexico,True
-110,UNLV,1352.06,2018,1459.03,Nevada,(**34** - 29) W,20.46,(4 - 8),(2 - 8),Mountain West,West,unlv,True
-111,Illinois,1346.11,2018,1507.73,Northwestern,(24 - **16**) L,-6.59,(4 - 8),(2 - 8),Big Ten,West,illinois,True
-112,UT San Antonio,1338.13,2018,1461.95,North Texas,(**21** - 24) L,-6.98,(3 - 9),(2 - 9),Conference USA,West,utsa,True
-113,Akron,1335.82,2018,1440.81,South Carolina,(28 - **3**) L,-13.26,(4 - 8),(2 - 8),Mid-American,East,akron,True
-114,Charlotte,1335.31,2018,1463.74,Florida Atlantic,(24 - **27**) W,18.5,(5 - 7),(4 - 7),Conference USA,East,charlotte,True
-115,East Carolina,1329.61,2018,1501.49,NC State,(58 - **3**) L,-11.12,(3 - 9),(1 - 9),American Athletic,East,eastcarolina,True
-116,New Mexico State,1321.1,2018,1415.3,Liberty,(28 - **21**) L,-12.43,(3 - 9),(0 - 9),FBS Independents,,newmexicostate,True
-117,South Alabama,1315.96,2018,1477.04,Coastal Carolina,(**31** - 28) W,13.45,(3 - 9),(2 - 9),Sun Belt,,southalabama,True
-118,Georgia State,1311.11,2018,1474.07,Georgia Southern,(**14** - 35) L,-17.7,(2 - 10),(1 - 10),Sun Belt,,georgiastate,True
-119,Kansas,1310.68,2018,1533.38,Texas,(**17** - 24) L,-6.48,(3 - 9),(1 - 9),Big 12,,kansas,True
-120,Bowling Green,1305.78,2018,1436.31,Buffalo,(**14** - 44) L,-15.97,(3 - 9),(2 - 9),Mid-American,East,bowlinggreen,True
-121,Central Michigan,1298.88,2018,1432.25,Toledo,(51 - **13**) L,-12.75,(1 - 11),(0 - 11),Mid-American,West,centralmichigan,True
-122,Ball State,1293.95,2018,1461.1,Miami (OH),(42 - **21**) L,-14.15,(4 - 8),(3 - 8),Mid-American,West,,True
-123,Texas State,1290.14,2018,1438.94,Arkansas State,(**7** - 33) L,-14.1,(3 - 9),(1 - 9),Sun Belt,,texasstate,True
-124,Rutgers,1279.05,2018,1548.57,Michigan State,(14 - **10**) L,-4.24,(1 - 11),(0 - 11),Big Ten,East,rutgers,True
-125,Oregon State,1278.0,2018,1528.06,Oregon,(**15** - 55) L,-16.5,(2 - 10),(1 - 10),Pac-12,North,oregonstate,True
-126,Kent State,1263.65,2018,1452.49,Eastern Michigan,(**20** - 28) L,-11.45,(2 - 10),(1 - 10),Mid-American,East,,True
-127,Rice,1250.01,2018,1465.25,Old Dominion,(**27** - 13) W,31.68,(2 - 11),(1 - 11),Conference USA,West,rice,True
-128,San José State,1244.04,2018,1501.64,Fresno State,(31 - **13**) L,-4.61,(1 - 11),(1 - 11),Mountain West,West,,True
-129,Connecticut,1213.69,2018,1485.54,Temple,(**7** - 57) L,-9.6,(1 - 11),(0 - 11),American Athletic,East,connecticut,True
-130,UTEP,1192.73,2018,1431.38,Southern Mississippi,(**7** - 39) L,-13.93,(1 - 11),(1 - 11),Conference USA,West,utep,True
+1,Clemson,1818.1,2018,1535.08,Alabama,(16 - **44**) W,33.41,(15 - 0),(9 - 0),ACC,Atlantic,clemson,True
+2,Alabama,1758.23,2018,1541.43,Clemson,(**16** - 44) L,-33.41,(14 - 1),(9 - 1),SEC,West,alabama,True
+3,Ohio State,1715.16,2018,1548.35,Washington,(**28** - 23) W,12.58,(13 - 1),(9 - 1),Big Ten,East,ohiostate,True
+4,Notre Dame,1696.06,2018,1534.53,Clemson,(30 - **3**) L,-24.5,(12 - 1),(0 - 1),FBS Independents,,notredame,True
+5,UCF,1691.5,2018,1490.99,LSU,(**32** - 40) L,-26.25,(12 - 1),(9 - 1),American Athletic,East,ucf,True
+6,Fresno State,1685.08,2018,1480.02,Arizona State,(**31** - 20) W,13.49,(12 - 2),(8 - 2),Mountain West,West,fresnostate,True
+7,Oklahoma,1682.83,2018,1537.94,Alabama,(45 - **34**) L,-16.3,(12 - 2),(9 - 2),Big 12,,oklahoma,True
+8,Appalachian State,1682.75,2018,1479.66,Middle Tennessee,(**45** - 13) W,20.73,(11 - 2),(8 - 2),Sun Belt,,appalachianstate,True
+9,Utah State,1680.2,2018,1463.63,North Texas,(13 - **52**) W,32.33,(11 - 2),(7 - 2),Mountain West,Mountain,,True
+10,Georgia,1661.72,2018,1530.42,Texas,(**21** - 28) L,-23.52,(11 - 3),(7 - 3),SEC,East,georgia,True
+11,Army,1652.28,2018,1459.58,Houston,(**70** - 14) W,27.69,(11 - 2),(0 - 2),FBS Independents,,army,True
+12,Boise State,1649.46,2018,1525.8,Fresno State,(**16** - 19) L,-13.71,(10 - 3),(7 - 3),Mountain West,Mountain,,True
+13,Washington State,1647.18,2018,1493.67,Iowa State,(**28** - 26) W,7.65,(11 - 2),(7 - 2),Pac-12,North,,True
+14,Cincinnati,1636.58,2018,1464.67,Virginia Tech,(31 - **35**) W,10.25,(11 - 2),(6 - 2),American Athletic,East,cincinnati,True
+15,Washington,1635.19,2018,1512.63,Ohio State,(28 - **23**) L,-12.58,(10 - 4),(8 - 4),Pac-12,North,washington,True
+16,Syracuse,1634.62,2018,1488.32,West Virginia,(**34** - 18) W,22.32,(10 - 3),(6 - 3),ACC,Atlantic,syracuse,True
+17,Texas,1630.83,2018,1545.42,Georgia,(21 - **28**) W,23.52,(10 - 4),(7 - 4),Big 12,,texas,True
+18,Florida,1629.7,2018,1486.28,Michigan,(15 - **41**) W,36.87,(10 - 3),(5 - 3),SEC,East,florida,True
+19,LSU,1627.83,2018,1517.24,UCF,(32 - **40**) W,26.25,(10 - 3),(5 - 3),SEC,West,lsu,True
+20,Michigan,1627.07,2018,1516.57,Florida,(**15** - 41) L,-36.87,(10 - 3),(8 - 3),Big Ten,East,michigan,True
+21,Ohio,1625.05,2018,1457.41,San Diego State,(**27** - 0) W,20.98,(9 - 4),(6 - 4),Mid-American,East,,True
+22,Penn State,1624.49,2018,1528.69,Kentucky,(**24** - 27) L,-15.09,(9 - 4),(6 - 4),Big Ten,East,pennstate,True
+23,Iowa,1615.8,2018,1502.26,Mississippi State,(**27** - 22) W,14.99,(9 - 4),(5 - 4),Big Ten,West,iowa,True
+24,Troy,1613.67,2018,1480.54,Buffalo,(**42** - 32) W,19.91,(10 - 3),(7 - 3),Sun Belt,,troy,True
+25,Texas A&M,1612.86,2018,1522.53,NC State,(**52** - 13) W,31.93,(9 - 4),(5 - 4),SEC,West,texasam,True
+26,UAB,1609.41,2018,1470.83,Northern Illinois,(13 - **37**) W,26.63,(11 - 3),(8 - 3),Conference USA,West,uab,True
+27,Kentucky,1599.88,2018,1497.11,Penn State,(24 - **27**) W,15.09,(9 - 4),(4 - 4),SEC,East,kentucky,True
+28,Mississippi State,1592.31,2018,1518.93,Iowa,(27 - **22**) L,-14.99,(8 - 5),(4 - 5),SEC,West,mississippistate,True
+29,Missouri,1590.64,2018,1501.13,Oklahoma State,(38 - **33**) L,-18.76,(9 - 4),(5 - 4),SEC,East,missouri,True
+30,Georgia Southern,1590.59,2018,1460.48,Eastern Michigan,(21 - **23**) W,9.49,(10 - 3),(6 - 3),Sun Belt,,georgiasouthern,True
+31,Auburn,1580.87,2018,1513.21,Purdue,(**63** - 14) W,31.49,(8 - 5),(3 - 5),SEC,West,auburn,True
+32,Buffalo,1577.4,2018,1464.22,Troy,(42 - **32**) L,-19.91,(10 - 4),(7 - 4),Mid-American,East,buffalo,True
+33,Utah,1576.4,2018,1498.59,Northwestern,(**20** - 31) L,-27.01,(9 - 5),(6 - 5),Pac-12,South,utah,True
+34,Northwestern,1576.32,2018,1529.4,Utah,(20 - **31**) W,27.01,(9 - 5),(8 - 5),Big Ten,West,northwestern,True
+35,Stanford,1575.2,2018,1491.91,Pittsburgh,(13 - **14**) W,6.04,(9 - 4),(6 - 4),Pac-12,North,stanford,True
+36,Iowa State,1574.36,2018,1515.94,Washington State,(28 - **26**) L,-7.65,(8 - 5),(6 - 5),Big 12,,iowastate,True
+37,West Virginia,1574.16,2018,1506.33,Syracuse,(34 - **18**) L,-22.32,(8 - 4),(6 - 4),Big 12,,westvirginia,True
+38,Temple,1571.17,2018,1487.29,Duke,(56 - **27**) L,-35.99,(8 - 5),(7 - 5),American Athletic,East,temple,True
+39,Virginia,1570.35,2018,1488.04,South Carolina,(**28** - 0) W,26.99,(8 - 5),(4 - 5),ACC,Coastal,virginia,True
+40,North Texas,1569.34,2018,1455.67,Utah State,(**13** - 52) L,-32.33,(9 - 4),(5 - 4),Conference USA,West,northtexas,True
+41,NC State,1568.74,2018,1474.48,Texas A&M,(52 - **13**) L,-31.93,(9 - 4),(5 - 4),ACC,Atlantic,ncstate,True
+42,Marshall,1565.89,2018,1452.53,South Florida,(20 - **38**) W,24.86,(9 - 4),(6 - 4),Conference USA,East,marshall,True
+43,Memphis,1564.22,2018,1476.76,Wake Forest,(37 - **34**) L,-13.9,(8 - 6),(5 - 6),American Athletic,West,memphis,True
+44,Arkansas State,1561.38,2018,1462.89,Nevada,(16 - **13**) L,-13.29,(8 - 5),(5 - 5),Sun Belt,,arkansasstate,True
+45,Florida International,1560.52,2018,1448.85,Toledo,(32 - **35**) W,13.23,(9 - 4),(6 - 4),Conference USA,East,fiu,True
+46,Oregon,1557.95,2018,1482.56,Michigan State,(**7** - 6) W,5.5,(9 - 4),(5 - 4),Pac-12,North,oregon,True
+47,Wisconsin,1551.05,2018,1505.18,Miami,(**35** - 3) W,31.63,(8 - 5),(5 - 5),Big Ten,West,wisconsin,True
+48,BYU,1544.94,2018,1494.71,Western Michigan,(**49** - 18) W,25.62,(7 - 6),(0 - 6),FBS Independents,,byu,True
+49,Miami (OH),1538.94,2018,1506.75,Ball State,(**42** - 21) W,16.65,(6 - 6),(6 - 6),Mid-American,East,,True
+50,Middle Tennessee,1535.06,2018,1482.5,Appalachian State,(45 - **13**) L,-20.73,(8 - 6),(7 - 6),Conference USA,East,middletennessee,True
+51,Boston College,1534.33,2018,1501.24,Syracuse,(**21** - 42) L,-28.87,(7 - 5),(4 - 5),ACC,Atlantic,bostoncollege,True
+52,Houston,1534.14,2018,1484.75,Army,(70 - **14**) L,-27.69,(8 - 5),(5 - 5),American Athletic,West,houston,True
+53,Michigan State,1533.9,2018,1524.09,Oregon,(7 - **6**) L,-5.5,(7 - 6),(5 - 6),Big Ten,East,michiganstate,True
+54,Minnesota,1531.56,2018,1509.16,Georgia Tech,(10 - **34**) W,34.64,(7 - 6),(3 - 6),Big Ten,West,minnesota,True
+55,Duke,1529.35,2018,1498.31,Temple,(**56** - 27) W,35.99,(8 - 5),(3 - 5),ACC,Coastal,duke,True
+56,Arizona State,1527.2,2018,1519.51,Fresno State,(31 - **20**) L,-13.49,(7 - 6),(5 - 6),Pac-12,South,,True
+57,Miami,1525.59,2018,1489.96,Wisconsin,(35 - **3**) L,-31.63,(7 - 6),(4 - 6),ACC,Coastal,miami,True
+58,Tulane,1524.94,2018,1477.32,Louisiana,(24 - **41**) W,29.29,(7 - 6),(5 - 6),American Athletic,West,tulane,True
+59,Nevada,1524.56,2018,1465.77,Arkansas State,(**16** - 13) W,13.29,(8 - 5),(5 - 5),Mountain West,West,nevada,True
+60,Toledo,1523.23,2018,1450.59,Florida International,(**32** - 35) L,-13.23,(7 - 6),(5 - 6),Mid-American,West,toledo,True
+61,Wyoming,1522.51,2018,1473.23,New Mexico,(3 - **31**) W,25.82,(6 - 6),(4 - 6),Mountain West,Mountain,wyoming,True
+62,Oklahoma State,1520.39,2018,1510.83,Missouri,(**38** - 33) W,18.76,(7 - 6),(3 - 6),Big 12,,oklahomastate,True
+63,Southern Mississippi,1520.17,2018,1475.16,UTEP,(7 - **39**) W,20.35,(6 - 5),(5 - 5),Conference USA,West,southernmiss,True
+64,Eastern Michigan,1519.83,2018,1456.98,Georgia Southern,(**21** - 23) L,-9.49,(7 - 6),(5 - 6),Mid-American,West,easternmichigan,True
+65,Pittsburgh,1514.91,2018,1524.44,Stanford,(**13** - 14) L,-6.04,(7 - 7),(6 - 7),ACC,Coastal,pittsburgh,True
+66,Georgia Tech,1510.68,2018,1489.79,Minnesota,(**10** - 34) L,-34.64,(7 - 6),(5 - 6),ACC,Coastal,georgiatech,True
+67,Louisiana Tech,1510.16,2018,1452.68,Hawai'i,(**31** - 14) W,22.53,(8 - 5),(5 - 5),Conference USA,West,louisianatech,True
+68,Purdue,1509.93,2018,1524.22,Auburn,(63 - **14**) L,-31.49,(6 - 7),(5 - 7),Big Ten,West,purdue,True
+69,Wake Forest,1507.12,2018,1502.97,Memphis,(**37** - 34) W,13.9,(7 - 6),(3 - 6),ACC,Atlantic,wakeforest,True
+70,South Carolina,1506.9,2018,1505.12,Virginia,(28 - **0**) L,-26.99,(7 - 6),(4 - 6),SEC,East,southcarolina,True
+71,Baylor,1504.97,2018,1500.96,Vanderbilt,(38 - **45**) W,21.66,(7 - 6),(4 - 6),Big 12,,baylor,True
+72,TCU,1502.2,2018,1491.29,California,(**10** - 7) W,11.4,(7 - 6),(4 - 6),Big 12,,tcu,True
+73,Arizona,1494.5,2018,1491.77,Arizona State,(**40** - 41) L,-6.27,(5 - 7),(4 - 7),Pac-12,South,arizona,True
+74,San Diego State,1494.5,2018,1475.7,Ohio,(27 - **0**) L,-20.98,(7 - 6),(4 - 6),Mountain West,West,,True
+75,Vanderbilt,1492.49,2018,1494.59,Baylor,(**38** - 45) L,-21.66,(6 - 7),(3 - 7),SEC,East,vanderbilt,True
+76,Northern Illinois,1488.09,2018,1501.52,UAB,(**13** - 37) L,-26.63,(8 - 6),(7 - 6),Mid-American,West,northernillinois,True
+77,Air Force,1485.66,2018,1466.71,Colorado State,(**27** - 19) W,13.85,(5 - 7),(3 - 7),Mountain West,Mountain,airforce,True
+78,Louisiana,1483.47,2018,1484.74,Tulane,(**24** - 41) L,-29.29,(7 - 7),(5 - 7),Sun Belt,,louisiana,True
+79,Florida Atlantic,1483.04,2018,1469.77,Charlotte,(**24** - 27) L,-16.08,(5 - 7),(3 - 7),Conference USA,East,fau,True
+80,Kansas State,1482.18,2018,1491.14,Iowa State,(42 - **38**) L,-10.56,(5 - 7),(3 - 7),Big 12,,kansasstate,True
+81,California,1479.34,2018,1480.48,TCU,(10 - **7**) L,-11.4,(7 - 6),(4 - 6),Pac-12,North,california,True
+82,USC,1478.85,2018,1516.91,Notre Dame,(**17** - 24) L,-10.4,(5 - 7),(4 - 7),Pac-12,South,,True
+83,Louisiana Monroe,1478.17,2018,1463.47,Louisiana,(**28** - 31) L,-12.87,(6 - 6),(4 - 6),Sun Belt,,ulm,True
+84,Maryland,1473.66,2018,1523.34,Penn State,(38 - **3**) L,-19.78,(5 - 7),(3 - 7),Big Ten,East,maryland,True
+85,Liberty,1464.21,2018,1444.99,Norfolk State,(**52** - 17) W,12.21,(6 - 6),(0 - 6),FBS Independents,,liberty,True
+86,Nebraska,1464.11,2018,1499.18,Iowa,(31 - **28**) L,-7.8,(4 - 8),(3 - 8),Big Ten,West,nebraska,True
+87,Virginia Tech,1462.32,2018,1508.74,Cincinnati,(**31** - 35) L,-10.25,(6 - 7),(4 - 7),ACC,Coastal,virginiatech,True
+88,Texas Tech,1458.14,2018,1502.95,Baylor,(**24** - 35) L,-25.64,(5 - 7),(3 - 7),Big 12,,texastech,True
+89,Western Michigan,1455.92,2018,1442.88,BYU,(49 - **18**) L,-25.62,(7 - 6),(5 - 6),Mid-American,West,westernmichigan,True
+90,South Florida,1455.62,2018,1498.97,Marshall,(**20** - 38) L,-24.86,(7 - 6),(3 - 6),American Athletic,East,usf,True
+91,Indiana,1446.14,2018,1531.23,Purdue,(**21** - 28) L,-17.58,(5 - 7),(2 - 7),Big Ten,East,indiana,True
+92,Hawai'i,1445.58,2018,1477.11,Louisiana Tech,(31 - **14**) L,-22.53,(8 - 6),(5 - 6),Mountain West,West,,True
+93,SMU,1444.73,2018,1477.55,Tulsa,(27 - **24**) L,-14.06,(5 - 7),(4 - 7),American Athletic,West,smu,True
+94,Tennessee,1443.4,2018,1504.76,Vanderbilt,(38 - **13**) L,-25.36,(5 - 7),(2 - 7),SEC,East,tennessee,True
+95,Florida State,1436.96,2018,1519.12,Florida,(**14** - 41) L,-24.69,(5 - 7),(3 - 7),ACC,Atlantic,floridastate,True
+96,Colorado,1432.19,2018,1481.72,California,(33 - **21**) L,-18.68,(5 - 7),(2 - 7),Pac-12,South,colorado,True
+97,Ole Miss,1430.59,2018,1477.59,Mississippi State,(**3** - 35) L,-24.21,(5 - 7),(1 - 7),SEC,West,olemiss,True
+98,Charlotte,1420.68,2018,1462.03,Florida Atlantic,(24 - **27**) W,16.08,(5 - 7),(4 - 7),Conference USA,East,charlotte,True
+99,Western Kentucky,1415.43,2018,1451.24,Louisiana Tech,(15 - **30**) W,34.12,(3 - 9),(2 - 9),Conference USA,East,wku,True
+100,UMass,1404.41,2018,1476.25,Georgia,(66 - **27**) L,-12.13,(4 - 8),(0 - 8),FBS Independents,,,True
+101,Coastal Carolina,1401.83,2018,1451.68,South Alabama,(31 - **28**) L,-13.55,(5 - 7),(2 - 7),Sun Belt,,coastalcarolina,True
+102,UNLV,1400.06,2018,1477.32,Nevada,(**34** - 29) W,20.16,(4 - 8),(2 - 8),Mountain West,West,unlv,True
+103,UCLA,1396.88,2018,1524.24,Stanford,(**42** - 49) L,-14.72,(3 - 9),(3 - 9),Pac-12,South,ucla,True
+104,Old Dominion,1395.46,2018,1454.26,Rice,(27 - **13**) L,-28.75,(4 - 8),(2 - 8),Conference USA,East,olddominion,True
+105,Kansas,1394.4,2018,1507.56,Texas,(**17** - 24) L,-10.87,(3 - 9),(1 - 9),Big 12,,kansas,True
+106,Navy,1388.65,2018,1508.84,Army,(17 - **10**) L,-7.97,(3 - 10),(2 - 10),American Athletic,West,navy,True
+107,Illinois,1388.45,2018,1487.64,Northwestern,(24 - **16**) L,-10.83,(4 - 8),(2 - 8),Big Ten,West,illinois,True
+108,North Carolina,1387.31,2018,1497.47,NC State,(**28** - 34) L,-11.61,(2 - 9),(1 - 9),ACC,Coastal,northcarolina,True
+109,Texas State,1385.66,2018,1464.82,Arkansas State,(**7** - 33) L,-21.55,(3 - 9),(1 - 9),Sun Belt,,texasstate,True
+110,Tulsa,1381.81,2018,1446.39,SMU,(**27** - 24) W,14.06,(3 - 9),(2 - 9),American Athletic,West,tulsa,True
+111,New Mexico,1375.96,2018,1492.35,Wyoming,(**3** - 31) L,-25.82,(3 - 9),(1 - 9),Mountain West,Mountain,newmexico,True
+112,East Carolina,1375.24,2018,1490.11,NC State,(58 - **3**) L,-17.39,(3 - 9),(1 - 9),American Athletic,East,eastcarolina,True
+113,Ball State,1372.61,2018,1456.85,Miami (OH),(42 - **21**) L,-16.65,(4 - 8),(3 - 8),Mid-American,West,,True
+114,Colorado State,1369.72,2018,1479.6,Air Force,(27 - **19**) L,-13.85,(3 - 9),(2 - 9),Mountain West,Mountain,,True
+115,New Mexico State,1365.32,2018,1453.33,Liberty,(28 - **21**) L,-14.47,(3 - 9),(0 - 9),FBS Independents,,newmexicostate,True
+116,Akron,1362.24,2018,1447.92,South Carolina,(28 - **3**) L,-17.3,(4 - 8),(2 - 8),Mid-American,East,akron,True
+117,UT San Antonio,1361.13,2018,1500.53,North Texas,(**21** - 24) L,-6.77,(3 - 9),(2 - 9),Conference USA,West,utsa,True
+118,Bowling Green,1359.57,2018,1442.25,Buffalo,(**14** - 44) L,-17.89,(3 - 9),(2 - 9),Mid-American,East,bowlinggreen,True
+119,South Alabama,1356.48,2018,1474.78,Coastal Carolina,(**31** - 28) W,13.55,(3 - 9),(2 - 9),Sun Belt,,southalabama,True
+120,Arkansas,1355.44,2018,1503.53,Missouri,(38 - **0**) L,-13.66,(2 - 10),(0 - 10),SEC,West,arkansas,True
+121,Kent State,1349.84,2018,1465.9,Eastern Michigan,(**20** - 28) L,-14.11,(2 - 10),(1 - 10),Mid-American,East,,True
+122,San José State,1338.46,2018,1501.88,Fresno State,(31 - **13**) L,-7.86,(1 - 11),(1 - 11),Mountain West,West,,True
+123,Rice,1337.39,2018,1477.55,Old Dominion,(**27** - 13) W,28.75,(2 - 11),(1 - 11),Conference USA,West,rice,True
+124,Georgia State,1335.03,2018,1475.99,Georgia Southern,(**14** - 35) L,-15.85,(2 - 10),(1 - 10),Sun Belt,,georgiastate,True
+125,Rutgers,1325.84,2018,1539.65,Michigan State,(14 - **10**) L,-6.69,(1 - 11),(0 - 11),Big Ten,East,rutgers,True
+126,Oregon State,1320.66,2018,1487.95,Oregon,(**15** - 55) L,-20.82,(2 - 10),(1 - 10),Pac-12,North,oregonstate,True
+127,Louisville,1312.07,2018,1500.5,Kentucky,(**10** - 56) L,-18.13,(2 - 10),(0 - 10),ACC,Atlantic,louisville,True
+128,Central Michigan,1308.05,2018,1455.72,Toledo,(51 - **13**) L,-15.39,(1 - 11),(0 - 11),Mid-American,West,centralmichigan,True
+129,UTEP,1299.69,2018,1454.15,Southern Mississippi,(**7** - 39) L,-20.35,(1 - 11),(1 - 11),Conference USA,West,utep,True
+130,Connecticut,1273.24,2018,1475.75,Temple,(**7** - 57) L,-13.94,(1 - 11),(0 - 11),American Athletic,East,connecticut,True

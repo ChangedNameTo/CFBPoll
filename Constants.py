@@ -4,8 +4,8 @@
 
 # Runtime Constants - Use these to change when or how the poll runs
 YEAR      = 2020
-WEEK      = 5
-RUN_SCRAPER = True # Run this if the values in the csvs are out of date
+WEEK      = 6
+RUN_SCRAPER = False # Run this if the values in the csvs are out of date
 
 # Researching constants
 TESTING = False # Set this to false if you care about poll output. 

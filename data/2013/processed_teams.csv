@@ -1,126 +1,126 @@
 ,_school,elo,_year,strength_of_schedule,last_played,result,elo_change,season_record,conf_record,conference,division,flair,played
-1,Florida State,1852.03,2013,1504.82,Auburn,(31 - **34**) W,8.88,(14 - 0),(9 - 0),ACC,Atlantic,floridastate,True
-2,Alabama,1782.95,2013,1519.08,Oklahoma,(**31** - 45) L,-30.82,(11 - 2),(7 - 2),SEC,West,alabama,True
-3,Stanford,1773.09,2013,1584.71,Michigan State,(24 - **20**) L,-14.39,(11 - 3),(8 - 3),Pac-12,North,stanford,True
-4,Oregon,1771.97,2013,1501.5,Texas,(7 - **30**) W,21.56,(11 - 2),(7 - 2),Pac-12,North,oregon,True
-5,Michigan State,1768.85,2013,1530.85,Stanford,(**24** - 20) W,14.39,(13 - 1),(9 - 1),Big Ten,Legends,michiganstate,True
-6,South Carolina,1762.8,2013,1549.21,Wisconsin,(**34** - 24) W,17.46,(11 - 2),(6 - 2),SEC,East,southcarolina,True
-7,Oklahoma,1762.5,2013,1591.92,Alabama,(31 - **45**) W,30.82,(11 - 2),(7 - 2),Big 12,,oklahoma,True
-8,LSU,1741.99,2013,1547.71,Iowa,(**21** - 14) W,10.51,(10 - 3),(5 - 3),SEC,West,lsu,True
-9,Ohio State,1741.52,2013,1511.85,Clemson,(**35** - 40) L,-19.92,(12 - 2),(8 - 2),Big Ten,Leaders,ohiostate,True
-10,Louisville,1740.8,2013,1470.37,Miami,(**36** - 9) W,18.09,(12 - 1),(7 - 1),American Athletic,,louisville,True
-11,UCF,1723.64,2013,1499.97,Baylor,(42 - **52**) W,25.7,(12 - 1),(8 - 1),American Athletic,,ucf,True
-12,Oklahoma State,1721.69,2013,1545.64,Missouri,(41 - **31**) L,-22.17,(10 - 3),(7 - 3),Big 12,,oklahomastate,True
-13,Missouri,1718.86,2013,1561.12,Oklahoma State,(**41** - 31) W,22.17,(12 - 2),(7 - 2),SEC,East,missouri,True
-14,Baylor,1718.5,2013,1529.58,UCF,(**42** - 52) L,-25.7,(11 - 2),(8 - 2),Big 12,,baylor,True
-15,Clemson,1714.14,2013,1510.27,Ohio State,(35 - **40**) W,19.92,(11 - 2),(7 - 2),ACC,Atlantic,clemson,True
-16,Northern Illinois,1689.94,2013,1426.77,Utah State,(**14** - 21) L,-23.93,(12 - 2),(8 - 2),Mid-American,West,northernillinois,True
-17,Wisconsin,1685.08,2013,1525.54,South Carolina,(34 - **24**) L,-17.46,(9 - 4),(6 - 4),Big Ten,Leaders,wisconsin,True
-18,Auburn,1682.22,2013,1573.98,Florida State,(**31** - 34) L,-8.88,(12 - 2),(8 - 2),SEC,West,auburn,True
-19,Texas A&M,1681.85,2013,1532.47,Duke,(**52** - 48) W,10.24,(9 - 4),(4 - 4),SEC,West,texasam,True
-20,UCLA,1679.31,2013,1556.28,Virginia Tech,(**42** - 12) W,23.64,(10 - 3),(6 - 3),Pac-12,South,ucla,True
-21,Notre Dame,1673.35,2013,1556.21,Rutgers,(**29** - 16) W,12.21,(9 - 4),(0 - 4),FBS Independents,,notredame,True
-22,Kansas State,1660.09,2013,1500.7,Michigan,(**31** - 14) W,22.34,(8 - 5),(5 - 5),Big 12,,kansasstate,True
-23,USC,1654.53,2013,1531.72,Fresno State,(**45** - 20) W,28.72,(10 - 4),(6 - 4),Pac-12,South,,True
-24,Utah State,1648.47,2013,1483.94,Northern Illinois,(14 - **21**) W,23.93,(9 - 5),(7 - 5),Mountain West,Mountain,,True
-25,Georgia,1645.74,2013,1541.53,Nebraska,(**19** - 24) L,-20.75,(8 - 5),(5 - 5),SEC,East,georgia,True
-26,Bowling Green,1644.99,2013,1448.94,Pittsburgh,(**27** - 30) L,-17.61,(10 - 4),(8 - 4),Mid-American,East,bowlinggreen,True
-27,Arizona State,1641.64,2013,1549.27,Texas Tech,(37 - **23**) L,-29.98,(10 - 4),(8 - 4),Pac-12,South,,True
-28,Boise State,1636.52,2013,1465.36,Oregon State,(38 - **23**) L,-31.09,(8 - 5),(6 - 5),Mountain West,Mountain,,True
-29,Washington,1635.32,2013,1532.04,BYU,(**31** - 16) W,24.84,(9 - 4),(5 - 4),Pac-12,North,washington,True
-30,Fresno State,1624.13,2013,1456.77,USC,(45 - **20**) L,-28.72,(11 - 2),(8 - 2),Mountain West,West,fresnostate,True
-31,BYU,1619.38,2013,1542.02,Washington,(31 - **16**) L,-24.84,(8 - 5),(0 - 5),FBS Independents,,byu,True
-32,Vanderbilt,1617.47,2013,1492.55,Houston,(24 - **41**) W,28.81,(9 - 4),(4 - 4),SEC,East,vanderbilt,True
-33,Cincinnati,1614.41,2013,1446.5,North Carolina,(39 - **17**) L,-31.39,(9 - 4),(6 - 4),American Athletic,,cincinnati,True
-34,Ball State,1603.01,2013,1411.06,Arkansas State,(**20** - 23) L,-15.56,(10 - 3),(7 - 3),Mid-American,West,,True
-35,East Carolina,1596.49,2013,1410.71,Ohio,(**37** - 20) W,17.55,(10 - 3),(6 - 3),Conference USA,East,eastcarolina,True
-36,Texas,1594.23,2013,1565.68,Oregon,(**7** - 30) L,-21.56,(8 - 5),(7 - 5),Big 12,,texas,True
-37,Nebraska,1593.56,2013,1507.34,Georgia,(19 - **24**) W,20.75,(9 - 4),(5 - 4),Big Ten,Legends,nebraska,True
-38,North Carolina,1592.94,2013,1519.49,Cincinnati,(**39** - 17) W,31.39,(7 - 6),(4 - 6),ACC,Coastal,northcarolina,True
-39,Michigan,1592.91,2013,1547.88,Kansas State,(31 - **14**) L,-22.34,(7 - 6),(3 - 6),Big Ten,Legends,michigan,True
-40,Penn State,1588.31,2013,1542.15,Wisconsin,(24 - **31**) W,26.32,(7 - 5),(4 - 5),Big Ten,Leaders,pennstate,True
-41,Marshall,1585.42,2013,1420.58,Maryland,(20 - **31**) W,19.02,(10 - 4),(7 - 4),Conference USA,East,marshall,True
-42,Arizona,1578.96,2013,1488.78,Boston College,(19 - **42**) W,24.97,(8 - 5),(4 - 5),Pac-12,South,arizona,True
-43,Duke,1575.91,2013,1513.04,Texas A&M,(52 - **48**) L,-10.24,(10 - 4),(6 - 4),ACC,Coastal,duke,True
-44,Miami,1573.63,2013,1502.9,Louisville,(36 - **9**) L,-18.09,(9 - 4),(5 - 4),ACC,Coastal,miami,True
-45,Virginia Tech,1570.91,2013,1500.16,UCLA,(42 - **12**) L,-23.64,(8 - 5),(5 - 5),ACC,Coastal,virginiatech,True
-46,Iowa,1570.67,2013,1544.27,LSU,(21 - **14**) L,-10.51,(8 - 5),(5 - 5),Big Ten,Legends,iowa,True
-47,Mississippi State,1569.29,2013,1556.68,Rice,(**44** - 7) W,34.09,(7 - 6),(3 - 6),SEC,West,mississippistate,True
-48,North Texas,1568.95,2013,1453.66,UNLV,(**36** - 14) W,18.23,(9 - 4),(6 - 4),Conference USA,West,northtexas,True
-49,Houston,1568.93,2013,1514.03,Vanderbilt,(**24** - 41) L,-28.81,(8 - 5),(5 - 5),American Athletic,,houston,True
-50,Louisiana,1567.46,2013,1415.67,Tulane,(**24** - 21) W,7.14,(9 - 4),(5 - 4),Sun Belt,,louisiana,True
-51,Ole Miss,1565.23,2013,1531.46,Georgia Tech,(17 - **25**) W,22.35,(8 - 5),(3 - 5),SEC,West,olemiss,True
-52,Arkansas State,1560.95,2013,1440.11,Ball State,(20 - **23**) W,15.56,(8 - 5),(5 - 5),Sun Belt,,arkansasstate,True
-53,Texas Tech,1560.58,2013,1548.11,Arizona State,(**37** - 23) W,29.98,(8 - 5),(4 - 5),Big 12,,texastech,True
-54,Rice,1554.27,2013,1445.5,Mississippi State,(44 - **7**) L,-34.09,(10 - 4),(8 - 4),Conference USA,West,rice,True
-55,Navy,1553.0,2013,1440.03,Army,(**34** - 7) W,11.92,(9 - 4),(0 - 4),FBS Independents,,navy,True
-56,Toledo,1551.56,2013,1465.03,Akron,(31 - **29**) L,-13.8,(7 - 5),(5 - 5),Mid-American,West,toledo,True
-57,Oregon State,1549.47,2013,1519.98,Boise State,(**38** - 23) W,31.09,(7 - 6),(4 - 6),Pac-12,North,oregonstate,True
-58,Syracuse,1548.89,2013,1514.5,Minnesota,(17 - **21**) W,15.67,(7 - 6),(4 - 6),ACC,Atlantic,syracuse,True
-59,San Diego State,1542.59,2013,1458.05,Buffalo,(**49** - 24) W,26.57,(8 - 5),(6 - 5),Mountain West,West,,True
-60,Western Kentucky,1540.06,2013,1422.37,Arkansas State,(**34** - 31) W,12.31,(8 - 4),(4 - 4),Sun Belt,,wku,True
-61,Georgia Tech,1539.5,2013,1503.0,Ole Miss,(**17** - 25) L,-22.35,(7 - 6),(5 - 6),ACC,Coastal,georgiatech,True
-62,Florida,1523.28,2013,1566.51,Florida State,(**7** - 37) L,-13.62,(4 - 8),(3 - 8),SEC,East,florida,True
-63,UT San Antonio,1521.32,2013,1475.62,Louisiana Tech,(**30** - 10) W,20.01,(7 - 5),(6 - 5),Conference USA,West,utsa,True
-64,San José State,1519.29,2013,1473.32,Fresno State,(**62** - 52) W,27.76,(6 - 6),(5 - 6),Mountain West,West,,True
-65,Minnesota,1515.67,2013,1521.98,Syracuse,(**17** - 21) L,-15.67,(8 - 5),(4 - 5),Big Ten,Legends,minnesota,True
-66,Pittsburgh,1509.35,2013,1526.44,Bowling Green,(27 - **30**) W,17.61,(7 - 6),(3 - 6),ACC,Coastal,pittsburgh,True
-67,TCU,1504.75,2013,1535.83,Baylor,(**38** - 41) L,-7.34,(4 - 8),(2 - 8),Big 12,,tcu,True
-68,Northwestern,1504.02,2013,1517.55,Illinois,(34 - **37**) W,10.0,(5 - 7),(1 - 7),Big Ten,Legends,northwestern,True
-69,Colorado State,1492.86,2013,1457.78,Washington State,(**48** - 45) W,10.19,(8 - 6),(5 - 6),Mountain West,Mountain,,True
-70,Buffalo,1486.24,2013,1443.97,San Diego State,(49 - **24**) L,-26.57,(8 - 5),(6 - 5),Mid-American,East,buffalo,True
-71,Rutgers,1475.55,2013,1490.41,Notre Dame,(29 - **16**) L,-12.21,(6 - 7),(3 - 7),American Athletic,,rutgers,True
-72,Middle Tennessee,1473.1,2013,1402.63,Navy,(24 - **6**) L,-20.37,(8 - 5),(6 - 5),Conference USA,East,middletennessee,True
-73,SMU,1472.85,2013,1485.04,UCF,(**13** - 17) L,-8.44,(5 - 7),(4 - 7),American Athletic,,smu,True
-74,South Alabama,1469.64,2013,1433.2,Louisiana,(**30** - 8) W,35.83,(6 - 6),(4 - 6),Sun Belt,,southalabama,True
-75,Utah,1467.72,2013,1545.64,Colorado,(**24** - 17) W,12.01,(5 - 7),(2 - 7),Pac-12,South,utah,True
-76,Tennessee,1463.79,2013,1566.01,Kentucky,(14 - **27**) W,20.0,(5 - 7),(2 - 7),SEC,East,tennessee,True
-77,Ohio,1462.15,2013,1406.68,East Carolina,(37 - **20**) L,-17.55,(7 - 6),(4 - 6),Mid-American,East,,True
-78,Kent State,1458.2,2013,1462.5,Ohio,(13 - **44**) W,39.81,(4 - 8),(3 - 8),Mid-American,East,,True
-79,Indiana,1454.16,2013,1534.05,Purdue,(**56** - 36) W,17.52,(5 - 7),(3 - 7),Big Ten,Leaders,indiana,True
-80,Maryland,1451.8,2013,1492.03,Marshall,(**20** - 31) L,-19.02,(7 - 6),(3 - 6),ACC,Atlantic,maryland,True
-81,Nevada,1447.8,2013,1494.33,BYU,(**23** - 28) L,-10.6,(4 - 8),(3 - 8),Mountain West,West,nevada,True
-82,Boston College,1442.48,2013,1479.52,Arizona,(**19** - 42) L,-24.97,(7 - 6),(4 - 6),ACC,Atlantic,bostoncollege,True
-83,Florida Atlantic,1437.67,2013,1411.92,Florida International,(**21** - 6) W,12.15,(6 - 6),(4 - 6),Conference USA,East,fau,True
-84,Louisiana Monroe,1434.82,2013,1454.13,Louisiana,(28 - **31**) W,18.03,(6 - 6),(4 - 6),Sun Belt,,ulm,True
-85,Central Michigan,1433.56,2013,1429.71,Eastern Michigan,(**42** - 10) W,17.75,(6 - 6),(5 - 6),Mid-American,West,centralmichigan,True
-86,Washington State,1432.9,2013,1520.03,Colorado State,(48 - **45**) L,-10.19,(6 - 7),(4 - 7),Pac-12,North,,True
-87,Iowa State,1432.06,2013,1524.05,West Virginia,(44 - **52**) W,23.29,(3 - 9),(2 - 9),Big 12,,iowastate,True
-88,Troy,1429.49,2013,1448.89,Texas State,(**42** - 28) W,23.15,(6 - 6),(4 - 6),Sun Belt,,troy,True
-89,West Virginia,1425.55,2013,1510.11,Iowa State,(**44** - 52) L,-23.29,(4 - 8),(2 - 8),Big 12,,westvirginia,True
-90,UNLV,1420.74,2013,1461.38,North Texas,(36 - **14**) L,-18.23,(7 - 6),(5 - 6),Mountain West,West,unlv,True
-91,Wake Forest,1419.29,2013,1520.34,Vanderbilt,(23 - **21**) L,-5.38,(4 - 8),(2 - 8),ACC,Atlantic,wakeforest,True
-92,Arkansas,1418.07,2013,1569.43,LSU,(31 - **27**) L,-4.27,(3 - 9),(0 - 9),SEC,West,arkansas,True
-93,Tulsa,1411.31,2013,1476.84,North Texas,(**10** - 42) L,-27.67,(3 - 9),(2 - 9),Conference USA,West,tulsa,True
-94,Tulane,1408.01,2013,1450.8,Louisiana,(24 - **21**) L,-7.14,(7 - 6),(5 - 6),Conference USA,West,tulane,True
-95,Louisiana Tech,1405.72,2013,1385.7,UT San Antonio,(30 - **10**) L,-20.01,(4 - 8),(3 - 8),Conference USA,West,louisianatech,True
-96,Texas State,1398.04,2013,1421.62,Troy,(42 - **28**) L,-23.15,(6 - 6),(2 - 6),Sun Belt,,texasstate,True
-97,Wyoming,1395.86,2013,1457.44,Utah State,(35 - **7**) L,-12.89,(5 - 7),(3 - 7),Mountain West,Mountain,wyoming,True
-98,Connecticut,1394.18,2013,1472.62,Memphis,(**45** - 10) W,29.17,(3 - 9),(3 - 9),American Athletic,,connecticut,True
-99,Temple,1389.97,2013,1467.33,Memphis,(21 - **41**) W,31.96,(2 - 10),(1 - 10),American Athletic,,temple,True
-100,Illinois,1368.71,2013,1515.71,Northwestern,(**34** - 37) L,-10.0,(4 - 8),(1 - 8),Big Ten,Leaders,illinois,True
-101,NC State,1367.51,2013,1498.19,Maryland,(**21** - 41) L,-26.39,(3 - 9),(0 - 9),ACC,Atlantic,ncstate,True
-102,Akron,1333.44,2013,1487.88,Toledo,(**31** - 29) W,13.8,(5 - 7),(4 - 7),Mid-American,East,akron,True
-103,Memphis,1331.94,2013,1475.01,Connecticut,(45 - **10**) L,-29.17,(3 - 9),(1 - 9),American Athletic,,memphis,True
-104,Colorado,1330.11,2013,1485.13,Utah,(24 - **17**) L,-12.01,(4 - 8),(1 - 8),Pac-12,South,colorado,True
-105,Kentucky,1324.88,2013,1551.35,Tennessee,(**14** - 27) L,-20.0,(2 - 10),(0 - 10),SEC,East,kentucky,True
-106,Virginia,1321.46,2013,1539.59,Virginia Tech,(**6** - 16) L,-10.63,(2 - 10),(0 - 10),ACC,Coastal,virginia,True
-107,Kansas,1309.34,2013,1543.68,Kansas State,(**10** - 31) L,-10.93,(3 - 9),(1 - 9),Big 12,,kansas,True
-108,New Mexico,1308.94,2013,1473.53,Boise State,(45 - **17**) L,-7.49,(3 - 9),(1 - 9),Mountain West,Mountain,newmexico,True
-109,Air Force,1304.42,2013,1465.19,Colorado State,(58 - **13**) L,-20.28,(2 - 10),(0 - 10),Mountain West,Mountain,airforce,True
-110,Purdue,1304.38,2013,1543.68,Indiana,(56 - **36**) L,-17.52,(1 - 11),(0 - 11),Big Ten,Leaders,purdue,True
-111,Hawai'i,1293.95,2013,1482.19,Army,(**49** - 42) W,19.32,(1 - 11),(0 - 11),Mountain West,West,,True
-112,Army,1292.63,2013,1424.94,Navy,(34 - **7**) L,-11.92,(3 - 9),(0 - 9),FBS Independents,,army,True
-113,South Florida,1290.59,2013,1497.96,Rutgers,(31 - **6**) L,-15.5,(2 - 10),(2 - 10),American Athletic,,usf,True
-114,California,1288.02,2013,1552.34,Stanford,(63 - **13**) L,-5.34,(1 - 11),(0 - 11),Pac-12,North,california,True
-115,UTEP,1278.73,2013,1446.79,Middle Tennessee,(48 - **17**) L,-15.38,(2 - 10),(1 - 10),Conference USA,West,utep,True
-116,Western Michigan,1276.02,2013,1466.48,Northern Illinois,(33 - **14**) L,-3.7,(1 - 11),(1 - 11),Mid-American,West,westernmichigan,True
-117,Georgia State,1263.53,2013,1435.96,South Alabama,(**17** - 38) L,-21.47,(0 - 12),(0 - 12),Sun Belt,,georgiastate,True
-118,Southern Mississippi,1262.94,2013,1471.39,UAB,(27 - **62**) W,39.46,(1 - 11),(1 - 11),Conference USA,East,southernmiss,True
-119,Eastern Michigan,1248.99,2013,1480.26,Central Michigan,(42 - **10**) L,-17.75,(2 - 10),(1 - 10),Mid-American,West,easternmichigan,True
-120,UAB,1245.63,2013,1438.04,Southern Mississippi,(**27** - 62) L,-39.46,(2 - 10),(1 - 10),Conference USA,East,uab,True
-121,UMass,1235.1,2013,1454.49,Ohio,(51 - **23**) L,-12.98,(1 - 11),(1 - 11),Mid-American,East,,True
-122,Florida International,1226.19,2013,1435.84,Florida Atlantic,(21 - **6**) L,-12.15,(1 - 11),(1 - 11),Conference USA,East,fiu,True
-123,New Mexico State,1211.86,2013,1431.73,Idaho,(**24** - 16) W,18.79,(2 - 10),(0 - 10),FBS Independents,,newmexicostate,True
-124,Miami (OH),1208.89,2013,1453.04,Ball State,(55 - **14**) L,-6.48,(0 - 12),(0 - 12),Mid-American,East,,True
-125,Idaho,1189.27,2013,1477.7,New Mexico State,(24 - **16**) L,-18.79,(1 - 11),(0 - 11),FBS Independents,,idaho,True
+1,Florida State,1788.54,2013,1508.0,Auburn,(31 - **34**) W,11.0,(14 - 0),(9 - 0),ACC,Atlantic,floridastate,True
+2,Michigan State,1730.92,2013,1518.42,Stanford,(**24** - 20) W,12.51,(13 - 1),(9 - 1),Big Ten,Legends,michiganstate,True
+3,Louisville,1703.56,2013,1477.94,Miami,(**36** - 9) W,19.24,(12 - 1),(7 - 1),American Athletic,,louisville,True
+4,Missouri,1695.61,2013,1521.72,Oklahoma State,(**41** - 31) W,19.54,(12 - 2),(7 - 2),SEC,East,missouri,True
+5,Stanford,1685.26,2013,1566.1,Michigan State,(24 - **20**) L,-12.51,(11 - 3),(8 - 3),Pac-12,North,stanford,True
+6,Auburn,1683.55,2013,1533.82,Florida State,(**31** - 34) L,-11.0,(12 - 2),(8 - 2),SEC,West,auburn,True
+7,UCF,1682.02,2013,1502.41,Baylor,(42 - **52**) W,25.26,(12 - 1),(8 - 1),American Athletic,,ucf,True
+8,Oregon,1680.21,2013,1508.34,Texas,(7 - **30**) W,24.99,(11 - 2),(7 - 2),Pac-12,North,oregon,True
+9,Oklahoma,1680.03,2013,1546.93,Alabama,(31 - **45**) W,28.8,(11 - 2),(7 - 2),Big 12,,oklahoma,True
+10,Baylor,1668.4,2013,1507.6,UCF,(**42** - 52) L,-25.26,(11 - 2),(8 - 2),Big 12,,baylor,True
+11,Ohio State,1667.67,2013,1501.12,Clemson,(**35** - 40) L,-19.57,(12 - 2),(8 - 2),Big Ten,Leaders,ohiostate,True
+12,South Carolina,1666.84,2013,1512.49,Wisconsin,(**34** - 24) W,20.16,(11 - 2),(6 - 2),SEC,East,southcarolina,True
+13,Alabama,1664.4,2013,1498.48,Oklahoma,(**31** - 45) L,-28.8,(11 - 2),(7 - 2),SEC,West,alabama,True
+14,UCLA,1657.22,2013,1542.52,Virginia Tech,(**42** - 12) W,23.19,(10 - 3),(6 - 3),Pac-12,South,ucla,True
+15,Oklahoma State,1653.02,2013,1520.06,Missouri,(41 - **31**) L,-19.54,(10 - 3),(7 - 3),Big 12,,oklahomastate,True
+16,Bowling Green,1650.19,2013,1461.14,Pittsburgh,(**27** - 30) L,-17.97,(10 - 4),(8 - 4),Mid-American,East,bowlinggreen,True
+17,Clemson,1649.83,2013,1490.06,Ohio State,(35 - **40**) W,19.57,(11 - 2),(7 - 2),ACC,Atlantic,clemson,True
+18,LSU,1646.64,2013,1508.49,Iowa,(**21** - 14) W,14.78,(10 - 3),(5 - 3),SEC,West,lsu,True
+19,Northern Illinois,1636.71,2013,1454.24,Utah State,(**14** - 21) L,-23.56,(12 - 2),(8 - 2),Mid-American,West,northernillinois,True
+20,Wisconsin,1634.85,2013,1516.18,South Carolina,(34 - **24**) L,-20.16,(9 - 4),(6 - 4),Big Ten,Leaders,wisconsin,True
+21,USC,1625.56,2013,1526.8,Fresno State,(**45** - 20) W,29.78,(10 - 4),(6 - 4),Pac-12,South,,True
+22,Washington,1616.14,2013,1507.71,BYU,(**31** - 16) W,22.18,(9 - 4),(5 - 4),Pac-12,North,washington,True
+23,Marshall,1615.37,2013,1443.16,Maryland,(20 - **31**) W,19.0,(10 - 4),(7 - 4),Conference USA,East,marshall,True
+24,North Texas,1612.05,2013,1472.72,UNLV,(**36** - 14) W,20.44,(9 - 4),(6 - 4),Conference USA,West,northtexas,True
+25,East Carolina,1610.92,2013,1434.36,Ohio,(**37** - 20) W,16.53,(10 - 3),(6 - 3),Conference USA,East,eastcarolina,True
+26,Fresno State,1608.19,2013,1460.81,USC,(45 - **20**) L,-29.78,(11 - 2),(8 - 2),Mountain West,West,fresnostate,True
+27,Arizona State,1605.42,2013,1519.63,Texas Tech,(37 - **23**) L,-29.28,(10 - 4),(8 - 4),Pac-12,South,,True
+28,Utah State,1604.67,2013,1486.74,Northern Illinois,(14 - **21**) W,23.56,(9 - 5),(7 - 5),Mountain West,Mountain,,True
+29,Ball State,1601.61,2013,1435.9,Arkansas State,(**20** - 23) L,-16.34,(10 - 3),(7 - 3),Mid-American,West,,True
+30,Duke,1595.73,2013,1504.32,Texas A&M,(52 - **48**) L,-14.48,(10 - 4),(6 - 4),ACC,Coastal,duke,True
+31,Texas A&M,1589.25,2013,1507.62,Duke,(**52** - 48) W,14.48,(9 - 4),(4 - 4),SEC,West,texasam,True
+32,Kansas State,1587.08,2013,1476.75,Michigan,(**31** - 14) W,23.73,(8 - 5),(5 - 5),Big 12,,kansasstate,True
+33,Vanderbilt,1584.7,2013,1476.45,Houston,(24 - **41**) W,30.79,(9 - 4),(4 - 4),SEC,East,vanderbilt,True
+34,Arizona,1579.33,2013,1499.2,Boston College,(19 - **42**) W,28.66,(8 - 5),(4 - 5),Pac-12,South,arizona,True
+35,Notre Dame,1576.25,2013,1520.56,Rutgers,(**29** - 16) W,15.82,(9 - 4),(0 - 4),FBS Independents,,notredame,True
+36,Cincinnati,1575.37,2013,1464.56,North Carolina,(39 - **17**) L,-30.56,(9 - 4),(6 - 4),American Athletic,,cincinnati,True
+37,Rice,1569.05,2013,1475.11,Mississippi State,(44 - **7**) L,-38.36,(10 - 4),(8 - 4),Conference USA,West,rice,True
+38,Iowa,1566.17,2013,1506.46,LSU,(21 - **14**) L,-14.78,(8 - 5),(5 - 5),Big Ten,Legends,iowa,True
+39,Houston,1566.0,2013,1503.18,Vanderbilt,(**24** - 41) L,-30.79,(8 - 5),(5 - 5),American Athletic,,houston,True
+40,North Carolina,1565.32,2013,1508.48,Cincinnati,(**39** - 17) W,30.56,(7 - 6),(4 - 6),ACC,Coastal,northcarolina,True
+41,Boise State,1565.23,2013,1465.51,Oregon State,(38 - **23**) L,-28.35,(8 - 5),(6 - 5),Mountain West,Mountain,,True
+42,Navy,1563.03,2013,1453.76,Army,(**34** - 7) W,15.34,(9 - 4),(0 - 4),FBS Independents,,navy,True
+43,BYU,1561.5,2013,1513.61,Washington,(31 - **16**) L,-22.18,(8 - 5),(0 - 5),FBS Independents,,byu,True
+44,Louisiana,1558.43,2013,1442.03,Tulane,(**24** - 21) W,10.43,(9 - 4),(5 - 4),Sun Belt,,louisiana,True
+45,Georgia,1556.63,2013,1509.12,Nebraska,(**19** - 24) L,-19.06,(8 - 5),(5 - 5),SEC,East,georgia,True
+46,Western Kentucky,1555.73,2013,1449.29,Arkansas State,(**34** - 31) W,10.72,(8 - 4),(4 - 4),Sun Belt,,wku,True
+47,Nebraska,1552.76,2013,1504.76,Georgia,(19 - **24**) W,19.06,(9 - 4),(5 - 4),Big Ten,Legends,nebraska,True
+48,Miami,1551.4,2013,1497.88,Louisville,(36 - **9**) L,-19.24,(9 - 4),(5 - 4),ACC,Coastal,miami,True
+49,Ole Miss,1548.51,2013,1494.37,Georgia Tech,(17 - **25**) W,21.76,(8 - 5),(3 - 5),SEC,West,olemiss,True
+50,Texas,1543.96,2013,1536.94,Oregon,(**7** - 30) L,-24.99,(8 - 5),(7 - 5),Big 12,,texas,True
+51,Virginia Tech,1543.64,2013,1488.81,UCLA,(42 - **12**) L,-23.19,(8 - 5),(5 - 5),ACC,Coastal,virginiatech,True
+52,Colorado State,1540.15,2013,1453.49,Washington State,(**48** - 45) W,9.94,(8 - 6),(5 - 6),Mountain West,Mountain,,True
+53,South Alabama,1539.6,2013,1443.7,Louisiana,(**30** - 8) W,30.44,(6 - 6),(4 - 6),Sun Belt,,southalabama,True
+54,Penn State,1538.99,2013,1528.98,Wisconsin,(24 - **31**) W,26.37,(7 - 5),(4 - 5),Big Ten,Leaders,pennstate,True
+55,Michigan,1538.9,2013,1537.58,Kansas State,(31 - **14**) L,-23.73,(7 - 6),(3 - 6),Big Ten,Legends,michigan,True
+56,UT San Antonio,1538.62,2013,1501.74,Louisiana Tech,(**30** - 10) W,17.48,(7 - 5),(6 - 5),Conference USA,West,utsa,True
+57,Minnesota,1537.64,2013,1517.92,Syracuse,(**17** - 21) L,-17.12,(8 - 5),(4 - 5),Big Ten,Legends,minnesota,True
+58,Texas Tech,1537.62,2013,1520.57,Arizona State,(**37** - 23) W,29.28,(8 - 5),(4 - 5),Big 12,,texastech,True
+59,Mississippi State,1533.96,2013,1520.38,Rice,(**44** - 7) W,38.36,(7 - 6),(3 - 6),SEC,West,mississippistate,True
+60,Syracuse,1529.88,2013,1510.53,Minnesota,(17 - **21**) W,17.12,(7 - 6),(4 - 6),ACC,Atlantic,syracuse,True
+61,Arkansas State,1528.18,2013,1472.44,Ball State,(20 - **23**) W,16.34,(8 - 5),(5 - 5),Sun Belt,,arkansasstate,True
+62,Oregon State,1526.84,2013,1511.31,Boise State,(**38** - 23) W,28.35,(7 - 6),(4 - 6),Pac-12,North,oregonstate,True
+63,Toledo,1525.91,2013,1473.54,Akron,(31 - **29**) L,-11.77,(7 - 5),(5 - 5),Mid-American,West,toledo,True
+64,Florida Atlantic,1524.23,2013,1451.15,Florida International,(**21** - 6) W,9.74,(6 - 6),(4 - 6),Conference USA,East,fau,True
+65,Buffalo,1524.01,2013,1439.72,San Diego State,(49 - **24**) L,-31.3,(8 - 5),(6 - 5),Mid-American,East,buffalo,True
+66,San Diego State,1522.16,2013,1462.52,Buffalo,(**49** - 24) W,31.3,(8 - 5),(6 - 5),Mountain West,West,,True
+67,Georgia Tech,1511.08,2013,1479.46,Ole Miss,(**17** - 25) L,-21.76,(7 - 6),(5 - 6),ACC,Coastal,georgiatech,True
+68,Tulane,1505.85,2013,1465.0,Louisiana,(24 - **21**) L,-10.43,(7 - 6),(5 - 6),Conference USA,West,tulane,True
+69,Middle Tennessee,1497.36,2013,1434.66,Navy,(24 - **6**) L,-21.35,(8 - 5),(6 - 5),Conference USA,East,middletennessee,True
+70,UNLV,1493.17,2013,1466.52,North Texas,(36 - **14**) L,-20.44,(7 - 6),(5 - 6),Mountain West,West,unlv,True
+71,Pittsburgh,1492.86,2013,1511.84,Bowling Green,(27 - **30**) W,17.97,(7 - 6),(3 - 6),ACC,Coastal,pittsburgh,True
+72,Boston College,1487.24,2013,1472.58,Arizona,(**19** - 42) L,-28.66,(7 - 6),(4 - 6),ACC,Atlantic,bostoncollege,True
+73,San José State,1482.07,2013,1477.03,Fresno State,(**62** - 52) W,28.67,(6 - 6),(5 - 6),Mountain West,West,,True
+74,Maryland,1481.47,2013,1488.85,Marshall,(**20** - 31) L,-19.0,(7 - 6),(3 - 6),ACC,Atlantic,maryland,True
+75,Indiana,1478.66,2013,1510.87,Purdue,(**56** - 36) W,15.16,(5 - 7),(3 - 7),Big Ten,Leaders,indiana,True
+76,Washington State,1472.26,2013,1507.8,Colorado State,(48 - **45**) L,-9.94,(6 - 7),(4 - 7),Pac-12,North,,True
+77,Central Michigan,1464.83,2013,1437.2,Eastern Michigan,(**42** - 10) W,19.41,(6 - 6),(5 - 6),Mid-American,West,centralmichigan,True
+78,Utah,1464.77,2013,1510.38,Colorado,(**24** - 17) W,14.82,(5 - 7),(2 - 7),Pac-12,South,utah,True
+79,Ohio,1461.39,2013,1442.12,East Carolina,(37 - **20**) L,-16.53,(7 - 6),(4 - 6),Mid-American,East,,True
+80,Northwestern,1461.24,2013,1504.72,Illinois,(34 - **37**) W,12.6,(5 - 7),(1 - 7),Big Ten,Legends,northwestern,True
+81,Troy,1458.65,2013,1462.52,Texas State,(**42** - 28) W,23.71,(6 - 6),(4 - 6),Sun Belt,,troy,True
+82,Tennessee,1456.0,2013,1520.4,Kentucky,(14 - **27**) W,22.18,(5 - 7),(2 - 7),SEC,East,tennessee,True
+83,Wake Forest,1452.93,2013,1517.36,Vanderbilt,(23 - **21**) L,-6.95,(4 - 8),(2 - 8),ACC,Atlantic,wakeforest,True
+84,SMU,1447.87,2013,1468.14,UCF,(**13** - 17) L,-9.0,(5 - 7),(4 - 7),American Athletic,,smu,True
+85,Florida,1445.49,2013,1528.49,Florida State,(**7** - 37) L,-13.28,(4 - 8),(3 - 8),SEC,East,florida,True
+86,TCU,1445.2,2013,1492.15,Baylor,(**38** - 41) L,-7.09,(4 - 8),(2 - 8),Big 12,,tcu,True
+87,Rutgers,1441.57,2013,1477.6,Notre Dame,(29 - **16**) L,-15.82,(6 - 7),(3 - 7),American Athletic,,rutgers,True
+88,Louisiana Monroe,1441.16,2013,1464.84,Louisiana,(28 - **31**) W,17.64,(6 - 6),(4 - 6),Sun Belt,,ulm,True
+89,Texas State,1435.48,2013,1445.34,Troy,(42 - **28**) L,-23.71,(6 - 6),(2 - 6),Sun Belt,,texasstate,True
+90,Kent State,1432.87,2013,1467.26,Ohio,(13 - **44**) W,41.04,(4 - 8),(3 - 8),Mid-American,East,,True
+91,Akron,1428.75,2013,1465.28,Toledo,(**31** - 29) W,11.77,(5 - 7),(4 - 7),Mid-American,East,akron,True
+92,Wyoming,1425.07,2013,1467.73,Utah State,(35 - **7**) L,-17.94,(5 - 7),(3 - 7),Mountain West,Mountain,wyoming,True
+93,Iowa State,1421.11,2013,1484.22,West Virginia,(44 - **52**) W,22.35,(3 - 9),(2 - 9),Big 12,,iowastate,True
+94,Nevada,1419.1,2013,1478.27,BYU,(**23** - 28) L,-11.92,(4 - 8),(3 - 8),Mountain West,West,nevada,True
+95,Connecticut,1410.3,2013,1468.12,Memphis,(**45** - 10) W,32.24,(3 - 9),(3 - 9),American Athletic,,connecticut,True
+96,Illinois,1404.28,2013,1483.22,Northwestern,(**34** - 37) L,-12.6,(4 - 8),(1 - 8),Big Ten,Leaders,illinois,True
+97,Temple,1401.58,2013,1458.57,Memphis,(21 - **41**) W,34.6,(2 - 10),(1 - 10),American Athletic,,temple,True
+98,West Virginia,1395.41,2013,1479.97,Iowa State,(**44** - 52) L,-22.35,(4 - 8),(2 - 8),Big 12,,westvirginia,True
+99,Louisiana Tech,1388.36,2013,1435.84,UT San Antonio,(30 - **10**) L,-17.48,(4 - 8),(3 - 8),Conference USA,West,louisianatech,True
+100,Colorado,1385.25,2013,1466.79,Utah,(24 - **17**) L,-14.82,(4 - 8),(1 - 8),Pac-12,South,colorado,True
+101,Arkansas,1383.76,2013,1517.41,LSU,(31 - **27**) L,-5.76,(3 - 9),(0 - 9),SEC,West,arkansas,True
+102,Memphis,1381.29,2013,1464.34,Connecticut,(45 - **10**) L,-32.24,(3 - 9),(1 - 9),American Athletic,,memphis,True
+103,Tulsa,1380.05,2013,1503.03,North Texas,(**10** - 42) L,-21.11,(3 - 9),(2 - 9),Conference USA,West,tulsa,True
+104,New Mexico,1374.01,2013,1491.34,Boise State,(45 - **17**) L,-14.56,(3 - 9),(1 - 9),Mountain West,Mountain,newmexico,True
+105,NC State,1363.91,2013,1489.52,Maryland,(**21** - 41) L,-23.75,(3 - 9),(0 - 9),ACC,Atlantic,ncstate,True
+106,Army,1357.7,2013,1429.34,Navy,(34 - **7**) L,-15.34,(3 - 9),(0 - 9),FBS Independents,,army,True
+107,Kansas,1354.88,2013,1496.3,Kansas State,(**10** - 31) L,-18.53,(3 - 9),(1 - 9),Big 12,,kansas,True
+108,Kentucky,1349.36,2013,1501.95,Tennessee,(**14** - 27) L,-22.18,(2 - 10),(0 - 10),SEC,East,kentucky,True
+109,UTEP,1341.2,2013,1475.09,Middle Tennessee,(48 - **17**) L,-18.11,(2 - 10),(1 - 10),Conference USA,West,utep,True
+110,Hawai'i,1333.17,2013,1476.53,Army,(**49** - 42) W,20.69,(1 - 11),(0 - 11),Mountain West,West,,True
+111,Virginia,1333.1,2013,1506.82,Virginia Tech,(**6** - 16) L,-12.56,(2 - 10),(0 - 10),ACC,Coastal,virginia,True
+112,South Florida,1323.87,2013,1488.9,Rutgers,(31 - **6**) L,-20.2,(2 - 10),(2 - 10),American Athletic,,usf,True
+113,Air Force,1322.2,2013,1458.42,Colorado State,(58 - **13**) L,-17.77,(2 - 10),(0 - 10),Mountain West,Mountain,airforce,True
+114,Southern Mississippi,1318.12,2013,1481.7,UAB,(27 - **62**) W,40.31,(1 - 11),(1 - 11),Conference USA,East,southernmiss,True
+115,UAB,1312.13,2013,1450.48,Southern Mississippi,(**27** - 62) L,-40.31,(2 - 10),(1 - 10),Conference USA,East,uab,True
+116,New Mexico State,1310.01,2013,1457.11,Idaho,(**24** - 16) W,17.79,(2 - 10),(0 - 10),FBS Independents,,newmexicostate,True
+117,California,1303.41,2013,1519.48,Stanford,(63 - **13**) L,-9.27,(1 - 11),(0 - 11),Pac-12,North,california,True
+118,UMass,1301.52,2013,1447.78,Ohio,(51 - **23**) L,-17.6,(1 - 11),(1 - 11),Mid-American,East,,True
+119,Western Michigan,1301.43,2013,1462.63,Northern Illinois,(33 - **14**) L,-5.6,(1 - 11),(1 - 11),Mid-American,West,westernmichigan,True
+120,Eastern Michigan,1301.29,2013,1473.41,Central Michigan,(42 - **10**) L,-19.41,(2 - 10),(1 - 10),Mid-American,West,easternmichigan,True
+121,Purdue,1294.2,2013,1495.86,Indiana,(56 - **36**) L,-15.16,(1 - 11),(0 - 11),Big Ten,Leaders,purdue,True
+122,Idaho,1268.57,2013,1481.83,New Mexico State,(24 - **16**) L,-17.79,(1 - 11),(0 - 11),FBS Independents,,idaho,True
+123,Georgia State,1264.12,2013,1429.28,South Alabama,(**17** - 38) L,-15.92,(0 - 12),(0 - 12),Sun Belt,,georgiastate,True
+124,Florida International,1263.99,2013,1458.94,Florida Atlantic,(21 - **6**) L,-9.74,(1 - 11),(1 - 11),Conference USA,East,fiu,True
+125,Miami (OH),1261.54,2013,1483.51,Ball State,(55 - **14**) L,-8.47,(0 - 12),(0 - 12),Mid-American,East,,True

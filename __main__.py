@@ -115,7 +115,8 @@ for iter_year in range(START_YEAR, YEAR + 1):
                 else:
                     seed_elo = previous_teams[(previous_teams['_school'] == game['_home_team'])]
                     if not seed_elo['elo'].empty:
-                        game['home_elo'] = ((seed_elo['elo'].values[0] - 1500) * MEAN_REVERSION) + 1500
+                        # game['home_elo'] = ((seed_elo['elo'].values[0] - 1500) * MEAN_REVERSION) + 1500
+                        game['home_elo'] = 1500
                     else:
                         game['home_elo'] = 1500
             else:
@@ -135,7 +136,8 @@ for iter_year in range(START_YEAR, YEAR + 1):
                 else:
                     seed_elo = previous_teams[(previous_teams['_school'] == game['_away_team'])]
                     if not seed_elo['elo'].empty:
-                        game['away_elo'] = ((seed_elo['elo'].values[0] - 1500) * MEAN_REVERSION) + 1500
+                        game['away_elo'] = 1500
+                        # game['away_elo'] = ((seed_elo['elo'].values[0] - 1500) * MEAN_REVERSION) + 1500
                     else:
                         game['away_elo'] = 1500
             else:
