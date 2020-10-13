@@ -1,77 +1,77 @@
 ,_school,elo,_year,strength_of_schedule,last_played,result,elo_change,season_record,conf_record,conference,division,flair,played
-1,Clemson,1629.91,2020,1641.37,Miami,(**42** - 17) W,24.78,(4 - 0),(3 - 0),ACC,Atlantic,clemson,True
-2,SMU,1615.81,2020,1626.71,Memphis,(**30** - 27) W,8.82,(4 - 0),(1 - 0),American Athletic,West,smu,True
-3,BYU,1610.68,2020,1530.6,UT San Antonio,(**27** - 20) W,14.43,(4 - 0),(0 - 0),FBS Independents,,byu,True
-4,Army,1605.93,2020,1690.2,The Citadel,(**14** - 9) W,23.83,(4 - 1),(0 - 1),FBS Independents,,army,True
-5,Marshall,1598.41,2020,1668.37,Western Kentucky,(14 - **38**) W,24.18,(3 - 0),(1 - 0),Conference USA,East,marshall,True
-6,Cincinnati,1593.01,2020,1673.2,South Florida,(**28** - 7) W,21.1,(3 - 0),(1 - 0),American Athletic,East,cincinnati,True
-7,Coastal Carolina,1592.55,2020,1665.08,Arkansas State,(**52** - 23) W,22.36,(3 - 0),(1 - 0),Sun Belt,,coastalcarolina,True
-8,Liberty,1585.94,2020,1597.64,Louisiana Monroe,(**40** - 7) W,16.76,(4 - 0),(0 - 0),FBS Independents,,liberty,True
-9,Georgia,1582.2,2020,1520.68,Tennessee,(**44** - 21) W,24.83,(3 - 0),(3 - 0),SEC,East,georgia,True
-10,Alabama,1578.3,2020,1497.96,Ole Miss,(48 - **63**) W,22.4,(3 - 0),(3 - 0),SEC,West,alabama,True
-11,Notre Dame,1576.49,2020,1514.33,Florida State,(**42** - 26) W,19.81,(3 - 0),(2 - 0),FBS Independents,,notredame,True
-12,Oklahoma State,1571.5,2020,1499.61,Kansas,(7 - **47**) W,28.29,(3 - 0),(2 - 0),Big 12,,oklahomastate,True
-13,Pittsburgh,1565.95,2020,1597.36,Boston College,(31 - **30**) L,-6.45,(3 - 2),(2 - 2),ACC,Coastal,pittsburgh,True
-14,North Carolina,1563.32,2020,1526.9,Virginia Tech,(**56** - 45) W,20.38,(3 - 0),(3 - 0),ACC,Coastal,northcarolina,True
-15,UAB,1560.3,2020,1644.13,UT San Antonio,(**21** - 13) W,18.79,(3 - 1),(1 - 1),Conference USA,West,uab,True
-16,Appalachian State,1552.41,2020,1671.22,Campbell,(**52** - 21) W,47.56,(2 - 1),(0 - 1),Sun Belt,,appalachianstate,True
-17,Miami,1552.24,2020,1536.7,Clemson,(42 - **17**) L,-24.78,(3 - 1),(2 - 1),ACC,Coastal,miami,True
-18,Louisiana,1549.23,2020,1503.18,Georgia Southern,(**20** - 18) W,8.28,(3 - 0),(2 - 0),Sun Belt,,louisiana,True
-19,West Virginia,1544.5,2020,1666.52,Baylor,(**27** - 21) W,15.93,(2 - 1),(1 - 1),Big 12,,westvirginia,True
-20,Louisiana Tech,1539.27,2020,1634.91,UTEP,(**21** - 17) W,13.94,(3 - 1),(2 - 1),Conference USA,West,louisianatech,True
-21,Kansas State,1537.96,2020,1506.35,TCU,(14 - **21**) W,19.4,(3 - 1),(3 - 1),Big 12,,kansasstate,True
-22,Oklahoma,1537.84,2020,1630.73,Texas,(**53** - 45) W,19.26,(2 - 2),(1 - 2),Big 12,,oklahoma,True
-23,UCF,1537.61,2020,1498.2,Tulsa,(**26** - 34) L,-24.99,(2 - 1),(1 - 1),American Athletic,East,ucf,True
-24,Florida,1534.21,2020,1490.8,Texas A&M,(41 - **38**) L,-13.17,(2 - 1),(2 - 1),SEC,East,florida,True
-25,UTEP,1531.39,2020,1697.75,Louisiana Tech,(21 - **17**) L,-13.94,(3 - 2),(0 - 2),Conference USA,West,utep,True
-26,Boston College,1529.07,2020,1518.59,Pittsburgh,(**31** - 30) W,6.45,(3 - 1),(2 - 1),ACC,Atlantic,bostoncollege,True
-27,Air Force,1527.16,2020,1476.23,Navy,(**40** - 7) W,27.16,(1 - 0),(0 - 0),Mountain West,Mountain,airforce,True
-28,Iowa State,1527.01,2020,1503.54,Texas Tech,(**31** - 15) W,21.47,(3 - 1),(3 - 1),Big 12,,iowastate,True
-29,Houston,1526.37,2020,1533.54,Tulane,(**49** - 31) W,26.37,(1 - 0),(1 - 0),American Athletic,West,houston,True
-30,Troy,1525.95,2020,1498.28,Texas State,(**37** - 17) W,24.04,(2 - 1),(1 - 1),Sun Belt,,troy,True
-31,Texas,1524.02,2020,1513.07,Oklahoma,(53 - **45**) L,-19.26,(2 - 2),(1 - 2),Big 12,,texas,True
-32,UT San Antonio,1523.27,2020,1606.29,BYU,(27 - **20**) L,-14.43,(3 - 2),(0 - 2),Conference USA,West,utsa,True
-33,Virginia Tech,1521.57,2020,1493.95,North Carolina,(56 - **45**) L,-20.38,(2 - 1),(2 - 1),ACC,Coastal,virginiatech,True
-34,NC State,1521.14,2020,1512.46,Virginia,(21 - **38**) W,28.77,(3 - 1),(3 - 1),ACC,Atlantic,ncstate,True
-35,Arkansas State,1516.08,2020,1636.81,Central Arkansas,(**50** - 27) W,43.69,(2 - 2),(0 - 2),Sun Belt,,arkansasstate,True
-36,Georgia Southern,1515.42,2020,1655.98,Louisiana Monroe,(30 - **35**) W,14.17,(2 - 1),(1 - 1),Sun Belt,,georgiasouthern,True
-37,Tennessee,1513.89,2020,1509.36,Georgia,(44 - **21**) L,-24.83,(2 - 1),(2 - 1),SEC,East,tennessee,True
-38,Memphis,1512.88,2020,1553.5,SMU,(30 - **27**) L,-8.82,(1 - 1),(0 - 1),American Athletic,West,memphis,True
-39,Wake Forest,1512.58,2020,1636.61,Campbell,(**66** - 14) W,54.48,(1 - 2),(0 - 2),ACC,Atlantic,wakeforest,True
-40,Florida Atlantic,1512.43,2020,1477.2,Charlotte,(**21** - 17) W,12.43,(1 - 0),(1 - 0),Conference USA,East,fau,True
-41,Georgia State,1511.26,2020,1499.76,East Carolina,(**49** - 29) W,23.97,(1 - 1),(0 - 1),Sun Belt,,georgiastate,True
-42,Baylor,1510.97,2020,1500.73,West Virginia,(27 - **21**) L,-15.93,(1 - 1),(1 - 1),Big 12,,baylor,True
-43,Auburn,1507.34,2020,1507.56,Arkansas,(**30** - 28) W,8.83,(2 - 1),(2 - 1),SEC,West,auburn,True
-44,Tulane,1507.17,2020,1488.69,Houston,(49 - **31**) L,-26.37,(2 - 2),(0 - 2),American Athletic,West,tulane,True
-45,Tulsa,1506.05,2020,1531.3,UCF,(26 - **34**) W,24.99,(1 - 1),(1 - 1),American Athletic,West,tulsa,True
-46,Texas A&M,1501.29,2020,1525.55,Florida,(**41** - 38) W,13.17,(2 - 1),(2 - 1),SEC,West,texasam,True
-47,Charlotte,1498.97,2020,1494.32,North Texas,(21 - **49**) W,34.2,(1 - 2),(1 - 2),Conference USA,East,charlotte,True
-48,South Carolina,1498.21,2020,1492.52,Vanderbilt,(7 - **41**) W,33.63,(1 - 2),(1 - 2),SEC,East,southcarolina,True
-49,Kentucky,1497.76,2020,1491.02,Mississippi State,(**24** - 2) W,27.9,(1 - 2),(1 - 2),SEC,East,kentucky,True
-50,LSU,1494.17,2020,1477.66,Missouri,(**41** - 45) L,-17.8,(1 - 2),(1 - 2),SEC,West,lsu,True
-51,Temple,1489.75,2020,1449.07,Navy,(31 - **29**) L,-10.25,(0 - 1),(0 - 1),American Athletic,East,temple,True
-52,Georgia Tech,1481.28,2020,1486.19,Louisville,(**46** - 27) W,26.8,(2 - 2),(2 - 2),ACC,Coastal,georgiatech,True
-53,Arkansas,1481.27,2020,1507.32,Auburn,(30 - **28**) L,-8.83,(1 - 2),(1 - 2),SEC,West,arkansas,True
-54,Florida State,1480.7,2020,1654.53,Notre Dame,(42 - **26**) L,-19.81,(1 - 3),(0 - 3),ACC,Atlantic,floridastate,True
-55,East Carolina,1479.55,2020,1502.72,South Florida,(24 - **44**) W,32.24,(1 - 2),(1 - 2),American Athletic,East,eastcarolina,True
-56,TCU,1478.5,2020,1515.28,Kansas State,(**14** - 21) L,-19.4,(1 - 2),(1 - 2),Big 12,,tcu,True
-57,Florida International,1475.84,2020,1468.01,Middle Tennessee,(**28** - 31) L,-15.57,(0 - 2),(0 - 2),Conference USA,East,fiu,True
-58,South Alabama,1475.64,2020,1502.37,UAB,(**10** - 42) L,-34.4,(1 - 2),(0 - 2),Sun Belt,,southalabama,True
-59,Mississippi State,1472.86,2020,1479.09,Kentucky,(24 - **2**) L,-27.9,(1 - 2),(1 - 2),SEC,West,mississippistate,True
-60,Virginia,1472.09,2020,1508.95,NC State,(**21** - 38) L,-28.77,(1 - 2),(1 - 2),ACC,Coastal,virginia,True
-61,Missouri,1465.53,2020,1509.23,LSU,(41 - **45**) W,17.8,(1 - 2),(1 - 2),SEC,East,missouri,True
-62,Texas State,1462.93,2020,1500.86,Troy,(37 - **17**) L,-24.04,(1 - 4),(1 - 4),Sun Belt,,texasstate,True
-63,Southern Mississippi,1461.96,2020,1502.29,North Texas,(31 - **41**) W,26.99,(1 - 3),(1 - 3),Conference USA,West,southernmiss,True
-64,Louisville,1460.74,2020,1512.91,Georgia Tech,(46 - **27**) L,-26.8,(1 - 3),(0 - 3),ACC,Atlantic,louisville,True
-65,Navy,1459.32,2020,1503.56,Temple,(**31** - 29) W,10.25,(2 - 2),(2 - 2),American Athletic,West,navy,True
-66,Ole Miss,1456.75,2020,1510.87,Alabama,(**48** - 63) L,-22.4,(1 - 2),(1 - 2),SEC,West,olemiss,True
-67,South Florida,1454.74,2020,1637.87,East Carolina,(**24** - 44) L,-32.24,(1 - 3),(0 - 3),American Athletic,East,usf,True
-68,Texas Tech,1454.69,2020,1626.35,Iowa State,(31 - **15**) L,-21.47,(1 - 3),(0 - 3),Big 12,,texastech,True
-69,Syracuse,1452.19,2020,1486.92,Duke,(**24** - 38) L,-30.23,(1 - 3),(1 - 3),ACC,Atlantic,syracuse,True
-70,North Texas,1448.76,2020,1607.52,Charlotte,(**21** - 49) L,-34.2,(1 - 3),(0 - 3),Conference USA,West,northtexas,True
-71,Western Kentucky,1448.14,2020,1501.21,Marshall,(**14** - 38) L,-24.18,(1 - 3),(1 - 3),Conference USA,East,wku,True
-72,Duke,1442.89,2020,1501.71,Syracuse,(24 - **38**) W,30.23,(1 - 4),(1 - 4),ACC,Coastal,duke,True
-73,Middle Tennessee,1433.49,2020,1500.24,Florida International,(28 - **31**) W,15.57,(1 - 4),(1 - 4),Conference USA,East,middletennessee,True
-74,Kansas,1417.71,2020,1514.4,Oklahoma State,(**7** - 47) L,-28.29,(0 - 3),(0 - 3),Big 12,,kansas,True
-75,Vanderbilt,1416.23,2020,1480.38,South Carolina,(**7** - 41) L,-33.63,(0 - 3),(0 - 3),SEC,East,vanderbilt,True
-76,Louisiana Monroe,1386.06,2020,1517.4,Liberty,(40 - **7**) L,-16.76,(0 - 5),(0 - 5),Sun Belt,,ulm,True
+1,Clemson,1803.57,2020,1680.04,Miami,(**42** - 17) W,17.07,(4 - 0),(3 - 0),ACC,Atlantic,clemson,True
+2,Alabama,1729.3,2020,1542.79,Ole Miss,(48 - **63**) W,15.24,(3 - 0),(3 - 0),SEC,West,alabama,True
+3,Georgia,1718.87,2020,1554.72,Tennessee,(**44** - 21) W,21.54,(3 - 0),(3 - 0),SEC,East,georgia,True
+4,Notre Dame,1691.83,2020,1530.43,Florida State,(**42** - 26) W,16.62,(3 - 0),(2 - 0),FBS Independents,,notredame,True
+5,Appalachian State,1690.67,2020,1687.09,Campbell,(**52** - 21) W,50.69,(2 - 1),(0 - 1),Sun Belt,,appalachianstate,True
+6,Cincinnati,1686.72,2020,1685.28,South Florida,(**28** - 7) W,16.88,(3 - 0),(1 - 0),American Athletic,East,cincinnati,True
+7,SMU,1683.6,2020,1637.99,Memphis,(**30** - 27) W,11.69,(4 - 0),(1 - 0),American Athletic,West,smu,True
+8,LSU,1669.57,2020,1497.82,Missouri,(**41** - 45) L,-23.21,(1 - 2),(1 - 2),SEC,West,lsu,True
+9,Oklahoma,1668.07,2020,1674.72,Texas,(**53** - 45) W,17.55,(2 - 2),(1 - 2),Big 12,,oklahoma,True
+10,BYU,1666.5,2020,1569.73,UT San Antonio,(**27** - 20) W,11.28,(4 - 0),(0 - 0),FBS Independents,,byu,True
+11,Florida,1664.07,2020,1522.52,Texas A&M,(41 - **38**) L,-16.22,(2 - 1),(2 - 1),SEC,East,florida,True
+12,Marshall,1656.73,2020,1731.83,Western Kentucky,(14 - **38**) W,26.19,(3 - 0),(1 - 0),Conference USA,East,marshall,True
+13,Army,1652.59,2020,1708.08,The Citadel,(**14** - 9) W,25.72,(4 - 1),(0 - 1),FBS Independents,,army,True
+14,Louisiana,1647.88,2020,1528.95,Georgia Southern,(**20** - 18) W,7.39,(3 - 0),(2 - 0),Sun Belt,,louisiana,True
+15,UCF,1646.7,2020,1469.55,Tulsa,(**26** - 34) L,-32.3,(2 - 1),(1 - 1),American Athletic,East,ucf,True
+16,Air Force,1639.93,2020,1561.1,Navy,(**40** - 7) W,27.83,(1 - 0),(0 - 0),Mountain West,Mountain,airforce,True
+17,Liberty,1633.64,2020,1608.61,Louisiana Monroe,(**40** - 7) W,14.25,(4 - 0),(0 - 0),FBS Independents,,liberty,True
+18,Memphis,1631.36,2020,1608.77,SMU,(30 - **27**) L,-11.69,(1 - 1),(0 - 1),American Athletic,West,memphis,True
+19,North Carolina,1626.11,2020,1570.25,Virginia Tech,(**56** - 45) W,22.85,(3 - 0),(3 - 0),ACC,Coastal,northcarolina,True
+20,Oklahoma State,1625.12,2020,1483.82,Kansas,(7 - **47**) W,22.8,(3 - 0),(2 - 0),Big 12,,oklahomastate,True
+21,Florida Atlantic,1623.56,2020,1488.68,Charlotte,(**21** - 17) W,9.92,(1 - 0),(1 - 0),Conference USA,East,fau,True
+22,Auburn,1611.55,2020,1567.97,Arkansas,(**30** - 28) W,5.92,(2 - 1),(2 - 1),SEC,West,auburn,True
+23,Pittsburgh,1609.99,2020,1616.18,Boston College,(31 - **30**) L,-7.34,(3 - 2),(2 - 2),ACC,Coastal,pittsburgh,True
+24,Louisiana Tech,1605.09,2020,1628.97,UTEP,(**21** - 17) W,9.4,(3 - 1),(2 - 1),Conference USA,West,louisianatech,True
+25,Miami,1601.02,2020,1610.41,Clemson,(42 - **17**) L,-17.07,(3 - 1),(2 - 1),ACC,Coastal,miami,True
+26,Kansas State,1600.16,2020,1562.67,TCU,(14 - **21**) W,19.92,(3 - 1),(3 - 1),Big 12,,kansasstate,True
+27,UAB,1591.01,2020,1628.73,UT San Antonio,(**21** - 13) W,16.78,(3 - 1),(1 - 1),Conference USA,West,uab,True
+28,Coastal Carolina,1589.8,2020,1666.61,Arkansas State,(**52** - 23) W,29.86,(3 - 0),(1 - 0),Sun Belt,,coastalcarolina,True
+29,Baylor,1588.58,2020,1485.65,West Virginia,(27 - **21**) L,-20.8,(1 - 1),(1 - 1),Big 12,,baylor,True
+30,Iowa State,1588.16,2020,1572.34,Texas Tech,(**31** - 15) W,20.06,(3 - 1),(3 - 1),Big 12,,iowastate,True
+31,Texas,1585.85,2020,1525.15,Oklahoma,(53 - **45**) L,-17.55,(2 - 2),(1 - 2),Big 12,,texas,True
+32,Texas A&M,1585.35,2020,1613.26,Florida,(**41** - 38) W,16.22,(2 - 1),(2 - 1),SEC,West,texasam,True
+33,Virginia Tech,1582.74,2020,1517.71,North Carolina,(56 - **45**) L,-22.85,(2 - 1),(2 - 1),ACC,Coastal,virginiatech,True
+34,Kentucky,1581.84,2020,1543.91,Mississippi State,(**24** - 2) W,27.89,(1 - 2),(1 - 2),SEC,East,kentucky,True
+35,Tennessee,1577.83,2020,1577.26,Georgia,(44 - **21**) L,-21.54,(2 - 1),(2 - 1),SEC,East,tennessee,True
+36,Wake Forest,1567.61,2020,1693.71,Campbell,(**66** - 14) W,59.96,(1 - 2),(0 - 2),ACC,Atlantic,wakeforest,True
+37,West Virginia,1565.17,2020,1711.7,Baylor,(**27** - 21) W,20.8,(2 - 1),(1 - 1),Big 12,,westvirginia,True
+38,Boston College,1564.18,2020,1537.45,Pittsburgh,(**31** - 30) W,7.34,(3 - 1),(2 - 1),ACC,Atlantic,bostoncollege,True
+39,Arkansas State,1563.92,2020,1679.67,Central Arkansas,(**50** - 27) W,48.48,(2 - 2),(0 - 2),Sun Belt,,arkansasstate,True
+40,Troy,1551.65,2020,1498.7,Texas State,(**37** - 17) W,21.01,(2 - 1),(1 - 1),Sun Belt,,troy,True
+41,Tulane,1547.49,2020,1503.85,Houston,(49 - **31**) L,-31.79,(2 - 2),(0 - 2),American Athletic,West,tulane,True
+42,Georgia Southern,1546.62,2020,1683.64,Louisiana Monroe,(30 - **35**) W,13.59,(2 - 1),(1 - 1),Sun Belt,,georgiasouthern,True
+43,Navy,1543.53,2020,1564.25,Temple,(**31** - 29) W,10.27,(2 - 2),(2 - 2),American Athletic,West,navy,True
+44,Virginia,1542.55,2020,1575.73,NC State,(**21** - 38) L,-37.16,(1 - 2),(1 - 2),ACC,Coastal,virginia,True
+45,Houston,1541.34,2020,1579.28,Tulane,(**49** - 31) W,31.79,(1 - 0),(1 - 0),American Athletic,West,houston,True
+46,Temple,1531.41,2020,1533.27,Navy,(31 - **29**) L,-10.27,(0 - 1),(0 - 1),American Athletic,East,temple,True
+47,NC State,1523.81,2020,1573.78,Virginia,(21 - **38**) W,37.16,(3 - 1),(3 - 1),ACC,Atlantic,ncstate,True
+48,Missouri,1520.87,2020,1644.98,LSU,(41 - **45**) W,23.21,(1 - 2),(1 - 2),SEC,East,missouri,True
+49,Florida State,1520.03,2020,1687.03,Notre Dame,(42 - **26**) L,-16.62,(1 - 3),(0 - 3),ACC,Atlantic,floridastate,True
+50,South Carolina,1516.69,2020,1553.77,Vanderbilt,(7 - **41**) W,34.68,(1 - 2),(1 - 2),SEC,East,southcarolina,True
+51,Mississippi State,1516.12,2020,1558.6,Kentucky,(24 - **2**) L,-27.89,(1 - 2),(1 - 2),SEC,West,mississippistate,True
+52,Charlotte,1515.05,2020,1579.43,North Texas,(21 - **49**) W,36.29,(1 - 2),(1 - 2),Conference USA,East,charlotte,True
+53,TCU,1507.67,2020,1575.25,Kansas State,(**14** - 21) L,-19.92,(1 - 2),(1 - 2),Big 12,,tcu,True
+54,Georgia State,1505.13,2020,1535.6,East Carolina,(**49** - 29) W,24.9,(1 - 1),(0 - 1),Sun Belt,,georgiastate,True
+55,Western Kentucky,1493.98,2020,1533.81,Marshall,(**14** - 38) L,-26.19,(1 - 3),(1 - 3),Conference USA,East,wku,True
+56,Tulsa,1490.98,2020,1620.52,UCF,(26 - **34**) W,32.3,(1 - 1),(1 - 1),American Athletic,West,tulsa,True
+57,Louisville,1490.17,2020,1543.31,Georgia Tech,(46 - **27**) L,-33.23,(1 - 3),(0 - 3),ACC,Atlantic,louisville,True
+58,UT San Antonio,1484.65,2020,1611.92,BYU,(27 - **20**) L,-11.28,(3 - 2),(0 - 2),Conference USA,West,utsa,True
+59,Florida International,1483.0,2020,1488.44,Middle Tennessee,(**28** - 31) L,-17.68,(0 - 2),(0 - 2),Conference USA,East,fiu,True
+60,Southern Mississippi,1480.78,2020,1514.95,North Texas,(31 - **41**) W,28.86,(1 - 3),(1 - 3),Conference USA,West,southernmiss,True
+61,Syracuse,1477.7,2020,1514.6,Duke,(**24** - 38) L,-34.0,(1 - 3),(1 - 3),ACC,Atlantic,syracuse,True
+62,Ole Miss,1475.07,2020,1640.73,Alabama,(**48** - 63) L,-15.24,(1 - 2),(1 - 2),SEC,West,olemiss,True
+63,Georgia Tech,1473.71,2020,1545.79,Louisville,(**46** - 27) W,33.23,(2 - 2),(2 - 2),ACC,Coastal,georgiatech,True
+64,Duke,1468.22,2020,1568.81,Syracuse,(24 - **38**) W,34.0,(1 - 4),(1 - 4),ACC,Coastal,duke,True
+65,Texas Tech,1463.14,2020,1672.21,Iowa State,(31 - **15**) L,-20.06,(1 - 3),(0 - 3),Big 12,,texastech,True
+66,South Florida,1457.03,2020,1686.37,East Carolina,(**24** - 44) L,-38.34,(1 - 3),(0 - 3),American Athletic,East,usf,True
+67,East Carolina,1454.42,2020,1545.16,South Florida,(24 - **44**) W,38.34,(1 - 2),(1 - 2),American Athletic,East,eastcarolina,True
+68,UTEP,1446.56,2020,1726.05,Louisiana Tech,(21 - **17**) L,-9.4,(3 - 2),(0 - 2),Conference USA,West,utep,True
+69,North Texas,1438.93,2020,1630.9,Charlotte,(**21** - 49) L,-36.29,(1 - 3),(0 - 3),Conference USA,West,northtexas,True
+70,Arkansas,1438.49,2020,1610.74,Auburn,(30 - **28**) L,-5.92,(1 - 2),(1 - 2),SEC,West,arkansas,True
+71,Middle Tennessee,1430.8,2020,1516.25,Florida International,(28 - **31**) W,17.68,(1 - 4),(1 - 4),Conference USA,East,middletennessee,True
+72,South Alabama,1429.26,2020,1538.44,UAB,(**10** - 42) L,-30.8,(1 - 2),(0 - 2),Sun Belt,,southalabama,True
+73,Texas State,1417.0,2020,1517.4,Troy,(37 - **17**) L,-21.01,(1 - 4),(1 - 4),Sun Belt,,texasstate,True
+74,Vanderbilt,1401.76,2020,1578.31,South Carolina,(**7** - 41) L,-34.68,(0 - 3),(0 - 3),SEC,East,vanderbilt,True
+75,Kansas,1385.31,2020,1558.91,Oklahoma State,(**7** - 47) L,-22.8,(0 - 3),(0 - 3),Big 12,,kansas,True
+76,Louisiana Monroe,1372.58,2020,1509.93,Liberty,(40 - **7**) L,-14.25,(0 - 5),(0 - 5),Sun Belt,,ulm,True

@@ -1,10 +1,7 @@
-# Import the timer functions
-import timeit
-start = timeit.default_timer()
-
 import pandas as pd
 import numpy as np
 import cfbd
+import plotly.express as px
 import os
 import math
 import datetime as dt
@@ -34,15 +31,15 @@ RUN_SCRAPER = False # Run this if the values in the csvs are out of date
 # My default values are derived using the research contained in the /research directory.
 START_YEAR = 2010 
 TESTING = False # Set this to false if you care about poll output. 
-K_VALUE   = 18
+K_VALUE = 20
 HFA = 30 # Raw output is 3.04, converted to elo is 30.4. Rounds down to the whole number.
 FCS_ELO = 1204 # FCS Teams lose by, on average, 29.6 points. Converted to elo, 296. Average FBS team is 1500, so 1204 = 1500 - 296
-MEAN_REVERSION = 0.6047 # Calculated the correlation between a previous and current seasons elo across 10 seasons. 60% of a new seasons value is explainable by last season. Use this to seed.
+MEAN_REVERSION = 0.446153846153846 
 
 # Dependent Variable
-D_V = 'mean_reversion'
-LOW_D_V = 0
-HIGH_D_V = 1
+D_V = 'k_value'
+LOW_D_V = 10
+HIGH_D_V = 30
 STEPS = 11
 
 class Execution:
@@ -53,7 +50,9 @@ class Execution:
             'k_value':K_VALUE,
             'hfa':HFA,
             'fcs_elo':FCS_ELO,
-            'mean_reversion':MEAN_REVERSION
+            'mean_reversion':MEAN_REVERSION,
+            'end_year':YEAR,
+            'week':WEEK
         }
 
         if TESTING:
@@ -67,7 +66,10 @@ class Execution:
         # Is this a testing run or a real run? Testing runs are significantly longer
         if TESTING:
             # Set up the progressbar
-            with alive_bar(length=(STEPS * (YEAR + 1 - START_YEAR))) as bar:
+            with alive_bar((STEPS * (YEAR + 1 - START_YEAR))) as bar:
+                # Set up the output dataframe
+                outputs = pd.DataFrame(columns=['iter_year','perc_correct','dv_value'])
+                
                 for iter_d_v in np.linspace(LOW_D_V, HIGH_D_V, STEPS):
                     testing_games = pd.DataFrame()
                     testing_teams = pd.DataFrame()
@@ -78,8 +80,22 @@ class Execution:
                         self.build_options(iter_d_v)
 
                         bar()
+
+                        # Run the cycle
                         polling_cycle = Cycle(self.options, iter_year)
-                        output = polling_cycle.run()
+                        results = polling_cycle.run()
+
+                        # Append the iterated dependent variable to our data set
+                        results.append(iter_d_v)
+                        results_series = pd.Series(results, index=outputs.columns)
+                        outputs = outputs.append(results_series, ignore_index=True)
+
+                # Dump the DV outputs to a CSV
+                outputs.to_csv('research/D_V.csv')            
+
+                # Print out the DV graph
+                fig = px.scatter(outputs, x='dv_value',y='perc_correct')
+                fig.write_html('research/dv_test.html')
         else:
             with alive_bar(length=(YEAR + 1 - START_YEAR)) as bar:
                 for iter_year in range(START_YEAR, YEAR + 1):

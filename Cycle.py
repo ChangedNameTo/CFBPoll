@@ -11,6 +11,8 @@ class Cycle:
         self.fcs_elo = options['fcs_elo']
         self.start_year = options['start_year']
         self.hfa = options['hfa']
+        self.end_year = options['end_year']
+        self.week = options['week']
 
     def run(self):
         # Since we already scraped, just load in the csv dumps
@@ -90,8 +92,8 @@ class Cycle:
                     else:
                         seed_elo = previous_teams[(previous_teams['_school'] == game['_home_team'])]
                         if not seed_elo['elo'].empty:
-                            # game['home_elo'] = ((seed_elo['elo'].values[0] - 1500) * MEAN_REVERSION) + 1500
-                            game['home_elo'] = 1500
+                            game['home_elo'] = ((seed_elo['elo'].values[0] - 1500) * self.mean_reversion) + 1500
+                            # game['home_elo'] = 1500
                         else:
                             game['home_elo'] = 1500
                 else:
@@ -111,8 +113,8 @@ class Cycle:
                     else:
                         seed_elo = previous_teams[(previous_teams['_school'] == game['_away_team'])]
                         if not seed_elo['elo'].empty:
-                            game['away_elo'] = 1500
-                            # game['away_elo'] = ((seed_elo['elo'].values[0] - 1500) * MEAN_REVERSION) + 1500
+                            # game['away_elo'] = 1500
+                            game['away_elo'] = ((seed_elo['elo'].values[0] - 1500) * self.mean_reversion) + 1500
                         else:
                             game['away_elo'] = 1500
                 else:
@@ -241,88 +243,89 @@ class Cycle:
         sos = teams.sort_values(by=['strength_of_schedule'], ascending=False)
         sos.index = np.arange(1,len(sos) + 1)
 
-    def readme_output():
-        with open('README.md', 'w') as file:
-            file.write('# CFBPoll 4.0 by TheAlpacalypse - The Pandas Rewrite\n')
-            file.write('\n')
-            file.write('Computerized poll to automatically rank college football teams each week\n')
-            file.write('First install the dependencies using the command:\n')
-            file.write('\n')
-            file.write('`pip install -r requirements.txt`\n')
-            file.write('\n')
-            file.write('Then run the program using the command:\n')
-            file.write('\n')
-            file.write('`python3 __main__.py`\n')
-            file.write('\n')
-            file.write('Use `Constants.py` to tweak the values I use to generate the ranking. I have tried to avoid leaving any raw values in this main program to let users experiment.\n')
-            file.write('\n')
-            file.write('---\n')
+        # Season prediction quality outputs
+        number_correct_season = len(games[(games['correct_prediction'] == True)])
+        number_of_games = len(games)
+        season_percent_correct = round(((number_correct_season / number_of_games) * 100), 2)
 
-            # Writes the table header
-            file.write("|Rank|Team|Flair|Record|Elo|Last Played|Result|Change|\n")
-            file.write("|---|---|---|---|---|---|---|---|\n")
-            
-            # Iterate over the top 25 and print them out
-            for index, team in teams.iloc[:25].iterrows():
-                file.write("| {} | {} | [](#f/{}) | {} | {} | {} | {} | {} |\n".format(index, team._school, team.flair, team.season_record, team.elo, team.last_played, team.result, team.elo_change))
+        if(self.iter_year == self.end_year):
+            with open('README.md', 'w') as file:
+                file.write('# CFBPoll 4.0 by TheAlpacalypse - The Pandas Rewrite\n')
+                file.write('\n')
+                file.write('Computerized poll to automatically rank college football teams each week\n')
+                file.write('First install the dependencies using the command:\n')
+                file.write('\n')
+                file.write('`pip install -r requirements.txt`\n')
+                file.write('\n')
+                file.write('Then run the program using the command:\n')
+                file.write('\n')
+                file.write('`python3 __main__.py`\n')
+                file.write('\n')
+                file.write('Use `Constants.py` to tweak the values I use to generate the ranking. I have tried to avoid leaving any raw values in this main program to let users experiment.\n')
+                file.write('\n')
+                file.write('---\n')
 
-            file.write("|||||||||\n")
+                # Writes the table header
+                file.write("|Rank|Team|Flair|Record|Elo|Last Played|Result|Change|\n")
+                file.write("|---|---|---|---|---|---|---|---|\n")
+                
+                # Iterate over the top 25 and print them out
+                for index, team in teams.iloc[:25].iterrows():
+                    file.write("| {} | {} | [](#f/{}) | {} | {} | {} | {} | {} |\n".format(index, team._school, team.flair, team.season_record, team.elo, team.last_played, team.result, team.elo_change))
 
-            # I like GT, so always print them
-            gt_frame = teams[teams['_school'] == 'Georgia Tech']
-            file.write("| {} | {} | [](#f/{}) | {} | {} | {} | {} | {} |\n".format(gt_frame.index[0], gt_frame.iloc[0]._school, gt_frame.iloc[0].flair, gt_frame.iloc[0].season_record, gt_frame.iloc[0].elo, gt_frame.iloc[0].last_played, gt_frame.iloc[0].result, gt_frame.iloc[0].elo_change))
-            file.write("|||||||||\n")
-            
-            # Lastly, always write the last place team
-            file.write("| {} | {} | [](#f/{}) | {} | {} | {} | {} | {} |\n".format(teams.index[-1], teams.iloc[-1]._school, teams.iloc[-1].flair, teams.iloc[-1].season_record, teams.iloc[-1].elo, teams.iloc[-1].last_played, teams.iloc[-1].result, teams.iloc[-1].elo_change))
-            file.write("\n")
-                    
-            file.write("---\n")
-            file.write("\n")
-            file.write("**Mean Elo:** {}\n".format(round(teams['elo'].mean(),2)))
-            file.write("\n")
-            file.write("**Median Elo:** {}\n".format(round(teams['elo'].median(),2)))
-            file.write("\n")
-            file.write("**Standard Deviation of Elo:** {}\n".format(round(teams['elo'].std(),2)))
-            file.write("\n")
+                file.write("|||||||||\n")
 
-            # Strength of Schedule Outputs 
-            file.write("**Easiest Strength of Schedule:** {}\n".format(sos.iloc[-1]._school))
-            file.write("\n")
-            file.write("**Hardest Strength of Schedule:** {}\n".format(sos.iloc[0]._school))
-            file.write("\n")
+                # I like GT, so always print them
+                gt_frame = teams[teams['_school'] == 'Georgia Tech']
+                file.write("| {} | {} | [](#f/{}) | {} | {} | {} | {} | {} |\n".format(gt_frame.index[0], gt_frame.iloc[0]._school, gt_frame.iloc[0].flair, gt_frame.iloc[0].season_record, gt_frame.iloc[0].elo, gt_frame.iloc[0].last_played, gt_frame.iloc[0].result, gt_frame.iloc[0].elo_change))
+                file.write("|||||||||\n")
+                
+                # Lastly, always write the last place team
+                file.write("| {} | {} | [](#f/{}) | {} | {} | {} | {} | {} |\n".format(teams.index[-1], teams.iloc[-1]._school, teams.iloc[-1].flair, teams.iloc[-1].season_record, teams.iloc[-1].elo, teams.iloc[-1].last_played, teams.iloc[-1].result, teams.iloc[-1].elo_change))
+                file.write("\n")
+                        
+                file.write("---\n")
+                file.write("\n")
+                file.write("**Mean Elo:** {}\n".format(round(teams['elo'].mean(),2)))
+                file.write("\n")
+                file.write("**Median Elo:** {}\n".format(round(teams['elo'].median(),2)))
+                file.write("\n")
+                file.write("**Standard Deviation of Elo:** {}\n".format(round(teams['elo'].std(),2)))
+                file.write("\n")
 
-            # Season prediction quality outputs
-            number_correct_season = len(games[(games['correct_prediction'] == True)])
-            number_of_games = len(games)
-            season_percent_correct = round(((number_correct_season / number_of_games) * 100), 2)
+                # Strength of Schedule Outputs 
+                file.write("**Easiest Strength of Schedule:** {}\n".format(sos.iloc[-1]._school))
+                file.write("\n")
+                file.write("**Hardest Strength of Schedule:** {}\n".format(sos.iloc[0]._school))
+                file.write("\n")
 
-            file.write("**Predictions Quality (Season):** {}% Correct\n".format(season_percent_correct))
+                # Season prediction quality outputs
+                number_correct_season = len(games[(games['correct_prediction'] == True)])
+                number_of_games = len(games)
+                season_percent_correct = round(((number_correct_season / number_of_games) * 100), 2)
 
-            # Weekly quality outputs
-            # Now for the current week
-            file.write("\n")
-            number_correct_curr_week =  len(games[(games['correct_prediction'] == True) & (games['_week'] == WEEK)])
-            number_of_games_curr_week = len(games[games['_week'] == WEEK])
-            curr_week_percent_correct = round(((number_correct_curr_week / number_of_games_curr_week) * 100), 2)
-            
-            # And then the last week
-            number_correct_last_week =  len(games[(games['correct_prediction'] == True) & (games['_week'] == WEEK - 1)])
-            number_of_games_last_week = len(games[games['_week'] == WEEK - 1])
-            last_week_percent_correct = round(((number_correct_last_week / number_of_games_last_week) * 100), 2)
+                file.write("**Predictions Quality (Season):** {}% Correct\n".format(season_percent_correct))
 
-            file.write("**Predictions Quality (Week):** {}% Correct (Last Week: {}%)\n".format(curr_week_percent_correct, last_week_percent_correct))
-            file.write("\n")
-            file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)\n")
-            file.write("\n")
-            file.write("[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)\n")
+                # Weekly quality outputs
+                # Now for the current week
+                file.write("\n")
+                number_correct_curr_week =  len(games[(games['correct_prediction'] == True) & (games['_week'] == self.week)])
+                number_of_games_curr_week = len(games[games['_week'] == self.week])
+                curr_week_percent_correct = round(((number_correct_curr_week / number_of_games_curr_week) * 100), 2)
+                
+                # And then the last week
+                number_correct_last_week =  len(games[(games['correct_prediction'] == True) & (games['_week'] == self.week - 1)])
+                number_of_games_last_week = len(games[games['_week'] == self.week - 1])
+                last_week_percent_correct = round(((number_correct_last_week / number_of_games_last_week) * 100), 2)
 
-            stop = timeit.default_timer()
-
-            # Fun stats for how long it took for this to generate
-            file.write('\n')
-            file.write('Poll program runtime: {}s'.format(round(stop - start,2)))
+                file.write("**Predictions Quality (Week):** {}% Correct (Last Week: {}%)\n".format(curr_week_percent_correct, last_week_percent_correct))
+                file.write("\n")
+                file.write("[Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)\n")
+                file.write("\n")
+                file.write("[Link to the github repository here](https://github.com/ChangedNameTo/CFBPoll)\n")
     
+        return [self.iter_year,season_percent_correct]
+
     # elif TESTING:
     #     testing_games = pd.concat([testing_games, games])
     #     testing_plays = pd.concat([testing_plays, plays])
