@@ -6,9 +6,8 @@ import json
 import requests
 
 from pandas.io.json import json_normalize
-from Constants import WEEK
 
-def scrape_stats():
+def scrape_stats(end_week):
     for year in range(2020, 2021):
         # Fetches all games, outputs the CSV's
         games_result = cfbd.GamesApi().get_games(year, season_type='both')
@@ -24,7 +23,7 @@ def scrape_stats():
 
         # # Pull all plays, concat them, then dump them into csvs
         year_plays = pd.DataFrame()
-        for week in range(1, WEEK + 1):
+        for week in range(1, end_week + 1):
             plays_week_result = cfbd.PlaysApi().get_plays(year=year, week=week)
             plays = pd.DataFrame.from_records([play.__dict__ for play in plays_week_result])
             year_plays = pd.concat([year_plays, plays])
@@ -33,7 +32,7 @@ def scrape_stats():
 
         # # Pull all advanced stats, concat them, then dump them into csvs
         year_stats = pd.DataFrame()
-        for week in range(1, WEEK + 1):
+        for week in range(1, end_week + 1):
             stats_week_result = cfbd.StatsApi().get_team_season_stats(year=year, start_week=week, end_week=week+1)
             stats = pd.DataFrame.from_records([stat.__dict__ for stat in stats_week_result])
             year_stats = pd.concat([year_stats, stats])
