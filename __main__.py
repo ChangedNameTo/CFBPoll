@@ -24,8 +24,8 @@ pd.set_option('mode.chained_assignment', None) # Disable this if you have issues
 #############
 # Runtime Constants - Use these to change when or how the poll runs
 YEAR      = 2020
-WEEK      = 6
-RUN_SCRAPER = False # Run this if the values in the csvs are out of date
+WEEK      = 7
+RUN_SCRAPER = True # Run this if the values in the csvs are out of date
 
 # Value Constants - Tweak the poll outputs.
 # My default values are derived using the research contained in the /research directory.

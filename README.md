@@ -14,51 +14,51 @@ Use `Constants.py` to tweak the values I use to generate the ranking. I have tri
 ---
 |Rank|Team|Flair|Record|Elo|Last Played|Result|Change|
 |---|---|---|---|---|---|---|---|
-| 1 | Clemson | [](#f/clemson) | (4 - 0) | 1841.78 | Miami | (**42** - 17) W | 19.27 |
-| 2 | Alabama | [](#f/alabama) | (3 - 0) | 1756.73 | Ole Miss | (48 - **63**) W | 16.7 |
-| 3 | Georgia | [](#f/georgia) | (3 - 0) | 1749.57 | Tennessee | (**44** - 21) W | 25.36 |
-| 4 | Notre Dame | [](#f/notredame) | (3 - 0) | 1718.55 | Florida State | (**42** - 26) W | 18.97 |
-| 5 | Cincinnati | [](#f/cincinnati) | (3 - 0) | 1716.66 | South Florida | (**28** - 7) W | 18.63 |
-| 6 | Appalachian State | [](#f/appalachianstate) | (2 - 1) | 1715.17 | Campbell | (**52** - 21) W | 59.83 |
-| 7 | SMU | [](#f/smu) | (4 - 0) | 1714.94 | Memphis | (**30** - 27) W | 13.66 |
-| 8 | BYU | [](#f/byu) | (4 - 0) | 1697.57 | UT San Antonio | (**27** - 20) W | 12.31 |
-| 9 | Oklahoma | [](#f/oklahoma) | (2 - 2) | 1690.5 | Texas | (**53** - 45) W | 20.87 |
-| 10 | LSU | [](#f/lsu) | (1 - 2) | 1689.14 | Missouri | (**41** - 45) L | -28.4 |
-| 11 | Florida | [](#f/florida) | (2 - 1) | 1685.64 | Texas A&M | (41 - **38**) L | -19.95 |
-| 12 | Marshall | [](#f/marshall) | (3 - 0) | 1683.93 | Western Kentucky | (14 - **38**) W | 29.51 |
-| 13 | Army | [](#f/army) | (4 - 1) | 1677.38 | The Citadel | (**14** - 9) W | 29.93 |
-| 14 | Louisiana | [](#f/louisiana) | (3 - 0) | 1671.09 | Georgia Southern | (**20** - 18) W | 8.43 |
+| 1 | Clemson | [](#f/clemson) | (5 - 0) | 1857.1 | Georgia Tech | (7 - **73**) W | 15.33 |
+| 2 | Alabama | [](#f/alabama) | (4 - 0) | 1787.82 | Georgia | (**41** - 24) W | 31.09 |
+| 3 | Notre Dame | [](#f/notredame) | (4 - 0) | 1727.42 | Louisville | (**12** - 7) W | 8.87 |
+| 4 | SMU | [](#f/smu) | (5 - 0) | 1726.41 | Tulane | (34 - **37**) W | 11.47 |
+| 5 | BYU | [](#f/byu) | (5 - 0) | 1722.79 | Houston | (26 - **43**) W | 25.22 |
+| 6 | Georgia | [](#f/georgia) | (3 - 1) | 1718.48 | Alabama | (41 - **24**) L | -31.09 |
+| 7 | Marshall | [](#f/marshall) | (4 - 0) | 1716.74 | Louisiana Tech | (17 - **35**) W | 32.81 |
+| 8 | Cincinnati | [](#f/cincinnati) | (3 - 0) | 1716.66 | South Florida | (**28** - 7) W | 18.63 |
+| 9 | Appalachian State | [](#f/appalachianstate) | (2 - 1) | 1715.17 | Campbell | (**52** - 21) W | 59.83 |
+| 10 | Army | [](#f/army) | (5 - 1) | 1696.69 | UT San Antonio | (16 - **28**) W | 19.31 |
+| 11 | Oklahoma | [](#f/oklahoma) | (2 - 2) | 1690.5 | Texas | (**53** - 45) W | 20.87 |
+| 12 | LSU | [](#f/lsu) | (1 - 2) | 1689.14 | Missouri | (**41** - 45) L | -28.4 |
+| 13 | Florida | [](#f/florida) | (2 - 1) | 1685.64 | Texas A&M | (41 - **38**) L | -19.95 |
+| 14 | Liberty | [](#f/liberty) | (5 - 0) | 1678.33 | Syracuse | (21 - **38**) W | 22.29 |
 | 15 | Air Force | [](#f/airforce) | (1 - 0) | 1662.31 | Navy | (**40** - 7) W | 32.54 |
-| 16 | UCF | [](#f/ucf) | (2 - 1) | 1661.18 | Tulsa | (**26** - 34) L | -39.3 |
-| 17 | Liberty | [](#f/liberty) | (4 - 0) | 1656.04 | Louisiana Monroe | (**40** - 7) W | 14.44 |
-| 18 | North Carolina | [](#f/northcarolina) | (3 - 0) | 1653.07 | Virginia Tech | (**56** - 45) W | 27.04 |
-| 19 | Memphis | [](#f/memphis) | (1 - 1) | 1649.7 | SMU | (30 - **27**) L | -13.66 |
+| 16 | Memphis | [](#f/memphis) | (2 - 1) | 1657.53 | UCF | (**50** - 49) W | 7.83 |
+| 17 | UCF | [](#f/ucf) | (2 - 2) | 1653.34 | Memphis | (50 - **49**) L | -7.83 |
+| 18 | Louisiana | [](#f/louisiana) | (3 - 1) | 1650.77 | Coastal Carolina | (**27** - 30) L | -20.32 |
+| 19 | Miami | [](#f/miami) | (4 - 1) | 1648.19 | Pittsburgh | (**31** - 19) W | 28.94 |
 | 20 | Oklahoma State | [](#f/oklahomastate) | (3 - 0) | 1644.39 | Kansas | (7 - **47**) W | 25.01 |
 | 21 | Florida Atlantic | [](#f/fau) | (1 - 0) | 1642.26 | Charlotte | (**21** - 17) W | 11.26 |
-| 22 | Pittsburgh | [](#f/pittsburgh) | (3 - 2) | 1630.06 | Boston College | (31 - **30**) L | -9.02 |
-| 23 | Auburn | [](#f/auburn) | (2 - 1) | 1628.45 | Arkansas | (**30** - 28) W | 6.66 |
-| 24 | Louisiana Tech | [](#f/louisianatech) | (3 - 1) | 1619.61 | UTEP | (**21** - 17) W | 10.9 |
-| 25 | Miami | [](#f/miami) | (3 - 1) | 1619.25 | Clemson | (42 - **17**) L | -19.27 |
+| 22 | Kentucky | [](#f/kentucky) | (2 - 2) | 1639.74 | Tennessee | (7 - **34**) W | 43.33 |
+| 23 | North Carolina | [](#f/northcarolina) | (3 - 1) | 1633.15 | Florida State | (31 - **28**) L | -19.92 |
+| 24 | Coastal Carolina | [](#f/coastalcarolina) | (4 - 0) | 1630.84 | Louisiana | (27 - **30**) W | 20.32 |
+| 25 | Virginia Tech | [](#f/virginiatech) | (3 - 1) | 1630.31 | Boston College | (**40** - 14) W | 34.25 |
 |||||||||
-| 61 | Georgia Tech | [](#f/georgiatech) | (2 - 2) | 1476.34 | Louisville | (**46** - 27) W | 40.95 |
+| 63 | Georgia Tech | [](#f/georgiatech) | (2 - 3) | 1461.01 | Clemson | (**7** - 73) L | -15.33 |
 |||||||||
-| 76 | Louisiana Monroe | [](#f/ulm) | (0 - 5) | 1355.24 | Liberty | (40 - **7**) L | -14.44 |
+| 77 | Louisiana Monroe | [](#f/ulm) | (0 - 5) | 1355.24 | Liberty | (40 - **7**) L | -14.44 |
 
 ---
 
-**Mean Elo:** 1569.92
+**Mean Elo:** 1567.69
 
-**Median Elo:** 1576.58
+**Median Elo:** 1577.57
 
-**Standard Deviation of Elo:** 101.19
+**Standard Deviation of Elo:** 109.22
 
-**Easiest Strength of Schedule:** UCF
+**Easiest Strength of Schedule:** Florida International
 
-**Hardest Strength of Schedule:** Marshall
+**Hardest Strength of Schedule:** UTEP
 
-**Predictions Quality (Season):** 57.14% Correct
+**Predictions Quality (Season):** 60.12% Correct
 
-**Predictions Quality (Week):** 58.62% Correct (Last Week: 59.38%)
+**Predictions Quality (Week):** 75.0% Correct (Last Week: 58.62%)
 
 [Explanation of the poll methodology here](https://www.reddit.com/user/TehAlpacalypse/comments/dwfsfi/cfb_poll_30_oops/)
 
