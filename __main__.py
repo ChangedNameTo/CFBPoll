@@ -30,16 +30,16 @@ RUN_SCRAPER = False # Run this if the values in the csvs are out of date
 # Value Constants - Tweak the poll outputs.
 # My default values are derived using the research contained in the /research directory.
 START_YEAR = 2010 
-TESTING = False # Set this to false if you care about poll output. 
-K_VALUE = 20
+TESTING = True # Set this to false if you care about poll output. 
+K_VALUE = 19
 HFA = 30 # Raw output is 3.04, converted to elo is 30.4. Rounds down to the whole number.
 FCS_ELO = 1204 # FCS Teams lose by, on average, 29.6 points. Converted to elo, 296. Average FBS team is 1500, so 1204 = 1500 - 296
 MEAN_REVERSION = 0.446153846153846 
 
 # Dependent Variable
 D_V = 'k_value'
-LOW_D_V = 10
-HIGH_D_V = 30
+LOW_D_V = 16
+HIGH_D_V = 24
 STEPS = 11
 
 class Execution:

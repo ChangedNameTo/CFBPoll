@@ -1,6 +1,9 @@
 # Do not open the polling db
 poll.db
-OLD_README.md
+
+# Ignore the testing stuff
+research/D_V.csv
+research/dv_test.html
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
