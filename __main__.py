@@ -24,13 +24,13 @@ pd.set_option('mode.chained_assignment', None) # Disable this if you have issues
 #############
 # Runtime Constants - Use these to change when or how the poll runs
 YEAR      = 2020
-WEEK      = 7
+WEEK      = 8
 RUN_SCRAPER = True # Run this if the values in the csvs are out of date
 
 # Value Constants - Tweak the poll outputs.
 # My default values are derived using the research contained in the /research directory.
 START_YEAR = 2010 
-TESTING = True # Set this to false if you care about poll output. 
+TESTING = False # Set this to false if you care about poll output. 
 K_VALUE = 19
 HFA = 30 # Raw output is 3.04, converted to elo is 30.4. Rounds down to the whole number.
 FCS_ELO = 1204 # FCS Teams lose by, on average, 29.6 points. Converted to elo, 296. Average FBS team is 1500, so 1204 = 1500 - 296
