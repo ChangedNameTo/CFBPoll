@@ -13,6 +13,6 @@ def scrape_stats():
         )
 
         games = pd.read_json(response.text)
-        games.to_csv('data/{}/games.csv'.format(year))
+        games.to_csv('data/years/{}/games.csv'.format(year))
 
 scrape_stats()
