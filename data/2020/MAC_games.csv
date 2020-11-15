@@ -1,0 +1,37 @@
+,attendance,away_conference,away_id,away_line_scores,away_points,away_post_win_prob,away_team,conference_game,excitement_index,home_conference,home_id,home_line_scores,home_points,home_post_win_prob,home_team,id,neutral_site,season,season_type,start_date,start_time_tbd,venue,venue_id,week
+0,,Mid-American,2711,"[16, 14, 21, 7]",58.0,0.99937798052936,Western Michigan,True,0.9459497756,Mid-American,2006,"[7, 6, 0, 0]",13.0,0.0006220194706400425,Akron,401249857,False,2020,regular,2020-11-04T23:00:00.000Z,False,Summa Field at InfoCision Stadium,3768,10
+1,,Mid-American,2199,"[9, 0, 6, 8]",23.0,0.0093231957994514,Eastern Michigan,True,6.8548101188,Mid-American,2309,"[13, 7, 0, 7]",27.0,0.9906768042005486,Kent State,401249856,False,2020,regular,2020-11-04T23:00:00.000Z,False,Dix Stadium,3696,10
+2,,Mid-American,2050,"[7, 7, 7, 10]",31.0,,Ball State,True,,Mid-American,193,"[0, 10, 14, 14]",38.0,,Miami (OH),401249889,False,2020,regular,2020-11-05T00:00:00.000Z,False,Yager Stadium,3996,10
+3,,Mid-American,2084,"[14, 7, 21, 7]",49.0,0.960639188609367,Buffalo,True,2.2512137996,Mid-American,2459,"[3, 13, 0, 14]",30.0,0.03936081139063302,Northern Illinois,401249859,False,2020,regular,2020-11-05T00:00:00.000Z,False,Brigham Field at Huskie Stadium,3764,10
+4,,Mid-American,195,"[7, 13, 7, 0]",27.0,0.6859578567013294,Ohio,True,9.634417443,Mid-American,2117,"[14, 6, 7, 3]",30.0,0.31404214329867064,Central Michigan,401249860,False,2020,regular,2020-11-05T00:00:00.000Z,False,Kelly/Shorts Stadium,3786,10
+5,,Mid-American,189,"[0, 0, 3, 0]",3.0,0.004362804338587711,Bowling Green,True,1.3977801538,Mid-American,2649,"[21, 0, 7, 10]",38.0,0.9956371956614123,Toledo,401249858,False,2020,regular,2020-11-05T01:00:00.000Z,False,Glass Bowl,3739,10
+6,,Mid-American,2006,"[0, 7, 3, 0]",10.0,0.7825147548527642,Akron,True,2.1472328043,Mid-American,195,"[7, 7, 3, 7]",24.0,0.21748524514723572,Ohio,401249861,False,2020,regular,2020-11-11T00:00:00.000Z,False,Peden Stadium,3876,11
+7,,Mid-American,2309,"[10, 28, 7, 17]",62.0,0.9964797280533804,Kent State,True,1.116790507,Mid-American,189,"[10, 0, 0, 14]",24.0,0.0035202719466196812,Bowling Green,401249862,False,2020,regular,2020-11-11T00:30:00.000Z,False,Doyt Perry Stadium,3700,11
+8,,Mid-American,193,"[0, 7, 0, 3]",10.0,0.0011332695227439515,Miami (OH),True,3.7119971016,Mid-American,2084,"[0, 14, 21, 7]",42.0,0.998866730477256,Buffalo,401249890,False,2020,regular,2020-11-11T01:00:00.000Z,False,UB Stadium,3965,11
+9,,Mid-American,2199,"[14, 7, 3, 7]",31.0,0.7419143512830457,Eastern Michigan,True,8.7640843242,Mid-American,2050,"[7, 6, 8, 17]",38.0,0.25808564871695433,Ball State,401249865,False,2020,regular,2020-11-12T00:00:00.000Z,False,Scheumann Stadium,3919,11
+10,,Mid-American,2649,"[14, 10, 7, 7]",38.0,0.11823078529322195,Toledo,True,7.1435125387,Mid-American,2711,"[14, 0, 7, 20]",41.0,0.881769214706778,Western Michigan,401249866,False,2020,regular,2020-11-12T01:00:00.000Z,False,Waldo Stadium,3980,11
+11,,Mid-American,2117,"[7, 2, 17, 14]",40.0,0.9956119931529284,Central Michigan,True,2.8304051978,Mid-American,2459,"[0, 0, 0, 10]",10.0,0.004388006847071639,Northern Illinois,401249864,False,2020,regular,2020-11-12T01:00:00.000Z,False,Brigham Field at Huskie Stadium,3764,11
+12,,Mid-American,2006,,,,Akron,True,,Mid-American,2309,,,,Kent State,401249867,False,2020,regular,2020-11-18T00:00:00.000Z,False,Dix Stadium,3696,12
+13,,Mid-American,2084,,,,Buffalo,True,,Mid-American,189,,,,Bowling Green,401249868,False,2020,regular,2020-11-18T00:00:00.000Z,False,Doyt Perry Stadium,3700,12
+14,,Mid-American,195,,,,Ohio,True,,Mid-American,193,,,,Miami (OH),401249891,False,2020,regular,2020-11-18T01:00:00.000Z,False,Yager Stadium,3996,12
+15,,Mid-American,2711,,,,Western Michigan,True,,Mid-American,2117,,,,Central Michigan,401249872,False,2020,regular,2020-11-19T00:00:00.000Z,False,Kelly/Shorts Stadium,3786,12
+16,,Mid-American,2649,,,,Toledo,True,,Mid-American,2199,,,,Eastern Michigan,401249871,False,2020,regular,2020-11-19T00:00:00.000Z,False,Rynearson Stadium,3912,12
+17,,Mid-American,2459,,,,Northern Illinois,True,,Mid-American,2050,,,,Ball State,401249870,False,2020,regular,2020-11-19T00:00:00.000Z,False,Scheumann Stadium,3919,12
+18,,Mid-American,2117,,,,Central Michigan,True,,Mid-American,2199,,,,Eastern Michigan,401249874,False,2020,regular,2020-11-27T21:00:00.000Z,False,Rynearson Stadium,3912,13
+19,,Mid-American,193,,,,Miami (OH),True,,Mid-American,2006,,,,Akron,401249892,False,2020,regular,2020-11-28T05:00:00.000Z,True,Summa Field at InfoCision Stadium,3768,13
+20,,Mid-American,2050,,,,Ball State,True,,Mid-American,2649,,,,Toledo,401249873,False,2020,regular,2020-11-28T05:00:00.000Z,True,Glass Bowl,3739,13
+21,,Mid-American,2459,,,,Northern Illinois,True,,Mid-American,2711,,,,Western Michigan,401249875,False,2020,regular,2020-11-28T05:00:00.000Z,True,Waldo Stadium,3980,13
+22,,Mid-American,189,,,,Bowling Green,True,,Mid-American,195,,,,Ohio,401249876,False,2020,regular,2020-11-28T05:00:00.000Z,True,Peden Stadium,3876,13
+23,,Mid-American,2309,,,,Kent State,True,,Mid-American,2084,,,,Buffalo,401249877,False,2020,regular,2020-11-28T05:00:00.000Z,True,UB Stadium,3965,13
+24,,Mid-American,2199,,,,Eastern Michigan,True,,Mid-American,2711,,,,Western Michigan,401249879,False,2020,regular,2020-12-05T05:00:00.000Z,True,Waldo Stadium,3980,14
+25,,Mid-American,2050,,,,Ball State,True,,Mid-American,2117,,,,Central Michigan,401249878,False,2020,regular,2020-12-05T05:00:00.000Z,True,Kelly/Shorts Stadium,3786,14
+26,,Mid-American,2309,,,,Kent State,True,,Mid-American,193,,,,Miami (OH),401249893,False,2020,regular,2020-12-05T05:00:00.000Z,True,Yager Stadium,3996,14
+27,,Mid-American,2084,,,,Buffalo,True,,Mid-American,195,,,,Ohio,401249882,False,2020,regular,2020-12-05T05:00:00.000Z,True,Peden Stadium,3876,14
+28,,Mid-American,189,,,,Bowling Green,True,,Mid-American,2006,,,,Akron,401249881,False,2020,regular,2020-12-05T05:00:00.000Z,True,Summa Field at InfoCision Stadium,3768,14
+29,,Mid-American,2649,,,,Toledo,True,,Mid-American,2459,,,,Northern Illinois,401249880,False,2020,regular,2020-12-05T05:00:00.000Z,True,Brigham Field at Huskie Stadium,3764,14
+30,,Mid-American,2711,,,,Western Michigan,True,,Mid-American,2050,,,,Ball State,401249885,False,2020,regular,2020-12-12T05:00:00.000Z,True,Scheumann Stadium,3919,15
+31,,Mid-American,195,,,,Ohio,True,,Mid-American,2309,,,,Kent State,401249888,False,2020,regular,2020-12-12T05:00:00.000Z,True,Dix Stadium,3696,15
+32,,Mid-American,193,,,,Miami (OH),True,,Mid-American,189,,,,Bowling Green,401249894,False,2020,regular,2020-12-12T05:00:00.000Z,True,Doyt Perry Stadium,3700,15
+33,,Mid-American,2459,,,,Northern Illinois,True,,Mid-American,2199,,,,Eastern Michigan,401249884,False,2020,regular,2020-12-12T05:00:00.000Z,True,Rynearson Stadium,3912,15
+34,,Mid-American,2117,,,,Central Michigan,True,,Mid-American,2649,,,,Toledo,401249883,False,2020,regular,2020-12-12T05:00:00.000Z,True,Glass Bowl,3739,15
+35,,Mid-American,2006,,,,Akron,True,,Mid-American,2084,,,,Buffalo,401249886,False,2020,regular,2020-12-12T05:00:00.000Z,True,UB Stadium,3965,15

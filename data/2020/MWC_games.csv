@@ -1,0 +1,50 @@
+,attendance,away_conference,away_id,away_line_scores,away_points,away_post_win_prob,away_team,conference_game,excitement_index,home_conference,home_id,home_line_scores,home_points,home_post_win_prob,home_team,id,neutral_site,season,season_type,start_date,start_time_tbd,venue,venue_id,week
+0,,American Athletic,2426,"[0, 7, 0, 0]",7.0,0.0016264329714635872,Navy,False,4.705105358,Mountain West,2005,"[3, 13, 3, 21]",40.0,0.9983735670285364,Air Force,401212557,False,2020,regular,2020-10-03T22:00:00.000Z,False,Falcon Stadium,3713,5
+1,,Mountain West,2751,"[3, 3, 7, 18, 3]",34.0,0.17270137378072703,Wyoming,True,7.2314445855,Mountain West,2440,"[7, 7, 14, 3, 6]",37.0,0.827298626219273,Nevada,401248998,False,2020,regular,2020-10-24T23:00:00.000Z,False,Mackay Stadium,3816,8
+2,,Mountain West,328,"[0, 0, 7, 6]",13.0,0.0021747689487638944,Utah State,True,1.9433209532,Mountain West,68,"[7, 21, 0, 14]",42.0,0.9978252310512361,Boise State,401248997,False,2020,regular,2020-10-24T23:00:00.000Z,False,Albertsons Stadium,3653,8
+3,,Mountain West,62,"[7, 10, 7, 10]",34.0,0.9609740737479496,Hawai'i,True,5.2853277835,Mountain West,278,"[7, 6, 3, 3]",19.0,0.0390259262520504,Fresno State,401248994,False,2020,regular,2020-10-24T23:30:00.000Z,False,Bulldog Stadium,3660,8
+4,,Mountain West,2439,"[0, 0, 6, 0]",6.0,0.0038050211231812625,UNLV,True,2.4332683787,Mountain West,21,"[7, 20, 0, 7]",34.0,0.9961949788768187,San Diego State,401248996,False,2020,regular,2020-10-25T02:30:00.000Z,False,Qualcomm Stadium,3932,8
+5,,Mountain West,2005,"[0, 0, 0, 6]",6.0,0.735204718647315,Air Force,True,5.6858583838,Mountain West,23,"[0, 0, 14, 3]",17.0,0.264795281352685,San José State,401248993,False,2020,regular,2020-10-25T02:30:00.000Z,False,Spartan Stadium,3935,8
+6,,Mountain West,36,"[3, 7, 0, 7]",17.0,0.01715402970344171,Colorado State,True,5.0823961957,Mountain West,278,"[7, 17, 7, 7]",38.0,0.9828459702965583,Fresno State,401249000,False,2020,regular,2020-10-30T02:00:00.000Z,False,Bulldog Stadium,3660,9
+7,,Mountain West,62,"[0, 7, 0, 0]",7.0,0.0027647601202092087,Hawai'i,True,5.8331631693,Mountain West,2751,"[10, 0, 7, 14]",31.0,0.9972352398797908,Wyoming,401249001,False,2020,regular,2020-10-31T01:45:00.000Z,False,War Memorial Stadium,3984,9
+8,,Mountain West,68,"[7, 21, 7, 14]",49.0,0.8077716585189489,Boise State,True,2.7227153981,Mountain West,2005,"[14, 3, 0, 13]",30.0,0.1922283414810511,Air Force,401248999,False,2020,regular,2020-10-31T22:00:00.000Z,False,Falcon Stadium,3713,9
+9,,Mountain West,23,"[7, 14, 10, 7]",38.0,0.8160311022252139,San José State,True,5.1373730956,Mountain West,167,"[0, 14, 7, 0]",21.0,0.18396889777478612,New Mexico,401249003,False,2020,regular,2020-10-31T23:00:00.000Z,False,University Stadium,3971,9
+10,,Mountain West,21,"[7, 3, 14, 14]",38.0,0.9990967457881358,San Diego State,True,2.9526861583,Mountain West,328,"[0, 7, 0, 0]",7.0,0.0009032542118642172,Utah State,401249004,False,2020,regular,2020-11-01T01:30:00.000Z,False,Romney Stadium,3905,9
+11,,Mountain West,2440,"[10, 14, 3, 10]",37.0,0.9901594323292963,Nevada,True,2.4714586592,Mountain West,2439,"[3, 9, 7, 0]",19.0,0.009840567670703782,UNLV,401249002,False,2020,regular,2020-11-01T02:30:00.000Z,False,Allegiant Stadium,6501,9
+12,,Mountain West,328,"[9, 0, 0, 0]",9.0,0.001423037287954787,Utah State,True,2.7538289958,Mountain West,2440,"[7, 14, 10, 3]",34.0,0.9985769627120452,Nevada,401249009,False,2020,regular,2020-11-06T00:00:00.000Z,False,Mackay Stadium,3816,10
+13,,Mountain West,2751,"[0, 14, 3, 7]",24.0,0.26072258336843845,Wyoming,True,6.4975994899,Mountain West,36,"[14, 10, 7, 3]",34.0,0.7392774166315615,Colorado State,401249010,False,2020,regular,2020-11-06T02:00:00.000Z,False,Canvas Stadium,5388,10
+14,,Mountain West,23,"[0, 7, 7, 14]",28.0,0.5045638629244551,San José State,True,5.6977809738,Mountain West,21,"[3, 7, 0, 7]",17.0,0.49543613707554485,San Diego State,401249008,False,2020,regular,2020-11-07T02:00:00.000Z,False,Qualcomm Stadium,3932,10
+15,,FBS Independents,252,"[7, 9, 22, 13]",51.0,0.993335134303556,BYU,False,2.9276211725,Mountain West,68,"[3, 0, 0, 14]",17.0,0.006664865696444025,Boise State,401249005,False,2020,regular,2020-11-07T02:45:00.000Z,False,Albertsons Stadium,3653,10
+16,,Mountain West,2005,,,,Air Force,False,,FBS Independents,349,,,,Army,401207199,False,2020,regular,2020-11-07T16:30:00.000Z,False,Blaik Field at Michie Stadium,3841,10
+17,,Mountain West,278,"[6, 14, 7, 13]",40.0,0.6351644293193838,Fresno State,True,4.9590510197,Mountain West,2439,"[7, 10, 10, 0]",27.0,0.36483557068061623,UNLV,401249006,False,2020,regular,2020-11-07T20:30:00.000Z,False,Allegiant Stadium,6501,10
+18,,Mountain West,167,"[17, 3, 7, 6]",33.0,0.1258529337507539,New Mexico,True,6.9236570069,Mountain West,62,"[7, 7, 14, 11]",39.0,0.8741470662492461,Hawai'i,401249007,False,2020,regular,2020-11-08T04:00:00.000Z,False,Aloha Stadium,3610,10
+19,,Mountain West,36,"[0, 7, 14, 0]",21.0,0.03507069908525573,Colorado State,True,1.863126332,Mountain West,68,"[21, 21, 10, 0]",52.0,0.9649293009147443,Boise State,401249012,False,2020,regular,2020-11-13T01:00:00.000Z,False,Albertsons Stadium,3653,11
+20,,Mountain West,278,"[7, 21, 0, 7]",35.0,0.9989111489140461,Fresno State,True,3.3132221235,Mountain West,328,"[13, 3, 0, 0]",16.0,0.0010888510859539595,Utah State,401249013,False,2020,regular,2020-11-14T19:30:00.000Z,False,Romney Stadium,3905,11
+21,,Mountain West,62,"[0, 0, 3, 7]",10.0,0.01083267581396008,Hawai'i,True,2.8833910433,Mountain West,21,"[14, 14, 0, 6]",34.0,0.9891673241860399,San Diego State,401249014,False,2020,regular,2020-11-14T21:00:00.000Z,False,Qualcomm Stadium,3932,11
+22,,Mountain West,2440,"[0, 10, 10, 7]",27.0,0.3691329392368211,Nevada,True,5.1475885505,Mountain West,167,"[7, 6, 0, 7]",20.0,0.6308670607631789,New Mexico,401249015,False,2020,regular,2020-11-14T23:30:00.000Z,False,University Stadium,3971,11
+23,,Mountain West,2005,,,,Air Force,True,,Mountain West,2751,,,,Wyoming,401249011,False,2020,regular,2020-11-15T03:00:00.000Z,False,War Memorial Stadium,3984,11
+24,,Mountain West,2439,"[3, 7, 7, 0]",17.0,0.007218198572980228,UNLV,True,2.6937565029,Mountain West,23,"[10, 14, 7, 3]",34.0,0.9927818014270198,San José State,401249016,False,2020,regular,2020-11-15T03:30:00.000Z,False,Spartan Stadium,3935,11
+25,,Mountain West,328,,,,Utah State,True,,Mountain West,2751,,,,Wyoming,401249022,False,2020,regular,2020-11-20T02:00:00.000Z,False,War Memorial Stadium,3984,12
+26,,Mountain West,167,,,,New Mexico,True,,Mountain West,2005,,,,Air Force,401249018,False,2020,regular,2020-11-21T02:30:00.000Z,False,Falcon Stadium,3713,12
+27,,Mountain West,21,,,,San Diego State,True,,Mountain West,2440,,,,Nevada,401249019,False,2020,regular,2020-11-21T20:30:00.000Z,False,Mackay Stadium,3816,12
+28,,Mountain West,2439,,,,UNLV,True,,Mountain West,36,,,,Colorado State,401249021,False,2020,regular,2020-11-21T22:30:00.000Z,False,Canvas Stadium,5388,12
+29,,Mountain West,23,,,,San José State,True,,Mountain West,278,,,,Fresno State,401249020,False,2020,regular,2020-11-22T00:00:00.000Z,False,Bulldog Stadium,3660,12
+30,,Mountain West,68,,,,Boise State,True,,Mountain West,62,,,,Hawai'i,401249017,False,2020,regular,2020-11-22T04:00:00.000Z,False,Aloha Stadium,3610,12
+31,,Mountain West,36,,,,Colorado State,True,,Mountain West,2005,,,,Air Force,401249023,False,2020,regular,2020-11-26T19:00:00.000Z,False,Falcon Stadium,3713,13
+32,,Mountain West,167,,,,New Mexico,True,,Mountain West,328,,,,Utah State,401249025,False,2020,regular,2020-11-27T00:00:00.000Z,False,Romney Stadium,3905,13
+33,,Mountain West,2751,,,,Wyoming,True,,Mountain West,2439,,,,UNLV,401249028,False,2020,regular,2020-11-27T21:00:00.000Z,False,Allegiant Stadium,6501,13
+34,,Mountain West,21,,,,San Diego State,True,,Mountain West,278,,,,Fresno State,401249026,False,2020,regular,2020-11-28T02:00:00.000Z,False,Bulldog Stadium,3660,13
+35,,Mountain West,23,,,,San José State,True,,Mountain West,68,,,,Boise State,401249027,False,2020,regular,2020-11-28T05:00:00.000Z,True,Albertsons Stadium,3653,13
+36,,Mountain West,2440,,,,Nevada,True,,Mountain West,62,,,,Hawai'i,401249024,False,2020,regular,2020-11-29T04:00:00.000Z,False,Aloha Stadium,3610,13
+37,,Mountain West,2005,,,,Air Force,True,,Mountain West,328,,,,Utah State,401249029,False,2020,regular,2020-12-04T02:30:00.000Z,False,Romney Stadium,3905,14
+38,,Mountain West,68,,,,Boise State,True,,Mountain West,2439,,,,UNLV,401249030,False,2020,regular,2020-12-05T02:30:00.000Z,False,Allegiant Stadium,6501,14
+39,,Mountain West,278,,,,Fresno State,True,,Mountain West,2440,,,,Nevada,401249032,False,2020,regular,2020-12-05T05:00:00.000Z,True,Mackay Stadium,3816,14
+40,,Mountain West,62,,,,Hawai'i,True,,Mountain West,23,,,,San José State,401249033,False,2020,regular,2020-12-05T21:00:00.000Z,False,Spartan Stadium,3935,14
+41,,Mountain West,2751,,,,Wyoming,True,,Mountain West,167,,,,New Mexico,401249034,False,2020,regular,2020-12-06T00:00:00.000Z,False,University Stadium,3971,14
+42,,Mountain West,36,,,,Colorado State,True,,Mountain West,21,,,,San Diego State,401249031,False,2020,regular,2020-12-06T03:30:00.000Z,False,Qualcomm Stadium,3932,14
+43,,Mountain West,2440,,,,Nevada,True,,Mountain West,23,,,,San José State,401249037,False,2020,regular,2020-12-12T03:00:00.000Z,False,Spartan Stadium,3935,15
+44,,Mountain West,21,,,,San Diego State,False,,FBS Independents,252,,,,BYU,401249435,False,2020,regular,2020-12-12T05:00:00.000Z,True,LaVell Edwards Stadium,3801,15
+45,,Mountain West,278,,,,Fresno State,True,,Mountain West,167,,,,New Mexico,401249036,False,2020,regular,2020-12-12T05:00:00.000Z,True,University Stadium,3971,15
+46,,Mountain West,68,,,,Boise State,True,,Mountain West,2751,,,,Wyoming,401249035,False,2020,regular,2020-12-12T23:00:00.000Z,False,War Memorial Stadium,3984,15
+47,,Mountain West,328,,,,Utah State,True,,Mountain West,36,,,,Colorado State,401249039,False,2020,regular,2020-12-13T02:30:00.000Z,False,Canvas Stadium,5388,15
+48,,Mountain West,2439,,,,UNLV,True,,Mountain West,62,,,,Hawai'i,401249038,False,2020,regular,2020-12-13T04:00:00.000Z,False,Aloha Stadium,3610,15

@@ -1,0 +1,73 @@
+,attendance,away_conference,away_id,away_line_scores,away_points,away_post_win_prob,away_team,conference_game,excitement_index,home_conference,home_id,home_line_scores,home_points,home_post_win_prob,home_team,id,neutral_site,season,season_type,start_date,start_time_tbd,venue,venue_id,week
+0,,SEC,96,"[7, 0, 6, 0]",13.0,0.04148982842933213,Kentucky,True,6.4747765544,SEC,2,"[8, 0, 7, 14]",29.0,0.9585101715706679,Auburn,401237034,False,2020,regular,2020-09-26T16:00:00.000Z,False,Jordan-Hare Stadium,3785,4
+1,,SEC,57,"[14, 14, 13, 10]",51.0,0.7707018083825491,Florida,True,3.2136726644,SEC,145,"[7, 7, 7, 14]",35.0,0.22929819161745088,Ole Miss,401236952,False,2020,regular,2020-09-26T16:00:00.000Z,False,Vaught-Hemingway Stadium,3974,4
+2,,SEC,344,"[3, 14, 10, 17]",44.0,0.9893324179883713,Mississippi State,True,8.0429060239,SEC,99,"[0, 14, 10, 10]",34.0,0.010667582011628682,LSU,401237035,False,2020,regular,2020-09-26T19:30:00.000Z,False,Tiger Stadium,3958,4
+3,,SEC,61,"[0, 5, 22, 10]",37.0,0.9743668663350099,Georgia,True,3.6135901615,SEC,8,"[7, 0, 3, 0]",10.0,0.02563313366499007,Arkansas,401237033,False,2020,regular,2020-09-26T20:00:00.000Z,False,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,4
+4,,SEC,333,"[14, 14, 7, 3]",38.0,0.9572896902524056,Alabama,True,0.4675226869,SEC,142,"[0, 3, 3, 13]",19.0,0.04271030974759434,Missouri,401236951,False,2020,regular,2020-09-26T23:00:00.000Z,False,Faurot Field,3838,4
+5,,SEC,2633,"[7, 7, 10, 7]",31.0,0.7997878425273488,Tennessee,True,7.2541515894,SEC,2579,"[7, 0, 14, 6]",27.0,0.2002121574726512,South Carolina,401237036,False,2020,regular,2020-09-26T23:30:00.000Z,False,Williams-Brice Stadium,3994,4
+6,,SEC,238,"[3, 2, 7, 0]",12.0,0.0047762205415187164,Vanderbilt,True,2.7808650362,SEC,245,"[7, 0, 7, 3]",17.0,0.9952237794584813,Texas A&M,401237037,False,2020,regular,2020-09-26T23:30:00.000Z,False,Kyle Field,3795,4
+7,,SEC,2579,"[7, 7, 3, 7]",24.0,0.004616437740344925,South Carolina,True,3.2530307431,SEC,57,"[14, 10, 14, 0]",38.0,0.9953835622596551,Florida,401237096,False,2020,regular,2020-10-03T16:00:00.000Z,False,Ben Hill Griffin Stadium,3634,5
+8,,SEC,142,"[0, 6, 6, 0]",12.0,0.006212203013280626,Missouri,True,2.9489300607,SEC,2633,"[7, 14, 7, 7]",35.0,0.9937877969867194,Tennessee,401237099,False,2020,regular,2020-10-03T16:00:00.000Z,False,Neyland Stadium,3853,5
+9,,SEC,245,"[7, 7, 3, 7]",24.0,0.0012090138982284726,Texas A&M,True,2.425828377,SEC,333,"[14, 21, 7, 10]",52.0,0.9987909861017715,Alabama,401237093,False,2020,regular,2020-10-03T19:30:00.000Z,False,Bryant Denny Stadium,3657,5
+10,,SEC,145,"[7, 7, 7, 14, 7]",42.0,0.053694387788751574,Ole Miss,True,7.3354920286,SEC,96,"[14, 7, 7, 7, 6]",41.0,0.9463056122112484,Kentucky,401237097,False,2020,regular,2020-10-03T20:00:00.000Z,False,Commonwealth Stadium,3683,5
+11,,SEC,8,"[7, 7, 7, 0]",21.0,0.9945391528555754,Arkansas,True,7.0631136004,SEC,344,"[7, 0, 7, 0]",14.0,0.005460847144424675,Mississippi State,401237094,False,2020,regular,2020-10-03T23:30:00.000Z,False,Davis Wade Stadium,3693,5
+12,,SEC,99,"[7, 14, 13, 7]",41.0,0.9912191271331833,LSU,True,1.3522419006,SEC,238,"[0, 7, 0, 0]",7.0,0.008780872866816754,Vanderbilt,401237098,False,2020,regular,2020-10-03T23:30:00.000Z,False,Vanderbilt Stadium,3973,5
+13,,SEC,2,"[0, 3, 3, 0]",6.0,0.0019033231637576309,Auburn,True,2.7140319898,SEC,61,"[10, 14, 3, 0]",27.0,0.9980966768362424,Georgia,401237095,False,2020,regular,2020-10-03T23:30:00.000Z,False,Sanford Stadium,3917,5
+14,,SEC,2579,"[3, 7, 17, 14]",41.0,0.9832358125654415,South Carolina,True,2.2451501715,SEC,238,"[0, 0, 7, 0]",7.0,0.01676418743455855,Vanderbilt,401237106,False,2020,regular,2020-10-10T16:00:00.000Z,False,Vanderbilt Stadium,3973,6
+15,,SEC,142,"[14, 10, 14, 7]",45.0,0.996769843842686,Missouri,True,7.0747603187,SEC,99,"[14, 10, 17, 0]",41.0,0.003230156157314074,LSU,401237105,False,2020,regular,2020-10-10T16:00:00.000Z,False,Tiger Stadium,3958,6
+16,,SEC,57,"[14, 7, 7, 10]",38.0,0.3043918050540251,Florida,True,7.8055267179,SEC,245,"[7, 10, 7, 17]",41.0,0.6956081949459749,Texas A&M,401237102,False,2020,regular,2020-10-10T16:00:00.000Z,False,Kyle Field,3795,6
+17,,SEC,2633,"[7, 14, 0, 0]",21.0,0.03678736207053601,Tennessee,True,5.5111585585,SEC,61,"[7, 10, 13, 14]",44.0,0.963212637929464,Georgia,401237103,False,2020,regular,2020-10-10T19:30:00.000Z,False,Sanford Stadium,3917,6
+18,,SEC,8,"[0, 12, 6, 10]",28.0,0.8934107819612248,Arkansas,True,4.5095264924,SEC,2,"[10, 10, 0, 10]",30.0,0.10658921803877522,Auburn,401237101,False,2020,regular,2020-10-10T20:00:00.000Z,False,Jordan-Hare Stadium,3785,6
+19,,SEC,344,"[0, 0, 2, 0]",2.0,0.022192584068954746,Mississippi State,True,4.5691954817,SEC,96,"[0, 14, 0, 10]",24.0,0.9778074159310453,Kentucky,401237104,False,2020,regular,2020-10-10T23:30:00.000Z,False,Commonwealth Stadium,3683,6
+20,,SEC,333,"[7, 14, 21, 21]",63.0,0.8898222314462136,Alabama,True,4.6125822772,SEC,145,"[7, 14, 14, 13]",48.0,0.11017776855378636,Ole Miss,401237100,False,2020,regular,2020-10-10T23:30:00.000Z,False,Vaught-Hemingway Stadium,3974,6
+21,,SEC,96,"[0, 17, 10, 7]",34.0,0.9989784162150755,Kentucky,True,3.9596132776,SEC,2633,"[0, 7, 0, 0]",7.0,0.0010215837849244396,Tennessee,401237111,False,2020,regular,2020-10-17T16:00:00.000Z,False,Neyland Stadium,3853,7
+22,,SEC,2,"[9, 7, 3, 3]",22.0,0.1135989004064617,Auburn,True,6.894726083,SEC,2579,"[0, 14, 13, 3]",30.0,0.8864010995935383,South Carolina,401237109,False,2020,regular,2020-10-17T16:00:00.000Z,False,Williams-Brice Stadium,3994,7
+23,,SEC,145,"[0, 0, 7, 14]",21.0,0.02247055346429805,Ole Miss,True,5.5243692179,SEC,8,"[7, 13, 0, 13]",33.0,0.977529446535702,Arkansas,401237108,False,2020,regular,2020-10-17T19:30:00.000Z,False,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,7
+24,,SEC,245,"[0, 14, 14, 0]",28.0,0.9972398958569976,Texas A&M,True,3.0487644343,SEC,344,"[0, 0, 7, 7]",14.0,0.0027601041430024465,Mississippi State,401237112,False,2020,regular,2020-10-17T20:00:00.000Z,False,Davis Wade Stadium,3693,7
+25,,SEC,61,"[7, 17, 0, 0]",24.0,0.008276462524172468,Georgia,True,6.2194428,SEC,333,"[7, 13, 14, 7]",41.0,0.9917235374758275,Alabama,401237107,False,2020,regular,2020-10-18T00:00:00.000Z,False,Bryant Denny Stadium,3657,7
+26,,SEC,2,"[7, 7, 7, 14]",35.0,0.8115813289058464,Auburn,True,8.4747448708,SEC,145,"[0, 14, 7, 7]",28.0,0.1884186710941536,Ole Miss,401237115,False,2020,regular,2020-10-24T16:00:00.000Z,False,Vaught-Hemingway Stadium,3974,8
+27,,SEC,333,"[14, 14, 14, 6]",48.0,0.9916327601600865,Alabama,True,0.8889117389,SEC,2633,"[0, 10, 7, 0]",17.0,0.008367239839913514,Tennessee,401237114,False,2020,regular,2020-10-24T19:30:00.000Z,False,Neyland Stadium,3853,8
+28,,SEC,96,"[0, 3, 0, 7]",10.0,0.10322372756153109,Kentucky,True,6.2326419801,SEC,142,"[0, 10, 7, 3]",20.0,0.8967762724384689,Missouri,401237122,False,2020,regular,2020-10-24T20:00:00.000Z,False,Faurot Field,3838,8
+29,,SEC,2579,"[7, 3, 7, 7]",24.0,0.0011692672900230905,South Carolina,True,3.3119686435,SEC,99,"[10, 21, 14, 7]",52.0,0.9988307327099769,LSU,401237118,False,2020,regular,2020-10-24T23:00:00.000Z,False,Tiger Stadium,3958,8
+30,,SEC,61,"[7, 0, 7, 0]",14.0,0.9910192985585049,Georgia,True,2.3974605946,SEC,96,"[0, 3, 0, 0]",3.0,0.008980701441495062,Kentucky,401237117,False,2020,regular,2020-10-31T16:00:00.000Z,False,Commonwealth Stadium,3683,9
+31,,SEC,99,"[0, 3, 0, 8]",11.0,0.0012205605777776407,LSU,True,3.4003760511,SEC,2,"[0, 21, 21, 6]",48.0,0.9987794394222224,Auburn,401237121,False,2020,regular,2020-10-31T19:30:00.000Z,False,Jordan-Hare Stadium,3785,9
+32,,SEC,145,"[21, 12, 21, 0]",54.0,,Ole Miss,True,,SEC,238,"[0, 14, 0, 7]",21.0,,Vanderbilt,401237123,False,2020,regular,2020-10-31T20:00:00.000Z,False,Vanderbilt Stadium,3973,9
+33,,SEC,344,"[0, 0, 0, 0]",0.0,0.001326798438714083,Mississippi State,True,1.2809742055,SEC,333,"[17, 10, 0, 14]",41.0,0.9986732015612859,Alabama,401237119,False,2020,regular,2020-10-31T23:00:00.000Z,False,Bryant Denny Stadium,3657,9
+34,,SEC,8,"[7, 7, 3, 14]",31.0,0.0499273918696026,Arkansas,True,2.6522978776,SEC,245,"[14, 14, 14, 0]",42.0,0.9500726081303974,Texas A&M,401237120,False,2020,regular,2020-10-31T23:30:00.000Z,False,Kyle Field,3795,9
+35,,SEC,142,"[0, 7, 0, 10]",17.0,0.0017953556791339143,Missouri,True,3.6229349645,SEC,57,"[6, 14, 14, 7]",41.0,0.9982046443208661,Florida,401237116,False,2020,regular,2020-10-31T23:30:00.000Z,False,Ben Hill Griffin Stadium,3634,9
+36,,SEC,238,"[0, 0, 7, 10]",17.0,0.99532782465983,Vanderbilt,True,4.0966081567,SEC,344,"[14, 3, 0, 7]",24.0,0.004672175340169941,Mississippi State,401237126,False,2020,regular,2020-11-07T20:30:00.000Z,False,Davis Wade Stadium,3693,10
+37,,SEC,57,"[14, 24, 3, 3]",44.0,0.9610766062006243,Florida,True,3.5409644017,SEC,61,"[14, 7, 7, 0]",28.0,0.03892339379937566,Georgia,401237125,True,2020,regular,2020-11-07T20:30:00.000Z,False,EverBank Field,3712,10
+38,,SEC,245,"[7, 14, 13, 14]",48.0,0.9996341626279892,Texas A&M,True,1.8780886035,SEC,2579,"[0, 0, 0, 3]",3.0,0.000365837372010793,South Carolina,401237127,False,2020,regular,2020-11-08T00:00:00.000Z,False,Williams-Brice Stadium,3994,10
+39,,SEC,2633,"[3, 10, 0, 0]",13.0,0.0050145084575400345,Tennessee,True,5.6950337738,SEC,8,"[0, 0, 24, 0]",24.0,0.99498549154246,Arkansas,401237124,False,2020,regular,2020-11-08T00:30:00.000Z,False,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,10
+40,,SEC,238,"[0, 14, 7, 14]",35.0,0.041746975112615714,Vanderbilt,True,2.586636102,SEC,96,"[14, 10, 7, 7]",38.0,0.9582530248873843,Kentucky,401237132,False,2020,regular,2020-11-14T17:00:00.000Z,False,Commonwealth Stadium,3683,11
+41,,SEC,61,,,,Georgia,True,,SEC,142,,,,Missouri,401237131,False,2020,regular,2020-11-14T17:00:00.000Z,False,Faurot Field,3838,11
+42,,SEC,245,,,,Texas A&M,True,,SEC,2633,,,,Tennessee,401237134,False,2020,regular,2020-11-14T20:30:00.000Z,False,Neyland Stadium,3853,11
+43,,SEC,2,,,,Auburn,True,,SEC,344,,,,Mississippi State,401237130,False,2020,regular,2020-11-14T21:00:00.000Z,False,Davis Wade Stadium,3693,11
+44,,SEC,333,,,,Alabama,True,,SEC,99,,,,LSU,401237128,False,2020,regular,2020-11-14T23:00:00.000Z,False,Tiger Stadium,3958,11
+45,,SEC,8,"[7, 7, 7, 14]",35.0,0.42669722581537106,Arkansas,True,2.3161793462,SEC,57,"[7, 28, 7, 21]",63.0,0.5733027741846289,Florida,401237129,False,2020,regular,2020-11-15T00:00:00.000Z,False,Ben Hill Griffin Stadium,3634,11
+46,,SEC,2579,"[7, 14, 14, 7]",42.0,0.00877718302816699,South Carolina,True,7.2418023335,SEC,145,"[14, 10, 14, 21]",59.0,0.991222816971833,Ole Miss,401237133,False,2020,regular,2020-11-15T00:30:00.000Z,False,Vaught-Hemingway Stadium,3974,11
+47,,SEC,99,,,,LSU,True,,SEC,8,,,,Arkansas,401237136,False,2020,regular,2020-11-21T17:00:00.000Z,False,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,12
+48,,SEC,57,,,,Florida,True,,SEC,238,,,,Vanderbilt,401237138,False,2020,regular,2020-11-21T17:00:00.000Z,False,Vanderbilt Stadium,3973,12
+49,,SEC,145,,,,Ole Miss,True,,SEC,245,,,,Texas A&M,401237140,False,2020,regular,2020-11-21T20:30:00.000Z,False,Kyle Field,3795,12
+50,,SEC,96,,,,Kentucky,True,,SEC,333,,,,Alabama,401237135,False,2020,regular,2020-11-21T21:00:00.000Z,False,Bryant Denny Stadium,3657,12
+51,,SEC,2633,,,,Tennessee,True,,SEC,2,,,,Auburn,401237137,False,2020,regular,2020-11-22T00:00:00.000Z,False,Jordan-Hare Stadium,3785,12
+52,,SEC,344,,,,Mississippi State,True,,SEC,61,,,,Georgia,401237139,False,2020,regular,2020-11-22T00:30:00.000Z,False,Sanford Stadium,3917,12
+53,,SEC,142,,,,Missouri,True,,SEC,2579,,,,South Carolina,401237141,False,2020,regular,2020-11-22T00:30:00.000Z,False,Williams-Brice Stadium,3994,12
+54,,SEC,96,,,,Kentucky,True,,SEC,57,,,,Florida,401237144,False,2020,regular,2020-11-28T05:00:00.000Z,True,Ben Hill Griffin Stadium,3634,13
+55,,SEC,8,,,,Arkansas,True,,SEC,142,,,,Missouri,401237143,False,2020,regular,2020-11-28T05:00:00.000Z,True,Faurot Field,3838,13
+56,,SEC,344,,,,Mississippi State,True,,SEC,145,,,,Ole Miss,401237147,False,2020,regular,2020-11-28T05:00:00.000Z,True,Vaught-Hemingway Stadium,3974,13
+57,,SEC,2,,,,Auburn,True,,SEC,333,,,,Alabama,401237142,False,2020,regular,2020-11-28T05:00:00.000Z,True,Bryant Denny Stadium,3657,13
+58,,SEC,61,,,,Georgia,True,,SEC,2579,,,,South Carolina,401237145,False,2020,regular,2020-11-28T05:00:00.000Z,True,Williams-Brice Stadium,3994,13
+59,,SEC,99,,,,LSU,True,,SEC,245,,,,Texas A&M,401237146,False,2020,regular,2020-11-28T05:00:00.000Z,True,Kyle Field,3795,13
+60,,SEC,2633,,,,Tennessee,True,,SEC,238,,,,Vanderbilt,401237148,False,2020,regular,2020-11-28T05:00:00.000Z,True,Vanderbilt Stadium,3973,13
+61,,SEC,245,,,,Texas A&M,True,,SEC,2,,,,Auburn,401237150,False,2020,regular,2020-12-05T05:00:00.000Z,True,Jordan-Hare Stadium,3785,14
+62,,SEC,333,,,,Alabama,True,,SEC,8,,,,Arkansas,401237149,False,2020,regular,2020-12-05T05:00:00.000Z,True,Donald W. Reynolds Razorback Stadium Frank Broyles Field,3887,14
+63,,SEC,57,,,,Florida,True,,SEC,2633,,,,Tennessee,401237151,False,2020,regular,2020-12-05T05:00:00.000Z,True,Neyland Stadium,3853,14
+64,,SEC,238,,,,Vanderbilt,True,,SEC,61,,,,Georgia,401237152,False,2020,regular,2020-12-05T05:00:00.000Z,True,Sanford Stadium,3917,14
+65,,SEC,145,,,,Ole Miss,True,,SEC,99,,,,LSU,401237154,False,2020,regular,2020-12-05T05:00:00.000Z,True,Tiger Stadium,3958,14
+66,,SEC,2579,,,,South Carolina,True,,SEC,96,,,,Kentucky,401237153,False,2020,regular,2020-12-05T05:00:00.000Z,True,Commonwealth Stadium,3683,14
+67,,SEC,142,,,,Missouri,True,,SEC,344,,,,Mississippi State,401237155,False,2020,regular,2020-12-05T05:00:00.000Z,True,Davis Wade Stadium,3693,14
+68,,SEC,2,,,,Auburn,True,,SEC,344,,,,Mississippi State,401260157,False,2020,regular,2020-12-12T05:00:00.000Z,True,Davis Wade Stadium,3693,15
+69,,SEC,238,,,,Vanderbilt,True,,SEC,142,,,,Missouri,401251733,False,2020,regular,2020-12-12T05:00:00.000Z,True,Faurot Field,3838,15
+70,,SEC,245,,,,Texas A&M,True,,SEC,2633,,,,Tennessee,401260158,False,2020,regular,2020-12-12T05:00:00.000Z,True,Neyland Stadium,3853,15
+71,,SEC,99,,,,LSU,True,,SEC,57,,,,Florida,401251100,False,2020,regular,2020-12-12T05:00:00.000Z,True,Ben Hill Griffin Stadium,3634,15
