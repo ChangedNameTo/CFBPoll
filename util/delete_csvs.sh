@@ -1,0 +1,1 @@
+find data/years -type f -name '*.csv' -delete

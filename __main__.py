@@ -1,62 +1,10 @@
 import pandas as pd
-import numpy as np
-import cfbd
 
-data = data[
-    (data['home_points'] == data['home_points']) # filtering out future games
-    & (data['away_points'] == data['away_points'])
-    & (pd.notna(data['home_conference'])) # games with a non-FBS home team
-    & (pd.notna(data['away_conference'])) # games with a non-FBS away team
-]
+from calculate_srs import calculate_srs
 
-data['home_spread'] = np.where(data['neutral_site'] == True, data['home_points'] - data['away_points'], (data['home_points'] - data['away_points'] - 2.5))
-data['away_spread'] = -data['home_spread']
+for year in range(2011,2020):
+    in_file_path = 'data/{}/games.csv'.format(year)
+    out_file_path = 'data/{}/processed_srs.csv'.format(year)
 
-
-teams = pd.concat([
-    data[['home_team', 'home_spread', 'away_team']].rename(columns={'home_team': 'team', 'home_spread': 'spread', 'away_team': 'opponent'}),
-    data[['away_team', 'away_spread', 'home_team']].rename(columns={'away_team': 'team', 'away_spread': 'spread', 'home_team': 'opponent'})
-])
-
-teams.head()
-
-teams['spread'] = np.where(teams['spread'] > 28, 28, teams['spread']) # cap the upper bound scoring margin at +28 points
-teams['spread'] = np.where(teams['spread'] < -28, -28, teams['spread']) # cap the lower bound scoring margin at -28 points
-teams.head()
-
-spreads = teams.groupby('team').spread.mean()
-
-
-# create empty arrays
-terms = []
-solutions = []
-
-for team in spreads.keys():
-    row = []
-    # get a list of team opponents
-    opps = list(teams[teams['team'] == team]['opponent'])
-    
-    for opp in spreads.keys():
-        if opp == team:
-        	# coefficient for the team should be 1
-            row.append(1)
-        elif opp in opps:
-        	# coefficient for opponents should be 1 over the number of opponents
-            row.append(-1.0/len(opps))
-        else:
-        	# teams not faced get a coefficient of 0
-            row.append(0)
-            
-    terms.append(row)
-    
-    # average game spread on the other side of the equation
-    solutions.append(spreads[team])
-
-terms_df=pd.DataFrame(terms)
-terms_df.to_csv('test.csv')
-solutions = np.linalg.solve(np.array(terms), np.array(solutions))
-
-ratings = list(zip( spreads.keys(), solutions ))
-srs = pd.DataFrame(ratings, columns=['team', 'rating'])
-
-rankings = srs.sort_values('rating', ascending=False).reset_index()[['team', 'rating']]
+    year_ranking = calculate_srs(in_file_path)
+    year_ranking.to_csv(out_file_path)
