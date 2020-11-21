@@ -1,0 +1,1 @@
+find data/years -type f -name 'processed_srs.csv' -delete
