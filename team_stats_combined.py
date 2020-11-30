@@ -1,0 +1,26 @@
+import pandas as pd
+
+def last_games():
+    game_data = pd.read_csv('data/master_games_cleaned.csv')
+    teams_data = pd.read_csv('data/master_team_names_cleaned.csv')
+
+    df = game_data.merge(teams_data)
+
+    teams_view = pd.DataFrame()
+
+    for team in df['home_team'].unique():
+        last_game = df[(df['home_team'] == team) | (df['away_team'] == team)].tail(1)
+
+        if last_game['home_team'].values[0] == team:
+            last_game = last_game[['did_home_win','conference_game','neutral_site','season','week','home_conference','home_l3g_avg_points','home_l5g_avg_points','home_l7g_avg_points','home_l3g_avg_spread','home_l5g_avg_spread','home_l7g_avg_spread','home_l3g_opp_avg_points','home_l5g_opp_avg_points','home_l7g_opp_avg_points','home_l3g_opp_avg_spread','home_l5g_opp_avg_spread','home_l7g_opp_avg_spread','season_type_postseason','season_type_regular','home_conference_ACC','home_conference_American Athletic','home_conference_Big 12','home_conference_Big East','home_conference_Big Ten','home_conference_Conference USA','home_conference_FBS Independents','home_conference_FCS','home_conference_Mid-American','home_conference_Mountain West','home_conference_Pac-12','home_conference_SEC','home_conference_Sun Belt','home_conference_Western Athletic']]
+
+            last_game = last_game.rename(columns={'home_conference':'conference','home_l3g_avg_points':'l3g_avg_points','home_l5g_avg_points':'l5g_avg_points','home_l7g_avg_points':'l7g_avg_points','home_l3g_avg_spread':'l3g_avg_spread','home_l5g_avg_spread':'l5g_avg_spread','home_l7g_avg_spread':'l7g_avg_spread','home_l3g_opp_avg_points':'l3g_opp_avg_points','home_l5g_opp_avg_points':'l5g_opp_avg_points','home_l7g_opp_avg_points':'l7g_opp_avg_points','home_l3g_opp_avg_spread':'l3g_opp_avg_spread','home_l5g_opp_avg_spread':'l5g_opp_avg_spread','home_l7g_opp_avg_spread':'l7g_opp_avg_spread','season_type_postseason':'season_type_postseason','season_type_regular':'season_type_regular','home_conference_ACC':'conference_ACC','home_conference_American Athletic':'conference_American Athletic','home_conference_Big 12':'conference_Big 12','home_conference_Big East':'conference_Big East','home_conference_Big Ten':'conference_Big Ten','home_conference_Conference USA':'conference_Conference USA','home_conference_FBS Independents':'conference_FBS Independents','home_conference_FCS':'conference_FCS','home_conference_Mid-American':'conference_Mid-American','home_conference_Mountain West':'conference_Mountain West','home_conference_Pac-12':'conference_Pac-12','home_conference_SEC':'conference_SEC','home_conference_Sun Belt':'conference_Sun Belt','home_conference_Western Athletic':'conference_Western Athletic'})
+        else:
+            last_game = last_game[['did_home_win','conference_game','neutral_site','season','week','away_conference','away_l3g_avg_points','away_l5g_avg_points','away_l7g_avg_points','away_l3g_avg_spread','away_l5g_avg_spread','away_l7g_avg_spread','away_l3g_opp_avg_points','away_l5g_opp_avg_points','away_l7g_opp_avg_points','away_l3g_opp_avg_spread','away_l5g_opp_avg_spread','away_l7g_opp_avg_spread','season_type_postseason','season_type_regular','away_conference_ACC','away_conference_American Athletic','away_conference_Big 12','away_conference_Big East','away_conference_Big Ten','away_conference_Conference USA','away_conference_FBS Independents','away_conference_FCS','away_conference_Mid-American','away_conference_Mountain West','away_conference_Pac-12','away_conference_SEC','away_conference_Sun Belt','away_conference_Western Athletic']]
+
+            last_game = last_game.rename(columns={'away_conference':'conference','away_l3g_avg_points':'l3g_avg_points','away_l5g_avg_points':'l5g_avg_points','away_l7g_avg_points':'l7g_avg_points','away_l3g_avg_spread':'l3g_avg_spread','away_l5g_avg_spread':'l5g_avg_spread','away_l7g_avg_spread':'l7g_avg_spread','away_l3g_opp_avg_points':'l3g_opp_avg_points','away_l5g_opp_avg_points':'l5g_opp_avg_points','away_l7g_opp_avg_points':'l7g_opp_avg_points','away_l3g_opp_avg_spread':'l3g_opp_avg_spread','away_l5g_opp_avg_spread':'l5g_opp_avg_spread','away_l7g_opp_avg_spread':'l7g_opp_avg_spread','season_type_postseason':'season_type_postseason','season_type_regular':'season_type_regular','away_conference_ACC':'conference_ACC','away_conference_American Athletic':'conference_American Athletic','away_conference_Big 12':'conference_Big 12','away_conference_Big East':'conference_Big East','away_conference_Big Ten':'conference_Big Ten','away_conference_Conference USA':'conference_Conference USA','away_conference_FBS Independents':'conference_FBS Independents','away_conference_FCS':'conference_FCS','away_conference_Mid-American':'conference_Mid-American','away_conference_Mountain West':'conference_Mountain West','away_conference_Pac-12':'conference_Pac-12','away_conference_SEC':'conference_SEC','away_conference_Sun Belt':'conference_Sun Belt','away_conference_Western Athletic':'conference_Western Athletic'})
+
+        last_game['team'] = team
+        teams_view = teams_view.append(last_game)
+
+    teams_view.to_csv('data/teams_last_game.csv', index=False)
