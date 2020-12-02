@@ -46,10 +46,7 @@ def create_model():
     game_set_scaled = preprocessing.scale(game_prediction_set)
 
     game_prediction_set['predicted_home_win'] = logreg.predict(game_set_scaled)
-    # game_prediction_set['predicted_home_win_percent'] = logreg.predict_proba(game_set_scaled)
-
-    print(game_prediction_set.head())
-    print(game_prediction_labels.head())
+    game_prediction_set['predicted_home_win_percent'] = logreg.predict_proba(game_set_scaled)
 
     game_prediction_set = game_prediction_set.merge(game_prediction_labels, left_index=True, right_index=True)
     game_prediction_set.to_csv('data/weekly_predictions.csv', index=False)
